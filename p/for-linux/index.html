@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 这个比默认的 ibus 好用很多，两个输入法可能有排斥，如果安装过程中报错，可以试试把 ibus 卸了\n1 sudo apt purge ibus 官网 : https://shurufa.sogou.com/linux\n然后可以按照官网的教程弄\n不想看的可以看我的\n">
+<title>搜狗输入法 for Linux</title>
+
+<link rel='canonical' href='https://invalidnamee.github.io/p/for-linux/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="搜狗输入法 for Linux">
+<meta property='og:description' content=" 这个比默认的 ibus 好用很多，两个输入法可能有排斥，如果安装过程中报错，可以试试把 ibus 卸了\n1 sudo apt purge ibus 官网 : https://shurufa.sogou.com/linux\n然后可以按照官网的教程弄\n不想看的可以看我的\n">
+<meta property='og:url' content='https://invalidnamee.github.io/p/for-linux/'>
+<meta property='og:site_name' content='Star&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-08-30T08:53:49&#43;00:00'/><meta property='article:modified_time' content='2022-08-30T08:53:49&#43;00:00'/>
+<meta name="twitter:title" content="搜狗输入法 for Linux">
+<meta name="twitter:description" content=" 这个比默认的 ibus 好用很多，两个输入法可能有排斥，如果安装过程中报错，可以试试把 ibus 卸了\n1 sudo apt purge ibus 官网 : https://shurufa.sogou.com/linux\n然后可以按照官网的教程弄\n不想看的可以看我的\n">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_bda395e801470eb9.jpeg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🤮</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Star&#39;s Blog</a></h1>
+            <h2 class="site-description">todo 改这个</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/InvalidNamee'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/for-linux/">搜狗输入法 for Linux</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2022-08-30</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <ul>
+<li>
+<p>这个比默认的 ibus 好用很多，两个输入法可能有排斥，如果安装过程中报错，可以试试把 ibus 卸了</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt purge ibus
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<p>官网 : <a class="link" href="https://shurufa.sogou.com/linux"  target="_blank" rel="noopener"
+    >https://shurufa.sogou.com/linux</a></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661849622945/I9QugD5g7.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="sogoupinyin_0_.png"
+	
+	
+></p>
+<p>然后可以按照<a class="link" href="https://shurufa.sogou.com/linux/guide"  target="_blank" rel="noopener"
+    >官网的教程</a>弄</p>
+<p>不想看的可以看我的</p>
+<ol>
+<li>
+<p>先换个中国的源 (可以让下载安装的命令更快一点)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo gedit /etc/apt/sources.list
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>全部删掉换成华为的</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span> <span class="nx">cdrom</span><span class="p">:[</span><span class="nx">Ubuntu</span> <span class="mf">20.04.1</span> <span class="nx">LTS</span> <span class="nx">_Focal</span> <span class="nx">Fossa_</span> <span class="o">-</span> <span class="nx">Release</span> <span class="nf">amd64</span> <span class="p">(</span><span class="mi">20200731</span><span class="p">)]</span><span class="o">/</span> <span class="nx">focal</span> <span class="nx">main</span> <span class="nx">restricted</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">See</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//help.ubuntu.com/community/UpgradeNotes for how to upgrade to</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">newer</span> <span class="nx">versions</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">distribution</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal main restricted</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal main restricted</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">Major</span> <span class="nx">bug</span> <span class="nx">fix</span> <span class="nx">updates</span> <span class="nx">produced</span> <span class="nx">after</span> <span class="nx">the</span> <span class="nx">final</span> <span class="nx">release</span> <span class="nx">of</span> <span class="nx">the</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">distribution</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-updates main restricted</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal-updates main restricted</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">N</span><span class="p">.</span><span class="nx">B</span><span class="p">.</span> <span class="nx">software</span> <span class="nx">from</span> <span class="nx">this</span> <span class="nx">repository</span> <span class="nx">is</span> <span class="nx">ENTIRELY</span> <span class="nx">UNSUPPORTED</span> <span class="nx">by</span> <span class="nx">the</span> <span class="nx">Ubuntu</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">team</span><span class="p">.</span> <span class="nx">Also</span><span class="p">,</span> <span class="nx">please</span> <span class="nx">note</span> <span class="nx">that</span> <span class="nx">software</span> <span class="nx">in</span> <span class="nx">universe</span> <span class="nx">WILL</span> <span class="nx">NOT</span> <span class="nx">receive</span> <span class="kt">any</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">review</span> <span class="nx">or</span> <span class="nx">updates</span> <span class="nx">from</span> <span class="nx">the</span> <span class="nx">Ubuntu</span> <span class="nx">security</span> <span class="nx">team</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal universe</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal universe</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-updates universe</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal-updates universe</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">N</span><span class="p">.</span><span class="nx">B</span><span class="p">.</span> <span class="nx">software</span> <span class="nx">from</span> <span class="nx">this</span> <span class="nx">repository</span> <span class="nx">is</span> <span class="nx">ENTIRELY</span> <span class="nx">UNSUPPORTED</span> <span class="nx">by</span> <span class="nx">the</span> <span class="nx">Ubuntu</span> 
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">team</span><span class="p">,</span> <span class="nx">and</span> <span class="nx">may</span> <span class="nx">not</span> <span class="nx">be</span> <span class="nx">under</span> <span class="nx">a</span> <span class="nx">free</span> <span class="nx">licence</span><span class="p">.</span> <span class="nx">Please</span> <span class="nx">satisfy</span> <span class="nx">yourself</span> <span class="nx">as</span> <span class="nx">to</span> 
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">your</span> <span class="nx">rights</span> <span class="nx">to</span> <span class="nx">use</span> <span class="nx">the</span> <span class="nx">software</span><span class="p">.</span> <span class="nx">Also</span><span class="p">,</span> <span class="nx">please</span> <span class="nx">note</span> <span class="nx">that</span> <span class="nx">software</span> <span class="nx">in</span> 
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">multiverse</span> <span class="nx">WILL</span> <span class="nx">NOT</span> <span class="nx">receive</span> <span class="kt">any</span> <span class="nx">review</span> <span class="nx">or</span> <span class="nx">updates</span> <span class="nx">from</span> <span class="nx">the</span> <span class="nx">Ubuntu</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">security</span> <span class="nx">team</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal multiverse</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal multiverse</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-updates multiverse</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal-updates multiverse</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">N</span><span class="p">.</span><span class="nx">B</span><span class="p">.</span> <span class="nx">software</span> <span class="nx">from</span> <span class="nx">this</span> <span class="nx">repository</span> <span class="nx">may</span> <span class="nx">not</span> <span class="nx">have</span> <span class="nx">been</span> <span class="nx">tested</span> <span class="nx">as</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">extensively</span> <span class="nx">as</span> <span class="nx">that</span> <span class="nx">contained</span> <span class="nx">in</span> <span class="nx">the</span> <span class="nx">main</span> <span class="nx">release</span><span class="p">,</span> <span class="nx">although</span> <span class="nx">it</span> <span class="nx">includes</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">newer</span> <span class="nx">versions</span> <span class="nx">of</span> <span class="nx">some</span> <span class="nx">applications</span> <span class="nx">which</span> <span class="nx">may</span> <span class="nx">provide</span> <span class="nx">useful</span> <span class="nx">features</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">Also</span><span class="p">,</span> <span class="nx">please</span> <span class="nx">note</span> <span class="nx">that</span> <span class="nx">software</span> <span class="nx">in</span> <span class="nx">backports</span> <span class="nx">WILL</span> <span class="nx">NOT</span> <span class="nx">receive</span> <span class="kt">any</span> <span class="nx">review</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">or</span> <span class="nx">updates</span> <span class="nx">from</span> <span class="nx">the</span> <span class="nx">Ubuntu</span> <span class="nx">security</span> <span class="nx">team</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-backports main restricted universe multiverse</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//us.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">Uncomment</span> <span class="nx">the</span> <span class="nx">following</span> <span class="nx">two</span> <span class="nx">lines</span> <span class="nx">to</span> <span class="nx">add</span> <span class="nx">software</span> <span class="nx">from</span> <span class="nx">Canonical</span><span class="err">&#39;</span><span class="nx">s</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="err">&#39;</span><span class="nx">partner</span><span class="err">&#39;</span> <span class="nx">repository</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">This</span> <span class="nx">software</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">part</span> <span class="nx">of</span> <span class="nx">Ubuntu</span><span class="p">,</span> <span class="nx">but</span> <span class="nx">is</span> <span class="nx">offered</span> <span class="nx">by</span> <span class="nx">Canonical</span> <span class="nx">and</span> <span class="nx">the</span>
+</span></span><span class="line"><span class="cl"><span class="err">##</span> <span class="nx">respective</span> <span class="nx">vendors</span> <span class="nx">as</span> <span class="nx">a</span> <span class="nx">service</span> <span class="nx">to</span> <span class="nx">Ubuntu</span> <span class="nx">users</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//archive.canonical.com/ubuntu focal partner</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//archive.canonical.com/ubuntu focal partner</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-security main restricted</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//security.ubuntu.com/ubuntu focal-security main restricted</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-security universe</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//security.ubuntu.com/ubuntu focal-security universe</span>
+</span></span><span class="line"><span class="cl"><span class="nx">deb</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//mirrors.huaweicloud.com/repository/ubuntu/ focal-security multiverse</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">deb</span><span class="o">-</span><span class="nx">src</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//security.ubuntu.com/ubuntu focal-security multiverse</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">This</span> <span class="nx">system</span> <span class="nx">was</span> <span class="nx">installed</span> <span class="nx">using</span> <span class="nx">small</span> <span class="nx">removable</span> <span class="nx">media</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">g</span><span class="p">.</span> <span class="nx">netinst</span><span class="p">,</span> <span class="nx">live</span> <span class="nx">or</span> <span class="nx">single</span> <span class="nx">CD</span><span class="p">).</span> <span class="nx">The</span> <span class="nx">matching</span> <span class="s">&#34;deb cdrom&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">entries</span> <span class="nx">were</span> <span class="nx">disabled</span> <span class="nx">at</span> <span class="nx">the</span> <span class="nx">end</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">installation</span> <span class="nx">process</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">For</span> <span class="nx">information</span> <span class="nx">about</span> <span class="nx">how</span> <span class="nx">to</span> <span class="nx">configure</span> <span class="nx">apt</span> <span class="kn">package</span> <span class="nx">sources</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">see</span> <span class="nx">the</span> <span class="nx">sources</span><span class="p">.</span><span class="nf">list</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="nx">manual</span><span class="p">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>装 <code>fcitx</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install fcitx
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>配置一下 <code>fcitx</code></p>
+<p>找到 language support (语言支持)</p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661849624290/lcKlLXKpY.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="sogoupinyin 2.png"
+	
+	
+></p>
+<p>把输入法改成 <code>fcitx</code></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661849625271/z4mek6oaQ.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="sogoupinyin 4.png"
+	
+	
+></p>
+<p>注销一次</p>
+</li>
+<li>
+<p>安装搜狗输入法的包</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 进入下载包的目录，默认是在~/Downloads</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~/Downloads <span class="c1"># 如果是英文系统</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~/下载 <span class="c1"># 如果是中文系统</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 安装</span>
+</span></span><span class="line"><span class="cl">sudo dpkg -i sogoupinyin_4.0.1.2800_x86_64.deb  <span class="c1"># 输入一个sogou然后tab一下就出来了，版本号可能不一样请勿复制</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装依赖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2
+</span></span><span class="line"><span class="cl">sudo apt install libgsettings-qt1
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>启用</p>
+<p>打开 fcitx 的设置</p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661849626369/bzyB2h7Mo.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="sogoupinyin 5.png"
+	
+	
+></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661849627454/-zUr2UlCP.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="sogoupinyin 1.png"
+	
+	
+></p>
+<p>如果没有 <code>sogoupinyin</code> 的话就点坐下角的加号搜索 <code>sogoupinyin</code> 加上就可以了</p>
+<p>如果无论如何都没有，建议注销一次再试</p>
+</li>
+<li>
+<p><strong>Finished</strong></p>
+<p>可以 <code>Ctrl + Space</code> 切换输入法</p>
+</li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2022-08-30 08:53 UTC
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
