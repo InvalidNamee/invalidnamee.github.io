@@ -337,14 +337,16 @@
 <p>注意审题！！因为审题出了很多问题。</p>
 <p>这题一眼看下去很无从下手，简单来说就是<strong>距离为2的两个点的权值之积为联合权值</strong>，让求<strong>最大联合权值</strong>和<strong>所有联合权值的总和</strong></p>
 <p>仔细思考一下，一棵树中存在两个距离为2的点只有两种情况，<strong>一条线</strong>和<strong>一个角</strong>：</p>
-<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661848618556/BaleCkbb8.png"
-	
-	
-	
+<p><img src="/p/noip2014/BaleCkbb8.png"
+	width="449"
+	height="204"
+	srcset="/p/noip2014/BaleCkbb8_hu_c6d5d04d0156d12.png 480w, /p/noip2014/BaleCkbb8_hu_c91fb85ff95ba346.png 1024w"
 	loading="lazy"
 	
-		alt="image-20220211140921603"
 	
+		class="gallery-image" 
+		data-flex-grow="220"
+		data-flex-basis="528px"
 	
 ></p>
 <p>数据有 60% 在 2000 以内， 这使我萌生了暴力的想法，先拿60再说</p>
@@ -387,14 +389,16 @@
 </h3><p>这种情况难度就稍微大了一些，需<strong>统计同一层所有子节点</strong>，对其进行排列组合，每种配对的情况都是两组联合权值。 (可以对比之前做过的一道深搜 <a class="link" href="https://www.luogu.com.cn/problem/P1036"  target="_blank" rel="noopener"
     >选数</a>)</p>
 <p><strong>举个栗子：</strong></p>
-<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661848621164/240C9eOqQ.png"
-	
-	
-	
+<p><img src="/p/noip2014/240C9eOqQ.png"
+	width="206"
+	height="141"
+	srcset="/p/noip2014/240C9eOqQ_hu_b964bffe3fccdc.png 480w, /p/noip2014/240C9eOqQ_hu_dee4c8371f91e9d7.png 1024w"
 	loading="lazy"
 	
-		alt="image-20220211184217103"
 	
+		class="gallery-image" 
+		data-flex-grow="146"
+		data-flex-basis="350px"
 	
 ></p>
 <p>这是一个以①为根的子树</p>
@@ -553,14 +557,16 @@
 </h2><h3 id="i一个角">I.一个角
 </h3><p>一条线的时间复杂度已经不大了，所以我们先来考虑一个角的情况</p>
 <p><strong>再举个相同的栗子:</strong></p>
-<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661848623274/vtaDxC7Bu.png"
-	
-	
-	
+<p><img src="/p/noip2014/vtaDxC7Bu.png"
+	width="206"
+	height="141"
+	srcset="/p/noip2014/vtaDxC7Bu_hu_b964bffe3fccdc.png 480w, /p/noip2014/vtaDxC7Bu_hu_dee4c8371f91e9d7.png 1024w"
 	loading="lazy"
 	
-		alt="image-20220211184217103"
 	
+		class="gallery-image" 
+		data-flex-grow="146"
+		data-flex-basis="350px"
 	
 ></p>
 <p>回顾一下，以④为例</p>
@@ -594,14 +600,16 @@ $$<p>所以处理这种情况只需维护一个<strong>前缀和</strong><code>s
 </div>
 </div><p><del>把之前的循环换掉就可以a掉了</del></p>
 <h3 id="ii一条线">II.一条线
-</h3><p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661848624902/o39DhJoS4.png"
-	
-	
-	
+</h3><p><img src="/p/noip2014/o39DhJoS4.png"
+	width="188"
+	height="186"
+	srcset="/p/noip2014/o39DhJoS4_hu_c23c3813ade07a65.png 480w, /p/noip2014/o39DhJoS4_hu_6ad8a89637d13741.png 1024w"
 	loading="lazy"
 	
-		alt="image-20220212141139984"
 	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="242px"
 	
 ></p>
 <p>当dfs回溯到x时</p>

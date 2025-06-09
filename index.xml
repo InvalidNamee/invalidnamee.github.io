@@ -5916,8 +5916,18 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;其余情况，先把 x, y 取一下绝对值，对称变换不会影响答案&lt;/p&gt;
-&lt;p&gt;![](&lt;a class=&#34;link&#34; href=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1743861927619/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://cdn.hashnode.com/res/hashnode/image/upload/v1743861927619/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&lt;/a&gt; align=&amp;ldquo;center&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&#34;
+	width=&#34;486&#34;
+	height=&#34;372&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_4fb7e5ba168384d4.png 480w, https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_88d13600c1be68bf.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;313px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;答案是蓝色的角 \(\arctan \frac{x}{y} - \arccos \frac{d}{r}\)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -8845,8 +8855,18 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;d-游览计划&#34;&gt;&lt;strong&gt;D. 游览计划&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;提供一个暴力的解法，具体有多暴力见下图，差点拼尽全力无法战胜了……&lt;/p&gt;
-&lt;p&gt;![](&lt;a class=&#34;link&#34; href=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1742808670308/5902439e-7856-415e-aca9-352307ee119c.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://cdn.hashnode.com/res/hashnode/image/upload/v1742808670308/5902439e-7856-415e-aca9-352307ee119c.png&lt;/a&gt; align=&amp;ldquo;center&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c.png&#34;
+	width=&#34;2940&#34;
+	height=&#34;1912&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_c43722cb4265e440.png 480w, https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_d736bd42075aa6a3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;369px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;暴力的流程是&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -9757,8 +9777,18 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;如下图&lt;/p&gt;
-&lt;p&gt;![](&lt;a class=&#34;link&#34; href=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1742609792971/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://cdn.hashnode.com/res/hashnode/image/upload/v1742609792971/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&lt;/a&gt; align=&amp;ldquo;center&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&#34;
+	width=&#34;466&#34;
+	height=&#34;494&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_1e950ca5d66f056.png 480w, https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_342a21b61f422723.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;94&#34;
+		data-flex-basis=&#34;226px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;计 \(f_i\) 为 2 × i 时的方案数，不难得出&lt;/p&gt;
 &lt;p&gt;\[f_i = f_{i - 4} + f_{i - 2} + 2 (f_{i - 4} + f_{i - 8} + \dots) + 2 (f_{i - 6} + f_{i - 10} + \dots)\]&lt;/p&gt;
 &lt;p&gt;维护一个 f 数组的前缀和即可得到线性的做法。&lt;/p&gt;
@@ -9940,8 +9970,18 @@
         <description>&lt;p&gt;众所周知离散课本 204 页 17 题让用 Dijkstra 和 Floyd 求一个 9 个结点的图的最短路径。2025 年 3 月 18 日上午，我抄了一节史纲课的 Dijkstra 过程和 Floyd 的邻接矩阵，心中愤懑不平。于是中午回宿舍猛敲代码零点几秒就把全部都过程都输出出来了，遂把代码打包跟离散作业一起交上去了。&lt;/p&gt;
 &lt;p&gt;但是这样还不够，写的代码还能再水一篇博客（虽然不会有人看😭）&lt;/p&gt;
 &lt;h2 id=&#34;图的存储&#34;&gt;图的存储
-&lt;/h2&gt;&lt;p&gt;![](&lt;a class=&#34;link&#34; href=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1742306352179/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://cdn.hashnode.com/res/hashnode/image/upload/v1742306352179/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&lt;/a&gt; align=&amp;ldquo;center&amp;rdquo;)&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&#34;
+	width=&#34;838&#34;
+	height=&#34;620&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_e6e5d7c7033b2ff4.png 480w, https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_52dadf1ff8243c4b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;324px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h3 id=&#34;手敲&#34;&gt;手敲
 &lt;/h3&gt;&lt;p&gt;最好是把边一条一条敲出来，格式如 x y w，表示 x 和 y 间有一条边权为 w 的边(这道题是无向边).&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;dat.txt&lt;/em&gt;&lt;/p&gt;
@@ -13997,8 +14037,18 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;有图有真相（第一次跑的时候忘了约分了，但是无伤大雅，运行时间大致是准的）&lt;/p&gt;
-&lt;p&gt;![](&lt;a class=&#34;link&#34; href=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1741605625727/80ce2f3f-287c-44ac-a955-fac19678492a.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://cdn.hashnode.com/res/hashnode/image/upload/v1741605625727/80ce2f3f-287c-44ac-a955-fac19678492a.png&lt;/a&gt; align=&amp;ldquo;center&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a.png&#34;
+	width=&#34;2154&#34;
+	height=&#34;616&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_3f3864465d188a5f.png 480w, https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_bb5e9813a44ae5ee.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;349&#34;
+		data-flex-basis=&#34;839px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;problem-d-时左时右&#34;&gt;Problem D. 时左时右
 &lt;/h2&gt;&lt;p&gt;直接按照题目的要求模拟即可，时间复杂度是 O(nm)，完全够用。维护 ne&lt;/p&gt;
 \[i\]\[j\]&lt;p&gt; 表示当前在第 i 个通道，在第 j 次移动时移动到的下一个点，默认为 i；然后遍历 &lt;/p&gt;
@@ -16620,14 +16670,16 @@
 &lt;p&gt;前排感谢脚本开发者&lt;strong&gt;软件小妹&lt;/strong&gt;，给了我们白嫖的机会&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;tempermonkey&#34;&gt;Tempermonkey
 &lt;/h4&gt;&lt;p&gt;先弄油猴脚本，去浏览器的扩展程序商店安装 Tempermonkey (我已经装了，所以是删除)，注意 chrome 的商店需要科学上网&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850828562/k0RBLzNxC.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC.png&#34;
+	width=&#34;2880&#34;
+	height=&#34;1488&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC_hu_8c3dedf1d38bf22a.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC_hu_7c112003d94038d9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;pan 1.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;安装这个脚本 &lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/418182-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%AE%80%E6%98%93%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%A4%8D%E6%B4%BB%E7%89%88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -16637,60 +16689,70 @@
 &lt;/h4&gt;&lt;p&gt;建议支持正版。&lt;/p&gt;
 &lt;h4 id=&#34;配置&#34;&gt;配置
 &lt;/h4&gt;&lt;p&gt;打开 IDM，打开选项&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850830176/A7N9WtZl2.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;990&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2_hu_ae224d8042372c3a.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2_hu_82086561a63c8413.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;pan 3.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;387px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850831659/jyf3F3b8c.png&#34; alt=&#34;img&#34; style=&#34;zoom:33%;&#34; /&gt;
 &lt;p&gt;把 UA 改成 &lt;code&gt;netdisk;3.0.0.112&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;使用&#34;&gt;使用
 &lt;/h4&gt;&lt;p&gt;先把东西存到自己的网盘里，然后选择要下载的文件，点简易下载助手，这里以vmware为例&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850833356/RcxyXCaxVi.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi.png&#34;
+	width=&#34;2880&#34;
+	height=&#34;1488&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi_hu_edf78791121e3cca.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi_hu_b64ccd592236429e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;pan 6.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击获取直链地址，有时候需要验证码，关注一下公众号即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850834908/HVfNk4Hid.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid.png&#34;
+	width=&#34;2880&#34;
+	height=&#34;1488&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid_hu_e1fd5b8d5c24523.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid_hu_d79bf98363599b60.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;pan 7.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;IDM选择新建任务，把链接粘贴进去即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850836562/igY41Di2y.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;990&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y_hu_860f9b6fc28f1173.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y_hu_e43ac97e2b890c25.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;pan 8.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;387px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661850838086/r0xAcB_-f6.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;990&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6_hu_e9ce948d9bcce016.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6_hu_b5d7324654d424e7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;pan 9.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;387px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;linux用户和mac用户可以用Aria2，linux可以用&lt;a class=&#34;link&#34; href=&#34;https://github.com/Xmader/aria-ng-gui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -16719,14 +16781,16 @@
 &lt;/ul&gt;
 &lt;p&gt;官网 : &lt;a class=&#34;link&#34; href=&#34;https://shurufa.sogou.com/linux&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://shurufa.sogou.com/linux&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849622945/I9QugD5g7.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/I9QugD5g7.png&#34;
+	width=&#34;2880&#34;
+	height=&#34;1498&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/for-linux/I9QugD5g7_hu_68b9581059d270d2.png 480w, https://invalidnamee.github.io/p/for-linux/I9QugD5g7_hu_fc3911f2c145e4d3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;sogoupinyin_0_.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;461px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后可以按照&lt;a class=&#34;link&#34; href=&#34;https://shurufa.sogou.com/linux/guide&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -16888,25 +16952,29 @@
 &lt;li&gt;
 &lt;p&gt;配置一下 &lt;code&gt;fcitx&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;找到 language support (语言支持)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849624290/lcKlLXKpY.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/lcKlLXKpY.png&#34;
+	width=&#34;354&#34;
+	height=&#34;277&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/for-linux/lcKlLXKpY_hu_85d852e394230cbc.png 480w, https://invalidnamee.github.io/p/for-linux/lcKlLXKpY_hu_6a5c9def6e060e65.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;sogoupinyin 2.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;把输入法改成 &lt;code&gt;fcitx&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849625271/z4mek6oaQ.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/z4mek6oaQ.png&#34;
+	width=&#34;530&#34;
+	height=&#34;520&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/for-linux/z4mek6oaQ_hu_58ac081ba33464ce.png 480w, https://invalidnamee.github.io/p/for-linux/z4mek6oaQ_hu_21855771ba474b4c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;sogoupinyin 4.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;244px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;注销一次&lt;/p&gt;
@@ -16946,24 +17014,28 @@
 &lt;li&gt;
 &lt;p&gt;启用&lt;/p&gt;
 &lt;p&gt;打开 fcitx 的设置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849626369/bzyB2h7Mo.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/bzyB2h7Mo.png&#34;
+	width=&#34;399&#34;
+	height=&#34;216&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/for-linux/bzyB2h7Mo_hu_a6a86c929db3f3b5.png 480w, https://invalidnamee.github.io/p/for-linux/bzyB2h7Mo_hu_95a9ffd47e604f13.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;sogoupinyin 5.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;184&#34;
+		data-flex-basis=&#34;443px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849627454/-zUr2UlCP.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/-zUr2UlCP.png&#34;
+	width=&#34;846&#34;
+	height=&#34;465&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/for-linux/-zUr2UlCP_hu_baae44483b040078.png 480w, https://invalidnamee.github.io/p/for-linux/-zUr2UlCP_hu_ec42034dc9070233.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;sogoupinyin 1.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;436px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如果没有 &lt;code&gt;sogoupinyin&lt;/code&gt; 的话就点坐下角的加号搜索 &lt;code&gt;sogoupinyin&lt;/code&gt; 加上就可以了&lt;/p&gt;
@@ -16997,14 +17069,16 @@
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;打开 Microsoft Store ，搜索Ubuntu，并安装 (经常卡顿，请耐心等待)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849610078/CnyrM_-VL.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/CnyrM_-VL.png&#34;
+	width=&#34;2476&#34;
+	height=&#34;1066&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/CnyrM_-VL_hu_966aa47201dafe9b.png 480w, https://invalidnamee.github.io/p/wslvscode/CnyrM_-VL_hu_183d2d5ceeacab27.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;wslinstallubuntupng&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;232&#34;
+		data-flex-basis=&#34;557px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
@@ -17030,12 +17104,16 @@
 &lt;li&gt;再次打开Ubuntu 22.04 然后发现可以了&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;等待一段时间后输入你之后要给linux系统用的用户名和密码，就可以进去了，会看到一个这样的界面，表明成功了（&lt;del&gt;怎么给我报了条错，咳咳&amp;hellip;不用管，ubuntu经常这样&lt;/del&gt;）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849611617/_GLnRZpPG.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/_GLnRZpPG.png&#34;
+	width=&#34;2466&#34;
+	height=&#34;1312&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/_GLnRZpPG_hu_25606ebef521e197.png 480w, https://invalidnamee.github.io/p/wslvscode/_GLnRZpPG_hu_8464119eaea0e3e2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;451px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;32-配置-vscode&#34;&gt;3.2 配置 VScode
@@ -17139,21 +17217,29 @@
 &lt;p&gt;说明已经连上了子系统&lt;/p&gt;
 &lt;h4 id=&#34;34-配置linux子系统的vscode拓展程序&#34;&gt;3.4 配置linux子系统的VScode拓展程序
 &lt;/h4&gt;&lt;p&gt;需要装两个拓展程序&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849613026/zaI-PjWJn.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/zaI-PjWJn.png&#34;
+	width=&#34;594&#34;
+	height=&#34;253&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/zaI-PjWJn_hu_be6c4bfe33b3175c.png 480w, https://invalidnamee.github.io/p/wslvscode/zaI-PjWJn_hu_9c4faf3693e93a2f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;563px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如果已经装过了就选&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849614466/uEaBod6vk.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/uEaBod6vk.png&#34;
+	width=&#34;329&#34;
+	height=&#34;50&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/uEaBod6vk_hu_48fa2d7f0f479ce0.png 480w, https://invalidnamee.github.io/p/wslvscode/uEaBod6vk_hu_8a81f02aecc4294d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;658&#34;
+		data-flex-basis=&#34;1579px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -17170,12 +17256,16 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;切换到 ubuntu 22.04 的标签下，搜 &lt;code&gt;code runner&lt;/code&gt;，然后按图示操作，点击 &lt;code&gt;Execulor Map&lt;/code&gt; 下的 &lt;code&gt;Edit in settings.json&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849615561/VSdZOan6i.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/VSdZOan6i.png&#34;
+	width=&#34;1672&#34;
+	height=&#34;1704&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/VSdZOan6i_hu_83f5717be185b262.png 480w, https://invalidnamee.github.io/p/wslvscode/VSdZOan6i_hu_7af7bc3ca984abaf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;235px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -17240,12 +17330,16 @@
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;strong&gt;好像把文件拷到linux里面运行更快，linux的文件在这里&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661849616874/9Ysh8P4yn.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/9Ysh8P4yn.png&#34;
+	width=&#34;1796&#34;
+	height=&#34;1330&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/9Ysh8P4yn_hu_2c76bdcd6e23bef3.png 480w, https://invalidnamee.github.io/p/wslvscode/9Ysh8P4yn_hu_26c386af8fbc4404.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;324px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;进去之后是根目录，我们的用户文件在home里&lt;/p&gt;
@@ -17290,14 +17384,16 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;点如何编号&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如图，把每一行都接上，顺着编号。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661848634962/PrGwzXJ-i.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i.png&#34;
+	width=&#34;681&#34;
+	height=&#34;596&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i_hu_806b7dba53bb049b.png 480w, https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i_hu_b91e2c2a697109dd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;qipan-img.png&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;274px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;从坐标对应到编号的函数:&lt;/p&gt;
@@ -18091,14 +18187,16 @@
 &lt;p&gt;注意审题！！因为审题出了很多问题。&lt;/p&gt;
 &lt;p&gt;这题一眼看下去很无从下手，简单来说就是&lt;strong&gt;距离为2的两个点的权值之积为联合权值&lt;/strong&gt;，让求&lt;strong&gt;最大联合权值&lt;/strong&gt;和&lt;strong&gt;所有联合权值的总和&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;仔细思考一下，一棵树中存在两个距离为2的点只有两种情况，&lt;strong&gt;一条线&lt;/strong&gt;和&lt;strong&gt;一个角&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661848618556/BaleCkbb8.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/BaleCkbb8.png&#34;
+	width=&#34;449&#34;
+	height=&#34;204&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/noip2014/BaleCkbb8_hu_c6d5d04d0156d12.png 480w, https://invalidnamee.github.io/p/noip2014/BaleCkbb8_hu_c91fb85ff95ba346.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20220211140921603&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;220&#34;
+		data-flex-basis=&#34;528px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;数据有 60% 在 2000 以内， 这使我萌生了暴力的想法，先拿60再说&lt;/p&gt;
@@ -18141,14 +18239,16 @@
 &lt;/h3&gt;&lt;p&gt;这种情况难度就稍微大了一些，需&lt;strong&gt;统计同一层所有子节点&lt;/strong&gt;，对其进行排列组合，每种配对的情况都是两组联合权值。 (可以对比之前做过的一道深搜 &lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1036&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;选数&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;举个栗子：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661848621164/240C9eOqQ.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/240C9eOqQ.png&#34;
+	width=&#34;206&#34;
+	height=&#34;141&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/noip2014/240C9eOqQ_hu_b964bffe3fccdc.png 480w, https://invalidnamee.github.io/p/noip2014/240C9eOqQ_hu_dee4c8371f91e9d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20220211184217103&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;146&#34;
+		data-flex-basis=&#34;350px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;这是一个以①为根的子树&lt;/p&gt;
@@ -18307,14 +18407,16 @@
 &lt;/h2&gt;&lt;h3 id=&#34;i一个角&#34;&gt;I.一个角
 &lt;/h3&gt;&lt;p&gt;一条线的时间复杂度已经不大了，所以我们先来考虑一个角的情况&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;再举个相同的栗子:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661848623274/vtaDxC7Bu.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu.png&#34;
+	width=&#34;206&#34;
+	height=&#34;141&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu_hu_b964bffe3fccdc.png 480w, https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu_hu_dee4c8371f91e9d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20220211184217103&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;146&#34;
+		data-flex-basis=&#34;350px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;回顾一下，以④为例&lt;/p&gt;
@@ -18348,14 +18450,16 @@ $$&lt;p&gt;所以处理这种情况只需维护一个&lt;strong&gt;前缀和&lt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;del&gt;把之前的循环换掉就可以a掉了&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ii一条线&#34;&gt;II.一条线
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.hashnode.com/res/hashnode/image/upload/v1661848624902/o39DhJoS4.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/o39DhJoS4.png&#34;
+	width=&#34;188&#34;
+	height=&#34;186&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/noip2014/o39DhJoS4_hu_c23c3813ade07a65.png 480w, https://invalidnamee.github.io/p/noip2014/o39DhJoS4_hu_6ad8a89637d13741.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image-20220212141139984&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;242px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;当dfs回溯到x时&lt;/p&gt;
@@ -19186,25 +19290,29 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如果按照读入的数据建图，画成图就是这样子的:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.luogu.com.cn/upload/image_hosting/71qzac3a.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/hnoi2005/71qzac3a.png&#34;
+	width=&#34;275&#34;
+	height=&#34;210&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/hnoi2005/71qzac3a_hu_14b01078311c0be7.png 480w, https://invalidnamee.github.io/p/hnoi2005/71qzac3a_hu_fd20c4bdd911b1f3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;wrong&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;314px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;显然这个是错的， \( 2 \) 和 \( 3 \) 是相连的。但是如果把区间 \( [l, r] \) 改成一开一闭，即 \( (l-1,r] \) ，图就会变成这样:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.luogu.com.cn/upload/image_hosting/8x67x3cb.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/hnoi2005/8x67x3cb.png&#34;
+	width=&#34;289&#34;
+	height=&#34;194&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/hnoi2005/8x67x3cb_hu_f1f3ccba59a9e0cc.png 480w, https://invalidnamee.github.io/p/hnoi2005/8x67x3cb_hu_a83bad91935bbcce.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;correct&#34;
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;357px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;于是图就连上了，同时因为 \( 51+50 \neq 100 \) ，所以答案是 \( false \)。&lt;/p&gt;
