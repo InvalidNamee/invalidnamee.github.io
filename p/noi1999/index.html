@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/noi1999/'>
 
-<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="[noi1999] 棋盘分割">
+<link rel="stylesheet" href="/scss/style.min.ca20a5881f406231b784629373e175e8b0468448d98a2eb27e0864ec4e25029f.css"><meta property='og:title' content="[noi1999] 棋盘分割">
 <meta property='og:description' content="因为人在学校时间比较要紧就写简单一些\n题面: P5752 [NOI1999] 棋盘分割\n这道题自己没想出来，结合 zsh 的 ppt 和洛谷上的题解才搞明白\n这道题涉及到分割和最值，所以目标就锁定在区间dp，在想dp之前也有几个要处理的问题\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/noi1999/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-08-29T12:58:51&#43;00:00'/><meta property='article:modified_time' content='2022-08-29T12:58:51&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-08-29T12:58:51&#43;00:00'/><meta property='article:modified_time' content='2025-06-09T18:12:09&#43;08:00'/>
 <meta name="twitter:title" content="[noi1999] 棋盘分割">
 <meta name="twitter:description" content="因为人在学校时间比较要紧就写简单一些\n题面: P5752 [NOI1999] 棋盘分割\n这道题自己没想出来，结合 zsh 的 ppt 和洛谷上的题解才搞明白\n这道题涉及到分割和最值，所以目标就锁定在区间dp，在想dp之前也有几个要处理的问题\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -72,7 +72,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Star&#39;s Blog</a></h1>
-            <h2 class="site-description">持续更新训练赛题解和一些其他内容</h2>
+            <h2 class="site-description">持续更新训练赛题解、笔记和一些其他内容</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -274,8 +274,6 @@
     <header class="article-header">
 
     <div class="article-details">
-    
-
     <div class="article-title-wrapper">
         <h2 class="article-title">
             <a href="/p/noi1999/">[noi1999] 棋盘分割</a>
@@ -302,9 +300,19 @@
 </svg>
                 <time class="article-time--published">2022-08-29</time>
             </div>
-        
+        <div class="article-lastmod">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-        
+
+
+                <time>
+                    2025-06-09 18:12
+                </time>
+            </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -321,6 +329,9 @@
         
     </footer>
     
+
+    
+
 
     
 </div>
@@ -576,7 +587,7 @@ $$<p>这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可求出
 
 
         <span>
-            最后更新于 2022-08-29 12:58 UTC
+            最后更新于 2025-06-09 18:12
         </span>
     </section></footer>
 
@@ -728,6 +739,100 @@ $$<p>这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可求出
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+    @font-face {
+      font-family: 'PlanKaiA-SC';
+      src: url(https://invalidnamee.github.io/font/PlanKaiA-SC.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'NotoSansMono-Regular';
+      src: url(https://invalidnamee.github.io/font/NotoSansMono-Regular.ttf) format('truetype');
+    }
+
+    :root {
+      --base-font-family: 'PlanKaiA-SC';
+      --code-font-family: 'NotoSansMono-Regular';
+    }
+
+    .highlight {
+        max-height: 600px;
+        overflow: hidden;
+    }
+
+    .code-show {
+        max-height: none !important;
+    }
+
+    .code-more-box {
+        width: 100%;
+        padding-top: 78px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .code-more-btn {
+        display: block;
+        margin: auto;
+        width: 44px;
+        height: 22px;
+        background: #f0f0f5;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-top: 6px;
+        cursor: pointer;
+    }
+
+    .code-more-img {
+        cursor: pointer !important;
+        display: block;
+        margin: auto;
+        width: 22px;
+        height: 16px;
+    }
+</style>
+
+<script>
+  function initCodeMoreBox() {
+    let codeBlocks = document.querySelectorAll(".highlight");
+    if (!codeBlocks) {
+      return;
+    }
+    codeBlocks.forEach(codeBlock => {
+      
+      if (codeBlock.scrollHeight <= codeBlock.clientHeight) {
+        return;
+      }
+      
+      
+      let codeMoreBox = document.createElement('div');
+      codeMoreBox.classList.add('code-more-box');
+      
+      let codeMoreBtn = document.createElement('span');
+      codeMoreBtn.classList.add('code-more-btn');
+      codeMoreBtn.addEventListener('click', () => {
+        codeBlock.classList.add('code-show');
+        codeMoreBox.style.display = 'none';
+        
+        window.dispatchEvent(new Event('resize'))
+      })
+      
+      let img = document.createElement('img');
+      img.classList.add('code-more-img');
+      img.src = "https://invalidnamee.github.io/icons/codeMore.png"
+      
+      codeMoreBtn.appendChild(img);
+      codeMoreBox.appendChild(codeMoreBtn);
+      codeBlock.appendChild(codeMoreBox)
+    })
+  }
+  
+  initCodeMoreBox();
 </script>
 
     </body>

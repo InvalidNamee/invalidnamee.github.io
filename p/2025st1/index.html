@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/2025st1/'>
 
-<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="2025春训第一场">
+<link rel="stylesheet" href="/scss/style.min.ca20a5881f406231b784629373e175e8b0468448d98a2eb27e0864ec4e25029f.css"><meta property='og:title' content="2025春训第一场">
 <meta property='og:description' content="考场上只做出来了 A、B、C、D，而且 C 和 D 做的很煎熬，E 是因为知识的缺失，F 那一条关键的性质不太好想。\nA. 好的序列 签到题，最长上升子序列变体，但是前置状态是固定的，直接开一个标记数组即可。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025st1/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-03T04:49:54&#43;00:00'/><meta property='article:modified_time' content='2025-03-03T04:49:54&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-03T04:49:54&#43;00:00'/><meta property='article:modified_time' content='2025-06-09T19:01:52&#43;08:00'/>
 <meta name="twitter:title" content="2025春训第一场">
 <meta name="twitter:description" content="考场上只做出来了 A、B、C、D，而且 C 和 D 做的很煎熬，E 是因为知识的缺失，F 那一条关键的性质不太好想。\nA. 好的序列 签到题，最长上升子序列变体，但是前置状态是固定的，直接开一个标记数组即可。\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -72,7 +72,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Star&#39;s Blog</a></h1>
-            <h2 class="site-description">持续更新训练赛题解和一些其他内容</h2>
+            <h2 class="site-description">持续更新训练赛题解、笔记和一些其他内容</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -268,16 +268,6 @@
     <header class="article-header">
 
     <div class="article-details">
-    
-    <header class="article-category">
-        
-            <a href="/categories/2025st/" style="background-color: #2a9d8f; color: #fff;">
-                2025春训系列
-            </a>
-        
-    </header>
-    
-
     <div class="article-title-wrapper">
         <h2 class="article-title">
             <a href="/p/2025st1/">2025春训第一场</a>
@@ -304,9 +294,19 @@
 </svg>
                 <time class="article-time--published">2025-03-03</time>
             </div>
-        
+        <div class="article-lastmod">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-        
+
+
+                <time>
+                    2025-06-09 19:01
+                </time>
+            </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -324,6 +324,17 @@
     </footer>
     
 
+    
+
+
+    
+    <header class="article-category">
+        
+            <a href="/categories/2025st/" style="background-color: #2a9d8f; color: #fff;">
+                2025春训系列
+            </a>
+        
+    </header>
     
 </div>
 
@@ -944,7 +955,7 @@
 
 
         <span>
-            最后更新于 2025-03-03 04:49 UTC
+            最后更新于 2025-06-09 19:01
         </span>
     </section></footer>
 
@@ -1170,6 +1181,100 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+    @font-face {
+      font-family: 'PlanKaiA-SC';
+      src: url(https://invalidnamee.github.io/font/PlanKaiA-SC.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'NotoSansMono-Regular';
+      src: url(https://invalidnamee.github.io/font/NotoSansMono-Regular.ttf) format('truetype');
+    }
+
+    :root {
+      --base-font-family: 'PlanKaiA-SC';
+      --code-font-family: 'NotoSansMono-Regular';
+    }
+
+    .highlight {
+        max-height: 600px;
+        overflow: hidden;
+    }
+
+    .code-show {
+        max-height: none !important;
+    }
+
+    .code-more-box {
+        width: 100%;
+        padding-top: 78px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .code-more-btn {
+        display: block;
+        margin: auto;
+        width: 44px;
+        height: 22px;
+        background: #f0f0f5;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-top: 6px;
+        cursor: pointer;
+    }
+
+    .code-more-img {
+        cursor: pointer !important;
+        display: block;
+        margin: auto;
+        width: 22px;
+        height: 16px;
+    }
+</style>
+
+<script>
+  function initCodeMoreBox() {
+    let codeBlocks = document.querySelectorAll(".highlight");
+    if (!codeBlocks) {
+      return;
+    }
+    codeBlocks.forEach(codeBlock => {
+      
+      if (codeBlock.scrollHeight <= codeBlock.clientHeight) {
+        return;
+      }
+      
+      
+      let codeMoreBox = document.createElement('div');
+      codeMoreBox.classList.add('code-more-box');
+      
+      let codeMoreBtn = document.createElement('span');
+      codeMoreBtn.classList.add('code-more-btn');
+      codeMoreBtn.addEventListener('click', () => {
+        codeBlock.classList.add('code-show');
+        codeMoreBox.style.display = 'none';
+        
+        window.dispatchEvent(new Event('resize'))
+      })
+      
+      let img = document.createElement('img');
+      img.classList.add('code-more-img');
+      img.src = "https://invalidnamee.github.io/icons/codeMore.png"
+      
+      codeMoreBtn.appendChild(img);
+      codeMoreBox.appendChild(codeMoreBtn);
+      codeBlock.appendChild(codeMoreBox)
+    })
+  }
+  
+  initCodeMoreBox();
 </script>
 
     </body>
