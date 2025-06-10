@@ -336,6 +336,8 @@
 
 
     
+
+    
 </div>
 
 </header>
@@ -790,8 +792,6 @@ $$<p>你发现了什么？</p>
 
     <footer class="article-footer">
     
-
-    
     <section class="article-copyright">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -865,7 +865,7 @@ $$<p>你发现了什么？</p>
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="top"
-    data-theme="preferred_color_scheme"
+    data-theme="light"
     data-lang="en"
     data-loading=""
     crossorigin="anonymous"
@@ -897,9 +897,9 @@ $$<p>你发现了什么？</p>
 
         function handler() {
             if (document.documentElement.dataset.scheme === "light") {
-                setGiscusTheme('preferred_color_scheme');
+                setGiscusTheme('light');
             } else {
-                setGiscusTheme('preferred_color_scheme');
+                setGiscusTheme('dark_dimmed');
             }
         }
     })();
