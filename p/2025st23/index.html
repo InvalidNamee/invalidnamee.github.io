@@ -873,6 +873,57 @@
      
     
         
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="InvalidNamee/invalidnamee.github.io"
+    data-repo-id="R_kgDOO4h0hw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOO4h0h84CrSyy"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('preferred_color_scheme');
+            } else {
+                setGiscusTheme('preferred_color_scheme');
+            }
+        }
+    })();
+</script>
+
     
 
     <footer class="site-footer">
@@ -1005,85 +1056,6 @@
       --base-font-family: 'PlanKaiA-SC', 'ChildFunSans-ZHS', 'NotoSansMono-Regular', sans-serif;
       --code-font-family: 'NotoSansMono-Regular';
     }
-
-    .highlight {
-        max-height: 600px;
-        overflow: hidden;
-    }
-
-    .code-show {
-        max-height: none !important;
-    }
-
-    .code-more-box {
-        width: 100%;
-        padding-top: 78px;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-    }
-
-    .code-more-btn {
-        display: block;
-        margin: auto;
-        width: 44px;
-        height: 22px;
-        background: #f0f0f5;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        padding-top: 6px;
-        cursor: pointer;
-    }
-
-    .code-more-img {
-        cursor: pointer !important;
-        display: block;
-        margin: auto;
-        width: 22px;
-        height: 16px;
-    }
 </style>
-
-<script>
-  function initCodeMoreBox() {
-    let codeBlocks = document.querySelectorAll(".highlight");
-    if (!codeBlocks) {
-      return;
-    }
-    codeBlocks.forEach(codeBlock => {
-      
-      if (codeBlock.scrollHeight <= codeBlock.clientHeight) {
-        return;
-      }
-      
-      
-      let codeMoreBox = document.createElement('div');
-      codeMoreBox.classList.add('code-more-box');
-      
-      let codeMoreBtn = document.createElement('span');
-      codeMoreBtn.classList.add('code-more-btn');
-      codeMoreBtn.addEventListener('click', () => {
-        codeBlock.classList.add('code-show');
-        codeMoreBox.style.display = 'none';
-        
-        window.dispatchEvent(new Event('resize'))
-      })
-      
-      let img = document.createElement('img');
-      img.classList.add('code-more-img');
-      img.src = "https://invalidnamee.github.io/icons/codeMore.png"
-      
-      codeMoreBtn.appendChild(img);
-      codeMoreBox.appendChild(codeMoreBtn);
-      codeBlock.appendChild(codeMoreBox)
-    })
-  }
-  
-  initCodeMoreBox();
-</script>
-
     </body>
 </html>
