@@ -7,15 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Fri, 13 Jun 2025 21:19:57 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 13 Jun 2025 21:46:30 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>大物第四讲</title>
         <link>https://invalidnamee.github.io/p/dawu4/</link>
         <pubDate>Fri, 13 Jun 2025 19:40:22 +0800</pubDate>
         
         <guid>https://invalidnamee.github.io/p/dawu4/</guid>
-        <description>&lt;p&gt;板书内容：&lt;a class=&#34;link&#34; href=&#34;#%e6%9d%bf%e4%b9%a6&#34; &gt;点我跳转&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;板书内容和课堂彩蛋：&lt;a class=&#34;link&#34; href=&#34;#%e6%9d%bf%e4%b9%a6&#34; &gt;点我跳转&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;电磁波谱&#34;&gt;电磁波谱
-&lt;/h2&gt;&lt;p&gt;把电磁波按照波长或频率的顺序把这些电磁波排列起来，就是电磁波谱。可分为无线电波，微波，红外线，可见光，紫外线，伦琴射线，伽玛射线。
+&lt;/h2&gt;&lt;p&gt;把电磁波按照波长或频率的顺序排列起来，就是电磁波谱。可分为无线电波、微波、红外线、可见光、紫外线、伦琴射线、伽玛射线。
 &lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img1.png&#34;
 	width=&#34;2326&#34;
 	height=&#34;820&#34;
@@ -31,71 +31,72 @@
 &lt;h2 id=&#34;光的单色性和相干性光程&#34;&gt;光的单色性和相干性、光程
 &lt;/h2&gt;&lt;h3 id=&#34;光源&#34;&gt;光源
 &lt;/h3&gt;&lt;h4 id=&#34;光&#34;&gt;光
-&lt;/h4&gt;&lt;p&gt;光 (可见光) 指真空中波长为 $4000 \sim 7600 \text{\AA}$ 的电磁波&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;光（可见光）指真空中波长为 $4000 \sim 7600 \text{\AA}$ 的电磁波。&lt;/p&gt;
 &lt;h4 id=&#34;普通光源发光机理&#34;&gt;普通光源发光机理
-&lt;/h4&gt;&lt;p&gt;光由光源中大量原子或分子从高能激发态向低能级状态跃迁时产生的。&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;光由光源中大量原子或分子从高能激发态向低能级状态跃迁时产生。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;发光特点:&lt;/strong&gt; 频率不同、振动方向不同、无确定相位关系、长度有限的独立的波列。&lt;/p&gt;
 &lt;h3 id=&#34;光的单色性和相干性&#34;&gt;光的单色性和相干性
 &lt;/h3&gt;&lt;h4 id=&#34;光的单色性&#34;&gt;光的单色性
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;单色光:&lt;/strong&gt; 具有单一&lt;strong&gt;频率 (波长)&lt;/strong&gt; 的光。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;单色光的获得:&lt;/strong&gt; 单色光源 (钠光灯)、利用三棱镜色散、通过滤光片、激光。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单色光:&lt;/strong&gt; 具有单一**频率（波长）**的光。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单色光的获得:&lt;/strong&gt; 单色光源（钠光灯）、利用三棱镜色散、通过滤光片、激光。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;光的相干性&#34;&gt;光的相干性
-&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;相干光的相干条件&lt;/strong&gt;&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;相干光的相干条件:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;同频率、同振动方向、在相遇点相位差恒定为相干光。&lt;/li&gt;
-&lt;li&gt;补充条件 两束光在相遇点的光强差不能太大。&lt;/li&gt;
+&lt;li&gt;补充条件：两束光在相遇点的光强差不能太大。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;光程--光程差&#34;&gt;光程 &amp;amp; 光程差
 &lt;/h3&gt;&lt;h4 id=&#34;定义&#34;&gt;定义
-&lt;/h4&gt;&lt;p&gt;若光在折射率为 n 的介质中传播的几何距离为 r，则光程为 nr。&lt;/p&gt;
-&lt;p&gt;物理意义：光在媒质中传播的路程 r 等效于相同时间内在真空中能够传播 nr 的路程。&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;若光在折射率为 $n$ 的介质中传播的几何距离为 $r$，则光程为 $nr$。&lt;/p&gt;
+&lt;p&gt;物理意义：光在媒质中传播的路程 $r$ 等效于相同时间内在真空中能够传播 $nr$ 的路程。&lt;/p&gt;
 &lt;h4 id=&#34;相位差与光程差的关系&#34;&gt;相位差与光程差的关系
 &lt;/h4&gt;$$
-\Delta \phi = \frac{2\pi}{\lambda_{真空}}\delta
-$$&lt;p&gt;$\lambda$ 为真空中的波长，$\delta = n_2 r_2 - n_1 r_1$&lt;/p&gt;
+\Delta \phi = \frac{2\pi}{\lambda_{\text{真空}}}\delta
+$$&lt;p&gt;
+$\lambda$ 为真空中的波长，$\delta = n_2 r_2 - n_1 r_1$。&lt;/p&gt;
 &lt;h3 id=&#34;光波的干涉&#34;&gt;光波的干涉
 &lt;/h3&gt;&lt;p&gt;在一定条件下，两光波相遇时，使某些点的振动始终加强，而另一些点的振动始终减弱或完全抵消的现象，称为光的干涉现象。&lt;/p&gt;
 &lt;h4 id=&#34;产生干涉的条件&#34;&gt;产生干涉的条件
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;频率相同&lt;/li&gt;
-&lt;li&gt;振动方向相同&lt;/li&gt;
-&lt;li&gt;相位相同或相位差恒定&lt;/li&gt;
+&lt;li&gt;频率相同。&lt;/li&gt;
+&lt;li&gt;振动方向相同。&lt;/li&gt;
+&lt;li&gt;相位相同或相位差恒定。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;产生明暗干涉条纹的条件&#34;&gt;产生明暗干涉条纹的条件
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;这里 PPT 有点混乱，我自己改了一下&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;干涉增强的条件: $\Delta \varphi = \pm 2k\pi,\ k = 0,1,2,3,\dots$, $A = A_{\max} = A_1 + A_2$.&lt;/li&gt;
-&lt;li&gt;干涉减弱的条件: $\Delta \varphi = \pm (2k + 1)\pi,\ k = 0,1,2,3,\dots$, $A = A_{\min} = |A_1 - A_2|$.&lt;/li&gt;
+&lt;li&gt;干涉增强的条件: $\Delta \varphi = \pm 2k\pi,\ k = 0,1,2,3,\dots$, $A = A_{\max} = A_1 + A_2$。&lt;/li&gt;
+&lt;li&gt;干涉减弱的条件: $\Delta \varphi = \pm (2k + 1)\pi,\ k = 0,1,2,3,\dots$, $A = A_{\min} = |A_1 - A_2|$。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;用&lt;strong&gt;相位差&lt;/strong&gt;表示为
 &lt;/p&gt;
 $$
-\Delta \varphi = \frac{2\pi}{\lambda_{真空}}\delta =
+\Delta \varphi = \frac{2\pi}{\lambda_{\text{真空}}}\delta =
 \begin{cases}
-    \pm 2k\pi &amp; 干涉增强\\
-    \pm (2k + 1) \pi &amp; 干涉减弱
+    \pm 2k\pi &amp; \text{干涉增强}\\
+    \pm (2k + 1) \pi &amp; \text{干涉减弱}
 \end{cases}
-\ k = 0,\pm 1,\pm 2, \dots
+\quad k = 0,\pm 1,\pm 2, \dots
 $$&lt;p&gt;用&lt;strong&gt;光程差&lt;/strong&gt;表示为
 &lt;/p&gt;
 $$
 \Delta \delta =
 \begin{cases}
-    \pm k\lambda\pi &amp; 干涉增强\\
-    \pm (2k + 1)\frac{\lambda}{2} \pi &amp; 干涉减弱
+    \pm k\lambda\pi &amp; \text{干涉增强}\\
+    \pm (2k + 1)\frac{\lambda}{2} \pi &amp; \text{干涉减弱}
 \end{cases}
-\ \delta = n_2 r_2 - n_1 r_1,\ \ k = 0,\pm 1,\pm 2, \dots
+\quad \delta = n_2 r_2 - n_1 r_1,\ \ k = 0,\pm 1,\pm 2, \dots
 $$&lt;h2 id=&#34;薄膜干涉&#34;&gt;薄膜干涉
 &lt;/h2&gt;&lt;h3 id=&#34;薄膜干涉-1&#34;&gt;薄膜干涉
 &lt;/h3&gt;&lt;p&gt;光波经薄膜两表面反射或透射后相互叠加所形成的干涉现象。&lt;/p&gt;
 &lt;div style=&#34;display: flex; width: 100%; align-items: flex-start;&#34;&gt;
   &lt;div style=&#34;flex: 3; padding-right: 1em;&#34;&gt;
     &lt;ul&gt;
-      &lt;li&gt;反射光光程差$$\delta = 2n_2e + \frac{\lambda}{2}$$e 是薄膜厚度。&lt;/li&gt;
-      &lt;li&gt;薄膜干涉加强与减弱的条件$$\delta = 2n_2e + \frac{\lambda}{2} =\begin{cases}k\lambda\ (k = 1,2,\dots) &amp; 加强\\(2k + 1)\frac{\lambda}{2}\ (k = 0,1,2,\dots) &amp; 减弱\end{cases}$$&lt;/li&gt;
+      &lt;li&gt;反射光光程差$$\delta = 2n_2e + \frac{\lambda}{2}$$$e$ 是薄膜厚度。&lt;/li&gt;
+      &lt;li&gt;薄膜干涉加强与减弱的条件$$\delta = 2n_2e + \frac{\lambda}{2} =\begin{cases}k\lambda\ (k = 1,2,\dots) &amp; \text{加强}\\(2k + 1)\frac{\lambda}{2}\ (k = 0,1,2,\dots) &amp; \text{减弱}\end{cases}$$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 2; display: flex; flex-direction: column; gap: 0.5em;&#34;&gt;
@@ -105,28 +106,28 @@ $$&lt;h2 id=&#34;薄膜干涉&#34;&gt;薄膜干涉
 &lt;h3 id=&#34;薄膜干涉的应用增透膜与增反膜&#34;&gt;薄膜干涉的应用——增透膜与增反膜
 &lt;/h3&gt;&lt;h4 id=&#34;定义-1&#34;&gt;定义
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;增加透射率的薄膜叫做&lt;strong&gt;增透膜&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;增加反射率的薄膜叫做&lt;strong&gt;增反膜&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;增加透射率的薄膜叫做&lt;strong&gt;增透膜&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;增加反射率的薄膜叫做&lt;strong&gt;增反膜&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;条件&#34;&gt;条件
 &lt;/h4&gt;$$
 \delta = 2n_2e + \frac{\lambda}{2} =
 \begin{cases}
-(2k + 1)\frac{\lambda}{2}\ (k = 0,1,2,\dots) &amp; 干涉减弱\ 增透\\
-k\lambda\ (k = 1,2,\dots) &amp; 干涉增强\ 增反
+(2k + 1)\frac{\lambda}{2}\ (k = 0,1,2,\dots) &amp; \text{干涉减弱（增透）}\\
+k\lambda\ (k = 1,2,\dots) &amp; \text{干涉增强（增反）}
 \end{cases}
 $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定律
 &lt;/h2&gt;&lt;h3 id=&#34;光的偏振态&#34;&gt;光的偏振态
 &lt;/h3&gt;&lt;p&gt;光是横波，光具有偏振现象。&lt;/p&gt;
 &lt;h3 id=&#34;常见的偏振态&#34;&gt;常见的偏振态
 &lt;/h3&gt;&lt;h4 id=&#34;自然光&#34;&gt;自然光
-&lt;/h4&gt;&lt;p&gt;包含各个方向的光振动，在所有可能的方向上 的振幅都相等的光。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&#34;img3.png&#34; style=&#34;zoom: 66%&#34; /&gt;
+&lt;/h4&gt;&lt;p&gt;包含各个方向的光振动，在所有可能的方向上的振幅都相等的光。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
+&lt;img src=&#34;img3.png&#34; style=&#34;zoom: 66%&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;部分偏振光&#34;&gt;部分偏振光
 &lt;/h4&gt;&lt;p&gt;某一方向的光振动比与之相垂直方向的光振动占优势的光。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img4.png&#34;
+&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
+&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img4.png&#34;
 	width=&#34;1254&#34;
 	height=&#34;132&#34;
 	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img4_hu_606152f5e99cd0b9.png 480w, https://invalidnamee.github.io/p/dawu4/img4_hu_5da4d23e7a5ac4d1.png 1024w&#34;
@@ -140,8 +141,8 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;偏振光&#34;&gt;偏振光
 &lt;/h4&gt;&lt;p&gt;只含有单一方向光振动的光叫做偏振光。也称为&lt;strong&gt;线偏振光、平面偏振光、完全偏振光&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img5.png&#34;
+&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
+&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img5.png&#34;
 	width=&#34;1262&#34;
 	height=&#34;150&#34;
 	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img5_hu_f8c0bc799db69670.png 480w, https://invalidnamee.github.io/p/dawu4/img5_hu_e65a5e3cb8fab3d0.png 1024w&#34;
@@ -165,14 +166,14 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
   &lt;div style=&#34;flex: 3;&#34;&gt;
     &lt;p&gt;一束光强为 $I_0$ 的&lt;strong&gt;线偏振光&lt;/strong&gt;，透过&lt;strong&gt;检偏器&lt;/strong&gt;以后，透射光强为: $$I = I_0\cos^2\theta$$&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;一束光强为 的自然光透过起偏器，透射光强为: $I = \frac{I_0}{2}$&lt;/li&gt;
-      &lt;li&gt;$\theta = 0$ 时，$I = I_0$&lt;/li&gt;
-      &lt;li&gt;$\theta = 90\degree$ 时，$I = 0$&lt;/li&gt;
+      &lt;li&gt;一束光强为 $I_0$ 的自然光透过起偏器，透射光强为: $I = \frac{I_0}{2}$。&lt;/li&gt;
+      &lt;li&gt;$\theta = 0$ 时，$I = I_0$。&lt;/li&gt;
+      &lt;li&gt;$\theta = 90\degree$ 时，$I = 0$。&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 2; flex-direction: column;&#34;&gt;
     &lt;div style=&#34;display: flex;&#34;&gt;
-      &lt;p style=&#34;flex: 1;&#34;&gt;$$E = E_0 \cos \theta$$$$ \frac{I}{I_o} = \frac{E^2}{E_0^2}$$&lt;/p&gt;
+      &lt;p style=&#34;flex: 1;&#34;&gt;$$E = E_0 \cos \theta$$$$\frac{I}{I_0} = \frac{E^2}{E_0^2}$$&lt;/p&gt;
       &lt;img src=&#34;img8.png&#34; style=&#34;zoom: 30%; flex: 1&#34;/&gt;
     &lt;/div&gt;
     &lt;p&gt;$\theta$ 为线偏光的振动方向与透振方向的夹角。&lt;/p&gt;
@@ -180,17 +181,18 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/div&gt;
 &lt;h2 id=&#34;板书&#34;&gt;板书
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;X 射线: 拍片，CT，XRD (X 射线衍射)，消融术&lt;/li&gt;
-&lt;li&gt;$1 \text{nm} = 10 \text{\AA} = 1 \times 10^{-10}\text{m}$&lt;/li&gt;
-&lt;li&gt;可见光范围: $4000 \sim 7600 \text{\AA}$&lt;/li&gt;
-&lt;li&gt;镀膜 $e_{\min} = \frac{\lambda_{介质}}{4}$&lt;/li&gt;
-&lt;li&gt;偏振片是二向色性物质&lt;/li&gt;
+&lt;li&gt;X 射线: 拍片，CT，XRD（X 射线衍射），消融术。&lt;/li&gt;
+&lt;li&gt;$1 \text{nm} = 10 \text{\AA} = 1 \times 10^{-10}\text{m}$。&lt;/li&gt;
+&lt;li&gt;可见光范围: $4000 \sim 7600 \text{\AA}$。&lt;/li&gt;
+&lt;li&gt;镀膜 $e_{\min} = \frac{\lambda_{\text{介质}}}{4}$。&lt;/li&gt;
+&lt;li&gt;偏振片是二向色性物质。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;课堂彩蛋&#34;&gt;课堂彩蛋
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;研究生面试时，一考生被问到如何测纳米材料的间距，他思考了数秒后，表示用&lt;strong&gt;游标卡尺&lt;/strong&gt;，当场被 pass（实际上应该用 X 射线衍射法）。&lt;/li&gt;
 &lt;li&gt;有一种手机叫 wāi wāi cào[?]。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#&#34; &gt;回到顶部&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -214,32 +216,31 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h4 id=&#34;微分方程&#34;&gt;微分方程
 &lt;/h4&gt;&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;弹簧振子:&lt;/strong&gt; $$\frac{d^2x}{dt^2} + \omega^2 x = 0$$ 加速度与离开平衡位置的位移大小成正比，方向相反。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;单摆在小角度摆动时的运动情况:&lt;/strong&gt; $$\frac{d^2\theta}{dt^2} + \omega^2\theta = 0\ (其中, \omega = \sqrt\frac{g}{l})$$
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;单摆在小角度摆动时的运动情况:&lt;/strong&gt; $$\frac{d^2\theta}{dt^2} + \omega^2\theta = 0\quad (\text{其中},\ \omega = \sqrt{\frac{g}{l}})$$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;简谐振动的动力学定义&#34;&gt;简谐振动的动力学定义
-&lt;/h4&gt;&lt;p&gt;若物理量 x 满足，$\frac{d^2x}{dt^2} + \omega^2 x = 0$，且 $\omega$ 由系统性质决定，则称 x 作简谐振动。&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;若物理量 $x$ 满足 $\frac{d^2x}{dt^2} + \omega^2 x = 0$，且 $\omega$ 由系统性质决定，则称 $x$ 作简谐振动。&lt;/p&gt;
 &lt;h3 id=&#34;简谐振动的运动学方程&#34;&gt;简谐振动的运动学方程
 &lt;/h3&gt;&lt;h4 id=&#34;运动学方程-振动表达式&#34;&gt;运动学方程 (振动表达式)
 &lt;/h4&gt;&lt;p&gt;$$x = A\cos(\omega t + \varphi)$$&lt;/p&gt;
 &lt;h4 id=&#34;描述简谐振动的物理量&#34;&gt;描述简谐振动的物理量
 &lt;/h4&gt;&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;振幅 A:&lt;/strong&gt; 离开平衡位置的最大距离&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;角频率 \(\omega\):&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;振幅 $A$:&lt;/strong&gt; 离开平衡位置的最大距离。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;角频率 $\omega$:&lt;/strong&gt;
     &lt;p&gt;
       $$x = A\cos(\omega t + \varphi) = A\cos(\omega (t + T) + \varphi) = A\cos(\omega t + \omega T + \varphi)$$
-      $$\omega T = 2 \pi\ \ \ \ \ \ \ \omega = \frac{2\pi}{T} = 2\pi\nu$$
-      $$T = 2 \pi \sqrt\frac{m}{k}\ \ \ \ \ T = 2 \pi \sqrt\frac{l}{g}$$
+      $$\omega T = 2 \pi\quad \omega = \frac{2\pi}{T} = 2\pi\nu$$
+      $$T = 2 \pi \sqrt{\frac{m}{k}}\quad T = 2 \pi \sqrt{\frac{l}{g}}$$
     &lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;相位 \(\omega t + \varphi\):&lt;/strong&gt; 描述运动状态的量
+  &lt;li&gt;&lt;strong&gt;相位 $\omega t + \varphi$:&lt;/strong&gt; 描述运动状态的量。
     &lt;ul&gt;
-      &lt;li&gt;\(\omega t + \varphi\) 在 \(0 \sim 2\pi\) 内与 \((x,\ \nu)\) 存在一一对应的关系&lt;/li&gt;
-      &lt;li&gt;当相位变化了 \(2\pi\) 时，质点恢复到原来的运动状态&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;初相 \(\varphi(t = 0)\):&lt;/strong&gt; 描述质点初始时刻的运动状态&lt;/li&gt;
+      &lt;li&gt;$\omega t + \varphi$ 在 $0 \sim 2\pi$ 内与 $(x,\ \nu)$ 存在一一对应的关系。&lt;/li&gt;
+      &lt;li&gt;当相位变化了 $2\pi$ 时，质点恢复到原来的运动状态。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;初相 $\varphi(t = 0)$:&lt;/strong&gt; 描述质点初始时刻的运动状态。&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;相位差:&lt;/strong&gt; 两个同频率简谐运动
+  &lt;li&gt;&lt;strong&gt;相位差:&lt;/strong&gt; 两个同频率简谐运动。
     &lt;p&gt;
       $$x_1 = A_1\cos(\omega_1 t + \varphi_1)$$
       $$x_2 = A_2\cos(\omega_2 t + \varphi_2)$$
@@ -247,8 +248,8 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
     &lt;/p&gt;
     &lt;p&gt;&lt;strong&gt;同相和反相:&lt;/strong&gt;&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;同相:&lt;/strong&gt; \(\Delta \varphi = \pm 2k\pi(k=0,1,2\dots)\) 振动步调相同&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;反相:&lt;/strong&gt; \(\Delta\varphi = \pm(2k + 1)\pi\ (k=0,1,2\dots)\) 振动步调相反&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;同相:&lt;/strong&gt; $\Delta \varphi = \pm 2k\pi\ (k=0,1,2\dots)$ 振动步调相同。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;反相:&lt;/strong&gt; $\Delta\varphi = \pm(2k + 1)\pi\ (k=0,1,2\dots)$ 振动步调相反。&lt;/li&gt;
     &lt;/ul&gt;
     &lt;img src=&#34;img1.png&#34; style=&#34;zoom:50%;&#34; /&gt;
     &lt;img src=&#34;img2.png&#34; style=&#34;zoom:50%;&#34; /&gt;
@@ -256,19 +257,19 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/ul&gt;
 &lt;h3 id=&#34;简谐振动的表示方法&#34;&gt;简谐振动的表示方法
 &lt;/h3&gt;&lt;h4 id=&#34;解析法&#34;&gt;解析法
-&lt;/h4&gt;&lt;p&gt;$$x = Acos(\omega t + \varphi_0)$$&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;$$x = A\cos(\omega t + \varphi_0)$$&lt;/p&gt;
 &lt;h4 id=&#34;旋转矢量法&#34;&gt;旋转矢量法
 &lt;/h4&gt;&lt;h3 id=&#34;简谐振动旋转矢量法说明&#34;&gt;简谐振动旋转矢量法说明
 &lt;/h3&gt;&lt;div style=&#34;display: flex; width: 100%; align-items: flex-start;&#34;&gt;
   &lt;div style=&#34;flex: 2; padding-right: 1em;&#34;&gt;
-    &lt;p&gt;作坐标轴 \(Ox\)，自 \(O\) 点作一矢量 \(\vec{OM}\)，用 \(\vec{A}\) 表示。&lt;/p&gt;
+    &lt;p&gt;作坐标轴 $Ox$，自 $O$ 点作一矢量 $\vec{OM}$，用 $\vec{A}$ 表示。&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;振幅 A:&lt;/strong&gt; \(|\vec A| = A\)&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;初相 \(\varphi_0\):&lt;/strong&gt; \(\vec A\) 在 \(t = 0\) 时与 \(x\) 轴的夹角&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;角频率 \(\omega\):&lt;/strong&gt; \(\vec A\) 以恒定角速度 \(\omega\) 绕 \(O\) 点作逆时针转动&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;相位 \(\omega t + \varphi_0\):&lt;/strong&gt; \(t\) 时刻 \(\vec A\) 与 \(x\) 轴的夹角&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;振幅 $A$:&lt;/strong&gt; $|\vec A| = A$。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;初相 $\varphi_0$:&lt;/strong&gt; $\vec A$ 在 $t = 0$ 时与 $x$ 轴的夹角。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;角频率 $\omega$:&lt;/strong&gt; $\vec A$ 以恒定角速度 $\omega$ 绕 $O$ 点作逆时针转动。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;相位 $\omega t + \varphi_0$:&lt;/strong&gt; $t$ 时刻 $\vec A$ 与 $x$ 轴的夹角。&lt;/li&gt;
     &lt;/ul&gt;
-    &lt;p&gt;旋转矢量 \(\vec{OM}\) 在 \(x\) 轴上的投影 \(P\) 点的坐标作简谐振动。&lt;/p&gt;
+    &lt;p&gt;旋转矢量 $\vec{OM}$ 在 $x$ 轴上的投影 $P$ 点的坐标作简谐振动。&lt;/p&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1; display: flex; flex-direction: column; gap: 0.5em;&#34;&gt;
     &lt;img src=&#34;img3.png&#34; style=&#34;zoom: 35%;&#34; /&gt;
@@ -278,14 +279,14 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/h3&gt;&lt;div style=&#34;display: flex; width: 100%; align-items: flex-start;&#34;&gt;
   &lt;div style=&#34;flex: 2; padding-right: 1em;&#34;&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;简谐运动的动能:&lt;/strong&gt; \(E_k = \frac{1}{2} m v^2 = \frac{1}{2} k A^2 \sin^2(\omega t + \varphi)\)&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;简谐振动的势能:&lt;/strong&gt; \(E_p = \frac{1}{2} k x^2 = \frac{1}{2} k A^2 \cos^2(\omega t + \varphi)\)&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;简谐振动的总能量:&lt;/strong&gt; \(E = E_k + E_p = \frac{1}{2} k A^2\)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;简谐运动的动能:&lt;/strong&gt; $E_k = \frac{1}{2} m v^2 = \frac{1}{2} k A^2 \sin^2(\omega t + \varphi)$。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;简谐振动的势能:&lt;/strong&gt; $E_p = \frac{1}{2} k x^2 = \frac{1}{2} k A^2 \cos^2(\omega t + \varphi)$。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;简谐振动的总能量:&lt;/strong&gt; $E = E_k + E_p = \frac{1}{2} k A^2$。&lt;/li&gt;
     &lt;/ul&gt;
     &lt;p&gt;&lt;strong&gt;说明:&lt;/strong&gt;&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;\(E_p\) 与 \(E_k\) 振幅相同，变化规律相同，周期相同，相位相反，系统总能量守恒。&lt;/li&gt;
-      &lt;li&gt;\(E \propto A^2\)，这是一切振动形式的共同性质。&lt;/li&gt;
+      &lt;li&gt;$E_p$ 与 $E_k$ 振幅相同，变化规律相同，周期相同，相位相反，系统总能量守恒。&lt;/li&gt;
+      &lt;li&gt;$E \propto A^2$，这是一切振动形式的共同性质。&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1; display: flex; justify-content: center; align-items: center;&#34;&gt;
@@ -314,19 +315,19 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;$\varphi_2 - \varphi_1 = 2k\pi\ k = 0,\pm1,\pm2,\dots\ \ \ \ A = A_1 + A_2$, 同相，合振幅最大&lt;/li&gt;
-  &lt;li&gt;$\varphi_2 - \varphi_1 = (2k + 1)\pi\ k = 0,\pm1,\pm2,\dots\ \ \ \ A = |A_1 - A_2|$, 反相，合振幅最小&lt;/li&gt;
-  &lt;li&gt;一般情况 (相位差任意) $\varphi_2 - \varphi_1 \neq k\pi\ \ \ \ |A_1 - A_2| &lt; A &lt; A_1 + A_2$&lt;/li&gt;
+  &lt;li&gt;$\varphi_2 - \varphi_1 = 2k\pi,\ k = 0,\pm1,\pm2,\dots\quad A = A_1 + A_2$, 同相，合振幅最大。&lt;/li&gt;
+  &lt;li&gt;$\varphi_2 - \varphi_1 = (2k + 1)\pi,\ k = 0,\pm1,\pm2,\dots\quad A = |A_1 - A_2|$, 反相，合振幅最小。&lt;/li&gt;
+  &lt;li&gt;一般情况 (相位差任意) $\varphi_2 - \varphi_1 \neq k\pi\quad |A_1 - A_2| &lt; A &lt; A_1 + A_2$。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;相位差&lt;/strong&gt;在同频率简谐振动合成中起决定性作用&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相位差&lt;/strong&gt;在同频率简谐振动合成中起决定性作用。&lt;/p&gt;
 &lt;h2 id=&#34;机械波的产生与传播&#34;&gt;机械波的产生与传播
 &lt;/h2&gt;&lt;h3 id=&#34;机械波的产生&#34;&gt;机械波的产生
 &lt;/h3&gt;&lt;h4 id=&#34;机械波&#34;&gt;机械波
 &lt;/h4&gt;&lt;p&gt;机械震动在弹性介质中传播的过程。&lt;/p&gt;
 &lt;h4 id=&#34;机械波产生条件&#34;&gt;机械波产生条件
 &lt;/h4&gt;&lt;ul&gt;
-  &lt;li&gt;波源&lt;/li&gt;
-  &lt;li&gt;弹性介质 (由无数多的质元通过相互之间的弹性力组合在一起的连续介质)&lt;/li&gt;
+  &lt;li&gt;波源。&lt;/li&gt;
+  &lt;li&gt;弹性介质 (由无数多的质元通过相互之间的弹性力组合在一起的连续介质)。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;机械波的类型&#34;&gt;机械波的类型
 &lt;/h4&gt;&lt;ul&gt;
@@ -371,9 +372,9 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;频率:&lt;/strong&gt; 波单位时间传播的距离中包含完整波的个数。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;波速:&lt;/strong&gt; 波动过程中，某一振动状态在单位时间内传播的距离，也称&lt;strong&gt;相速&lt;/strong&gt;。($u$)
+  &lt;li&gt;&lt;strong&gt;波速:&lt;/strong&gt; 波动过程中，某一振动状态在单位时间内传播的距离，也称&lt;strong&gt;相速&lt;/strong&gt;($u$)。
     &lt;p&gt;
-      波速 $u$ 与介质的性质有关，$\rho$ 为媒质的密度.
+      波速 $u$ 与介质的性质有关，$\rho$ 为媒质的密度。
       $$u = \frac{\lambda}{T} = \lambda \nu$$
     &lt;ul&gt;
       &lt;li&gt;周期或频率只决定于波源的振动。&lt;/li&gt;
@@ -395,19 +396,19 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h3 id=&#34;平面简谐波的波函数&#34;&gt;平面简谐波的波函数
 &lt;/h3&gt;&lt;p&gt;波的传播是振动的传播，是相位的传播，沿波的传播方向上各点相位依次落后。&lt;/p&gt;
 &lt;ul type=&#34;none&#34;&gt;
-  &lt;li&gt;$\Delta \varphi = \frac{2\pi}{\lambda}\Delta x$ &lt;strong&gt;推进单位长度的相位落后&lt;/strong&gt;乘以波向前推进的距离&lt;/li&gt;
-  &lt;li&gt;$= 2\pi\frac{\Delta x}{\lambda}$ &lt;strong&gt;推进一个周期 (波长) 的相位落后&lt;/strong&gt;乘以波向前推进的完整波的个数&lt;/li&gt;
-  &lt;li&gt;$\omega \frac{\Delta x}{u} = \frac{2\pi}{T} \frac{\Delta x}{u}$ &lt;strong&gt;推进单位时间的相位落后&lt;/strong&gt;乘以波向前推进的时间&lt;/li&gt;
+  &lt;li&gt;$\Delta \varphi = \frac{2\pi}{\lambda}\Delta x$ &lt;strong&gt;推进单位长度的相位落后&lt;/strong&gt;乘以波向前推进的距离。&lt;/li&gt;
+  &lt;li&gt;$= 2\pi\frac{\Delta x}{\lambda}$ &lt;strong&gt;推进一个周期 (波长) 的相位落后&lt;/strong&gt;乘以波向前推进的完整波的个数。&lt;/li&gt;
+  &lt;li&gt;$\omega \frac{\Delta x}{u} = \frac{2\pi}{T} \frac{\Delta x}{u}$ &lt;strong&gt;推进单位时间的相位落后&lt;/strong&gt;乘以波向前推进的时间。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;波动表达式与相位落后法&#34;&gt;波动表达式与相位落后法
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;相位落后法的要点:&lt;/strong&gt; 波的传播过程即振动状态的传播，是相位的传播，沿着波的传播方向上相位是依次落后的。&lt;/p&gt;
 &lt;h4 id=&#34;利用相位落后法建立平面简谐波波动表达式&#34;&gt;利用相位落后法建立平面简谐波波动表达式
-&lt;/h4&gt;&lt;p&gt;若已知 $O$ 点振动表达式: $y_O = A\cos(\omega t + \varphi)$&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;若已知 $O$ 点振动表达式: $y_O = A\cos(\omega t + \varphi)$。&lt;/p&gt;
 &lt;div style=&#34;display: flex; width: 100%; align-items: flex-start;&#34;&gt;
   &lt;div style=&#34;flex: 2; padding-right: 1em;&#34;&gt;
     &lt;ul&gt;
-      &lt;li&gt;波沿 x 轴正方向传播，t 时刻，P 点的振动方程写为$$y(x, t) = A\cos(\omega (t - \frac{x}{u}) + \varphi_0)$$&lt;/li&gt;
-      &lt;li&gt;波沿 x 轴负方向传播，t 时刻，P 点的振动方程写为$$y(x, t) = A\cos(\omega (t + \frac{x}{u}) + \varphi_0)$$&lt;/li&gt;
+      &lt;li&gt;波沿 $x$ 轴正方向传播，$t$ 时刻，$P$ 点的振动方程写为$$y(x, t) = A\cos\left[\omega \left(t - \frac{x}{u}\right) + \varphi_0\right]$$&lt;/li&gt;
+      &lt;li&gt;波沿 $x$ 轴负方向传播，$t$ 时刻，$P$ 点的振动方程写为$$y(x, t) = A\cos\left[\omega \left(t + \frac{x}{u}\right) + \varphi_0\right]$$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div style=&#34;flex: 1; justify-content: center; align-items: center;&#34;&gt;
@@ -417,9 +418,9 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/div&gt;
 &lt;h3 id=&#34;波函数的物理意义&#34;&gt;波函数的物理意义
 &lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;x 确定时 ($x = x_0$) 为该处质元的振动方程, 对应曲线为该处质点&lt;strong&gt;振动曲线&lt;/strong&gt;;&lt;/li&gt;
-  &lt;li&gt;t 确定时 ($t = t_0$) 为该时刻各质元位移分布，对应曲线为该时刻&lt;strong&gt;波形图&lt;/strong&gt;。&lt;/li&gt;
-  &lt;li&gt;t、x 都变化时, 表示不同时刻，不同平衡位置处各质元的位移情况——行波。&lt;/li&gt;
+  &lt;li&gt;$x$ 确定时 ($x = x_0$) 为该处质元的振动方程, 对应曲线为该处质点&lt;strong&gt;振动曲线&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;$t$ 确定时 ($t = t_0$) 为该时刻各质元位移分布，对应曲线为该时刻&lt;strong&gt;波形图&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;$t$、$x$ 都变化时, 表示不同时刻，不同平衡位置处各质元的位移情况——行波。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;波的能量&#34;&gt;波的能量
 &lt;/h3&gt;&lt;p&gt;以横波为例，波函数为：$y = A\cos\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right]$ ，在细绳上任取一线元 $\Delta x$，其质量 $\Delta m = \rho\Delta x$。&lt;/p&gt;
@@ -443,69 +444,70 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
       &lt;img src=&#34;img10.png&#34; style=&#34;flex: 1; width: 100%; max-width: 100%; zoom: 33%;&#34;&gt;
     &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;介质中任意质元的总机械能不守恒，随时间 t 作周期性的变化。&lt;/li&gt;
-  &lt;li&gt;能量以波度 u 在介质中传播。&lt;/li&gt;
+  &lt;li&gt;介质中任意质元的总机械能不守恒，随时间 $t$ 作周期性的变化。&lt;/li&gt;
+  &lt;li&gt;能量以波速 $u$ 在介质中传播。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;波的干涉&#34;&gt;波的干涉
 &lt;/h2&gt;&lt;p&gt;在一定条件下，两波相遇时，使某些点的振动始终加强，而另一些点的振动始终减弱或完全抵消的现象，称为&lt;strong&gt;波的干涉现象&lt;/strong&gt;。&lt;/p&gt;
 &lt;h3 id=&#34;产生干涉的条件&#34;&gt;产生干涉的条件
 &lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;频率相同&lt;/li&gt;
-  &lt;li&gt;振动方向相同&lt;/li&gt;
-  &lt;li&gt;相位相同或相位差恒定&lt;/li&gt;
+  &lt;li&gt;频率相同。&lt;/li&gt;
+  &lt;li&gt;振动方向相同。&lt;/li&gt;
+  &lt;li&gt;相位相同或相位差恒定。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;干涉加强和减弱的条件&#34;&gt;干涉加强和减弱的条件
 &lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;干涉加强的条件:&lt;/strong&gt; $\Delta \varphi = \pm 2k\pi\ k = 0,1,2,3,\dots$, $A = A_{\max} = A_1 + A_2$&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;干涉减弱的条件:&lt;/strong&gt; $\Delta \varphi = \pm (2k + 1)\pi\ k = 0,1,2,3,\dots$, $A = A_{\min} = |A_1 - A_2|$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;干涉加强的条件:&lt;/strong&gt; $\Delta \varphi = \pm 2k\pi\ k = 0,1,2,3,\dots$, $A = A_{\max} = A_1 + A_2$。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;干涉减弱的条件:&lt;/strong&gt; $\Delta \varphi = \pm (2k + 1)\pi\ k = 0,1,2,3,\dots$, $A = A_{\min} = |A_1 - A_2|$。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;半波损失&#34;&gt;半波损失
 &lt;/h2&gt;&lt;p&gt;反射波在反射点有 $\pi$ 的相位突变,等效于波多走或少走半个波长的波程,这种现象称为&lt;strong&gt;半波损失&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;弹性波: $\rho u$较大的媒质称为&lt;strong&gt;波密媒质&lt;/strong&gt;；较小的为&lt;strong&gt;波疏媒质&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;弹性波: $\rho u$较大的媒质称为&lt;strong&gt;波密媒质&lt;/strong&gt;；较小的为&lt;strong&gt;波疏媒质&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;波密介质 $\stackrel{无半波损失}{\longrightarrow}$ 波疏媒质&lt;/li&gt;
-  &lt;li&gt;波疏媒质 $\stackrel{半波损失}{\longrightarrow}$ 波密介质&lt;/li&gt;
+  &lt;li&gt;波密介质 $\stackrel{无半波损失}{\longrightarrow}$ 波疏媒质。&lt;/li&gt;
+  &lt;li&gt;波疏媒质 $\stackrel{半波损失}{\longrightarrow}$ 波密介质。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;板书&#34;&gt;板书
 &lt;/h2&gt;&lt;p&gt;这里是 PPT 中没有或者不全的板书。&lt;/p&gt;
 &lt;h3 id=&#34;简谐运动的判据&#34;&gt;简谐运动的判据
 &lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;受线性回复力(矩)&lt;/li&gt;
-&lt;li&gt;$x&amp;rsquo;&amp;rsquo; + \omega^2 x = 0$&lt;/li&gt;
+&lt;li&gt;受线性回复力(矩)。&lt;/li&gt;
+&lt;li&gt;$x&amp;rsquo;&amp;rsquo; + \omega^2 x = 0$。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;$\omega$:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;单位时间相位改变&lt;/li&gt;
-&lt;li&gt;$2\pi$ 秒内完成全振动次数&lt;/li&gt;
+&lt;li&gt;单位时间相位改变。&lt;/li&gt;
+&lt;li&gt;$2\pi$ 秒内完成全振动次数。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;单摆和复摆&#34;&gt;单摆和复摆
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;刚体: 复摆&lt;/li&gt;
-&lt;li&gt;质点: 单摆&lt;/li&gt;
+&lt;li&gt;刚体: 复摆。&lt;/li&gt;
+&lt;li&gt;质点: 单摆。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;横波纵波的根本原因&#34;&gt;横波纵波的根本原因
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;横波的根本原因是剪切形变的弹性力&lt;/li&gt;
-&lt;li&gt;纵波具有容变弹性的媒质都可以传播 (媒质 == 介质)&lt;/li&gt;
+&lt;li&gt;横波的根本原因是剪切形变的弹性力。&lt;/li&gt;
+&lt;li&gt;纵波具有容变弹性的媒质都可以传播 (媒质 == 介质)。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;两个方法&#34;&gt;两个方法
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;振动——旋转矢量法&lt;/li&gt;
-&lt;li&gt;波动——相位落后法&lt;/li&gt;
+&lt;li&gt;振动——旋转矢量法。&lt;/li&gt;
+&lt;li&gt;波动——相位落后法。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;电磁波&#34;&gt;电磁波
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;$c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}$, $/nu = \frac{1}{\sqrt{\varepsilon \mu}} = \frac{c}{n}$&lt;/li&gt;
-&lt;li&gt;$\varepsilon_0$ 真空电容率，真空中某点容纳电场的能力 (老叫法: 真空电介质常数)&lt;/li&gt;
-&lt;li&gt;$\mu_0$ 真空磁导率，容纳磁场的能力&lt;/li&gt;
-&lt;li&gt;$\varepsilon = \varepsilon_0，\varepsilon_r$ 介质电容率&lt;/li&gt;
-&lt;li&gt;$\mu = \mu_0 \mu_r$ 介质磁导率&lt;/li&gt;
-&lt;li&gt;真空 $E = \frac{Q}{4\pi\epsilon_0 r^2}$, 介质 $E = \frac{Q}{4\pi\epsilon_0 \epsilon_r r^2}$&lt;/li&gt;
-&lt;li&gt;$\varepsilon_r$ 相对电容率，$\mu_r$ 相对磁导率&lt;/li&gt;
-&lt;li&gt;光在介质传播速度取决于介质的电磁属性，机械波传播速度取决于介质的力学属性(力学弹性)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LED&lt;/strong&gt;(light-emitting diode) 发光二极管 &lt;del&gt;不是 light electic deng&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;发光原理 $\Delta E = E_3 - E_1 = h\nu$ (假设是从 3 能级跃迁到 1 能级)&lt;/li&gt;
+&lt;li&gt;$c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}$, $\nu = \frac{1}{\sqrt{\varepsilon \mu}} = \frac{c}{n}$。&lt;/li&gt;
+&lt;li&gt;$\varepsilon_0$ 真空电容率，真空中某点容纳电场的能力 (老叫法: 真空电介质常数)。&lt;/li&gt;
+&lt;li&gt;$\mu_0$ 真空磁导率，容纳磁场的能力。&lt;/li&gt;
+&lt;li&gt;$\varepsilon = \varepsilon_0 \varepsilon_r$ 介质电容率。&lt;/li&gt;
+&lt;li&gt;$\mu = \mu_0 \mu_r$ 介质磁导率。&lt;/li&gt;
+&lt;li&gt;真空 $E = \frac{Q}{4\pi\epsilon_0 r^2}$, 介质 $E = \frac{Q}{4\pi\epsilon_0 \epsilon_r r^2}$。&lt;/li&gt;
+&lt;li&gt;$\varepsilon_r$ 相对电容率，$\mu_r$ 相对磁导率。&lt;/li&gt;
+&lt;li&gt;光在介质传播速度取决于介质的电磁属性，机械波传播速度取决于介质的力学属性(力学弹性)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LED&lt;/strong&gt;(light-emitting diode) 发光二极管 &lt;del&gt;不是 light electic deng&lt;/del&gt;。&lt;/li&gt;
+&lt;li&gt;发光原理 $\Delta E = E_3 - E_1 = h\nu$ (假设是从 3 能级跃迁到 1 能级)。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#&#34; &gt;回到顶部&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
