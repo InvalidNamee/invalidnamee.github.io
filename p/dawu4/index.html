@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="波动光学">
+<title>大物第四讲</title>
+
+<link rel='canonical' href='https://invalidnamee.github.io/p/dawu4/'>
+
+<link rel="stylesheet" href="/scss/style.min.ca20a5881f406231b784629373e175e8b0468448d98a2eb27e0864ec4e25029f.css"><meta property='og:title' content="大物第四讲">
+<meta property='og:description' content="波动光学">
+<meta property='og:url' content='https://invalidnamee.github.io/p/dawu4/'>
+<meta property='og:site_name' content='Star&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='notes' /><meta property='article:published_time' content='2025-06-13T19:40:22&#43;08:00'/><meta property='article:modified_time' content='2025-06-13T21:19:57&#43;08:00'/>
+<meta name="twitter:title" content="大物第四讲">
+<meta name="twitter:description" content="波动光学">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_bda395e801470eb9.jpeg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😋</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Star&#39;s Blog</a></h1>
+            <h2 class="site-description">Welcome to my blog!</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/InvalidNamee'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#电磁波谱">电磁波谱</a></li>
+    <li><a href="#光的单色性和相干性光程">光的单色性和相干性、光程</a>
+      <ol>
+        <li><a href="#光源">光源</a>
+          <ol>
+            <li><a href="#光">光</a></li>
+            <li><a href="#普通光源发光机理">普通光源发光机理</a></li>
+          </ol>
+        </li>
+        <li><a href="#光的单色性和相干性">光的单色性和相干性</a>
+          <ol>
+            <li><a href="#光的单色性">光的单色性</a></li>
+            <li><a href="#光的相干性">光的相干性</a></li>
+          </ol>
+        </li>
+        <li><a href="#光程--光程差">光程 &amp; 光程差</a>
+          <ol>
+            <li><a href="#定义">定义</a></li>
+            <li><a href="#相位差与光程差的关系">相位差与光程差的关系</a></li>
+          </ol>
+        </li>
+        <li><a href="#光波的干涉">光波的干涉</a>
+          <ol>
+            <li><a href="#产生干涉的条件">产生干涉的条件</a></li>
+            <li><a href="#产生明暗干涉条纹的条件">产生明暗干涉条纹的条件</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#薄膜干涉">薄膜干涉</a>
+      <ol>
+        <li><a href="#薄膜干涉-1">薄膜干涉</a></li>
+        <li><a href="#薄膜干涉的应用增透膜与增反膜">薄膜干涉的应用——增透膜与增反膜</a>
+          <ol>
+            <li><a href="#定义-1">定义</a></li>
+            <li><a href="#条件">条件</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#光的偏振-马吕斯定律">光的偏振 马吕斯定律</a>
+      <ol>
+        <li><a href="#光的偏振态">光的偏振态</a></li>
+        <li><a href="#常见的偏振态">常见的偏振态</a>
+          <ol>
+            <li><a href="#自然光">自然光</a></li>
+            <li><a href="#部分偏振光">部分偏振光</a></li>
+            <li><a href="#偏振光">偏振光</a></li>
+            <li><a href="#偏振片及透振方向">偏振片及透振方向</a></li>
+            <li><a href="#马吕斯定律">马吕斯定律</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#板书">板书</a></li>
+    <li><a href="#课堂彩蛋">课堂彩蛋</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/dawu4/">大物第四讲</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            波动光学
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-06-13</time>
+            </div>
+        <div class="article-lastmod">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time>
+                    2025-06-13 21:19
+                </time>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+
+
+    
+    <header class="article-category">
+        
+            <a href="/categories/academic/" style="background-color: #2a9d8f; color: #fff;">
+                Academic Course
+            </a>
+        
+    
+    
+
+    
+    <section class="article-tags">
+        
+            <a href="/tags/notes/">Notes</a>
+        
+    </section>
+
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>板书内容：<a class="link" href="#%e6%9d%bf%e4%b9%a6" >点我跳转</a></p>
+<h2 id="电磁波谱">电磁波谱
+</h2><p>把电磁波按照波长或频率的顺序把这些电磁波排列起来，就是电磁波谱。可分为无线电波，微波，红外线，可见光，紫外线，伦琴射线，伽玛射线。
+<img src="/p/dawu4/img1.png"
+	width="2326"
+	height="820"
+	srcset="/p/dawu4/img1_hu_dc03523d4e7c364e.png 480w, /p/dawu4/img1_hu_6a8cd23825650cd5.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="283"
+		data-flex-basis="680px"
+	
+></p>
+<h2 id="光的单色性和相干性光程">光的单色性和相干性、光程
+</h2><h3 id="光源">光源
+</h3><h4 id="光">光
+</h4><p>光 (可见光) 指真空中波长为 $4000 \sim 7600 \text{\AA}$ 的电磁波</p>
+<h4 id="普通光源发光机理">普通光源发光机理
+</h4><p>光由光源中大量原子或分子从高能激发态向低能级状态跃迁时产生的。</p>
+<p><strong>发光特点:</strong> 频率不同、振动方向不同、无确定相位关系、长度有限的独立的波列。</p>
+<h3 id="光的单色性和相干性">光的单色性和相干性
+</h3><h4 id="光的单色性">光的单色性
+</h4><ul>
+<li><strong>单色光:</strong> 具有单一<strong>频率 (波长)</strong> 的光。</li>
+<li><strong>单色光的获得:</strong> 单色光源 (钠光灯)、利用三棱镜色散、通过滤光片、激光。</li>
+</ul>
+<h4 id="光的相干性">光的相干性
+</h4><p><strong>相干光的相干条件</strong></p>
+<ul>
+<li>同频率、同振动方向、在相遇点相位差恒定为相干光。</li>
+<li>补充条件 两束光在相遇点的光强差不能太大。</li>
+</ul>
+<h3 id="光程--光程差">光程 &amp; 光程差
+</h3><h4 id="定义">定义
+</h4><p>若光在折射率为 n 的介质中传播的几何距离为 r，则光程为 nr。</p>
+<p>物理意义：光在媒质中传播的路程 r 等效于相同时间内在真空中能够传播 nr 的路程。</p>
+<h4 id="相位差与光程差的关系">相位差与光程差的关系
+</h4>$$
+\Delta \phi = \frac{2\pi}{\lambda_{真空}}\delta
+$$<p>$\lambda$ 为真空中的波长，$\delta = n_2 r_2 - n_1 r_1$</p>
+<h3 id="光波的干涉">光波的干涉
+</h3><p>在一定条件下，两光波相遇时，使某些点的振动始终加强，而另一些点的振动始终减弱或完全抵消的现象，称为光的干涉现象。</p>
+<h4 id="产生干涉的条件">产生干涉的条件
+</h4><ul>
+<li>频率相同</li>
+<li>振动方向相同</li>
+<li>相位相同或相位差恒定</li>
+</ul>
+<h4 id="产生明暗干涉条纹的条件">产生明暗干涉条纹的条件
+</h4><blockquote>
+<p>这里 PPT 有点混乱，我自己改了一下</p></blockquote>
+<ul>
+<li>干涉增强的条件: $\Delta \varphi = \pm 2k\pi,\ k = 0,1,2,3,\dots$, $A = A_{\max} = A_1 + A_2$.</li>
+<li>干涉减弱的条件: $\Delta \varphi = \pm (2k + 1)\pi,\ k = 0,1,2,3,\dots$, $A = A_{\min} = |A_1 - A_2|$.</li>
+</ul>
+<p>用<strong>相位差</strong>表示为
+</p>
+$$
+\Delta \varphi = \frac{2\pi}{\lambda_{真空}}\delta =
+\begin{cases}
+    \pm 2k\pi & 干涉增强\\
+    \pm (2k + 1) \pi & 干涉减弱
+\end{cases}
+\ k = 0,\pm 1,\pm 2, \dots
+$$<p>用<strong>光程差</strong>表示为
+</p>
+$$
+\Delta \delta =
+\begin{cases}
+    \pm k\lambda\pi & 干涉增强\\
+    \pm (2k + 1)\frac{\lambda}{2} \pi & 干涉减弱
+\end{cases}
+\ \delta = n_2 r_2 - n_1 r_1,\ \ k = 0,\pm 1,\pm 2, \dots
+$$<h2 id="薄膜干涉">薄膜干涉
+</h2><h3 id="薄膜干涉-1">薄膜干涉
+</h3><p>光波经薄膜两表面反射或透射后相互叠加所形成的干涉现象。</p>
+<div style="display: flex; width: 100%; align-items: flex-start;">
+  <div style="flex: 3; padding-right: 1em;">
+    <ul>
+      <li>反射光光程差$$\delta = 2n_2e + \frac{\lambda}{2}$$e 是薄膜厚度。</li>
+      <li>薄膜干涉加强与减弱的条件$$\delta = 2n_2e + \frac{\lambda}{2} =\begin{cases}k\lambda\ (k = 1,2,\dots) & 加强\\(2k + 1)\frac{\lambda}{2}\ (k = 0,1,2,\dots) & 减弱\end{cases}$$</li>
+    </ul>
+  </div>
+  <div style="flex: 2; display: flex; flex-direction: column; gap: 0.5em;">
+    <img src="img2.png" style="zoom: 50%;" />
+  </div>
+</div>
+<h3 id="薄膜干涉的应用增透膜与增反膜">薄膜干涉的应用——增透膜与增反膜
+</h3><h4 id="定义-1">定义
+</h4><ul>
+<li>增加透射率的薄膜叫做<strong>增透膜</strong></li>
+<li>增加反射率的薄膜叫做<strong>增反膜</strong></li>
+</ul>
+<h4 id="条件">条件
+</h4>$$
+\delta = 2n_2e + \frac{\lambda}{2} =
+\begin{cases}
+(2k + 1)\frac{\lambda}{2}\ (k = 0,1,2,\dots) & 干涉减弱\ 增透\\
+k\lambda\ (k = 1,2,\dots) & 干涉增强\ 增反
+\end{cases}
+$$<h2 id="光的偏振-马吕斯定律">光的偏振 马吕斯定律
+</h2><h3 id="光的偏振态">光的偏振态
+</h3><p>光是横波，光具有偏振现象。</p>
+<h3 id="常见的偏振态">常见的偏振态
+</h3><h4 id="自然光">自然光
+</h4><p>包含各个方向的光振动，在所有可能的方向上 的振幅都相等的光。</p>
+<p><strong>表示:</strong></p>
+<img src="img3.png" style="zoom: 66%" />
+<h4 id="部分偏振光">部分偏振光
+</h4><p>某一方向的光振动比与之相垂直方向的光振动占优势的光。</p>
+<p><strong>表示:</strong></p>
+<p><img src="/p/dawu4/img4.png"
+	width="1254"
+	height="132"
+	srcset="/p/dawu4/img4_hu_606152f5e99cd0b9.png 480w, /p/dawu4/img4_hu_5da4d23e7a5ac4d1.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="950"
+		data-flex-basis="2280px"
+	
+></p>
+<h4 id="偏振光">偏振光
+</h4><p>只含有单一方向光振动的光叫做偏振光。也称为<strong>线偏振光、平面偏振光、完全偏振光</strong>。</p>
+<p><strong>表示:</strong></p>
+<p><img src="/p/dawu4/img5.png"
+	width="1262"
+	height="150"
+	srcset="/p/dawu4/img5_hu_f8c0bc799db69670.png 480w, /p/dawu4/img5_hu_e65a5e3cb8fab3d0.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="841"
+		data-flex-basis="2019px"
+	
+></p>
+<h4 id="偏振片及透振方向">偏振片及透振方向
+</h4><ul>
+<li><strong>偏振片:</strong> 能吸收某一方向的光振动，只允许与之垂直方向上的光振动通过的一种光学元件。
+<img src="img6.png" style="zoom: 50%" /></li>
+<li><strong>透振方向:</strong> 偏振片上允许通过的光振动方向称为偏振片的偏振化方向。</li>
+</ul>
+<h4 id="马吕斯定律">马吕斯定律
+</h4><img src="img7.png" style="zoom: 50%" />
+<div style="display: flex;">
+  <div style="flex: 3;">
+    <p>一束光强为 $I_0$ 的<strong>线偏振光</strong>，透过<strong>检偏器</strong>以后，透射光强为: $$I = I_0\cos^2\theta$$</p>
+    <ul>
+      <li>一束光强为 的自然光透过起偏器，透射光强为: $I = \frac{I_0}{2}$</li>
+      <li>$\theta = 0$ 时，$I = I_0$</li>
+      <li>$\theta = 90\degree$ 时，$I = 0$</li>
+    </ul>
+  </div>
+  <div style="flex: 2; flex-direction: column;">
+    <div style="display: flex;">
+      <p style="flex: 1;">$$E = E_0 \cos \theta$$$$ \frac{I}{I_o} = \frac{E^2}{E_0^2}$$</p>
+      <img src="img8.png" style="zoom: 30%; flex: 1"/>
+    </div>
+    <p>$\theta$ 为线偏光的振动方向与透振方向的夹角。</p>
+  </div>
+</div>
+<h2 id="板书">板书
+</h2><ul>
+<li>X 射线: 拍片，CT，XRD (X 射线衍射)，消融术</li>
+<li>$1 \text{nm} = 10 \text{\AA} = 1 \times 10^{-10}\text{m}$</li>
+<li>可见光范围: $4000 \sim 7600 \text{\AA}$</li>
+<li>镀膜 $e_{\min} = \frac{\lambda_{介质}}{4}$</li>
+<li>偏振片是二向色性物质</li>
+</ul>
+<h2 id="课堂彩蛋">课堂彩蛋
+</h2><ul>
+<li>研究生面试时，一考生被问到如何测纳米材料的间距，他思考了数秒后，表示用<strong>游标卡尺</strong>，当场被 pass（实际上应该用 X 射线衍射法）。</li>
+<li>有一种手机叫 wāi wāi cào[?]。</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2025-06-13 21:19
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/dawu3/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">大物第三讲</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/xinli-note/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">心理笔记</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/dm01/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">离散数学：最短路的代码实现</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="InvalidNamee/invalidnamee.github.io"
+    data-repo-id="R_kgDOO4h0hw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOO4h0h84CrSyy"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 InvalidNamee
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+    @font-face {
+      font-family: 'PlanKaiA-SC';
+      src: url(https://invalidnamee.github.io/font/PlanKaiA-SC.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'ChildFunSans-ZHS';
+      src: url(https://invalidnamee.github.io/font/ChildFunSans-ZHS.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'NotoSansMono-Regular';
+      src: url(https://invalidnamee.github.io/font/NotoSansMono-Regular.ttf) format('truetype');
+    }
+
+    :root {
+      --base-font-family: 'PlanKaiA-SC', 'ChildFunSans-ZHS', 'NotoSansMono-Regular', sans-serif;
+      --code-font-family: 'NotoSansMono-Regular';
+    }
+</style>
+    </body>
+</html>
