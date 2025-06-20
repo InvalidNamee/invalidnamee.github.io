@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Thu, 19 Jun 2025 13:48:15 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 20 Jun 2025 18:31:11 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JavaScript</title>
+        <link>https://invalidnamee.github.io/tags/javascript/</link>
+        <pubDate>Fri, 20 Jun 2025 17:45:47 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/tags/javascript/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Crawler</title>
         <link>https://invalidnamee.github.io/tags/crawler/</link>
         <pubDate>Thu, 19 Jun 2025 10:37:33 +0800</pubDate>
