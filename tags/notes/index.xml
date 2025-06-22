@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Sun, 22 Jun 2025 17:27:13 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Jun 2025 17:54:46 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>大物公式结论汇总</title>
         <link>https://invalidnamee.github.io/p/dawu-summary/</link>
         <pubDate>Sat, 21 Jun 2025 16:49:25 +0800</pubDate>
@@ -25,7 +25,7 @@
 \vec{F} = -G_0\frac{m_1 m_2}{r^2}\vec{e}_r,\ \ G_0 = 6.67 \times 10^{-11} N·m^2/kg^2
 $$&lt;h3 id=&#34;功--功率&#34;&gt;功 &amp;amp; 功率
 &lt;/h3&gt;$$
-\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F |\mathrm{d}\vec{r}| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
+\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F \left|\mathrm{d}\vec{r}\right| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
 A = \int \mathrm{d}A
 $$$$
 \bar{P} = \frac{\Delta A}{\Delta t}\\

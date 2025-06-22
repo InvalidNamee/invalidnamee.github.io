@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Sun, 22 Jun 2025 17:27:13 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Jun 2025 17:54:46 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Notes</title>
         <link>https://invalidnamee.github.io/tags/notes/</link>
         <pubDate>Sat, 21 Jun 2025 16:49:25 +0800</pubDate>
@@ -29,6 +29,38 @@
         <pubDate>Thu, 19 Jun 2025 10:37:33 +0800</pubDate>
         
         <guid>https://invalidnamee.github.io/tags/crawler/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Python</title>
+        <link>https://invalidnamee.github.io/tags/python/</link>
+        <pubDate>Thu, 19 Jun 2025 10:37:33 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/tags/python/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Solutions</title>
+        <link>https://invalidnamee.github.io/tags/solutions/</link>
+        <pubDate>Sun, 08 Jun 2025 09:04:41 +0000</pubDate>
+        
+        <guid>https://invalidnamee.github.io/tags/solutions/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>C&#43;&#43;</title>
+        <link>https://invalidnamee.github.io/tags/c&#43;&#43;/</link>
+        <pubDate>Sat, 22 Mar 2025 03:15:46 +0000</pubDate>
+        
+        <guid>https://invalidnamee.github.io/tags/c&#43;&#43;/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Outdated</title>
+        <link>https://invalidnamee.github.io/tags/outdated/</link>
+        <pubDate>Tue, 30 Aug 2022 09:14:00 +0000</pubDate>
+        
+        <guid>https://invalidnamee.github.io/tags/outdated/</guid>
         <description></description>
         </item>
         

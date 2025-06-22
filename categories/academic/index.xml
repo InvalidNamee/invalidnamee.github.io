@@ -24,7 +24,7 @@
 \vec{F} = -G_0\frac{m_1 m_2}{r^2}\vec{e}_r,\ \ G_0 = 6.67 \times 10^{-11} N·m^2/kg^2
 $$&lt;h3 id=&#34;功--功率&#34;&gt;功 &amp;amp; 功率
 &lt;/h3&gt;$$
-\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F |\mathrm{d}\vec{r}| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
+\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F \left|\mathrm{d}\vec{r}\right| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
 A = \int \mathrm{d}A
 $$$$
 \bar{P} = \frac{\Delta A}{\Delta t}\\

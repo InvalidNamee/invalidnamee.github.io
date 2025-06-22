@@ -10,7 +10,7 @@
 <meta property='og:description' content="A. 鲁的学生 大水题，但是我没看到要取模连 WA 两次。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #include &lt;iostream&gt; #include &lt;algorithm&gt; using namespace std; const int MOD = 1000000007; int main() { long long res = 0; int n; scanf(&#34;%d&#34;, &amp;n); for (int i = 1; i &lt;= n; ++i) { int t; scanf(&#34;%d&#34;, &amp;t); res += (long long)i * (n - i + 1) % MOD * t % MOD; res %= MOD; } printf(&#34;%lld\\n&#34;, res); return 0; } B. 鲁的探险 n 个点 n 条边，而且每个点都至少有 1 度，显然这张图是基环树（一棵树随便加一条边构成的连通的只有一个环的图）构成森林。所有的点最后都会走到对应连通块的环里，随后绕一圈结束；明白了这点那么做法就很简单了，记点 i 的答案为 \\(val_i\\)\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025st10/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-24T09:41:59&#43;00:00'/><meta property='article:modified_time' content='2025-06-09T19:01:52&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='solutions' /><meta property='article:published_time' content='2025-03-24T09:41:59&#43;00:00'/><meta property='article:modified_time' content='2025-06-22T17:54:46&#43;08:00'/>
 <meta name="twitter:title" content="2025 春训第十场">
 <meta name="twitter:description" content="A. 鲁的学生 大水题，但是我没看到要取模连 WA 两次。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #include &lt;iostream&gt; #include &lt;algorithm&gt; using namespace std; const int MOD = 1000000007; int main() { long long res = 0; int n; scanf(&#34;%d&#34;, &amp;n); for (int i = 1; i &lt;= n; ++i) { int t; scanf(&#34;%d&#34;, &amp;t); res += (long long)i * (n - i + 1) % MOD * t % MOD; res %= MOD; } printf(&#34;%lld\\n&#34;, res); return 0; } B. 鲁的探险 n 个点 n 条边，而且每个点都至少有 1 度，显然这张图是基环树（一棵树随便加一条边构成的连通的只有一个环的图）构成森林。所有的点最后都会走到对应连通块的环里，随后绕一圈结束；明白了这点那么做法就很简单了，记点 i 的答案为 \\(val_i\\)\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -301,7 +301,7 @@
 
 
                 <time>
-                    2025-06-09 19:01
+                    2025-06-22 17:54
                 </time>
             </div>
             <div>
@@ -335,6 +335,12 @@
     
 
     
+    <section class="article-tags">
+        
+            <a href="/tags/solutions/">Solutions</a>
+        
+    </section>
+
 </div>
 
 </header>
@@ -673,7 +679,7 @@
 
 
         <span>
-            最后更新于 2025-06-09 19:01
+            最后更新于 2025-06-22 17:54
         </span>
     </section></footer>
 

@@ -10,7 +10,7 @@
 <meta property='og:description' content="A. 鲁的智力 我刚开始看到这道题之后默默的放弃了，选择了后面的 dp 题。\n最小排名：至少有多少个人比他分数高。\n最大排名：至少有多少个人比他分数低。\n两边都是考虑极限情况，以第一种为例。一个人要想稳定的分数比另一个人高，那必然每道题都比另一个高，于是问题转化成至少有几个人每道题分数都比他高。设第 i 道题的排名是 \\(a_i\\)，考虑一道题的时候，情况是确定的，这道题比他高的人肯定满足所有题都比他高；两道题的时候，考虑边界情况——第二道题比他高的人和第一道题比他高的人最大程度的不重叠，所以人数应该是 \\(\\max{0, a_2 + a_1 - m - 1}\\)；现在相当于前两道题已经合成一道大的题了，再不断往下计算就能算出来最后的结果。第二种同理。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025st9/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-24T09:41:34&#43;00:00'/><meta property='article:modified_time' content='2025-06-09T19:01:52&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='solutions' /><meta property='article:published_time' content='2025-03-24T09:41:34&#43;00:00'/><meta property='article:modified_time' content='2025-06-22T17:54:46&#43;08:00'/>
 <meta name="twitter:title" content="2025春训第九场">
 <meta name="twitter:description" content="A. 鲁的智力 我刚开始看到这道题之后默默的放弃了，选择了后面的 dp 题。\n最小排名：至少有多少个人比他分数高。\n最大排名：至少有多少个人比他分数低。\n两边都是考虑极限情况，以第一种为例。一个人要想稳定的分数比另一个人高，那必然每道题都比另一个高，于是问题转化成至少有几个人每道题分数都比他高。设第 i 道题的排名是 \\(a_i\\)，考虑一道题的时候，情况是确定的，这道题比他高的人肯定满足所有题都比他高；两道题的时候，考虑边界情况——第二道题比他高的人和第一道题比他高的人最大程度的不重叠，所以人数应该是 \\(\\max{0, a_2 + a_1 - m - 1}\\)；现在相当于前两道题已经合成一道大的题了，再不断往下计算就能算出来最后的结果。第二种同理。\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -302,7 +302,7 @@
 
 
                 <time>
-                    2025-06-09 19:01
+                    2025-06-22 17:54
                 </time>
             </div>
             <div>
@@ -336,6 +336,12 @@
     
 
     
+    <section class="article-tags">
+        
+            <a href="/tags/solutions/">Solutions</a>
+        
+    </section>
+
 </div>
 
 </header>
@@ -793,7 +799,7 @@
 
 
         <span>
-            最后更新于 2025-06-09 19:01
+            最后更新于 2025-06-22 17:54
         </span>
     </section></footer>
 

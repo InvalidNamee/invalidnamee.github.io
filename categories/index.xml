@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Fri, 20 Jun 2025 18:31:11 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Jun 2025 17:54:46 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2025春训系列</title>
         <link>https://invalidnamee.github.io/categories/2025st/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,6 +22,14 @@
         
         <guid>https://invalidnamee.github.io/categories/academic/</guid>
         <description>&lt;img src="https://invalidnamee.github.io/categories/academic/background.png" alt="Featured image of post Academic Course" /&gt;</description>
+        </item>
+        <item>
+        <title>赛事</title>
+        <link>https://invalidnamee.github.io/categories/contests/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://invalidnamee.github.io/categories/contests/</guid>
+        <description>&lt;img src="https://invalidnamee.github.io/categories/contests/background.png" alt="Featured image of post 赛事" /&gt;</description>
         </item>
         <item>
         <title>学以致用系列</title>

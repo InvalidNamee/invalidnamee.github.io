@@ -24,7 +24,7 @@
 \vec{F} = -G_0\frac{m_1 m_2}{r^2}\vec{e}_r,\ \ G_0 = 6.67 \times 10^{-11} N·m^2/kg^2
 $$&lt;h3 id=&#34;功--功率&#34;&gt;功 &amp;amp; 功率
 &lt;/h3&gt;$$
-\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F |\mathrm{d}\vec{r}| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
+\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F \left|\mathrm{d}\vec{r}\right| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
 A = \int \mathrm{d}A
 $$$$
 \bar{P} = \frac{\Delta A}{\Delta t}\\
@@ -18099,7 +18099,7 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         <pubDate>Sun, 02 Mar 2025 15:09:48 +0000</pubDate>
         
         <guid>https://invalidnamee.github.io/p/5asx6liq5lq65yj5zue5b2s/</guid>
-        <description>&lt;p&gt;应 🐸 的建议，不能光埋头刷题，还应该 &lt;strong&gt;&lt;s&gt;水水博客&lt;/s&gt;&lt;/strong&gt; 写写题解，所以后续会时不时更新&lt;strong&gt;训练赛&lt;/strong&gt;和 CSES Problem Set 部分**&lt;s&gt;我会的&lt;/s&gt;**题的题解。&lt;/p&gt;
+        <description>&lt;p&gt;应 🐸 的建议，不能光埋头刷题，还应该 &lt;strong&gt;&lt;del&gt;水水博客&lt;/del&gt;&lt;/strong&gt; 写写题解，所以后续会时不时更新&lt;strong&gt;训练赛&lt;/strong&gt;和 CSES Problem Set 部分&lt;s&gt;&lt;strong&gt;我会的&lt;/strong&gt;&lt;/s&gt;题的题解。&lt;/p&gt;
 &lt;p&gt;我个人网络预选赛打的还是挺顺利的，&lt;s&gt;虽然榜一差点被抢了&lt;/s&gt;。 大部分题都是非常基础的签到题难度的题，主要可能是有的题比较阴间，这种难度应该也不怎么用看代码吧，&lt;s&gt;绝对不是打的时候着急赶时间就没存代码&lt;/s&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;a-acm-常识问答&#34;&gt;A. ACM 常识问答
 &lt;/h2&gt;&lt;p&gt;这**”常识”**反正我是不知道，用 python 随机了七十多次答案未果。&lt;/p&gt;
@@ -18108,8 +18108,7 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h2 id=&#34;c-大小&#34;&gt;C. 大小
 &lt;/h2&gt;&lt;p&gt;签到题，直接 if-else 就行&lt;/p&gt;
 &lt;h2 id=&#34;d-子序列&#34;&gt;D. 子序列
-&lt;/h2&gt;&lt;p&gt;维护前缀和数组s，对每一个位置i，二分查找 0 ~ i - 1 中第一个 ≤ s&lt;/p&gt;
-\[i\]&lt;p&gt; - k 位置，加起来就是答案，二分可以直接用 upper_bound。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;维护前缀和数组s，对每一个位置i，二分查找 0 ~ i - 1 中第一个 ≤ $s_i - k$ 位置，加起来就是答案，二分可以直接用 upper_bound。&lt;/p&gt;
 &lt;h2 id=&#34;e-神秘咒符&#34;&gt;E. 神秘咒符
 &lt;/h2&gt;&lt;p&gt;签到题，遍历字符串挨个比较就行，&lt;/p&gt;
 &lt;h2 id=&#34;f-油专串&#34;&gt;F. 油专串
@@ -18175,7 +18174,7 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;k-卡牌游戏&#34;&gt;K. 卡牌游戏
-&lt;/h2&gt;&lt;p&gt;直接 n² 挨个试就行了。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;直接 $n^2$ 挨个试就行了。&lt;/p&gt;
 &lt;h2 id=&#34;l-魔法&#34;&gt;L. 魔法
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -20032,7 +20031,7 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         <pubDate>Tue, 30 Aug 2022 08:37:07 +0000</pubDate>
         
         <guid>https://invalidnamee.github.io/p/noip2014/</guid>
-        <description>&lt;p&gt;险些把&lt;a class=&#34;link&#34; href=&#34;https://hashnode.com/@Laffey&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;p&gt;险些把&lt;a class=&#34;link&#34; href=&#34;https://laffey.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@Laffey&lt;/a&gt;的题抢了&lt;/p&gt;
 &lt;p&gt;注意审题！！因为审题出了很多问题。&lt;/p&gt;
 &lt;p&gt;这题一眼看下去很无从下手，简单来说就是&lt;strong&gt;距离为2的两个点的权值之积为联合权值&lt;/strong&gt;，让求&lt;strong&gt;最大联合权值&lt;/strong&gt;和&lt;strong&gt;所有联合权值的总和&lt;/strong&gt;&lt;/p&gt;
