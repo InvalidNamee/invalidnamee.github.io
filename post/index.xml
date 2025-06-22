@@ -7,7 +7,281 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Fri, 20 Jun 2025 18:31:11 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Jun 2025 17:27:13 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>大物公式结论汇总</title>
+        <link>https://invalidnamee.github.io/p/dawu-summary/</link>
+        <pubDate>Sat, 21 Jun 2025 16:49:25 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/p/dawu-summary/</guid>
+        <description>&lt;h2 id=&#34;观前提醒&#34;&gt;观前提醒
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;不全！不全！不全！不全！&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;每个人容易忘的不一定一样。&lt;/li&gt;
+&lt;li&gt;大物系列 (包括之前的) 所有插图转自徐老师的 PPT。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;动力学&#34;&gt;动力学
+&lt;/h2&gt;&lt;h3 id=&#34;万有引力公式&#34;&gt;万有引力公式
+&lt;/h3&gt;$$
+\vec{F} = -G_0\frac{m_1 m_2}{r^2}\vec{e}_r,\ \ G_0 = 6.67 \times 10^{-11} N·m^2/kg^2
+$$&lt;h3 id=&#34;功--功率&#34;&gt;功 &amp;amp; 功率
+&lt;/h3&gt;$$
+\mathrm{d}A = \vec{F} \cdot \mathrm{d}\vec{r} = F |\mathrm{d}\vec{r}| \cos \theta = F \mathrm{d}s \cos \theta = F_t\mathrm{d}s\\
+A = \int \mathrm{d}A
+$$$$
+\bar{P} = \frac{\Delta A}{\Delta t}\\
+\ \\
+P = \frac{\mathrm{d}A}{\mathrm{d}t}
+$$&lt;h3 id=&#34;势能&#34;&gt;势能
+&lt;/h3&gt;&lt;h4 id=&#34;定义式&#34;&gt;定义式
+&lt;/h4&gt;$$
+E_p(a) = \int_{a}^{势能零点}\vec{F}\cdot\mathrm{d}\vec{l}
+$$&lt;h4 id=&#34;引力势能&#34;&gt;引力势能
+&lt;/h4&gt;$$
+E_p(r) = -G\frac{Mm}{r}
+$$&lt;h4 id=&#34;弹性势能&#34;&gt;弹性势能
+&lt;/h4&gt;$$
+E_p(x) = \frac{1}{2}kx^2
+$$&lt;h3 id=&#34;动量定理&#34;&gt;动量定理
+&lt;/h3&gt;$$
+\mathrm{d}\vec{I} = \vec{F}\mathrm{d}t = \mathrm{d}p\\
+\vec{I} = \int_{t_1}^{t_2}\vec{F}\mathrm{d}t = \Delta{\vec{p}}
+$$&lt;h3 id=&#34;角动量&#34;&gt;角动量
+&lt;/h3&gt;&lt;p&gt;注意 &lt;strong&gt;合·外力矩&lt;/strong&gt; 和 &lt;strong&gt;合外力·矩&lt;/strong&gt;&lt;/p&gt;
+$$
+\vec{L} = \vec{r} \times \vec{p} = \vec{r} \times m \vec{v}\\
+\vec{M} = \vec{r} \times \vec{F}
+$$$$
+J = \begin{cases}
+    \int_V r^2 \mathrm{d} m &amp; 连续\\
+    \sum_{i = 1}^{n} \Delta{m_i} r_i^2 &amp; 离散
+\end{cases}\\
+\vec{L} = J\vec{\omega}
+$$&lt;h2 id=&#34;振动和波动&#34;&gt;振动和波动
+&lt;/h2&gt;&lt;h3 id=&#34;简谐振动&#34;&gt;简谐振动
+&lt;/h3&gt;$$
+\frac{d^2x}{dt^2} + \omega^2 x = 0\\
+\ \\
+E_k = \frac{1}{2} m v^2 = \frac{1}{2} k A^2 \sin^2(\omega t + \varphi)\\
+\ \\
+E_p = \frac{1}{2} k x^2 = \frac{1}{2} k A^2 \cos^2(\omega t + \varphi)
+$$&lt;h3 id=&#34;机械波&#34;&gt;机械波
+&lt;/h3&gt;$$
+右行波\ y(x, t) = A\cos\left[\omega \left(t - \frac{x}{u}\right) + \varphi_0\right]
+$$&lt;h2 id=&#34;波动光学&#34;&gt;波动光学
+&lt;/h2&gt;&lt;p&gt;可见光范围: $4000 \sim 7600 \text{\AA}$。&lt;/p&gt;
+&lt;h2 id=&#34;热学&#34;&gt;热学
+&lt;/h2&gt;&lt;h3 id=&#34;理想气体状态方程&#34;&gt;理想气体状态方程
+&lt;/h3&gt;$$
+pV = \nu RT\\
+\ \\
+pM_{mol} = \rho RT\\
+\ \\
+p = nkT
+$$&lt;h3 id=&#34;微观热力学&#34;&gt;微观热力学
+&lt;/h3&gt;$$
+p = \frac{2}{3}\bar{\varepsilon}_k\\
+\ \\
+\bar{\varepsilon}_k. \frac{3}{2}kT\\
+\ \\
+T = \frac{2\bar{\varepsilon}_k}{3k}\\
+\ \\
+E_内 = \nu \frac{i}{2}RT\\
+\ \\
+E_内 = \nu N_A \frac{i}{3} \bar{\varepsilon}_k
+$$&lt;h3 id=&#34;宏观热力学&#34;&gt;宏观热力学
+&lt;/h3&gt;$$
+Q_{\color{red}{吸}} = \Delta E_{内} + A_{\color{red}{对外}}\\
+\ \\
+C_{V, m} = \frac{i}{2} R\\
+\ \\
+C_{p, m} = \frac{i}{2} R + R
+$$&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;p style=&#34;color: red; text-align: left&#34;&gt;重要表格&lt;/p&gt;&lt;/th&gt;
+          &lt;th&gt;过程特征&lt;/th&gt;
+          &lt;th&gt;过程方程&lt;/th&gt;
+          &lt;th&gt;吸收热量&lt;/th&gt;
+          &lt;th&gt;对外做功&lt;/th&gt;
+          &lt;th&gt;内能增量&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;等容过程&lt;/td&gt;
+          &lt;td&gt;$V = C$&lt;/td&gt;
+          &lt;td&gt;$\frac{p}{T} = C$&lt;/td&gt;
+          &lt;td&gt;$\nu C_{V, m}\Delta T$&lt;/td&gt;
+          &lt;td&gt;$0$&lt;/td&gt;
+          &lt;td&gt;$\nu C_{V, m}\Delta T$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;等压过程&lt;/td&gt;
+          &lt;td&gt;$p = C$&lt;/td&gt;
+          &lt;td&gt;$\frac{V}{T} = C$&lt;/td&gt;
+          &lt;td&gt;$\nu C_{p, m}\Delta T$&lt;/td&gt;
+          &lt;td&gt;$p(V_2 - V_1)$&lt;/td&gt;
+          &lt;td&gt;$\nu C_{V, m}\Delta T$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;等温过程&lt;/td&gt;
+          &lt;td&gt;$T = C$&lt;/td&gt;
+          &lt;td&gt;$pV = C$&lt;/td&gt;
+          &lt;td&gt;$\nu RT \ln \frac{V_2}{V_1}$&lt;/td&gt;
+          &lt;td&gt;$\nu RT \ln \frac{V_2}{V_1}$&lt;/td&gt;
+          &lt;td&gt;$0$&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;静电场&#34;&gt;静电场
+&lt;/h2&gt;&lt;h3 id=&#34;高斯定理&#34;&gt;高斯定理
+&lt;/h3&gt;$$
+\varPhi = \oiint_S \vec{E} \cdot \mathrm{d} \vec{S} = \frac{1}{\varepsilon_0} \sum_{S内} q
+$$&lt;h3 id=&#34;场强--电势-能&#34;&gt;场强 &amp;amp; 电势 (能)
+&lt;/h3&gt;$$
+W_a = q_0 \int_a^{零点}\vec{E} \cdot \mathrm{d} \vec{l}\\
+\ \\
+U_a = \frac{W_a}{q_0} = \int_a^\infty \vec{E} \cdot \mathrm{d} \vec{l}
+$$&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;无限大均匀带电平面&lt;/th&gt;
+          &lt;th&gt;均匀带电球面&lt;/th&gt;
+          &lt;th&gt;均匀带电球体&lt;/th&gt;
+          &lt;th&gt;静电平衡下的导体&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;电场强度&lt;/td&gt;
+          &lt;td&gt;$$E = \frac{\sigma}{2\varepsilon_0}$$&lt;/td&gt;
+          &lt;td&gt;$$E = \begin{cases}0 &amp; r &lt; R\\\frac{Q}{4\pi\varepsilon_0 r^2} &amp; r &gt; R\end{cases}$$&lt;/td&gt;
+          &lt;td&gt;$$E = \begin{cases}\frac{\rho r}{3\varepsilon_0} &amp; r &lt; R\\\frac{Q}{4\pi\varepsilon_0 r^2} &amp; r &gt; R\end{cases}$$&lt;/td&gt;
+          &lt;td&gt;$$E = \begin{cases}\vec{0} &amp; 内部\\\frac{\sigma}{\varepsilon_0} &amp; 表面 \end{cases}$$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;电势&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;$$U = \begin{cases}\frac{Q}{4\pi\varepsilon_0 R} &amp; r &lt; R\\\frac{Q}{4\pi\varepsilon_0 r} &amp; r &gt; R\end{cases}$$&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;导体是等势体&lt;br&gt;导体表面是等势面&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;静电平衡下实心导体 $\rho = 0$&lt;/p&gt;
+&lt;h3 id=&#34;导体空腔&#34;&gt;导体空腔
+&lt;/h3&gt;&lt;h4 id=&#34;第一类导体空腔&#34;&gt;第一类导体空腔
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;在静电平衡状态下，空腔导体的内表面上无电荷或内表面上面电荷密度处处为零；电荷只分布在外表面。&lt;/li&gt;
+&lt;li&gt;空腔内无电场，腔体是等势体，空腔表面是等势面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;第二类导体空腔&#34;&gt;第二类导体空腔
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;在静电平衡状态下，导体壳的内表面上所带电荷的代数和与空腔内电荷的代数和等值反号。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;静电屏蔽&#34;&gt;静电屏蔽
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;导体空腔可以保护腔内空间不受腔外电荷和电场的影响；&lt;/li&gt;
+&lt;li&gt;接地的导体空腔可保护腔外空间不受腔内电荷和电场的影响。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;两个无限长带电平面&#34;&gt;两个无限长带电平面
+&lt;/h3&gt;&lt;div style=&#34;display: flex&#34;&gt; 
+&lt;div style=&#34;flex: 2&#34;&gt;
+$$
+\sigma_1 = \sigma_4,\ \sigma_2 = -\sigma_3\\
+\ \\
+\sigma_1 = \sigma_4 = \frac{Q_A + Q_B}{2S},\ \sigma_2 = -\sigma_3 = \frac{Q_A - Q_B}{2S}
+$$&lt;/div&gt;
+&lt;img src=&#34;img.png&#34; style=&#34;zoom: 50%; flex: 1&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;电容器&#34;&gt;电容器
+&lt;/h3&gt;$$
+C = \frac{q}{U} = \frac{\varepsilon_0 S}{d}\\
+\ \\
+W = \frac{1}{2}CU^2 = \frac{Q^2}{2C} = \frac{1}{2}QU
+$$&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;并联:&lt;/strong&gt; 各电容器 U 相等
+$$
+  C = \sum_{i = 1}^{n}C_i
+  $$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;串联:&lt;/strong&gt; 各电容器 q 相等
+$$
+  \frac{1}{C} = \sum_{i = 1}^{n}\frac{1}{C_i}
+  $$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;稳恒磁场&#34;&gt;稳恒磁场
+&lt;/h2&gt;&lt;h3 id=&#34;电流的磁场&#34;&gt;电流的磁场
+&lt;/h3&gt;$$
+\mathrm{d}\vec{B} = \frac{\mu_0}{4\pi}\frac{I\mathrm{d}\vec{l}\times\vec{e}_r}{r^2}\\
+\ \\
+\mathrm{d}B = \frac{\mu_0}{4\pi}\frac{I\mathrm{d}l\sin\theta}{r^2}
+$$&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;载流直导线&lt;/th&gt;
+          &lt;th&gt;无限长载流直导线&lt;/th&gt;
+          &lt;th&gt;半无限长载流直导线&lt;/th&gt;
+          &lt;th&gt;无限长载流圆柱形导体&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$$B = \frac{\mu_0 I}{4\pi a}\left(\cos\theta_1 - \cos\theta_2\right)$$&lt;/td&gt;
+          &lt;td&gt;$$B = \frac{\mu_0 I}{2\pi a}$$&lt;/td&gt;
+          &lt;td&gt;$$B = \frac{\mu_0 I}{4\pi a}$$&lt;/td&gt;
+          &lt;td&gt;$$B = \begin{cases}\frac{\mu_0 I}{2\pi r} &amp; r &gt; R\\\frac{\mu_0 I}{2\pi R^2}r &amp; r &lt; R \end{cases}$$&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;圆环圆心&lt;/th&gt;
+          &lt;th&gt;半圆环圆心&lt;/th&gt;
+          &lt;th&gt;圆弧圆心&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$$B = \frac{\mu_0 I}{2 R}$$&lt;/td&gt;
+          &lt;td&gt;$$B = \frac{\mu_0 I}{4 R}$$&lt;/td&gt;
+          &lt;td&gt;$$B = \frac{\mu_0 I}{2 R}\frac{\theta}{2\pi}$$&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;li style=&#34;color: red&#34;&gt;直线有 $\pi$，圆环反而没有 $\pi$&lt;/li&gt;
+&lt;h3 id=&#34;安培环路定理&#34;&gt;安培环路定理
+&lt;/h3&gt;$$
+\oint_L \vec{B}\cdot\mathrm{d}\vec{l} = \mu_0\sum_{L内}I_i
+$$&lt;h3 id=&#34;安培力&#34;&gt;安培力
+&lt;/h3&gt;$$
+\mathrm{d}\vec{F} = I \mathrm{d}\vec{l} \times B
+$$&lt;p&gt;与均匀磁场垂直的平面内任意形状的载流导线受的力等效于弯曲导线起点到终点的直线电流在磁场中所受的力。&lt;/p&gt;
+&lt;h2 id=&#34;电磁感应&#34;&gt;电磁感应
+&lt;/h2&gt;&lt;h3 id=&#34;法拉第电磁感应定律&#34;&gt;法拉第电磁感应定律
+&lt;/h3&gt;$$
+\mathcal{E} = -\frac{\mathrm{d}\varPhi}{\mathrm{d}t}
+$$&lt;h3 id=&#34;电动势&#34;&gt;电动势
+&lt;/h3&gt;$$
+\mathcal{E} = \frac{A}{q_0} = \int_-^+\vec{E}_非\cdot\mathrm{d}\vec{l}
+$$&lt;h4 id=&#34;动生电动势&#34;&gt;动生电动势
+&lt;/h4&gt;$$
+\vec{E}_K = \frac{\vec{F}_m}{-e} = \vec{v} \times \vec{B}\\
+\ \\
+\mathcal{E} = \int_-^+\vec{E}_k\cdot\mathrm{d}\vec{l} = \int_a^b(\vec{v}\times\vec{B}) \cdot \mathrm{d}\vec{l}
+$$&lt;h4 id=&#34;感生电动势--感应电场&#34;&gt;感生电动势 &amp;amp; 感应电场
+&lt;/h4&gt;&lt;p&gt;产生感生电动势的非静电力是感应电场力。&lt;/p&gt;
+$$
+\mathcal{E} = -\frac{\mathrm{d}\varPhi}{\mathrm{d}t} = -\frac{\mathrm{d}}{\mathrm{d}t}\int_S\vec{B}\cdot\vec{S}\\
+\ \\
+\mathcal{E} = -\int_S\frac{\partial \vec{B}}{\partial \vec{t}}\cdot\mathrm{d}\vec{s}
+$$&lt;p&gt;感应电场环路定理&lt;/p&gt;
+$$
+\oint_L \vec{E}_感\cdot\mathrm{d}\vec{l} = -\int_S\frac{\partial \vec{B}}{\partial \vec{t}}\cdot\mathrm{d}\vec{s}
+$$</description>
+        </item>
+        <item>
         <title>脚本化: html 转 pdf</title>
         <link>https://invalidnamee.github.io/p/html-to-pdf/</link>
         <pubDate>Fri, 20 Jun 2025 17:45:47 +0800</pubDate>
@@ -23,7 +297,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;过程记录&#34;&gt;过程记录
 &lt;/h2&gt;&lt;p&gt;折腾之前我先打开博客，找到那两篇笔记，查看源代码，把正文内容复制下来，在本地稍微改了一点 CSS。&lt;/p&gt;
-&lt;p&gt;pupeteer 是一个 js 包，大致原理是开启一个无头的 Chrome 渲染网页内容，要先有 nodejs&lt;/p&gt;
+&lt;p&gt;puppeteer 是一个 js 包，大致原理是开启一个无头的 Chrome 渲染网页内容，要先有 nodejs&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -32,7 +306,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install node
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后 cd 到工作目录装一下 pupeteer&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;然后 cd 到工作目录装一下 puppeteer&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -363,7 +637,7 @@
 &lt;h3 id=&#34;光的单色性和相干性&#34;&gt;光的单色性和相干性
 &lt;/h3&gt;&lt;h4 id=&#34;光的单色性&#34;&gt;光的单色性
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;单色光:&lt;/strong&gt; 具有单一**频率（波长）**的光。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单色光:&lt;/strong&gt; 具有单一&lt;strong&gt;频率 (波长)&lt;/strong&gt; 的光。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;单色光的获得:&lt;/strong&gt; 单色光源（钠光灯）、利用三棱镜色散、通过滤光片、激光。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;光的相干性&#34;&gt;光的相干性
@@ -378,7 +652,7 @@
 &lt;p&gt;物理意义：光在媒质中传播的路程 $r$ 等效于相同时间内在真空中能够传播 $nr$ 的路程。&lt;/p&gt;
 &lt;h4 id=&#34;相位差与光程差的关系&#34;&gt;相位差与光程差的关系
 &lt;/h4&gt;$$
-\Delta \phi = \frac{2\pi}{\lambda_{\text{真空}}}\delta
+\Delta \varphi = \frac{2\pi}{\lambda_{\text{真空}}}\delta
 $$&lt;p&gt;
 $\lambda$ 为真空中的波长，$\delta = n_2 r_2 - n_1 r_1$。&lt;/p&gt;
 &lt;h3 id=&#34;光波的干涉&#34;&gt;光波的干涉
@@ -447,8 +721,8 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h3 id=&#34;常见的偏振态&#34;&gt;常见的偏振态
 &lt;/h3&gt;&lt;h4 id=&#34;自然光&#34;&gt;自然光
 &lt;/h4&gt;&lt;p&gt;包含各个方向的光振动，在所有可能的方向上的振幅都相等的光。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
-&lt;img src=&#34;img3.png&#34; style=&#34;zoom: 66%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#34;img3.png&#34; style=&#34;zoom: 66%&#34; /&gt;
 &lt;h4 id=&#34;部分偏振光&#34;&gt;部分偏振光
 &lt;/h4&gt;&lt;p&gt;某一方向的光振动比与之相垂直方向的光振动占优势的光。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;

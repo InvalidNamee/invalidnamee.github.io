@@ -22,7 +22,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;过程记录&#34;&gt;过程记录
 &lt;/h2&gt;&lt;p&gt;折腾之前我先打开博客，找到那两篇笔记，查看源代码，把正文内容复制下来，在本地稍微改了一点 CSS。&lt;/p&gt;
-&lt;p&gt;pupeteer 是一个 js 包，大致原理是开启一个无头的 Chrome 渲染网页内容，要先有 nodejs&lt;/p&gt;
+&lt;p&gt;puppeteer 是一个 js 包，大致原理是开启一个无头的 Chrome 渲染网页内容，要先有 nodejs&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -31,7 +31,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install node
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后 cd 到工作目录装一下 pupeteer&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;然后 cd 到工作目录装一下 puppeteer&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
