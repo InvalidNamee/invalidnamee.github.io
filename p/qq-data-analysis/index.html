@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录 QQ 聊天记录数据库的解密流程与消息内容解析方法">
+<title>QQ 聊天记录数据库解密与分析</title>
+
+<link rel='canonical' href='https://invalidnamee.github.io/p/qq-data-analysis/'>
+
+<link rel="stylesheet" href="/scss/style.min.ca20a5881f406231b784629373e175e8b0468448d98a2eb27e0864ec4e25029f.css"><meta property='og:title' content="QQ 聊天记录数据库解密与分析">
+<meta property='og:description' content="记录 QQ 聊天记录数据库的解密流程与消息内容解析方法">
+<meta property='og:url' content='https://invalidnamee.github.io/p/qq-data-analysis/'>
+<meta property='og:site_name' content='Star&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-05T22:42:37&#43;08:00'/><meta property='article:modified_time' content='2025-07-06T14:03:58&#43;08:00'/>
+<meta name="twitter:title" content="QQ 聊天记录数据库解密与分析">
+<meta name="twitter:description" content="记录 QQ 聊天记录数据库的解密流程与消息内容解析方法">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_bda395e801470eb9.jpeg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😋</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Star&#39;s Blog</a></h1>
+            <h2 class="site-description">Welcome to my blog!</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/InvalidNamee'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#数据库解密">数据库解密</a>
+      <ol>
+        <li><a href="#分析">分析</a></li>
+        <li><a href="#调试">调试</a></li>
+        <li><a href="#解密">解密</a></li>
+      </ol>
+    </li>
+    <li><a href="#数据导出">数据导出</a></li>
+    <li><a href="#数据解析">数据解析</a>
+      <ol>
+        <li><a href="#筛选私聊对象">筛选私聊对象</a></li>
+        <li><a href="#时间">时间</a></li>
+        <li><a href="#消息内容">消息内容</a>
+          <ol>
+            <li><a href="#原理">原理</a></li>
+            <li><a href="#批处理">批处理</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/qq-data-analysis/">QQ 聊天记录数据库解密与分析</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            记录 QQ 聊天记录数据库的解密流程与消息内容解析方法
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-07-05</time>
+            </div>
+        <div class="article-lastmod">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time>
+                    2025-07-06 14:03
+                </time>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+
+
+    
+    <header class="article-category">
+        
+            <a href="/categories/hacking-log/" style="background-color: #2a9d8f; color: #fff;">
+                折腾记录
+            </a>
+        
+            <a href="/categories/learn2apply/" style="background-color: #2a9d8f; color: #fff;">
+                学以致用系列
+            </a>
+        
+    
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>最近几天折腾了很久关于 QQ 和微信聊天记录数据分析的东西，小有成果。<del>这是连鸽了四天训练赛题解的理由吗[?]</del></p>
+<p>微信的聊天记录已经有相对比较成熟的办法了，但是原理不太好找。QQ 这边是有比较成熟的文档，但是现成的项目不太好找。相比之下 QQ 是折腾最久的一个，折腾完之后挺有成就感的，写一篇博客记录一下。</p>
+<h2 id="数据库解密">数据库解密
+</h2><p>最新的 NTQQ 支持从手机导入聊天记录了，但是可惜不能像老的 QQ 一样直接批量导出聊天记录为文本了，而且我尝试过新 QQ 的聊天记录没办法导入到老 QQ，于是想拿到聊天记录就只能尝试破解本地的数据库密码了……</p>
+<p>关于解密的操作，我参考了 <a class="link" href="https://qq.sbcnm.top/"  target="_blank" rel="noopener"
+    >QQDecrypt</a>(<a class="link" href="https://qq.sbcnm.top/about/LICENSE.html"  target="_blank" rel="noopener"
+    >开源协议</a>)</p>
+<p>文档里面对解密的流程讲的很细致（我知识有限，只能认识到是给 QQ 加了一个断点，在一个函数下面查询数据库密码的变量），跟着做就可以拿到数据库密码。</p>
+<p>下面的部分是我对自己折腾的记录的存档，系统是 macOS 15.5 24F74 arm64，建议跟着原文档做，做完之后跳到<a class="link" href="#%e6%95%b0%e6%8d%ae%e5%af%bc%e5%87%ba" >数据导出</a></p>
+<h3 id="分析">分析
+</h3><p>复制 <code>wrapper.node</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">❯ <span class="nb">cd</span> ~/Projects
+</span></span><span class="line"><span class="cl">❯ mkdir QQDecrypt
+</span></span><span class="line"><span class="cl">❯ <span class="nb">cd</span> QQDecrypt
+</span></span><span class="line"><span class="cl">❯ cp /Applications/QQ.app/Contents/Resources/app/wrapper.node .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>用 hopper 打开，找到调用密码的函数的位置</p>
+<p><img src="/p/qq-data-analysis/hopper1.png"
+	width="2708"
+	height="1932"
+	srcset="/p/qq-data-analysis/hopper1_hu_a17cf51b74e55b4a.png 480w, /p/qq-data-analysis/hopper1_hu_bc7901a8c467c10c.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="140"
+		data-flex-basis="336px"
+	
+></p>
+<p><img src="/p/qq-data-analysis/hopper2.png"
+	width="2708"
+	height="1932"
+	srcset="/p/qq-data-analysis/hopper2_hu_f36b66b12d75150c.png 480w, /p/qq-data-analysis/hopper2_hu_76de432ac5df3985.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="140"
+		data-flex-basis="336px"
+	
+></p>
+<p><img src="/p/qq-data-analysis/hopper3.png"
+	width="2708"
+	height="1932"
+	srcset="/p/qq-data-analysis/hopper3_hu_eeea96330f451982.png 480w, /p/qq-data-analysis/hopper3_hu_506a5dcf5c517d6.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="140"
+		data-flex-basis="336px"
+	
+></p>
+<p>记下来 <code>0000000002e25758</code></p>
+<h3 id="调试">调试
+</h3><p>运行 QQ，找进程的 pid</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">❯ ps aux <span class="p">|</span> grep QQ
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">username        <span class="m">40225</span>   2.1  1.4 <span class="m">1623006720</span> <span class="m">240480</span>   ??  S    11:45PM   0:00.83 /Applications/QQ.app/Contents/MacOS/QQ
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>记下来 <code>40225</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">❯ lldb -p <span class="m">40225</span>
+</span></span><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> process attach --pid <span class="m">40225</span>
+</span></span><span class="line"><span class="cl">Process <span class="m">40225</span> stopped
+</span></span><span class="line"><span class="cl">* thread <span class="c1">#1, name = &#39;CrBrowserMain&#39;, queue = &#39;com.apple.main-thread&#39;, stop reason = signal SIGSTOP</span>
+</span></span><span class="line"><span class="cl">    frame <span class="c1">#0: 0x00000001832e0c34 libsystem_kernel.dylib`mach_msg2_trap + 8</span>
+</span></span><span class="line"><span class="cl">libsystem_kernel.dylib<span class="sb">`</span>mach_msg2_trap:
+</span></span><span class="line"><span class="cl">-&gt;  0x1832e0c34 &lt;+8&gt;: ret    
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">libsystem_kernel.dylib<span class="sb">`</span>macx_swapon:
+</span></span><span class="line"><span class="cl">    0x1832e0c38 &lt;+0&gt;: mov    x16, <span class="c1">#-0x30 ; =-48 </span>
+</span></span><span class="line"><span class="cl">    0x1832e0c3c &lt;+4&gt;: svc    <span class="c1">#0x80</span>
+</span></span><span class="line"><span class="cl">    0x1832e0c40 &lt;+8&gt;: ret    
+</span></span><span class="line"><span class="cl">Target 0: <span class="o">(</span>QQ<span class="o">)</span> stopped.
+</span></span><span class="line"><span class="cl">Executable binary <span class="nb">set</span> to <span class="s2">&#34;/Applications/QQ.app/Contents/MacOS/QQ&#34;</span>.
+</span></span><span class="line"><span class="cl">Architecture <span class="nb">set</span> to: arm64-apple-macosx-.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>找到 <code>wrapper.node</code> 加载的位置</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> image list -o -f <span class="p">|</span> grep /Applications/QQ.app/Contents/Resources/app/wrapper.node
+</span></span><span class="line"><span class="cl"><span class="o">[</span>  0<span class="o">]</span> 0x0000000128800000 /Applications/QQ.app/Contents/Resources/app/wrapper.node
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>算出来函数的位置</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> expr 0x0000000128800000 + 0x0000000002e25758
+</span></span><span class="line"><span class="cl"><span class="o">(</span>long<span class="o">)</span> <span class="nv">$1</span> <span class="o">=</span> <span class="m">5022832472</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>打上断点</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> br s -a <span class="m">5022832472</span>
+</span></span><span class="line"><span class="cl">Breakpoint 1: <span class="nv">where</span> <span class="o">=</span> wrapper.node<span class="sb">`</span>___lldb_unnamed_symbol507012, <span class="nv">address</span> <span class="o">=</span> 0x000000012b625758
+</span></span><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> c
+</span></span><span class="line"><span class="cl">Process <span class="m">40225</span> resuming
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>运行 QQ，触发断点，根据地址查 x2 变量，解析 16 个字符</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Process <span class="m">40225</span> stopped
+</span></span><span class="line"><span class="cl">* thread <span class="c1">#38, name = &#39;thread_general_fixed_2&#39;, stop reason = breakpoint 1.1</span>
+</span></span><span class="line"><span class="cl">    frame <span class="c1">#0: 0x000000012b625758 wrapper.node`___lldb_unnamed_symbol507012</span>
+</span></span><span class="line"><span class="cl">wrapper.node<span class="sb">`</span>___lldb_unnamed_symbol507012:
+</span></span><span class="line"><span class="cl">-&gt;  0x12b625758 &lt;+0&gt;:  sub    sp, sp, <span class="c1">#0x40</span>
+</span></span><span class="line"><span class="cl">    0x12b62575c &lt;+4&gt;:  stp    x22, x21, <span class="o">[</span>sp, <span class="c1">#0x10]</span>
+</span></span><span class="line"><span class="cl">    0x12b625760 &lt;+8&gt;:  stp    x20, x19, <span class="o">[</span>sp, <span class="c1">#0x20]</span>
+</span></span><span class="line"><span class="cl">    0x12b625764 &lt;+12&gt;: stp    x29, x30, <span class="o">[</span>sp, <span class="c1">#0x30]</span>
+</span></span><span class="line"><span class="cl">Target 0: <span class="o">(</span>QQ<span class="o">)</span> stopped.
+</span></span><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> register <span class="nb">read</span> x2
+</span></span><span class="line"><span class="cl">      <span class="nv">x2</span> <span class="o">=</span> 0x0000013c03435140
+</span></span><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> memory <span class="nb">read</span> --format c --count <span class="m">16</span> --size <span class="m">1</span> <span class="nv">x2</span> <span class="o">=</span> 0x0000013c03435140
+</span></span><span class="line"><span class="cl">error: memory <span class="nb">read</span> takes a start address expression with an optional end address expression.
+</span></span><span class="line"><span class="cl">warning: Expressions should be quoted <span class="k">if</span> they contain spaces or other special characters.
+</span></span><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> memory <span class="nb">read</span> --format c --count <span class="m">16</span> --size <span class="m">1</span> 0x0000013c03435140
+</span></span><span class="line"><span class="cl">0x13c03435140: Iq&lt;B3WXjc:tgS<span class="o">=</span><span class="c1">#3</span>
+</span></span><span class="line"><span class="cl"><span class="o">(</span>lldb<span class="o">)</span> <span class="nb">exit</span>
+</span></span><span class="line"><span class="cl">Quitting LLDB will detach from one or more processes. Do you really want to proceed: <span class="o">[</span>Y/n<span class="o">]</span> Y
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>我的密码是 <code>Iq&lt;B3WXjc:tgS=#3</code>，记下来</p>
+<h3 id="解密">解密
+</h3><p>把数据库复制一份过来</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">cp -r ~/Library/Containers/com.tencent.qq/Data/Library/Application<span class="se">\ </span>Support/QQ/nt_qq_168d93e33909444553576552a300ebec/nt_db .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>移除文件头，复制一份</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">cat nt_db/nt_msg.db <span class="p">|</span> tail -c +1025 &gt; test.clean.db 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>用 DB Browser for SQLite 按照这个配置就可以打开了。</p>
+<p><img src="/p/qq-data-analysis/db_browser.png"
+	width="1648"
+	height="982"
+	srcset="/p/qq-data-analysis/db_browser_hu_fe4f2e724c16aab1.png 480w, /p/qq-data-analysis/db_browser_hu_3c0e7ef81c4aede7.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+></p>
+<h2 id="数据导出">数据导出
+</h2><p>这里以私聊的数据为例，参考<a class="link" href="https://qq.sbcnm.top/view/db_file_analysis/nt_msg.db.html"  target="_blank" rel="noopener"
+    >这个文档</a>，把 c2c_msg_table 导出为 csv.</p>
+<p><img src="/p/qq-data-analysis/save_csv.png"
+	width="1350"
+	height="1054"
+	srcset="/p/qq-data-analysis/save_csv_hu_770b1a830d9c26de.png 480w, /p/qq-data-analysis/save_csv_hu_3eeda0da4597615f.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="128"
+		data-flex-basis="307px"
+	
+></p>
+<h2 id="数据解析">数据解析
+</h2><blockquote>
+<p>表格转载自 <a class="link" href="https://qq.sbcnm.top/view/db_file_analysis/nt_msg.db.html#c2c-msg-table"  target="_blank" rel="noopener"
+    >https://qq.sbcnm.top/view/db_file_analysis/nt_msg.db.html#c2c-msg-table</a></p></blockquote>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>列名</th>
+          <th>类型</th>
+          <th>含义</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>40030</td>
+          <td>int</td>
+          <td>私聊对象 QQ 号</td>
+          <td>对方 QQ 号（无论是对方还是自己发送的消息）</td>
+      </tr>
+      <tr>
+          <td>40033</td>
+          <td>int</td>
+          <td>发送者 QQ 号</td>
+          <td>发送者的 QQ 号</td>
+      </tr>
+      <tr>
+          <td>40050</td>
+          <td>int</td>
+          <td>时间</td>
+          <td>时间戳（单位为秒）</td>
+      </tr>
+      <tr>
+          <td>40058</td>
+          <td>int</td>
+          <td>日期</td>
+          <td>当日 0 时整的时间戳格式</td>
+      </tr>
+      <tr>
+          <td>40093</td>
+          <td>str</td>
+          <td>消息发送者</td>
+          <td>QQ 昵称或是备注名</td>
+      </tr>
+      <tr>
+          <td>40800</td>
+          <td>bytes</td>
+          <td>消息内容</td>
+          <td>protobuf 格式</td>
+      </tr>
+  </tbody>
+</table></div>
+<blockquote>
+<p>建议用 vscode 创建一个 ipynb 操作，个人感觉体验很好。</p></blockquote>
+<p>先用 pandas 读取 csv</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl"><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;c2c_msg_table.csv&#39;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="筛选私聊对象">筛选私聊对象
+</h3><p>这个操作很好实现，只需要筛选 40030 列</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">QQ</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">VICTIM_QQ_NUMBER</span><span class="o">&gt;</span>  <span class="c1"># 替换为目标QQ号</span>
+</span></span><span class="line"><span class="cl"><span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;40030&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">QQ</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样就把你和 ta 的聊天记录单独复制成了一个新表</p>
+<h3 id="时间">时间
+</h3><p>时间在 40050 列，是 int64 格式的时间戳，可以用 python 的 datetime 转成 datetime 对象。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+</span></span><span class="line"><span class="cl"><span class="n">data</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;40050&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>当然如果有需要，也可以用 strftime 转成字符串。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 2024年06月11日 10:45:38</span>
+</span></span><span class="line"><span class="cl"><span class="n">data</span><span class="p">[</span><span class="s1">&#39;stime&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;40050&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y年%m月</span><span class="si">%d</span><span class="s1">日 %H:%M:%S&#39;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="消息内容">消息内容
+</h3><p>消息内容在 40080 列，是一个 protobuf 格式的二进制串</p>
+<p>如果不想看详细过程，可以直接使用下方的批处理函数<a class="link" href="#%e6%89%b9%e5%a4%84%e7%90%86" >#批处理</a></p>
+<h4 id="原理">原理
+</h4><p>先取第一个试一下</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">data</span><span class="p">[</span><span class="s1">&#39;40800&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>我这里第一条是 <code>gvYTMMj8Ff3lkLWWoO+zZtD8FQHqghYY77yI55yL5p2l5piv5Y+I552h5LqG77yJ8IIWAA==</code>，导出之后这是一个 base64 的串，可以用 python decode 一下。</p>
+<p>写一个 <code>export.py</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">base64</span>
+</span></span><span class="line"><span class="cl"><span class="n">raw_bytes</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="s1">&#39;gvYTMMj8Ff3lkLWWoO+zZtD8FQHqghYY77yI55yL5p2l5piv5Y+I552h5LqG77yJ8IIWAA==&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;data.bin&#34;</span><span class="p">,</span> <span class="s2">&#34;wb&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">raw_bytes</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>开命令行 (<code>protoc</code> 是 anaconda 自带的)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">❯ python export.py
+</span></span><span class="line"><span class="cl">❯ protoc --decode_raw &lt; data.bin
+</span></span><span class="line"><span class="cl"><span class="m">40800</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  45001: <span class="m">7379074328184500989</span>
+</span></span><span class="line"><span class="cl">  45002: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">  45101: <span class="s2">&#34;\357\274\210\347\234\213\346\235\245\346\230\257\345\217\210\347\235\241\344\272\206\357\274\211&#34;</span>
+</span></span><span class="line"><span class="cl">  45102: <span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>根据文档下面的表格 45101 里面的应该是消息内容，验证一下</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">❯ python
+</span></span><span class="line"><span class="cl">Python 3.12.7 <span class="p">|</span> packaged by Anaconda, Inc. <span class="p">|</span> <span class="o">(</span>main, Oct  <span class="m">4</span> 2024, 08:22:19<span class="o">)</span> <span class="o">[</span>Clang 14.0.6 <span class="o">]</span> on darwin
+</span></span><span class="line"><span class="cl">Type <span class="s2">&#34;help&#34;</span>, <span class="s2">&#34;copyright&#34;</span>, <span class="s2">&#34;credits&#34;</span> or <span class="s2">&#34;license&#34;</span> <span class="k">for</span> more information.
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; b<span class="s1">&#39;\357\274\210\347\234\213\346\235\245\346\230\257\345\217\210\347\235\241\344\272\206\357\274\211&#39;</span>.decode<span class="o">(</span><span class="s1">&#39;utf-8&#39;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="s1">&#39;（看来是又睡了）&#39;</span>
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; exit<span class="o">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>事实证明猜测正确，这条消息的内容是 “（看来是又睡了）”，于是可以让 GPT 写一个批处理脚本</p>
+<h4 id="批处理">批处理
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">base64</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">subprocess</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">tempfile</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">decode_protobuf_base64</span><span class="p">(</span><span class="n">base64_str</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">base64_str</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Step 1: base64 解码成 Protobuf 二进制</span>
+</span></span><span class="line"><span class="cl">        <span class="n">raw_bytes</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="n">base64_str</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1"># Step 2: 写入临时文件供 protoc 使用</span>
+</span></span><span class="line"><span class="cl">        <span class="k">with</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">(</span><span class="n">delete</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="k">as</span> <span class="n">tmp</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">tmp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">raw_bytes</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">tmp</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="c1"># 调用 protoc --decode_raw</span>
+</span></span><span class="line"><span class="cl">            <span class="n">result</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="p">[</span><span class="s1">&#39;protoc&#39;</span><span class="p">,</span> <span class="s1">&#39;--decode_raw&#39;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">input</span><span class="o">=</span><span class="n">raw_bytes</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">result</span><span class="o">.</span><span class="n">returncode</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;protoc 错误：</span><span class="si">{</span><span class="n">result</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">decoded_text</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">            <span class="c1"># Step 3: 用正则提取 45101 字段</span>
+</span></span><span class="line"><span class="cl">            <span class="k">match</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;45101: &#34;(.*?)&#34;&#39;</span><span class="p">,</span> <span class="n">decoded_text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="ow">not</span> <span class="k">match</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">raw_str</span> <span class="o">=</span> <span class="k">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">            <span class="c1"># Step 4: 将 \xxx 格式解码成中文            </span>
+</span></span><span class="line"><span class="cl">            <span class="n">decoded_bytes</span> <span class="o">=</span> <span class="n">raw_str</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;unicode_escape&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;latin1&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">final_str</span> <span class="o">=</span> <span class="n">decoded_bytes</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">final_str</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;解码失败: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">None</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>调用的时候可以加个进度条</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+</span></span><span class="line"><span class="cl"><span class="n">tqdm</span><span class="o">.</span><span class="n">pandas</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">data</span><span class="p">[</span><span class="s1">&#39;decoded_msg&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;40800&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">progress_apply</span><span class="p">(</span><span class="n">decode_protobuf_base64</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>题外话:</strong> GPT 这一顿操作很难不让人想起来 Python 大作业调 subprocess 输入输出和报错的日子</p>
+<p>到这里数据就基本上处理完了，接下来就可以做数据分析了。</p>
+<p><strong>预告:</strong></p>
+<ul>
+<li>微信数据库解密 (可能会有)</li>
+<li>聊天记录数据分析 (一定会有)</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2025-07-06 14:03
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/html-to-pdf/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">脚本化: html 转 pdf</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/cr-cpp/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">用 Python 爬取 C&#43;&#43; 评测网站的题干和代码</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/55m5bqm572r55uy5lin6zmq6ycf/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">百度网盘不限速</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/for-linux/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">搜狗输入法 for Linux</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/wslvscode/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">安装WSL并在VScode调用</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="InvalidNamee/invalidnamee.github.io"
+    data-repo-id="R_kgDOO4h0hw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOO4h0h84CrSyy"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 InvalidNamee
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+        
+
+     
+
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://invalidnamee.github.io/icons/backTop.svg);
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
+    </body>
+</html>
