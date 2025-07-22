@@ -10,7 +10,7 @@
 <meta property='og:description' content="C. 水王的奇妙集合 权值线段树。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 #include &lt;iostream&gt; using namespace std; const int N = 1000010; int tr[N * 4]; void pushup(int u) { tr[u] = tr[u &lt;&lt; 1] + tr[u &lt;&lt; 1 | 1]; } void modify(int u, int l, int r, int p, int val) { if (l == r) tr[u] += val; else { int mid = l + r &gt;&gt; 1; if (p &lt;= mid) modify(u &lt;&lt; 1, l, mid, p, val); else modify(u &lt;&lt; 1 | 1, mid + 1, r, p, val); pushup(u); } } int query(int u, int l, int r, int k) { if (l == r) return l; else { int mid = l + r &gt;&gt; 1; if (tr[u &lt;&lt; 1] &gt;= k) return query(u &lt;&lt; 1, l, mid, k); else return query(u &lt;&lt; 1 | 1, mid + 1, r, k - tr[u &lt;&lt; 1]); } } void print(int u, int l, int r) { if (l == r) printf(&#34;%d &#34;, tr[u]); else { int mid = l + r &gt;&gt; 1; print(u &lt;&lt; 1, l, mid), print(u &lt;&lt; 1 | 1, mid + 1, r); } } int main() { int n, q; scanf(&#34;%d%d&#34;, &amp;n, &amp;q); for (int i = 1; i &lt;= n; ++i) { int val; scanf(&#34;%d&#34;, &amp;val); modify(1, 1, n, val, 1); } for (int i = 1; i &lt;= q; ++i) { int val; scanf(&#34;%d&#34;, &amp;val); if (val &gt;= 1 &amp;&amp; val &lt;= n) modify(1, 1, n, val, 1); else modify(1, 1, n, query(1, 1, n, -val), -1); } if (tr[1]) printf(&#34;%d\\n&#34;, query(1, 1, n, 1)); else printf(&#34;0\\n&#34;); return 0; } D. 探险 每个房间都求一遍，找最短的那个。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025sp9/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Solutions' /><meta property='article:published_time' content='2025-07-09T16:10:51&#43;08:00'/><meta property='article:modified_time' content='2025-07-11T19:13:59&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Solutions' /><meta property='article:published_time' content='2025-07-09T16:10:51&#43;08:00'/><meta property='article:modified_time' content='2025-07-22T17:44:02&#43;08:00'/>
 <meta name="twitter:title" content="2025年夏季个人训练赛第九场">
 <meta name="twitter:description" content="C. 水王的奇妙集合 权值线段树。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 #include &lt;iostream&gt; using namespace std; const int N = 1000010; int tr[N * 4]; void pushup(int u) { tr[u] = tr[u &lt;&lt; 1] + tr[u &lt;&lt; 1 | 1]; } void modify(int u, int l, int r, int p, int val) { if (l == r) tr[u] += val; else { int mid = l + r &gt;&gt; 1; if (p &lt;= mid) modify(u &lt;&lt; 1, l, mid, p, val); else modify(u &lt;&lt; 1 | 1, mid + 1, r, p, val); pushup(u); } } int query(int u, int l, int r, int k) { if (l == r) return l; else { int mid = l + r &gt;&gt; 1; if (tr[u &lt;&lt; 1] &gt;= k) return query(u &lt;&lt; 1, l, mid, k); else return query(u &lt;&lt; 1 | 1, mid + 1, r, k - tr[u &lt;&lt; 1]); } } void print(int u, int l, int r) { if (l == r) printf(&#34;%d &#34;, tr[u]); else { int mid = l + r &gt;&gt; 1; print(u &lt;&lt; 1, l, mid), print(u &lt;&lt; 1 | 1, mid + 1, r); } } int main() { int n, q; scanf(&#34;%d%d&#34;, &amp;n, &amp;q); for (int i = 1; i &lt;= n; ++i) { int val; scanf(&#34;%d&#34;, &amp;val); modify(1, 1, n, val, 1); } for (int i = 1; i &lt;= q; ++i) { int val; scanf(&#34;%d&#34;, &amp;val); if (val &gt;= 1 &amp;&amp; val &lt;= n) modify(1, 1, n, val, 1); else modify(1, 1, n, query(1, 1, n, -val), -1); } if (tr[1]) printf(&#34;%d\\n&#34;, query(1, 1, n, 1)); else printf(&#34;0\\n&#34;); return 0; } D. 探险 每个房间都求一遍，找最短的那个。\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -250,6 +250,7 @@
     <li><a href="#c-水王的奇妙集合">C. 水王的奇妙集合</a></li>
     <li><a href="#d-探险">D. 探险</a></li>
     <li><a href="#f-最大得分">F. 最大得分</a></li>
+    <li><a href="#g-送分题give">G. 送分题（give）</a></li>
   </ol>
 </nav>
         </div>
@@ -301,7 +302,7 @@
 
 
                 <time>
-                    2025-07-11 19:13
+                    2025-07-22 17:44
                 </time>
             </div>
             <div>
@@ -554,6 +555,137 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
+</div><h2 id="g-送分题give">G. 送分题（give）
+</h2><p>第十场 E 题的简化版，详细的推导见<a class="link" href="https://invalidnamee.github.io//p/2025sp10/#e-%e6%84%bf%e6%ad%a4%e8%a1%8c%e7%bb%88%e6%8a%b5%e7%be%a4%e6%98%9f"  target="_blank" rel="noopener"
+    >这里</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">int</span> <span class="n">MOD</span> <span class="o">=</span> <span class="mi">1000000007</span><span class="p">;</span> <span class="c1">// 从第十场过来的记得改模数qwq
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">const</span> <span class="kt">int</span> <span class="n">N</span> <span class="o">=</span> <span class="mi">3010</span><span class="p">,</span> <span class="n">M</span> <span class="o">=</span> <span class="mi">2000010</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">power</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">p</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">long</span> <span class="kt">long</span> <span class="n">res</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">base</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">)</span> <span class="n">res</span> <span class="o">=</span> <span class="n">res</span> <span class="o">*</span> <span class="n">base</span> <span class="o">%</span> <span class="n">MOD</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">base</span> <span class="o">=</span> <span class="n">base</span> <span class="o">*</span> <span class="n">base</span> <span class="o">%</span> <span class="n">MOD</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">p</span> <span class="o">&gt;&gt;=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">jc</span><span class="p">[</span><span class="n">M</span><span class="p">],</span> <span class="n">inv</span><span class="p">[</span><span class="n">M</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">f</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">c</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">m</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">1LL</span> <span class="o">*</span> <span class="n">jc</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">*</span> <span class="n">inv</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">%</span> <span class="n">MOD</span> <span class="o">*</span> <span class="n">inv</span><span class="p">[</span><span class="n">n</span> <span class="o">-</span> <span class="n">m</span><span class="p">]</span> <span class="o">%</span> <span class="n">MOD</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">way</span><span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">,</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">c</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">second</span> <span class="o">+</span> <span class="n">b</span><span class="p">.</span><span class="n">first</span> <span class="o">-</span> <span class="n">a</span><span class="p">.</span><span class="n">second</span> <span class="o">-</span> <span class="n">a</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">b</span><span class="p">.</span><span class="n">second</span> <span class="o">-</span> <span class="n">a</span><span class="p">.</span><span class="n">second</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">le</span><span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">,</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">b</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">a</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">b</span><span class="p">.</span><span class="n">second</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">jc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">inv</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">2000000</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">jc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1LL</span> <span class="o">*</span> <span class="n">jc</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">i</span> <span class="o">%</span> <span class="n">MOD</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">inv</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">power</span><span class="p">(</span><span class="n">jc</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">MOD</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">k</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%d%d%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">m</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">k</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">k</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%d%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">first</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">second</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sort</span><span class="p">(</span><span class="n">p</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">p</span> <span class="o">+</span> <span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">p</span><span class="p">[</span><span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="n">m</span><span class="p">,</span> <span class="n">n</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="n">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">way</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">le</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="p">(</span><span class="mi">1LL</span> <span class="o">*</span> <span class="n">f</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">way</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">%</span> <span class="n">MOD</span><span class="p">)</span> <span class="o">+</span> <span class="n">MOD</span><span class="p">)</span> <span class="o">%</span> <span class="n">MOD</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">f</span><span class="p">[</span><span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
 </div>
 </section>
 
@@ -581,7 +713,7 @@
 
 
         <span>
-            最后更新于 2025-07-11 19:13
+            最后更新于 2025-07-22 17:44
         </span>
     </section></footer>
 
@@ -626,64 +758,64 @@
             
                 
 <article class="">
+    <a href="/p/2025sp15/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025夏季个人训练赛第十五场</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/2025sp14/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025年夏季个人训练赛第十四场</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/2025sp13/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025年夏季个人训练赛第十三场</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/2025sp12/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025年夏季个人训练赛第十二场</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/p/2025sp11/">
         
         
 
         <div class="article-details">
             <h2 class="article-title">2025年夏季个人训练赛第十一场</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/2025sp10/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2025年夏季个人训练赛第十场</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/2025sp8/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2025年夏季个人训练赛第八场</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/2025sp7/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2025年夏季个人训练赛第七场</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/2025sp6/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2025年夏季个人训练赛第六场</h2>
         </div>
     </a>
 </article>
@@ -860,9 +992,17 @@
     }());
 </script>
 <style>
-        
+    @font-face {
+      font-family: 'LXGWWenKaiGBScreen';
+      src: url(https://invalidnamee.github.io/font/LXGWWenKaiGBScreen.ttf) format('truetype');
+    }
 
-     
+       
+
+    :root {
+      --base-font-family: 'LXGWWenKaiGBScreen', sans-serif;
+       
+    }
 
     #backTopBtn {
         display: none;
