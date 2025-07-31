@@ -27,11 +27,11 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;赛后补&lt;/td&gt;
-          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;做了 3 个补了三个，显然是赛场上出了点问题，做完最简单的三个之后我们被榜误导了，H 题很简单但是我们没看，先看了比较难的 K 题，K 题思路出来之后最终 40min 没有战胜，然后三道题遗憾离场了，排名是 373.&lt;/p&gt;
+&lt;p&gt;做了 3 个补了四个，显然是赛场上出了点问题，做完最简单的三个之后我们被榜误导了，H 题很简单但是我们没看，先看了比较难的 K 题，K 题思路出来之后最终 40min 没有战胜，然后三道题遗憾离场了，排名是 373.&lt;/p&gt;
 &lt;h2 id=&#34;a-entangled-coins-补&#34;&gt;A. Entangled Coins &lt;sup style=&#34;color: red&#34;&gt;补&lt;/sup&gt;
 &lt;/h2&gt;&lt;p&gt;这道题属实感觉有点不应该，我中间推对了很多结论，但是后面不知道怎么又给自己推翻了。&lt;/p&gt;
 &lt;p&gt;我思维卡在的点是&lt;/p&gt;
@@ -600,8 +600,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h1 id=&#34;k-perfect-journey-补&#34;&gt;K. Perfect Journey &lt;sup style=&#34;color: red&#34;&gt;补&lt;/sup&gt;
-&lt;/h1&gt;&lt;p&gt;佬们放着简单的 H 不做，都来 K 题当卡常高手了……&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id=&#34;k-perfect-journey-补&#34;&gt;K. Perfect Journey &lt;sup style=&#34;color: red&#34;&gt;补&lt;/sup&gt;
+&lt;/h2&gt;&lt;p&gt;佬们放着简单的 H 不做，都来 K 题当卡常高手了……&lt;/p&gt;
 &lt;p&gt;树上路径只要两个端点确定了那就是一定的，只考虑关键边下到的节点构成的虚树的话顶多只有 m&lt;sup&gt;2&lt;/sup&gt; 种路径，只能有 m&lt;sup&gt;2&lt;/sup&gt; 种合法的 bitmask，然后做状压 dp，如果常数优秀的话可以恰好过了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;离谱的问题:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;最后的状压 dp 里有这么一行代码&lt;/p&gt;
