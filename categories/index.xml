@@ -7,23 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Sun, 27 Jul 2025 10:05:08 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2025春训系列</title>
-        <link>https://invalidnamee.github.io/categories/2025st/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://invalidnamee.github.io/categories/2025st/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/2025st/background.png" alt="Featured image of post 2025春训系列" /&gt;</description>
-        </item>
-        <item>
-        <title>2025夏季个人训练赛系列</title>
-        <link>https://invalidnamee.github.io/categories/2025sp/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://invalidnamee.github.io/categories/2025sp/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/2025sp/background.png" alt="Featured image of post 2025夏季个人训练赛系列" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Sat, 02 Aug 2025 19:44:48 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Academic Course</title>
         <link>https://invalidnamee.github.io/categories/academic/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -54,6 +38,14 @@
         
         <guid>https://invalidnamee.github.io/categories/hacking-log/</guid>
         <description>&lt;img src="https://invalidnamee.github.io/categories/hacking-log/background.png" alt="Featured image of post 折腾记录" /&gt;</description>
+        </item>
+        <item>
+        <title>知码开门训练赛</title>
+        <link>https://invalidnamee.github.io/categories/training/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://invalidnamee.github.io/categories/training/</guid>
+        <description>&lt;img src="https://invalidnamee.github.io/categories/training/background.png" alt="Featured image of post 知码开门训练赛" /&gt;</description>
         </item>
         
     </channel>

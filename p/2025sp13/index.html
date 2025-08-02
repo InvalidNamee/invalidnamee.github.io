@@ -10,7 +10,7 @@
 <meta property='og:description' content="A. Hat Circle 签到题\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 #include &lt;iostream&gt; using namespace std; const int N = 1000010; int a[N]; int main() { int n; scanf(&#34;%d&#34;, &amp;n); for (int i = 0; i &lt; n; ++i) scanf(&#34;%d&#34;, &amp;a[i]); int res = 0; for (int i = 0; i &lt; n; ++i) { if (a[i] == a[(i + n / 2) % n]) res++; } printf(&#34;%d\\n&#34;, res); return 0; } B. Heavy-Light Composition 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 #include &lt;iostream&gt; #include &lt;cstring&gt; using namespace std; char s[110]; int cnt[26]; int main() { int n, m; scanf(&#34;%d%d&#34;, &amp;n, &amp;m); for (int i = 1; i &lt;= n; ++i) { memset(cnt, 0, sizeof(cnt)); scanf(&#34;%s&#34;, s + 1); for (int i = 1; i &lt;= m; ++i) cnt[s[i] - &#39;a&#39;]++; bool f = true; for (int i = 2; i &lt;= m; ++i) { if (cnt[s[i] - &#39;a&#39;] == 1 &amp;&amp; cnt[s[i - 1] - &#39;a&#39;] == 1 || cnt[s[i] - &#39;a&#39;] &gt; 1 &amp;&amp; cnt[s[i - 1] - &#39;a&#39;] &gt; 1) { f = false; break; } } if (f) printf(&#34;T\\n&#34;); else printf(&#34;F\\n&#34;); } return 0; } C. Swipe 数据太弱了，错的代码都能过……\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025sp13/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Solutions' /><meta property='article:published_time' content='2025-07-15T18:24:34&#43;08:00'/><meta property='article:modified_time' content='2025-07-22T17:44:02&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='solutions' /><meta property='article:tag' content='2025夏季个人' /><meta property='article:published_time' content='2025-07-15T18:24:34&#43;08:00'/><meta property='article:modified_time' content='2025-08-02T19:44:48&#43;08:00'/>
 <meta name="twitter:title" content="2025年夏季个人训练赛第十三场">
 <meta name="twitter:description" content="A. Hat Circle 签到题\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 #include &lt;iostream&gt; using namespace std; const int N = 1000010; int a[N]; int main() { int n; scanf(&#34;%d&#34;, &amp;n); for (int i = 0; i &lt; n; ++i) scanf(&#34;%d&#34;, &amp;a[i]); int res = 0; for (int i = 0; i &lt; n; ++i) { if (a[i] == a[(i + n / 2) % n]) res++; } printf(&#34;%d\\n&#34;, res); return 0; } B. Heavy-Light Composition 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 #include &lt;iostream&gt; #include &lt;cstring&gt; using namespace std; char s[110]; int cnt[26]; int main() { int n, m; scanf(&#34;%d%d&#34;, &amp;n, &amp;m); for (int i = 1; i &lt;= n; ++i) { memset(cnt, 0, sizeof(cnt)); scanf(&#34;%s&#34;, s + 1); for (int i = 1; i &lt;= m; ++i) cnt[s[i] - &#39;a&#39;]++; bool f = true; for (int i = 2; i &lt;= m; ++i) { if (cnt[s[i] - &#39;a&#39;] == 1 &amp;&amp; cnt[s[i - 1] - &#39;a&#39;] == 1 || cnt[s[i] - &#39;a&#39;] &gt; 1 &amp;&amp; cnt[s[i - 1] - &#39;a&#39;] &gt; 1) { f = false; break; } } if (f) printf(&#34;T\\n&#34;); else printf(&#34;F\\n&#34;); } return 0; } C. Swipe 数据太弱了，错的代码都能过……\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -324,7 +324,7 @@
 
 
                 <time>
-                    2025-07-22 17:44
+                    2025-08-02 19:44
                 </time>
             </div>
             <div>
@@ -358,8 +358,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/2025sp/" style="background-color: #2a9d8f; color: #fff;">
-                2025夏季个人训练赛系列
+            <a href="/categories/training/" style="background-color: #2a9d8f; color: #fff;">
+                知码开门训练赛
             </a>
         
     
@@ -369,6 +369,8 @@
     <section class="article-tags">
         
             <a href="/tags/solutions/">Solutions</a>
+        
+            <a href="/tags/2025%E5%A4%8F%E5%AD%A3%E4%B8%AA%E4%BA%BA/">2025夏季个人</a>
         
     </section>
 
@@ -722,7 +724,7 @@
 
 
         <span>
-            最后更新于 2025-07-22 17:44
+            最后更新于 2025-08-02 19:44
         </span>
     </section></footer>
 

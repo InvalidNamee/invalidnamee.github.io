@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Thu, 31 Jul 2025 09:41:11 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/traps/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Aug 2025 19:44:48 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/traps/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>警惕 map 陷阱</title>
         <link>https://invalidnamee.github.io/p/be-aware-of-map/</link>
         <pubDate>Mon, 28 Jul 2025 20:37:00 +0800</pubDate>
@@ -129,12 +129,8 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;个人 AC&lt;/td&gt;
-          &lt;td&gt;2&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;队友 AC&lt;/td&gt;
-          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;AC&lt;/td&gt;
+          &lt;td&gt;5&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;赛后补&lt;/td&gt;
