@@ -10,7 +10,7 @@
 <meta property='og:description' content="又是没有牛客打的一天～～\nA. 矩阵转换 一个大的矩形的变换一定可以由多个 2 * 2 的矩形拼出来，2 * 2 的矩形是最小的可以操作的单位，直接遍历一遍矩阵，贪心的变换 2 * 2 的矩阵，如果能成 B 就是 Yes，不能就是 No。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025sp33/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='solutions' /><meta property='article:tag' content='2025夏季个人' /><meta property='article:published_time' content='2025-08-10T16:34:24&#43;08:00'/><meta property='article:modified_time' content='2025-08-10T17:33:59&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='solutions' /><meta property='article:tag' content='2025夏季个人' /><meta property='article:published_time' content='2025-08-10T16:34:24&#43;08:00'/><meta property='article:modified_time' content='2025-08-10T20:11:50&#43;08:00'/>
 <meta name="twitter:title" content="2025夏季个人训练赛第三十三场">
 <meta name="twitter:description" content="又是没有牛客打的一天～～\nA. 矩阵转换 一个大的矩形的变换一定可以由多个 2 * 2 的矩形拼出来，2 * 2 的矩形是最小的可以操作的单位，直接遍历一遍矩阵，贪心的变换 2 * 2 的矩阵，如果能成 B 就是 Yes，不能就是 No。\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -268,7 +268,7 @@
   <ol>
     <li><a href="#a-矩阵转换">A. 矩阵转换</a></li>
     <li><a href="#b-胖虎的菜品">B. 胖虎的菜品</a></li>
-    <li><a href="#c-胖虎的攻沙-error">C. 胖虎的攻沙 <sup style="color: red">ERROR</sup></a></li>
+    <li><a href="#c-胖虎的攻沙-fixed">C. 胖虎的攻沙 <sup style="color: blue">fixed</sup></a></li>
     <li><a href="#e-不知道该叫啥-noname">E. 不知道该叫啥 (noname)</a></li>
     <li><a href="#f-双端队列--lis-问题-dequexlis">F. 双端队列 × LIS 问题 (dequexlis)</a></li>
     <li><a href="#i-树的统计">I. 树的统计</a></li>
@@ -324,7 +324,7 @@
 
 
                 <time>
-                    2025-08-10 17:33
+                    2025-08-10 20:11
                 </time>
             </div>
             <div>
@@ -557,11 +557,25 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="c-胖虎的攻沙-error">C. 胖虎的攻沙 <sup style="color: red">ERROR</sup>
-</h2><p>疑似数据出问题了，我的代码删了点条件之后过洛谷上的<a class="link" href="https://www.luogu.com.cn/problem/P5322"  target="_blank" rel="noopener"
-    >(疑似)母题</a>能过。</p>
-<p>刚开始没发现，写到最后回头，其实是一个分组背包问题，f<sub>i, j</sub> 表示前 i 个沙城使用 m 个士兵的最大得分，对每个 i 对应的 s 个数从小到大排序，只需要考虑所有能刚好能拿到前 l 个的分时的士兵数，其他值取了只会浪费士兵，没有其他收益，时间复杂度是 $O\left(nsm\right)$，按说没问题。</p>
-<p>疑似正确的代码</p>
+</div><h2 id="c-胖虎的攻沙-fixed">C. 胖虎的攻沙 <sup style="color: blue">fixed</sup>
+</h2><p><del>疑似数据出问题了，我的代码删了点条件之后过洛谷上的<a class="link" href="https://www.luogu.com.cn/problem/P5322"  target="_blank" rel="noopener"
+    >(疑似)母题</a>能过。</del></p>
+<p>数据就是出问题了，而且已经被我修正了，虽然对拍的时候验证过我应该没问题，但是重判的时候就我一个过了……</p>
+<p>目测大家都被<strong>卡精度</strong>了，看这张图，我依次输出了所有的 $a_{i, j}$, $k_i$, $\lfloor a_{i, j} k_i \rfloor + 1$, $j \cdot p1_i - \left(s - j\right) \cdot p2_i$ 上面是我的输出，下面是原来 std 的输出，根据 python 的验证，确实是浮点数精度出了问题，而且我是对的。</p>
+<p><img src="/p/2025sp33/2025-08-10_19-05-00.png"
+	width="2624"
+	height="868"
+	srcset="/p/2025sp33/2025-08-10_19-05-00_hu_d2ec95bd320434e4.png 480w, /p/2025sp33/2025-08-10_19-05-00_hu_c863f409fa8947fa.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="302"
+		data-flex-basis="725px"
+	
+></p>
+<p>刚开始没发现，写到最后回头一看，其实是一个分组背包问题，f<sub>i, j</sub> 表示前 i 个沙城使用 m 个士兵的最大得分，对每个 i 对应的 s 个数从小到大排序，只需要考虑所有能刚好能拿到前 l 个的分时的士兵数，其他值取了只会浪费士兵，没有其他收益，时间复杂度是 $O\left(nsm\right)$，按说没问题。</p>
+<p>疑似正确的代码 (目前新数据的 std，<strong>欢迎 hack</strong>)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -766,7 +780,7 @@
 </span></span><span class="line"><span class="cl">                <span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">            <span class="p">}</span>
 </span></span><span class="line"><span class="cl">            <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="c1">// 这里其实是可以用双指针的，需要用到的 L 一定是单调不增的，同时反向遍历 g[i - 1] 可以省掉这个一 log
+</span></span><span class="line"><span class="cl">                <span class="c1">// 这里其实是可以用双指针的，需要用到的 L 一定是单调不增的，同时反向遍历 g[i - 1] 可以省掉这个 log
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="kt">int</span> <span class="n">L</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">R</span> <span class="o">=</span> <span class="n">k</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">                <span class="k">while</span> <span class="p">(</span><span class="n">L</span> <span class="o">&lt;</span> <span class="n">R</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">                    <span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="n">L</span> <span class="o">+</span> <span class="n">R</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">;</span>
@@ -901,7 +915,7 @@
 <p>我发现我 22 年 10 月和 8 月各 A 了一次，所以我没双倍经验了……</p>
 <p>裸的树剖 + 线段树板子，看我 30min 手搓一个。</p>
 <blockquote>
-<p>我: 嗯？怎么 qeury_mx 比最大值还大。</p>
+<p>我: 嗯？怎么 query_mx 比最大值还大。</p>
 <p>我: 哎，我复制下来之后 tr_s 没改成 tr_mx！！</p>
 <p>手: backspace M X control+option+N</p>
 <p>手: command+C 提交button.click() command+V 提交button.click()</p>
@@ -1219,7 +1233,7 @@
     >题面/双倍经验</a></p>
 <p>我被他卡了好久，首先他这个可以转化一下，奇数行，奇数列 (都选偶数也一样) 都 xor 1 之后问的就是全 0 或者全 1 的最大矩形。</p>
 <p>正方形好做，直接枚举右下角，然后二分一个边长就可以解决，然而这并没什么用……</p>
-<p>根据题意，不难想到需要维护最长连续相同数字的长度，我被卡在了后面怎么处理，后来想了亿会儿，又睡了一觉回来突然茅塞顿开。其实之前做过类似的，但是没有和几何联系起来。比如，我维护了第 i 行前 j 个必须包含 j 的最长连续相同数字的长度 f<sub>i, j</sub>，因为求的是一个矩形，不妨就把<strong>右端对齐</strong>，考虑其他的边界，首先，他要是个合法的矩形，硬性要求就是连续的 i 的值必须一样，对于每一个这样的值相等的小段单独抽出来考虑；现在想想<strong>区间最大值求和</strong>是怎么做的，这个就是怎么做的， 枚举矩形的宽 w，用<strong>单调栈</strong>维护上面第一个比他小的和下面第一个比他小的，中间夹的长度就是最大的高度 h，把所有这样的 w * h 取 max 就是第一个答案，min(w, h)<sup>2</sup> 就是第二个答案。</p>
+<p>根据题意，不难想到需要维护最长连续相同数字的长度，我被卡在了后面怎么处理，后来想了亿会儿，又睡了一觉回来突然茅塞顿开。其实之前做过类似的，但是没有和几何联系起来。比如，我维护了第 i 行前 j 个必须包含 j 的最长连续相同数字的长度 f<sub>i, j</sub>，因为求的是一个矩形，不妨就把<strong>右端对齐</strong>，考虑其他的边界，首先，他要是个合法的矩形，硬性要求就是连续的 i 的值必须一样，对于每一个这样的值相等的小段单独抽出来考虑；现在想想<strong>区间最大值求和</strong>是怎么做的，这个就是怎么做的， 枚举矩形的宽 w，用<strong>单调栈</strong>维护上面第一个比他小的和下面第一个比他小的，中间夹的长度就是最大的高度 h，把所有这样的 w * h 取 max 就是第一个答案，min(w, h)<sup>2</sup> 取 max 就是第二个答案。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1387,7 +1401,7 @@
 
 
         <span>
-            最后更新于 2025-08-10 17:33
+            最后更新于 2025-08-10 20:11
         </span>
     </section></footer>
 
