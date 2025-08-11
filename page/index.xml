@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Mon, 04 Aug 2025 17:29:50 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Aug 2025 19:33:11 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>分类 &amp; 标签</title>
+        <link>https://invalidnamee.github.io/categories-tags/</link>
+        <pubDate>Mon, 11 Aug 2025 15:07:16 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/categories-tags/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>归档</title>
         <link>https://invalidnamee.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -31,14 +39,24 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
+          &lt;td&gt;改左侧边栏权重&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;2025-08-11&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;分类 &amp;amp; 标签单独抽出来&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;2025-08-11&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td&gt;把 icpc 的训练赛统一到一类里面&lt;/td&gt;
           &lt;td&gt;✅&lt;/td&gt;
           &lt;td&gt;2025-08-02&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;本页图标&lt;/td&gt;
-          &lt;td&gt;❌&lt;/td&gt;
-          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;2025-08-11&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

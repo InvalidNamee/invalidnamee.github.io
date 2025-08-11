@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/2025st10/'>
 
-<link rel="stylesheet" href="/scss/style.min.ca20a5881f406231b784629373e175e8b0468448d98a2eb27e0864ec4e25029f.css"><meta property='og:title' content="2025 春训第十场">
+<link rel="stylesheet" href="/scss/style.min.fcfd4c661c58ff357b67589467b5e919d68f50ff4b106679e4404622a05b27cc.css"><meta property='og:title' content="2025 春训第十场">
 <meta property='og:description' content="A. 鲁的学生 大水题，但是我没看到要取模连 WA 两次。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #include &lt;iostream&gt; #include &lt;algorithm&gt; using namespace std; const int MOD = 1000000007; int main() { long long res = 0; int n; scanf(&#34;%d&#34;, &amp;n); for (int i = 1; i &lt;= n; ++i) { int t; scanf(&#34;%d&#34;, &amp;t); res += (long long)i * (n - i + 1) % MOD * t % MOD; res %= MOD; } printf(&#34;%lld\\n&#34;, res); return 0; } B. 鲁的探险 n 个点 n 条边，而且每个点都至少有 1 度，显然这张图是基环树（一棵树随便加一条边构成的连通的只有一个环的图）构成森林。所有的点最后都会走到对应连通块的环里，随后绕一圈结束；明白了这点那么做法就很简单了，记点 i 的答案为 \\(val_i\\)\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025st10/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
@@ -121,39 +121,20 @@
         
         
         <li >
-            <a href='/about/' >
+            <a href='/categories-tags/' >
                 
                 
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
 </svg>
 
 
 
                 
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/todo/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
-  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
-</svg>
-
-
-
-                
-                <span>更新日志</span>
+                <span>分类 &amp; 标签</span>
             </a>
         </li>
         
@@ -193,6 +174,37 @@
 
                 
                 <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/todo/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h.01M4 6h.01M4 18h.01M8 18h2m-2-6h2M8 6h2m4 0h6m-6 6h6m-6 6h6"/></svg>
+                
+                <span>更新日志</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
             </a>
         </li>
         
@@ -1009,7 +1021,6 @@
 </style>
 
 
-
 <script defer src="https://cn.vercount.one/js"></script>
 <script>
     
@@ -1060,6 +1071,5 @@
 
     initScrollTop();
 </script>
-
     </body>
 </html>
