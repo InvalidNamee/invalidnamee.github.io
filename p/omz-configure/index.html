@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="zsh 美化和安装插件">
+<title>oh-my-zsh 配置</title>
+
+<link rel='canonical' href='https://invalidnamee.github.io/p/omz-configure/'>
+
+<link rel="stylesheet" href="/scss/style.min.0aeeba1e8710b584e1918a830a8abba88efe60c5cf92ef5d52bd33a88b76a7d4.css"><meta property='og:title' content="oh-my-zsh 配置">
+<meta property='og:description' content="zsh 美化和安装插件">
+<meta property='og:url' content='https://invalidnamee.github.io/p/omz-configure/'>
+<meta property='og:site_name' content='Star&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-12T21:31:15&#43;08:00'/><meta property='article:modified_time' content='2025-08-12T22:50:57&#43;08:00'/>
+<meta name="twitter:title" content="oh-my-zsh 配置">
+<meta name="twitter:description" content="zsh 美化和安装插件">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_bda395e801470eb9.jpeg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">😋</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Star&#39;s Blog</a></h1>
+            <h2 class="site-description">Welcome to my blog!</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/InvalidNamee'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories-tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>分类 &amp; 标签</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/todo/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h.01M4 6h.01M4 18h.01M8 18h2m-2-6h2M8 6h2m4 0h6m-6 6h6m-6 6h6"/></svg>
+                
+                <span>更新日志</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友情链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#效果图">效果图</a></li>
+    <li><a href="#安装-zsh">安装 zsh</a></li>
+    <li><a href="#安装-oh-my-zsh">安装 oh-my-zsh</a></li>
+    <li><a href="#配置主题和插件">配置主题和插件</a></li>
+    <li><a href="#终端配色-如需抄作业">终端配色 (如需抄作业)</a>
+      <ol>
+        <li><a href="#windows-or-linux">Windows or Linux</a></li>
+        <li><a href="#mac">mac</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/omz-configure/">oh-my-zsh 配置</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            zsh 美化和安装插件
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-08-12</time>
+            </div>
+        <div class="article-lastmod">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time>
+                    2025-08-12 22:50
+                </time>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+
+        
+        <div id="viewCount">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>
+            <time class="article-time--reading">
+                <span id="vercount_value_page_pv">loading... </span>次
+            </time>
+        </div>
+    </footer>
+    
+
+    
+
+
+    
+    <header class="article-category">
+        
+            <a href="/categories/hacking-log/" style="background-color: #2a9d8f; color: #fff;">
+                折腾记录
+            </a>
+        
+    
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>之前存的记录一弄就不知道放哪里了，放这儿总不会丢了。</p>
+<p>大致效果就是<strong>精简 &amp; 美化</strong>一下命令行界面，另外加一点<strong>实用的功能</strong>。</p>
+<h2 id="效果图">效果图
+</h2><p><img src="/p/omz-configure/img.png"
+	width="1384"
+	height="1114"
+	srcset="/p/omz-configure/img_hu_b4efe29ab572d386.png 480w, /p/omz-configure/img_hu_a80785e833cb8a5d.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="124"
+		data-flex-basis="298px"
+	
+></p>
+<h2 id="安装-zsh">安装 zsh
+</h2><p>zsh 是一种 shell，比 bash 功能更强大。</p>
+<ul>
+<li>Windows 建议在 wsl 下使用，很久之前我写过一篇<a class="link" href="https://invalidnamee.github.io/p/wslvscode/"  target="_blank" rel="noopener"
+    >配置 wsl 的教程</a>，从 hashnode 迁过来了；</li>
+<li>mac 默认 shell 就是 zsh，不用再装一次；</li>
+<li>Linux 直接从包管理器里安装就行，如
+<ul>
+<li>Ubuntu (Debian 系)
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install zsh
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>Arch
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S zsh
+</span></span></code></pre></td></tr></table>
+</div>
+</div>或者用 yay 和 paru 也行。</li>
+</ul>
+</li>
+</ul>
+<h2 id="安装-oh-my-zsh">安装 oh-my-zsh
+</h2><p>omz 是一个开源的管理 zsh 配置的框架，直接安装<a class="link" href="https://ohmyz.sh/#install"  target="_blank" rel="noopener"
+    >官网</a>的提示装就行。</p>
+<h2 id="配置主题和插件">配置主题和插件
+</h2><p>可以选择自己找，也可以选择抄作业</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> <span class="c1"># 切到用户目录</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-autosuggestions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-autosuggestions <span class="c1"># 根据历史命令提示</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-syntax-highlighting <span class="c1"># 关键词高亮</span>
+</span></span><span class="line"><span class="cl">git clone --depth<span class="o">=</span><span class="m">1</span> https://github.com/romkatv/powerlevel10k.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="si">}</span>/themes/powerlevel10k <span class="c1"># 主题</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>p10k 主题用专门的命令行字体 (nerd fonts) 效果更好，可以去<a class="link" href="https://www.nerdfonts.com/font-downloads"  target="_blank" rel="noopener"
+    >这里</a>找，我一直用的是 Hack Nerd Fonts Mono，安装完字体之后在对应的终端配置里面修改即可。</p>
+<p>编辑配置文件，建议用带图形界面的，比如 vscode，gnome-text-editor，kate，以 vscode 为例 (如果是熟悉命令行的佬可以随意，比如 vim，vi，nano)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">code ~/.zshrc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>改以下基础配置 (在文件中查找变量名，改对应的值即可)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">ZSH_THEME</span><span class="o">=</span><span class="s2">&#34;powerlevel10k/powerlevel10k&#34;</span> <span class="c1"># 主题</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 插件</span>
+</span></span><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>
+</span></span><span class="line"><span class="cl">    zsh-autosuggestions
+</span></span><span class="line"><span class="cl">    zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl">    git
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>source 一下配置文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">source</span> ~/.zshrc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后按照指引一步步初始化一下 p10k 主题。</p>
+<h2 id="终端配色-如需抄作业">终端配色 (如需抄作业)
+</h2><p>我用了 XTerm 主题库里面的 Argonaut 主题，稍微改了一下光标的颜色。</p>
+<h3 id="windows-or-linux">Windows or Linux
+</h3><p>可以选择从这张图里面取色</p>
+<p><img src="/p/omz-configure/image.png"
+	width="1558"
+	height="1480"
+	srcset="/p/omz-configure/image_hu_dd05e22b87efa3ae.png 480w, /p/omz-configure/image_hu_d0c060a9201905de.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="252px"
+	
+></p>
+<p>或者可以参考 ChatGPT 解析出来的配色表。</p>
+<p><strong>ANSI 颜色表</strong></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>名称</th>
+          <th>RGB (0-255)</th>
+          <th>HEX</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>ANSIBlackColor</strong></td>
+          <td>(35, 35, 35)</td>
+          <td><code>#232323</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIRedColor</strong></td>
+          <td>(255, 0, 15)</td>
+          <td><code>#FF000F</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIGreenColor</strong></td>
+          <td>(140, 225, 10)</td>
+          <td><code>#8CE10A</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIYellowColor</strong></td>
+          <td>(255, 185, 0)</td>
+          <td><code>#FFB900</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBlueColor</strong></td>
+          <td>(0, 141, 248)</td>
+          <td><code>#008DF8</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIMagentaColor</strong></td>
+          <td>(108, 67, 166)</td>
+          <td><code>#6C43A6</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSICyanColor</strong></td>
+          <td>(0, 216, 235)</td>
+          <td><code>#00D8EB</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIWhiteColor</strong></td>
+          <td>(255, 255, 255)</td>
+          <td><code>#FFFFFF</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightBlackColor</strong></td>
+          <td>(68, 68, 68)</td>
+          <td><code>#444444</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightRedColor</strong></td>
+          <td>(255, 39, 63)</td>
+          <td><code>#FF273F</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightGreenColor</strong></td>
+          <td>(171, 225, 91)</td>
+          <td><code>#ABE15B</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightYellowColor</strong></td>
+          <td>(255, 210, 66)</td>
+          <td><code>#FFD242</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightBlueColor</strong></td>
+          <td>(1, 146, 255)</td>
+          <td><code>#0192FF</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightMagentaColor</strong></td>
+          <td>(154, 95, 235)</td>
+          <td><code>#9A5FEB</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightCyanColor</strong></td>
+          <td>(103, 255, 240)</td>
+          <td><code>#67FFF0</code></td>
+      </tr>
+      <tr>
+          <td><strong>ANSIBrightWhiteColor</strong></td>
+          <td>(255, 255, 255)</td>
+          <td><code>#FFFFFF</code></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><strong>其他界面颜色</strong></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>名称</th>
+          <th>RGB (0-255)</th>
+          <th>HEX</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>BackgroundColor</strong></td>
+          <td>(13, 15, 25)</td>
+          <td><code>#0D0F19</code></td>
+      </tr>
+      <tr>
+          <td><strong>TextColor</strong></td>
+          <td>(255, 250, 244)</td>
+          <td><code>#FFFAF4</code></td>
+      </tr>
+      <tr>
+          <td><strong>TextBoldColor</strong></td>
+          <td>(158, 156, 154)</td>
+          <td><code>#9E9C9A</code></td>
+      </tr>
+      <tr>
+          <td><strong>CursorColor</strong></td>
+          <td>(255, 251, 243)</td>
+          <td><code>#FFFBF3</code></td>
+      </tr>
+      <tr>
+          <td><strong>SelectionColor</strong></td>
+          <td>(0, 42, 59)</td>
+          <td><code>#002A3B</code></td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="mac">mac
+</h3><p>mac 可以直接用我的配置文件，把下面的配置存成一个 Argonaut.terminial，然后双击配置就进去了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span><span class="lnt">164
+</span><span class="lnt">165
+</span><span class="lnt">166
+</span><span class="lnt">167
+</span><span class="lnt">168
+</span><span class="lnt">169
+</span><span class="lnt">170
+</span><span class="lnt">171
+</span><span class="lnt">172
+</span><span class="lnt">173
+</span><span class="lnt">174
+</span><span class="lnt">175
+</span><span class="lnt">176
+</span><span class="lnt">177
+</span><span class="lnt">178
+</span><span class="lnt">179
+</span><span class="lnt">180
+</span><span class="lnt">181
+</span><span class="lnt">182
+</span><span class="lnt">183
+</span><span class="lnt">184
+</span><span class="lnt">185
+</span><span class="lnt">186
+</span><span class="lnt">187
+</span><span class="lnt">188
+</span><span class="lnt">189
+</span><span class="lnt">190
+</span><span class="lnt">191
+</span><span class="lnt">192
+</span><span class="lnt">193
+</span><span class="lnt">194
+</span><span class="lnt">195
+</span><span class="lnt">196
+</span><span class="lnt">197
+</span><span class="lnt">198
+</span><span class="lnt">199
+</span><span class="lnt">200
+</span><span class="lnt">201
+</span><span class="lnt">202
+</span><span class="lnt">203
+</span><span class="lnt">204
+</span><span class="lnt">205
+</span><span class="lnt">206
+</span><span class="lnt">207
+</span><span class="lnt">208
+</span><span class="lnt">209
+</span><span class="lnt">210
+</span><span class="lnt">211
+</span><span class="lnt">212
+</span><span class="lnt">213
+</span><span class="lnt">214
+</span><span class="lnt">215
+</span><span class="lnt">216
+</span><span class="lnt">217
+</span><span class="lnt">218
+</span><span class="lnt">219
+</span><span class="lnt">220
+</span><span class="lnt">221
+</span><span class="lnt">222
+</span><span class="lnt">223
+</span><span class="lnt">224
+</span><span class="lnt">225
+</span><span class="lnt">226
+</span><span class="lnt">227
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE plist PUBLIC &#34;-//Apple//DTD PLIST 1.0//EN&#34; &#34;http://www.apple.com/DTDs/PropertyList-1.0.dtd&#34;&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">plist</span> <span class="na">version</span><span class="o">=</span><span class="s">&#34;1.0&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">dict</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBlackColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAnMC4xMzU3NDY2MDYzIDAuMTM1NzQ2NjA2
+</span></span><span class="line"><span class="cl">	MyAwLjEzNTc0NjYwNjMAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xv
+</span></span><span class="line"><span class="cl">	cqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+qKqssbzFzdAAAAAAAAABAQAAAAAA
+</span></span><span class="line"><span class="cl">	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBlueColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAcMCAwLjU1NDgxNjU0NDEgMC45NzI5NDA4
+</span></span><span class="line"><span class="cl">	NjIyABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmpl
+</span></span><span class="line"><span class="cl">	Y3QIERokKTI3SUxRU1ddZGp3fp2foaaxusLFAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAM4=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightBlackColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAnMC4yNjY5NjgzMjU4IDAuMjY2OTY4MzI1
+</span></span><span class="line"><span class="cl">	OCAwLjI2Njk2ODMyNTgAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xv
+</span></span><span class="line"><span class="cl">	cqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+qKqssbzFzdAAAAAAAAABAQAAAAAA
+</span></span><span class="line"><span class="cl">	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightBlueColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAfMC4wMDA1MzM1OTc2MjkyIDAuNTczMzAz
+</span></span><span class="line"><span class="cl">	MDY3NCAxABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNP
+</span></span><span class="line"><span class="cl">	YmplY3QIERokKTI3SUxRU1ddZGp3fqCipKm0vcXIAAAAAAAAAQEAAAAAAAAAGQAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAAAAANE=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightCyanColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAbMC40MDQyMDEwNjExIDEgMC45NDA5NDc3
+</span></span><span class="line"><span class="cl">	NTUAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqIWGFhOU09iamVj
+</span></span><span class="line"><span class="cl">	dAgRGiQpMjdJTFFTV11kand+nJ6gpbC5wcQAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAzQ==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightGreenColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAnMC42NzEyNjA1OTY5IDAuODgxODk5OTUy
+</span></span><span class="line"><span class="cl">	OSAwLjM1NjQ2NDg5NjgAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xv
+</span></span><span class="line"><span class="cl">	cqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+qKqssbzFzdAAAAAAAAABAQAAAAAA
+</span></span><span class="line"><span class="cl">	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightMagentaColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAmMC42MDUwNDQ4NzggMC4zNzQxNzIzMjY5
+</span></span><span class="line"><span class="cl">	IDAuOTIzMDc2OTIzMQAQAoAC0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9y
+</span></span><span class="line"><span class="cl">	ohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRqd36nqauwu8TMzwAAAAAAAAEBAAAAAAAA
+</span></span><span class="line"><span class="cl">	ABkAAAAAAAAAAAAAAAAAAADY
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightRedColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAcMSAwLjE1NDcwNDA2MDggMC4yNDkyMzQw
+</span></span><span class="line"><span class="cl">	MjQyABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmpl
+</span></span><span class="line"><span class="cl">	Y3QIERokKTI3SUxRU1ddZGp3fp2foaaxusLFAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAM4=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightWhiteColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzRjEgMSAxABACgALSFBUWF1okY2xhc3NuYW1l
+</span></span><span class="line"><span class="cl">	WCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmplY3QIERokKTI3SUxRU1ddZGp3foWHiY6Z
+</span></span><span class="line"><span class="cl">	oqqtAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAALY=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIBrightYellowColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAcMSAwLjgyMjgxNzIwODUgMC4yNTc5MjMw
+</span></span><span class="line"><span class="cl">	MTU5ABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmpl
+</span></span><span class="line"><span class="cl">	Y3QIERokKTI3SUxRU1ddZGp3fp2foaaxusLFAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAM4=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSICyanColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAbMCAwLjg0NTc1NTgxNTUgMC45MjI2MDE4
+</span></span><span class="line"><span class="cl">	MTkAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqIWGFhOU09iamVj
+</span></span><span class="line"><span class="cl">	dAgRGiQpMjdJTFFTV11kand+nJ6gpbC5wcQAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAzQ==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIGreenColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAoMC41NDkyODgwMzQ0IDAuODgxODk5OTUy
+</span></span><span class="line"><span class="cl">	OSAwLjA0MTIzMzk3MTcxABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29s
+</span></span><span class="line"><span class="cl">	b3KiFhhYTlNPYmplY3QIERokKTI3SUxRU1ddZGp3fqmrrbK9xs7RAAAAAAAAAQEAAAAA
+</span></span><span class="line"><span class="cl">	AAAAGQAAAAAAAAAAAAAAAAAAANo=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIMagentaColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAnMC40MjU2NDIzNDE0IDAuMjYzMTQ3NDQz
+</span></span><span class="line"><span class="cl">	NSAwLjY1MDUyMjExMjgAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xv
+</span></span><span class="line"><span class="cl">	cqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+qKqssbzFzdAAAAAAAAABAQAAAAAA
+</span></span><span class="line"><span class="cl">	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIRedColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxASMSAwIDAuMDU4ODcxNzQ2MDYAEAKAAtIU
+</span></span><span class="line"><span class="cl">	FRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqIWGFhOU09iamVjdAgRGiQpMjdJ
+</span></span><span class="line"><span class="cl">	TFFTV11kand+k5WXnKewuLsAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAxA==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIWhiteColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzRjEgMSAxABACgALSFBUWF1okY2xhc3NuYW1l
+</span></span><span class="line"><span class="cl">	WCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmplY3QIERokKTI3SUxRU1ddZGp3foWHiY6Z
+</span></span><span class="line"><span class="cl">	oqqtAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAALY=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ANSIYellowColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxARMSAwLjcyNjU2OTk1MDYgMAAQAoAC0hQV
+</span></span><span class="line"><span class="cl">	FhdaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEaJCkyN0lM
+</span></span><span class="line"><span class="cl">	UVNXXWRqd36SlJabpq+3ugAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADD
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>BackgroundColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAqMC4wNTQwNjM1ODQ2NiAwLjA2MDkyMDE2
+</span></span><span class="line"><span class="cl">	NzcxIDAuMDk3ODI2MDYzNjMAEAKAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlND
+</span></span><span class="line"><span class="cl">	b2xvcqIWGFhOU09iamVjdAgRGiQpMjdJTFFTV11kand+q62vtL/I0NMAAAAAAAABAQAA
+</span></span><span class="line"><span class="cl">	AAAAAAAZAAAAAAAAAAAAAAAAAAAA3A==
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>CursorColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGmCwwZHyAnVSRudWxs1g0ODxAR
+</span></span><span class="line"><span class="cl">	EhMUFRYXGFYkY2xhc3NcTlNDb21wb25lbnRzVU5TUkdCXE5TQ29sb3JTcGFjZV8QEk5T
+</span></span><span class="line"><span class="cl">	Q3VzdG9tQ29sb3JTcGFjZV8QEE5TTGluZWFyRXhwb3N1cmWABU8QHTEgMC45ODQzMTM3
+</span></span><span class="line"><span class="cl">	MjY0IDAuOTYwNzg0MzE2MSAxTxAcMSAwLjk3OTk1ODUzNDIgMC45NDc1NTk0NzU5ABAB
+</span></span><span class="line"><span class="cl">	gAJBMdMaDRscHR5VTlNJQ0NZTlNTcGFjZUlEgAOABBAMTxECGAAAAhhhcHBsBAAAAG1u
+</span></span><span class="line"><span class="cl">	dHJSR0IgWFlaIAfmAAEAAQAAAAAAAGFjc3BBUFBMAAAAAEFQUEwAAAAAAAAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAD21gABAAAAANMtYXBwbOz9o444hUfDbbS9T3raGC8AAAAAAAAAAAAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAAAAAAAAAAAACmRlc2MAAAD8AAAAMGNwcnQAAAEsAAAAUHd0cHQAAAF8AAAA
+</span></span><span class="line"><span class="cl">	FHJYWVoAAAGQAAAAFGdYWVoAAAGkAAAAFGJYWVoAAAG4AAAAFHJUUkMAAAHMAAAAIGNo
+</span></span><span class="line"><span class="cl">	YWQAAAHsAAAALGJUUkMAAAHMAAAAIGdUUkMAAAHMAAAAIG1sdWMAAAAAAAAAAQAAAAxl
+</span></span><span class="line"><span class="cl">	blVTAAAAFAAAABwARABpAHMAcABsAGEAeQAgAFAAM21sdWMAAAAAAAAAAQAAAAxlblVT
+</span></span><span class="line"><span class="cl">	AAAANAAAABwAQwBvAHAAeQByAGkAZwBoAHQAIABBAHAAcABsAGUAIABJAG4AYwAuACwA
+</span></span><span class="line"><span class="cl">	IAAyADAAMgAyWFlaIAAAAAAAAPbVAAEAAAAA0yxYWVogAAAAAAAAg98AAD2/////u1hZ
+</span></span><span class="line"><span class="cl">	WiAAAAAAAABKvwAAsTcAAAq5WFlaIAAAAAAAACg4AAARCwAAyLlwYXJhAAAAAAADAAAA
+</span></span><span class="line"><span class="cl">	AmZmAADypwAADVkAABPQAAAKW3NmMzIAAAAAAAEMQgAABd7///MmAAAHkwAA/ZD///ui
+</span></span><span class="line"><span class="cl">	///9owAAA9wAAMBu0iEiIyRaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0NvbG9yU3BhY2Wi
+</span></span><span class="line"><span class="cl">	JSZcTlNDb2xvclNwYWNlWE5TT2JqZWN00iEiKClXTlNDb2xvcqIoJgAIABEAGgAkACkA
+</span></span><span class="line"><span class="cl">	MgA3AEkATABRAFMAWgBgAG0AdACBAIcAlACpALwAvgDeAP0A/wEBAQMBCgEQARoBHAEe
+</span></span><span class="line"><span class="cl">	ASADPANBA0wDVQNiA2UDcgN7A4ADiAAAAAAAAAIBAAAAAAAAACoAAAAAAAAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAOL
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>Font<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
+</span></span><span class="line"><span class="cl">	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAKAAAAAAAABAQgAKAA18QD0hh
+</span></span><span class="line"><span class="cl">	Y2tORk0tUmVndWxhctIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250ohkbWE5T
+</span></span><span class="line"><span class="cl">	T2JqZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKartr/GyQAAAAAAAAEBAAAAAAAAABwA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAAAAAAAAAADS
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ProfileCurrentVersion<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">real</span><span class="p">&gt;</span>2.0800000000000001<span class="p">&lt;/</span><span class="nt">real</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>SelectionColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAcMCAwLjE2NDk4OTUwMTIgMC4yMzA3Njky
+</span></span><span class="line"><span class="cl">	MzE5ABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmpl
+</span></span><span class="line"><span class="cl">	Y3QIERokKTI3SUxRU1ddZGp3fp2foaaxusLFAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAM4=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>ShowDimensionsInTitle<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">true</span><span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>TextBoldColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAmMC42MTk1NjUyNDg1IDAuNjEwMDM0Mjg3
+</span></span><span class="line"><span class="cl">	IDAuNjAyNDYxNjk1NwAQAoAC0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9y
+</span></span><span class="line"><span class="cl">	ohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRqd36nqauwu8TMzwAAAAAAAAEBAAAAAAAA
+</span></span><span class="line"><span class="cl">	ABkAAAAAAAAAAAAAAAAAAADY
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>TextColor<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+</span></span><span class="line"><span class="cl">	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+</span></span><span class="line"><span class="cl">	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAcMSAwLjk4MDQ4MTA4ODIgMC45NTU0ODcw
+</span></span><span class="line"><span class="cl">	MTI5ABACgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmpl
+</span></span><span class="line"><span class="cl">	Y3QIERokKTI3SUxRU1ddZGp3fp2foaaxusLFAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAA
+</span></span><span class="line"><span class="cl">	AAAAAAAAAM4=
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;/</span><span class="nt">data</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>columnCount<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">integer</span><span class="p">&gt;</span>80<span class="p">&lt;/</span><span class="nt">integer</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>name<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">string</span><span class="p">&gt;</span>Argonaut<span class="p">&lt;/</span><span class="nt">string</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>rowCount<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">integer</span><span class="p">&gt;</span>24<span class="p">&lt;/</span><span class="nt">integer</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">key</span><span class="p">&gt;</span>type<span class="p">&lt;/</span><span class="nt">key</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">string</span><span class="p">&gt;</span>Window Settings<span class="p">&lt;/</span><span class="nt">string</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">dict</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">plist</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2025-08-12 22:50
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/hugo-code-highlighting/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">【Hugo】代码高亮主题自定义</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/chatlog-vis/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">聊天记录可视化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/wx-history-export/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">微信聊天记录导出方案</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/qq-data-analysis/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">QQ 聊天记录数据库解密与分析</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/html-to-pdf/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">脚本化: html 转 pdf</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="InvalidNamee/invalidnamee.github.io"
+    data-repo-id="R_kgDOO4h0hw"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOO4h0h84CrSyy"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 InvalidNamee
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+    @font-face {
+      font-family: 'LXGWWenKaiGBScreen';
+      src: url(https://invalidnamee.github.io/font/LXGWWenKaiGBScreen.ttf) format('truetype');
+    }
+
+    :root {
+      --base-font-family: 'LXGWWenKaiGBScreen', sans-serif;
+    }
+
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://invalidnamee.github.io/icons/backTop.svg);
+    }
+</style>
+
+
+<script defer src="https://cn.vercount.one/js"></script>
+<script>
+    
+
+    function showHideView() {
+        
+        let viewCounts = document.querySelectorAll("#viewCount");
+        if (viewCounts) {
+            
+            let article =  document.querySelector(".article-page");
+            if (!article) {
+                viewCounts.forEach(ele => {
+                    ele.style.display = 'none';
+                });
+            }
+        }
+    }
+    
+    showHideView();
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+    </body>
+</html>
