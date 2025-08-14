@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/2025sp12/'>
 
-<link rel="stylesheet" href="/scss/style.min.0aeeba1e8710b584e1918a830a8abba88efe60c5cf92ef5d52bd33a88b76a7d4.css"><meta property='og:title' content="2025年夏季个人训练赛第十二场">
+<link rel="stylesheet" href="/scss/style.min.156e73d0c5b92c9c8be9270e92236d477c5c6515a9b2e15627f208a01c41674e.css"><meta property='og:title' content="2025年夏季个人训练赛第十二场">
 <meta property='og:description' content="A. 小凯逛超市 开一个二维背包，统计方案数即可。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 #include &lt;iostream&gt; #include &lt;cstring&gt; using namespace std; const int N = 410; const int MOD = 1000000007; long long f[N][N]; int main() { int T; scanf(&#34;%d&#34;, &amp;T); while (T--) { memset(f, 0, sizeof(f)); f[0][0] = 1; int n, m, v; scanf(&#34;%d%d%d&#34;, &amp;n, &amp;m, &amp;v); for (int i = 1; i &lt;= n; ++i) { int t; scanf(&#34;%d&#34;, &amp;t); for (int j = 1; j &lt;= m; ++j) { for (int k = t; k &lt;= v; ++k) { f[j][k] = (f[j][k] + f[j - 1][k - t]) % MOD; } } } long long res = 0; for (int i = 1; i &lt;= v; ++i) { res = (res + f[m][i]) % MOD; } printf(&#34;%lld\\n&#34;, res); } return 0; } F. 小凯在长跑 签到题。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025sp12/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
@@ -920,6 +920,19 @@ $$<p>所以应该统计到根距离为奇数和偶数的点数，各三次方相
             
                 
 <article class="">
+    <a href="/p/2025sp36/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025夏季个人训练赛第三十六场</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/p/2025sp34/">
         
         
@@ -965,19 +978,6 @@ $$<p>所以应该统计到根距离为奇数和偶数的点数，各三次方相
 
         <div class="article-details">
             <h2 class="article-title">2025夏季个人训练赛第二十八场</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/2025sp27/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2025夏季个人训练赛第二十七场</h2>
         </div>
     </a>
 </article>
