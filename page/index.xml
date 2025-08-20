@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Mon, 11 Aug 2025 19:33:11 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Aug 2025 19:12:20 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>分类 &amp; 标签</title>
         <link>https://invalidnamee.github.io/categories-tags/</link>
         <pubDate>Mon, 11 Aug 2025 15:07:16 +0800</pubDate>
@@ -29,7 +29,11 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://invalidnamee.github.io/todo/</guid>
-        <description>&lt;table&gt;
+        <description>&lt;p&gt;oj 潜在问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;json 里面有关键字会不会被判定为网络攻击&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;事项&lt;/th&gt;
