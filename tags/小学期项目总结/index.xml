@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>小学期项目总结 on Star&#39;s Blog</title>
+        <link>https://invalidnamee.github.io/tags/%E5%B0%8F%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/</link>
+        <description>Recent content in 小学期项目总结 on Star&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>InvalidNamee</copyright>
+        <lastBuildDate>Thu, 21 Aug 2025 18:23:47 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/%E5%B0%8F%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>8.21 总结</title>
+        <link>https://invalidnamee.github.io/p/25xxq-log4/</link>
+        <pubDate>Thu, 21 Aug 2025 18:00:06 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/p/25xxq-log4/</guid>
+        <description>&lt;h2 id=&#34;完成情况&#34;&gt;完成情况
+&lt;/h2&gt;&lt;h3 id=&#34;后端&#34;&gt;后端
+&lt;/h3&gt;&lt;p&gt;github 仓库 commit 记录&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log4/image.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log4/image_hu_e09e8c348371a20.png 480w, https://invalidnamee.github.io/p/25xxq-log4/image_hu_c3aa615b28e9f683.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户(&lt;code&gt;/api/users&lt;/code&gt;)增加加两个接口
+&lt;ul&gt;
+&lt;li&gt;修改用户课程（PATCH）: 教师修改学生的课程，修改范围仅限教师教的课程&lt;/li&gt;
+&lt;li&gt;修改用户信息（PUT）: 教师修改学生或者管理员账号修改其他用户信息（和密码）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;昨天误删的用户列表加回来了&lt;/li&gt;
+&lt;li&gt;修复了管理员用户删除自己的 bug
+&lt;ul&gt;
+&lt;li&gt;问题在于传过来的 id 是 str，没有转成 int，判等的时候得到了 False&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;课程(&lt;code&gt;/api/courses/&lt;/code&gt;)相关接口大改，主要变动是权限控制，另外给题单、题目都加了外键&lt;/li&gt;
+&lt;li&gt;分组(&lt;code&gt;/api/groups/&lt;/code&gt;)相关接口已经基本稳定，教师可以在自己的课程下
+&lt;ul&gt;
+&lt;li&gt;创建组（POST）&lt;/li&gt;
+&lt;li&gt;删除组（DELETE）&lt;/li&gt;
+&lt;li&gt;修改组（分配学生和题单，PUT）&lt;/li&gt;
+&lt;li&gt;查询组列表（GET /api/groups/）&lt;/li&gt;
+&lt;li&gt;查询组详情（GET /api/groups/&amp;lt;int:group_id&amp;gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;problemsets, legacy_problems, coding_problems 都和 course 创建关系，绑死题目和课程的关系&lt;/li&gt;
+&lt;li&gt;frontend-for-testing 更新了所有稳定功能的前端实现&lt;/li&gt;
+&lt;li&gt;已经可以手动开出沙箱编译 c++ 程序，&lt;del&gt;但是判题机后端还在报错&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log4/image-1.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log4/image-1_hu_c9addb98704e0b66.png 480w, https://invalidnamee.github.io/p/25xxq-log4/image-1_hu_e8d676ae700b129.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前端&#34;&gt;前端
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;构建并完善了管理员登录后页面&lt;/li&gt;
+&lt;li&gt;构建了课程管理页面（管理页面只是搭建了页面结构 还需功能完善）&lt;/li&gt;
+&lt;li&gt;对管理员登录后管理用户的绝大部分功能进行了实现（包括用户列表预览 按用户类型和用户名筛选用户 单个和批量创建用户 单个和批量删除用户 修改用户资料）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log4/image-2.png&#34;
+	width=&#34;830&#34;
+	height=&#34;404&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log4/image-2_hu_eee90e3a36bb467d.png 480w, https://invalidnamee.github.io/p/25xxq-log4/image-2_hu_604f96712ced2eb9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;493px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log4/image-3.png&#34;
+	width=&#34;830&#34;
+	height=&#34;410&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log4/image-3_hu_69f77c1b9cb1fbd7.png 480w, https://invalidnamee.github.io/p/25xxq-log4/image-3_hu_a802474b15c966bf.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;202&#34;
+		data-flex-basis=&#34;485px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;明日目标&#34;&gt;明日目标
+&lt;/h2&gt;&lt;h3 id=&#34;后端-1&#34;&gt;后端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;把判题机写完&lt;/li&gt;
+&lt;li&gt;如果还有时间就，开始写最后的提交模块&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端-1&#34;&gt;前端
+&lt;/h3&gt;&lt;p&gt;完善课程管理部分的功能的前端实现 构建教学班（组）页面&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>8.20 总结</title>
+        <link>https://invalidnamee.github.io/p/25xxq-log3/</link>
+        <pubDate>Wed, 20 Aug 2025 18:16:59 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/p/25xxq-log3/</guid>
+        <description>&lt;h2 id=&#34;完成情况&#34;&gt;完成情况
+&lt;/h2&gt;&lt;h3 id=&#34;后端&#34;&gt;后端
+&lt;/h3&gt;&lt;p&gt;git 的 commit 记录&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/image.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/image_hu_41d04f41a64a543f.png 480w, https://invalidnamee.github.io/p/25xxq-log3/image_hu_d53246a527f5c3ba.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开始在 ubuntu 环境远程开发判题机（redis + isolate）&lt;/li&gt;
+&lt;li&gt;重构了昨天 problemset 的代码，统一接口风格为 restful 风格&lt;/li&gt;
+&lt;li&gt;legacy_problem 增删改查&lt;/li&gt;
+&lt;li&gt;legacy_problem 提交
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-18%20at%2021.19.33.png&#34;
+	width=&#34;2678&#34;
+	height=&#34;330&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-18%20at%2021.19.33_hu_495b404378c30fab.png 480w, https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-18%20at%2021.19.33_hu_497ab393d05fb06c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;811&#34;
+		data-flex-basis=&#34;1947px&#34;
+	
+&gt;
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-18%20at%2021.19.48.png&#34;
+	width=&#34;1812&#34;
+	height=&#34;502&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-18%20at%2021.19.48_hu_1c3560387c8c4d2.png 480w, https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-18%20at%2021.19.48_hu_d0b78e35fc8f4ab7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;360&#34;
+		data-flex-basis=&#34;866px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;coding_problem 增删改查，外加两个 patch（导入测试数据和删除测试数据）
+&lt;ul&gt;
+&lt;li&gt;测试数据处理: 在项目目录建 data 目录，创建和题号相同的目录，从内存读入前端传过来的测试数据 zip 文件解压检查后删掉无关文件和所有不配对的 &lt;code&gt;.in&lt;/code&gt; 和 &lt;code&gt;.out&lt;/code&gt; 全部删掉，最后扫一遍路径下的所有合法文件生成一个 json 写入数据库。
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-20%20at%2011.40.51.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-20%20at%2011.40.51_hu_a3f5adbd2dcd82a3.png 480w, https://invalidnamee.github.io/p/25xxq-log3/Screenshot%202025-08-20%20at%2011.40.51_hu_8cfe1db8f23fbbff.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;重构了认证和用户模块的的代码，统一接口风格，已根据需求修正权限问题&lt;/li&gt;
+&lt;li&gt;修改接口文档，另外所有稳定的后端接口都配用 vue 写了一个简单的测试页，供前端参考。
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/image-1.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/image-1_hu_fd8ba316de48b4af.png 480w, https://invalidnamee.github.io/p/25xxq-log3/image-1_hu_f36c9dc0f8390f31.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/image-2.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/image-2_hu_f1462f68f6a59f44.png 480w, https://invalidnamee.github.io/p/25xxq-log3/image-2_hu_8da4feb772a1b559.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log3/image-3.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log3/image-3_hu_b3868fb407f08df6.png 480w, https://invalidnamee.github.io/p/25xxq-log3/image-3_hu_bfce9b240f350cd6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端&#34;&gt;前端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;修改了接口应用错误问题 初步构建了管理员登录后页面的结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;明日目标&#34;&gt;明日目标
+&lt;/h2&gt;&lt;h3 id=&#34;后端-1&#34;&gt;后端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;绑定 problemset 和 course 的关系，把该有的权限限制都加上&lt;/li&gt;
+&lt;li&gt;继续尝试写判题机&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如有需要优先协助改前端&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端-1&#34;&gt;前端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;增加管理员的功能并进行实现 构建教师登录页面的结构&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>8.19 总结</title>
+        <link>https://invalidnamee.github.io/p/25xxq-log2/</link>
+        <pubDate>Tue, 19 Aug 2025 17:59:03 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/p/25xxq-log2/</guid>
+        <description>&lt;h2 id=&#34;完成情况&#34;&gt;完成情况
+&lt;/h2&gt;&lt;h3 id=&#34;后端进度&#34;&gt;后端进度
+&lt;/h3&gt;&lt;p&gt;目前 git 的 commit 记录&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image_hu_7edfd7ca08857e59.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image_hu_2526028892d546bf.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;主要进度是修复了几个 bug，同时完善了一下题单系统&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;大改了用户表，把教师管理学生合并到了一个表里，同时重写了多个关系表，解决了只有学生能提交的问题，多个接口返回和传入参数有对应的调整
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-1.png&#34;
+	width=&#34;3644&#34;
+	height=&#34;2236&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-1_hu_637c5af844845e54.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image-1_hu_7de426000e196108.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;/api/import_legacy_problems&lt;/code&gt; 批量导入传统题目&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;/api/delete_legacy_problems&lt;/code&gt; 批量删除&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;/api/modify_problemset&lt;/code&gt; 新建/更新题单&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;/api/problemset_info&lt;/code&gt; 查询题单信息，可以看到最近一次的得分
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-2.png&#34;
+	width=&#34;2186&#34;
+	height=&#34;600&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-2_hu_6f2bfabe4b0438b7.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image-2_hu_808bf80b6a29bfc9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;364&#34;
+		data-flex-basis=&#34;874px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;/api/delete_problemset&lt;/code&gt; 删除题单&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;/api/judge_legacy&lt;/code&gt; 客观题判题&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;submission 表基本定型，之后的代码题也会用这张表
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-3.png&#34;
+	width=&#34;3644&#34;
+	height=&#34;2236&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-3_hu_64f43fdd2445f44c.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image-3_hu_fe2b90fc2ec0b498.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;部署了一个较稳定的版本用于前端调试&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端进度&#34;&gt;前端进度
+&lt;/h3&gt;&lt;p&gt;实现了用户注册 用户登录 信息修改 注销登录的前端功能（后续可能会继续完善细节 样式）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-4.png&#34;
+	width=&#34;828&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-4_hu_4260e77e0f4382e8.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image-4_hu_f071803777711241.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;494px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-5.png&#34;
+	width=&#34;830&#34;
+	height=&#34;398&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-5_hu_82fd29022f3c3b1e.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image-5_hu_9616f825bef429a7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;208&#34;
+		data-flex-basis=&#34;500px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-6.png&#34;
+	width=&#34;830&#34;
+	height=&#34;404&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log2/image-6_hu_ef5234858f3512fe.png 480w, https://invalidnamee.github.io/p/25xxq-log2/image-6_hu_5348077e9ac97d1f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;493px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;明日目标&#34;&gt;明日目标
+&lt;/h2&gt;&lt;h3 id=&#34;后端&#34;&gt;后端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;coding_problem 的判题机&lt;/li&gt;
+&lt;li&gt;给 problemset 添加更多查询接口&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端&#34;&gt;前端
+&lt;/h3&gt;&lt;p&gt;对于后端已完成的稳定的功能进行前端实现 完善美化已有内容&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>8.18 总结</title>
+        <link>https://invalidnamee.github.io/p/25xxq-log1/</link>
+        <pubDate>Mon, 18 Aug 2025 17:15:05 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/p/25xxq-log1/</guid>
+        <description>&lt;h2 id=&#34;完成情况&#34;&gt;完成情况
+&lt;/h2&gt;&lt;h3 id=&#34;后端进度&#34;&gt;后端进度
+&lt;/h3&gt;&lt;p&gt;目前 git 的 commit 记录&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image_hu_77981a0220872498.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image_hu_b4222571d45880d7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;删除了单独注册接口，和批量注册用一个接口 &lt;code&gt;/api/register&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;教师和学生的个人信息和课程建立联表，可以互相查询&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;统一退出登录或者修改密码后的默认 token_version 为随机 uuid
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-2.png&#34;
+	width=&#34;2002&#34;
+	height=&#34;500&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-2_hu_119229b03e2eae22.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image-2_hu_fa99f25473260d05.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;400&#34;
+		data-flex-basis=&#34;960px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修复批量删除用户导致课程被删的 bug&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;统一了批量操作后端返回的 json 格式&lt;/p&gt;
+&lt;img src=&#34;image-5.png&#34; style=&#34;zoom:50%&#34;/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;删减了身份验证冗余代码（装饰器已经验证过了，但是函数里又验证了一次）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/user_info&lt;/code&gt; 接口，可以返回用户的基本信息（学号，用户名，签名，注册时间，相关课程……）
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-4.png&#34;
+	width=&#34;2332&#34;
+	height=&#34;180&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-4_hu_a0bc40bfe082679c.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image-4_hu_c10587374b436867.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1295&#34;
+		data-flex-basis=&#34;3109px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/user_list&lt;/code&gt; 接口，教师用户分页筛选查询用户，可以根据学号、用户名、专业、学校、课程模糊筛选&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/modify_user&lt;/code&gt; 接口，可以批量修改学校、专业，批量添加或删除课程
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-3.png&#34;
+	width=&#34;2178&#34;
+	height=&#34;562&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-3_hu_f45a4547238e5415.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image-3_hu_1fdbd71460dd5995.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;387&#34;
+		data-flex-basis=&#34;930px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/modify_course&lt;/code&gt; 接口，根据查询字符串参数判断新建或修改，管理员新建课程，分配初始的教师和学生，相关教师账号有修改课程的权限&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/course_list&lt;/code&gt; 接口，和 user_list 类似，查询和当前用户相关的所有课程（管理员可以查看所有课程）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/course_info&lt;/code&gt; 接口，返回课程的基本信息
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-6.png&#34;
+	width=&#34;2412&#34;
+	height=&#34;424&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-6_hu_32542c0347e06477.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image-6_hu_56437e12f1c0d7ad.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;568&#34;
+		data-flex-basis=&#34;1365px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加 &lt;code&gt;/api/delete_course&lt;/code&gt; 接口，批量删除课程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;申请了 GEMINI_API_KEY，配合 google-genai 包可以成功调用 gemini-2.5-flash
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-7.png&#34;
+	width=&#34;3644&#34;
+	height=&#34;2236&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-7_hu_a9a218e2ae2233a0.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image-7_hu_c0215593d79419da.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;初步尝试建立题库，题库分了 legacy 和 coding，数据库的关系还没有确定下来，coding 类题暂定用 isolate 创建隔离环境
+&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-1.png&#34;
+	width=&#34;1644&#34;
+	height=&#34;474&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log1/image-1_hu_eab272ad78a0e03f.png 480w, https://invalidnamee.github.io/p/25xxq-log1/image-1_hu_91cb4b4d0d8417eb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;346&#34;
+		data-flex-basis=&#34;832px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端&#34;&gt;前端
+&lt;/h3&gt;&lt;p&gt;进行了小部分的前端代码实现 简略学习了html5 css js vue以便后期更好的实现前端功能&lt;/p&gt;
+&lt;h2 id=&#34;明日目标&#34;&gt;明日目标
+&lt;/h2&gt;&lt;h3 id=&#34;后端&#34;&gt;后端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;完善 course，problemset，problem (legacy or coding) 之间的关系&lt;/li&gt;
+&lt;li&gt;基本实现教师创建题单，加入（或导入）题目，加入学生，学生在课程题单中提交评测传统问题的全流程的后端 api&lt;/li&gt;
+&lt;li&gt;如果还有富余的时间会尝试写判题机，先解决普通的文件对比类型的 judge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端-1&#34;&gt;前端
+&lt;/h3&gt;&lt;p&gt;实现并完善用户注册 用户登录 信息修改 注销登录的前端功能&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
