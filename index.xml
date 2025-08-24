@@ -7,6 +7,51 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright><atom:link href="https://invalidnamee.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>8.24 总结</title>
+        <link>https://invalidnamee.github.io/p/25xxq-log7/</link>
+        <pubDate>Sun, 24 Aug 2025 18:52:03 +0800</pubDate>
+        
+        <guid>https://invalidnamee.github.io/p/25xxq-log7/</guid>
+        <description>&lt;h2 id=&#34;完成情况&#34;&gt;完成情况
+&lt;/h2&gt;&lt;p&gt;github 仓库的 commit 记录&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/25xxq-log7/image.png&#34;
+	width=&#34;2746&#34;
+	height=&#34;1848&#34;
+	srcset=&#34;https://invalidnamee.github.io/p/25xxq-log7/image_hu_a6fd582d03a76a3b.png 480w, https://invalidnamee.github.io/p/25xxq-log7/image_hu_a80b9d391c7f0711.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;后端&#34;&gt;后端
+&lt;/h3&gt;&lt;p&gt;一些微调和小优化&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;判题机会返回所有用例的最大用时和最大内存占用了&lt;/li&gt;
+&lt;li&gt;用户题单题目……批量查询的接口加了分页和关键词筛选&lt;/li&gt;
+&lt;li&gt;代码题查询的时候会自动给前端传上最后一次的代码&lt;/li&gt;
+&lt;li&gt;组修改之前不能改名，现在可以了&lt;/li&gt;
+&lt;li&gt;处理了一些残留的管理不能访问组的 bug&lt;/li&gt;
+&lt;li&gt;用户导入从之前临时用的 json 换成了 xlsx，更实用了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端&#34;&gt;前端
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;检查 token 从路由守卫挪到了 axios 拦截器，彻底解决了 token 不刷新，token 刷新一下网页才刷新的问题，顺便一劳永逸解决了 404 403 跳转的问题&lt;/li&gt;
+&lt;li&gt;已有的所有功能全部重构，弃用 legacy_problem，和 coding_problems 一起并入 problems 处理&lt;/li&gt;
+&lt;li&gt;新增了代码提交等功能&lt;/li&gt;
+&lt;li&gt;两人一起对后端剩余功能进行了前端实现 统一了UI风格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;明日计划&#34;&gt;明日计划
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;合并 legacy_problems 到 problems&lt;/li&gt;
+&lt;li&gt;前端视图管理，不同用户可见视图不同，同一视图内容不完全相同，组件风格保持一致&lt;/li&gt;
+&lt;li&gt;和组相关的权限大改&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>8.23 总结</title>
         <link>https://invalidnamee.github.io/p/25xxq-log6/</link>
         <pubDate>Sat, 23 Aug 2025 18:52:03 +0800</pubDate>
