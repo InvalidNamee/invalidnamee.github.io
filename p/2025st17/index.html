@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/2025st17/'>
 
-<link rel="stylesheet" href="/scss/style.min.156e73d0c5b92c9c8be9270e92236d477c5c6515a9b2e15627f208a01c41674e.css"><meta property='og:title' content="2025春训第十七场">
+<link rel="stylesheet" href="/scss/style.min.a01ec40dbf2048c28a62b9d2034e1ff71ca7b34f05b1f39e83dcb26d1c9dea7d.css"><meta property='og:title' content="2025春训第十七场">
 <meta property='og:description' content="A. 最大公约数 直接枚举 1 ~ n 对于每一个数从他不等于自己的约数里面找个最大的，然后全部取个 max。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #include &lt;iostream&gt; #include &lt;cmath&gt; using namespace std; int main() { int n, res = 1; cin &gt;&gt; n; for (int i = 1; i &lt;= n; ++i) { int l = sqrt(i); for (int j = 2; j &lt;= l; ++j) { if (i % j == 0) { res = max(res, i / j); break; } } } cout &lt;&lt; res &lt;&lt; endl; return 0; } B. 数的变换 非常的水。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025st17/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
