@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/2025sp14/'>
 
-<link rel="stylesheet" href="/scss/style.min.a01ec40dbf2048c28a62b9d2034e1ff71ca7b34f05b1f39e83dcb26d1c9dea7d.css"><meta property='og:title' content="2025年夏季个人训练赛第十四场">
+<link rel="stylesheet" href="/scss/style.min.beae319b90ad821e5bce8e1ed46269eb40c57992f9a8a68ce5cec06d23c8cf62.css"><meta property='og:title' content="2025年夏季个人训练赛第十四场">
 <meta property='og:description' content="A. 公交线路 按要求模拟即可。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 #include &lt;iostream&gt; using namespace std; const int N = 20; int a[N], b[N]; int main() { int n, x, y; scanf(&#34;%d%d%d&#34;, &amp;n, &amp;x, &amp;y); for (int i = 1; i &lt;= n; ++i) { scanf(&#34;%d&#34;, &amp;a[i]); } int m; scanf(&#34;%d&#34;, &amp;m); for (int i = 1; i &lt;= m; ++i) { scanf(&#34;%d&#34;, &amp;b[i]); } bool l = true, r = true; for (int i = 1; i &lt;= m; ++i) { int p = x + i; if (p &lt; 0 || p &gt; n) { r = false; break; } else if (b[i] != a[p]) { r = false; break; } } for (int i = 1; i &lt;= m; ++i) { int p = x - i; if (p &lt; 0 || p &gt; n) { l = false; break; } else if (b[i] != a[p]) { l = false; break; } } if (l &amp;&amp; r) printf(&#34;Unsure\\n&#34;); else if (!l &amp;&amp; !r) { printf(&#34;qwq\\n&#34;); return 123; } else if (x &lt; y &amp;&amp; r || x &gt; y &amp;&amp; l) printf(&#34;Right\\n&#34;); else printf(&#34;Wrong\\n&#34;); return 0; } B. 攻防演练 C. 连锁商店 236 会爆空间和时间，但是 218 正好不会，最多 36 个景点，只有公司出现次数 ≥ 2 的点记录状态才有意义，统计一下出现次数 ≥ 2 的景点拓扑排序 + 状压dp 就可以解决。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025sp14/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>

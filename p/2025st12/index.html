@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://invalidnamee.github.io/p/2025st12/'>
 
-<link rel="stylesheet" href="/scss/style.min.a01ec40dbf2048c28a62b9d2034e1ff71ca7b34f05b1f39e83dcb26d1c9dea7d.css"><meta property='og:title' content="2025春训第十二场">
+<link rel="stylesheet" href="/scss/style.min.beae319b90ad821e5bce8e1ed46269eb40c57992f9a8a68ce5cec06d23c8cf62.css"><meta property='og:title' content="2025春训第十二场">
 <meta property='og:description' content="A. 拼写检查 按要求模拟就行，只需要注意 如果要检查的单词在词表中出现，则原样输出该单词。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 s = input() n = int(input()) l = [input() for _ in range(n)] if s in l: print(s) else: for t in l: f = False if (len(s) == len(t)): if (sum(s[i] != t[i] for i in range(len(s))) == 1): f = True elif (len(s) == len(t) + 1): for i in range(len(s)): if (s[:i] + s[i + 1:] == t): f = True break elif (len(s) == len(t) - 1): for i in range(len(t)): if (s == t[:i] + t[i + 1:]): f = True break if f: print(t) break else: print(&#39;NOANSWER&#39;) B. 翻转 有点类似线性dp的思想，核心问题就是 0 和 1 的分界点在哪。预处理把右侧全变成 1 的操作数。\n">
 <meta property='og:url' content='https://invalidnamee.github.io/p/2025st12/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
