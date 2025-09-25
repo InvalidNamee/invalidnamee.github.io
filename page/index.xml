@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Tue, 23 Sep 2025 23:09:34 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Sep 2025 22:38:28 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>分类 &amp; 标签</title>
         <link>https://invalidnamee.github.io/categories-tags/</link>
         <pubDate>Mon, 11 Aug 2025 15:07:16 +0800</pubDate>
@@ -33,7 +33,7 @@
 &lt;p&gt;待更新&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;网络赛第二场&lt;/li&gt;
-&lt;li&gt;组队训练 16，17 剩余题&lt;/li&gt;
+&lt;li&gt;组队训练 17 剩余一道题&lt;/li&gt;
 &lt;li&gt;小学期日志移除，最近会更新一个总结。（已经鸽了好几周了）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;更新日志&lt;/strong&gt;&lt;/p&gt;
@@ -46,6 +46,11 @@
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;自定义域名 + cloudflare cdn 加速，一定程度上优化了国内访问速度&lt;br&gt;因为字体渲染太慢，移除了自定义字体&lt;br&gt;浏览量统计加入了人数统计&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;2025-09-25&lt;/td&gt;
+      &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;修复深色模式 tag 背景色问题&lt;/td&gt;
           &lt;td&gt;✅&lt;/td&gt;
