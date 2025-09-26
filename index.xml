@@ -7,6 +7,30 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright><atom:link href="https://blog.starlab.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【数据结构】一般线性表</title>
+        <link>https://blog.starlab.top/p/ds-contest1/</link>
+        <pubDate>Fri, 26 Sep 2025 17:03:50 +0800</pubDate>
+        
+        <guid>https://blog.starlab.top/p/ds-contest1/</guid>
+        <description>&lt;p&gt;代码会在结束后更新，题都很简单，恶心的一点是&lt;strong&gt;不给数据范围让用户自己试&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;函数题&#34;&gt;函数题
+&lt;/h2&gt;&lt;h3 id=&#34;带头结点的链式表操作集&#34;&gt;带头结点的链式表操作集
+&lt;/h3&gt;&lt;h3 id=&#34;求链表的倒数第m个元素&#34;&gt;求链表的倒数第m个元素
+&lt;/h3&gt;&lt;h3 id=&#34;单链表分段逆转&#34;&gt;单链表分段逆转
+&lt;/h3&gt;&lt;p&gt;一段一段做，段内反转，同时需要记录下一个点和这段最左边的点的地址，段间连起来，&lt;strong&gt;第 4 个点段错误是因为没有特判 n &amp;lt; k 爆掉了&lt;/strong&gt;，别问我怎么知道的。&lt;/p&gt;
+&lt;h3 id=&#34;共享后缀的链表&#34;&gt;共享后缀的链表
+&lt;/h3&gt;&lt;p&gt;先往后移动长的链表的头指针，对齐之后同时右移，直到重合，类似暴力的 lca 的做法。&lt;/p&gt;
+&lt;h2 id=&#34;编程题&#34;&gt;编程题
+&lt;/h2&gt;&lt;h3 id=&#34;两个有序链表序列的合并&#34;&gt;两个有序链表序列的合并
+&lt;/h3&gt;&lt;p&gt;参考&lt;a class=&#34;link&#34; href=&#34;https://oi-wiki.org/basic/merge-sort/#%E5%90%88%E5%B9%B6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;归并排序的合并&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;一元多项式的乘法与加法运算&#34;&gt;一元多项式的乘法与加法运算
+&lt;/h3&gt;&lt;p&gt;其实就是一个高精乘法和高精加法，而且不用进位。个人感觉他的本意是想考链表，但是数据给太小了，直接开 2000 的数组就能跑过去。如果 p 给个 10&lt;sup&gt;6&lt;/sup&gt; 以上那就得老老实实用链表了。&lt;/p&gt;
+&lt;h3 id=&#34;多项式-a-除以-b&#34;&gt;多项式 A 除以 B
+&lt;/h3&gt;&lt;p&gt;这道其实是高精除法，本意应该也是想考链表，但是实测数组开 10&lt;sup&gt;4&lt;/sup&gt; 能过，p 给个 10&lt;sup&gt;5&lt;/sup&gt; 以上差不多就能卡掉数组了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>【数据结构】C语言测试题</title>
         <link>https://blog.starlab.top/p/ds-contest0/</link>
         <pubDate>Wed, 24 Sep 2025 18:00:47 +0800</pubDate>
