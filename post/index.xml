@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/post/</link>
+        <link>https://blog.starlab.top/post/</link>
         <description>Recent content in Posts on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Thu, 25 Sep 2025 22:38:28 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Sep 2025 22:38:28 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【数据结构】C语言测试题</title>
-        <link>https://invalidnamee.github.io/p/ds-contest0/</link>
+        <link>https://blog.starlab.top/p/ds-contest0/</link>
         <pubDate>Wed, 24 Sep 2025 18:00:47 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/ds-contest0/</guid>
+        <guid>https://blog.starlab.top/p/ds-contest0/</guid>
         <description>&lt;h2 id=&#34;-annoucnement&#34;&gt;📢 Annoucnement
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;这场不计分，&lt;strong&gt;如果计分会在结束后发博客&lt;/strong&gt;，如果题目太多会开个仓库发。&lt;/li&gt;
@@ -487,10 +487,10 @@
         </item>
         <item>
         <title>备战2025区域赛组队训练赛第 17 场</title>
-        <link>https://invalidnamee.github.io/p/2025rt17/</link>
+        <link>https://blog.starlab.top/p/2025rt17/</link>
         <pubDate>Tue, 23 Sep 2025 22:26:19 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025rt17/</guid>
+        <guid>https://blog.starlab.top/p/2025rt17/</guid>
         <description>&lt;p&gt;最红温的一天。&lt;/p&gt;
 &lt;h2 id=&#34;c-insertion-sort&#34;&gt;C. Insertion Sort
 &lt;/h2&gt;&lt;p&gt;&lt;span style=&#34;font-size: 30px; color: red; font-weight: Bold;&#34;&gt;特判 k &amp;gt;= n！特判 k &amp;gt;= n！特判 k &amp;gt;= n！&lt;/span&gt;&lt;/p&gt;
@@ -1224,10 +1224,10 @@
         </item>
         <item>
         <title>备战2025区域赛组队训练赛第 16 场</title>
-        <link>https://invalidnamee.github.io/p/2025rt16/</link>
+        <link>https://blog.starlab.top/p/2025rt16/</link>
         <pubDate>Tue, 23 Sep 2025 22:01:18 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025rt16/</guid>
+        <guid>https://blog.starlab.top/p/2025rt16/</guid>
         <description>&lt;p&gt;2025-09-25 所有欠的题都补上了。&lt;/p&gt;
 &lt;h2 id=&#34;-announcement&#34;&gt;📢 Announcement
 &lt;/h2&gt;&lt;ul&gt;
@@ -2078,10 +2078,10 @@
         </item>
         <item>
         <title>【数据结构】线性表</title>
-        <link>https://invalidnamee.github.io/p/ds-list/</link>
+        <link>https://blog.starlab.top/p/ds-list/</link>
         <pubDate>Wed, 17 Sep 2025 12:59:56 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/ds-list/</guid>
+        <guid>https://blog.starlab.top/p/ds-list/</guid>
         <description>&lt;h2 id=&#34;-announcement&#34;&gt;📢 Announcement
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;本系列在讲完之前会&lt;strong&gt;持续更新&lt;/strong&gt;。&lt;/li&gt;
@@ -3061,10 +3061,10 @@
         </item>
         <item>
         <title>ICPC Asia EC Online 2025(I)</title>
-        <link>https://invalidnamee.github.io/p/icpc-asia-ec-online-2025i/</link>
+        <link>https://blog.starlab.top/p/icpc-asia-ec-online-2025i/</link>
         <pubDate>Tue, 16 Sep 2025 19:41:50 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/icpc-asia-ec-online-2025i/</guid>
+        <guid>https://blog.starlab.top/p/icpc-asia-ec-online-2025i/</guid>
         <description>&lt;p&gt;其实很早之前就补的差不多了，可以看到 16 号就打算写了，后来一直拖，拖到了现在。&lt;/p&gt;
 &lt;p&gt;这场我们打的挺好的，我只写了一道大模拟，然后队友已经切完了，最后做交互题没调出来。&lt;/p&gt;
 &lt;h2 id=&#34;a-who-can-win&#34;&gt;A. Who Can Win
@@ -3689,10 +3689,10 @@
         </item>
         <item>
         <title>【模板】快速傅立叶变换 (FFT)</title>
-        <link>https://invalidnamee.github.io/p/math-acwing/</link>
+        <link>https://blog.starlab.top/p/math-acwing/</link>
         <pubDate>Fri, 15 Aug 2025 17:06:02 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/math-acwing/</guid>
+        <guid>https://blog.starlab.top/p/math-acwing/</guid>
         <description>&lt;p&gt;日后可能发展成 acwing 的数学专题打卡记录，和计算几何一样，所以 slug 先给了 math-acwing，但是目前还没多余的时间学数学，最可能用到什么学什么。&lt;/p&gt;
 &lt;h2 id=&#34;fft&#34;&gt;FFT
 &lt;/h2&gt;&lt;h3 id=&#34;acwing-3122-多项式乘法&#34;&gt;AcWing 3122. 多项式乘法
@@ -3960,10 +3960,10 @@
         </item>
         <item>
         <title>2025牛客暑期多校训练营10</title>
-        <link>https://invalidnamee.github.io/p/25ncmu10/</link>
+        <link>https://blog.starlab.top/p/25ncmu10/</link>
         <pubDate>Thu, 14 Aug 2025 19:48:49 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu10/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu10/</guid>
         <description>&lt;p&gt;最后一场了，后面打三天训练赛我就该小学期了，训练赛题解系列暂时停更，但是有可能更新小学期项目的日志之类的。&lt;/p&gt;
 &lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
@@ -4631,10 +4631,10 @@
         </item>
         <item>
         <title>2025夏季个人训练赛第三十六场</title>
-        <link>https://invalidnamee.github.io/p/2025sp36/</link>
+        <link>https://blog.starlab.top/p/2025sp36/</link>
         <pubDate>Wed, 13 Aug 2025 18:54:12 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp36/</guid>
+        <guid>https://blog.starlab.top/p/2025sp36/</guid>
         <description>&lt;p&gt;中午没睡醒，一睁眼发现三点多了，于是在宿舍先把剩下一道题写了，又写了写题解，拷到 U 盘里面了，然后回机房之后发现 U 盘落宿舍了……&lt;/p&gt;
 &lt;h2 id=&#34;a-婚礼上的小杉&#34;&gt;A. 婚礼上的小杉
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -5375,17 +5375,17 @@ $$
         </item>
         <item>
         <title>oh-my-zsh 配置</title>
-        <link>https://invalidnamee.github.io/p/omz-configure/</link>
+        <link>https://blog.starlab.top/p/omz-configure/</link>
         <pubDate>Tue, 12 Aug 2025 21:31:15 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/omz-configure/</guid>
+        <guid>https://blog.starlab.top/p/omz-configure/</guid>
         <description>&lt;p&gt;之前存的记录一弄就不知道放哪里了，放这儿总不会丢了。&lt;/p&gt;
 &lt;p&gt;大致效果就是&lt;strong&gt;精简 &amp;amp; 美化&lt;/strong&gt;一下命令行界面，另外加一点&lt;strong&gt;实用的功能&lt;/strong&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;效果图&#34;&gt;效果图
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/omz-configure/img.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/omz-configure/img.png&#34;
 	width=&#34;1384&#34;
 	height=&#34;1114&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/omz-configure/img_hu_b4efe29ab572d386.png 480w, https://invalidnamee.github.io/p/omz-configure/img_hu_a80785e833cb8a5d.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/omz-configure/img_hu_b4efe29ab572d386.png 480w, https://blog.starlab.top/p/omz-configure/img_hu_a80785e833cb8a5d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -5492,10 +5492,10 @@ $$
 &lt;/h2&gt;&lt;p&gt;我用了 XTerm 主题库里面的 Argonaut 主题，稍微改了一下光标的颜色。&lt;/p&gt;
 &lt;h3 id=&#34;windows-or-linux&#34;&gt;Windows or Linux
 &lt;/h3&gt;&lt;p&gt;可以选择从这张图里面取色&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/omz-configure/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/omz-configure/image.png&#34;
 	width=&#34;1558&#34;
 	height=&#34;1480&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/omz-configure/image_hu_dd05e22b87efa3ae.png 480w, https://invalidnamee.github.io/p/omz-configure/image_hu_d0c060a9201905de.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/omz-configure/image_hu_dd05e22b87efa3ae.png 480w, https://blog.starlab.top/p/omz-configure/image_hu_d0c060a9201905de.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6100,10 +6100,10 @@ $$
         </item>
         <item>
         <title>2025牛客暑期多校训练营9</title>
-        <link>https://invalidnamee.github.io/p/25ncmu9/</link>
+        <link>https://blog.starlab.top/p/25ncmu9/</link>
         <pubDate>Tue, 12 Aug 2025 19:24:51 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu9/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu9/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -6900,10 +6900,10 @@ $$
         </item>
         <item>
         <title>【Hugo】代码高亮主题自定义</title>
-        <link>https://invalidnamee.github.io/p/hugo-code-highlighting/</link>
+        <link>https://blog.starlab.top/p/hugo-code-highlighting/</link>
         <pubDate>Mon, 11 Aug 2025 20:10:21 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/hugo-code-highlighting/</guid>
+        <guid>https://blog.starlab.top/p/hugo-code-highlighting/</guid>
         <description>&lt;p&gt;今天魔改 hugo-stack 的时候，感觉原来那个蓝蓝的配色实在是有点丑，既然这次已经大型魔改了，就一起改了吧，过程中遇到了点小困难。&lt;/p&gt;
 &lt;p&gt;根据网上查到方法大都是直接在 &lt;code&gt;hugo.yaml&lt;/code&gt; 里面改 &lt;code&gt;markup.highlight.style&lt;/code&gt;，但是我不知道是不是因为我配置的问题改了没用，所以又查了很久的资料，终于是解决了，特此记录。&lt;/p&gt;
 &lt;p&gt;用 chromastyles 生成 scss 文件到 &lt;code&gt;assets/scss/partials/highlight&lt;/code&gt;，我选了 xcode 主题，其他可选的主题见 &lt;a class=&#34;link&#34; href=&#34;https://xyproto.github.io/splash/docs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -7014,10 +7014,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第三十四场</title>
-        <link>https://invalidnamee.github.io/p/2025sp34/</link>
+        <link>https://blog.starlab.top/p/2025sp34/</link>
         <pubDate>Mon, 11 Aug 2025 16:29:36 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp34/</guid>
+        <guid>https://blog.starlab.top/p/2025sp34/</guid>
         <description>&lt;p&gt;没有牛客的第二天～～&lt;/p&gt;
 &lt;h2 id=&#34;a-小biu的骰子&#34;&gt;A. 小Biu的骰子
 &lt;/h2&gt;&lt;p&gt;我刚开始的时候惯性思维的想遍历终点枚举起点，没有考虑到不同起点过来的概率还都得单独算，WA 了好几发之后才发现……&lt;/p&gt;
@@ -7632,10 +7632,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第三十三场</title>
-        <link>https://invalidnamee.github.io/p/2025sp33/</link>
+        <link>https://blog.starlab.top/p/2025sp33/</link>
         <pubDate>Sun, 10 Aug 2025 16:34:24 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp33/</guid>
+        <guid>https://blog.starlab.top/p/2025sp33/</guid>
         <description>&lt;p&gt;又是没有牛客打的一天～～&lt;/p&gt;
 &lt;h2 id=&#34;a-矩阵转换&#34;&gt;A. 矩阵转换
 &lt;/h2&gt;&lt;p&gt;一个大的矩形的变换一定可以由多个 2 * 2 的矩形拼出来，2 * 2 的矩形是最小的可以操作的单位，直接遍历一遍矩阵，贪心的变换 2 * 2 的矩阵，如果能成 B 就是 Yes，不能就是 No。&lt;/p&gt;
@@ -7817,10 +7817,10 @@ $$
     &gt;(疑似)母题&lt;/a&gt;能过。&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;数据就是出问题了，而且已经被我修正了，虽然对拍的时候验证过我应该没问题，但是重判的时候就我一个过了……&lt;/p&gt;
 &lt;p&gt;目测大家都被&lt;strong&gt;卡精度&lt;/strong&gt;了，看这张图，我依次输出了所有的 $a_{i, j}$, $k_i$, $\lfloor a_{i, j} k_i \rfloor + 1$, $j \cdot p1_i - \left(s - j\right) \cdot p2_i$ 上面是我的输出，下面是原来 std 的输出，根据 python 的验证，确实是浮点数精度出了问题，而且我是对的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025sp33/2025-08-10_19-05-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025sp33/2025-08-10_19-05-00.png&#34;
 	width=&#34;2624&#34;
 	height=&#34;868&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025sp33/2025-08-10_19-05-00_hu_d2ec95bd320434e4.png 480w, https://invalidnamee.github.io/p/2025sp33/2025-08-10_19-05-00_hu_c863f409fa8947fa.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025sp33/2025-08-10_19-05-00_hu_d2ec95bd320434e4.png 480w, https://blog.starlab.top/p/2025sp33/2025-08-10_19-05-00_hu_c863f409fa8947fa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -8633,10 +8633,10 @@ $$
         </item>
         <item>
         <title>2025牛客暑期多校训练营7</title>
-        <link>https://invalidnamee.github.io/p/25ncmu7/</link>
+        <link>https://blog.starlab.top/p/25ncmu7/</link>
         <pubDate>Sun, 10 Aug 2025 16:30:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu7/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu7/</guid>
         <description>&lt;p&gt;时间和 xcpc 系统测试赛撞了，所以是周五 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -9463,10 +9463,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营8</title>
-        <link>https://invalidnamee.github.io/p/25ncmu8/</link>
+        <link>https://blog.starlab.top/p/25ncmu8/</link>
         <pubDate>Thu, 07 Aug 2025 19:25:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu8/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu8/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -10296,10 +10296,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>【更新中】AcWing 计算几何打卡记录</title>
-        <link>https://invalidnamee.github.io/p/geometry-acwing/</link>
+        <link>https://blog.starlab.top/p/geometry-acwing/</link>
         <pubDate>Thu, 07 Aug 2025 09:43:43 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/geometry-acwing/</guid>
+        <guid>https://blog.starlab.top/p/geometry-acwing/</guid>
         <description>&lt;p&gt;&lt;span style=&#34;color: blue&#34;&gt;这个系列还没有完结，最近会不定时更新&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;基础知识&#34;&gt;基础知识
 &lt;/h2&gt;&lt;h3 id=&#34;acwing-2983-玩具&#34;&gt;AcWing 2983. 玩具
@@ -10907,10 +10907,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
 &lt;/div&gt;&lt;h2 id=&#34;半平面交&#34;&gt;半平面交
 &lt;/h2&gt;&lt;h3 id=&#34;acwing-2803-凸多边形&#34;&gt;AcWing 2803. 凸多边形
 &lt;/h3&gt;&lt;p&gt;没想到能出这么多事，被 hack 的两组边界数据如下图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/geometry-acwing/hack1.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack1_hu_2e12c0eb35d41273.png 480w, https://invalidnamee.github.io/p/geometry-acwing/hack1_hu_24e84c954331c62b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/geometry-acwing/hack1_hu_2e12c0eb35d41273.png 480w, https://blog.starlab.top/p/geometry-acwing/hack1_hu_24e84c954331c62b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;hack1.png&#34;
@@ -10920,10 +10920,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack2.png&#34;
+&gt;&lt;img src=&#34;https://blog.starlab.top/p/geometry-acwing/hack2.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack2_hu_e657ee431285ea93.png 480w, https://invalidnamee.github.io/p/geometry-acwing/hack2_hu_e2d4952f272ce53b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/geometry-acwing/hack2_hu_e657ee431285ea93.png 480w, https://blog.starlab.top/p/geometry-acwing/hack2_hu_e2d4952f272ce53b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;hack2.png&#34;
@@ -11807,10 +11807,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025夏季个人训练赛第二十九场</title>
-        <link>https://invalidnamee.github.io/p/2025sp29/</link>
+        <link>https://blog.starlab.top/p/2025sp29/</link>
         <pubDate>Wed, 06 Aug 2025 19:26:53 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp29/</guid>
+        <guid>https://blog.starlab.top/p/2025sp29/</guid>
         <description>&lt;p&gt;早上不知道要不要打，交了一道题，后来说可以不打了，但是来都来了，所以又打了一上午……&lt;/p&gt;
 &lt;h2 id=&#34;b-甜点&#34;&gt;B. 甜点
 &lt;/h2&gt;&lt;p&gt;其实就是个多重背包问题，二进制拆分一下暴力做两次就可以了。&lt;/p&gt;
@@ -12423,10 +12423,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025夏季个人训练赛第二十八场</title>
-        <link>https://invalidnamee.github.io/p/2025sp28/</link>
+        <link>https://blog.starlab.top/p/2025sp28/</link>
         <pubDate>Wed, 06 Aug 2025 18:53:25 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp28/</guid>
+        <guid>https://blog.starlab.top/p/2025sp28/</guid>
         <description>&lt;p&gt;没题补了于是再来一场。&lt;/p&gt;
 &lt;h2 id=&#34;a-染色&#34;&gt;A. 染色
 &lt;/h2&gt;&lt;p&gt;一道水题，差分前缀和数标记。&lt;/p&gt;
@@ -12574,10 +12574,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
 &lt;/h2&gt;&lt;p&gt;因为调这个差点中午没睡了觉，就是他害我下午差点迟到的，不是我睡过头了😭&lt;/p&gt;
 &lt;p&gt;逻辑还比较简单，核心思想是正着跑一遍最大子段和，倒着再跑一遍最大子段和，加上中间的一段得到答案。中间这一段可以在着最大子段和的过程中 dp 维护，比如我是先倒着预处理的，记 f&lt;sub&gt;i, j&lt;/sub&gt; 是维护到第 i 个位置，最后一段取了第 j 行的最大和，做到第 i - 1 位时，用第 i 位的最大子段和和第 i 位的 f 数组更新状态。&lt;/p&gt;
 &lt;p&gt;然后从左到右做一遍最大子段和和 f 拼接一下取 max 就是答案。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025sp28/Sketch.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025sp28/Sketch.png&#34;
 	width=&#34;400&#34;
 	height=&#34;365&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025sp28/Sketch_hu_2590b0cf681408e8.png 480w, https://invalidnamee.github.io/p/2025sp28/Sketch_hu_447c11623a2c525.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025sp28/Sketch_hu_2590b0cf681408e8.png 480w, https://blog.starlab.top/p/2025sp28/Sketch_hu_447c11623a2c525.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Sketch.png&#34;
@@ -13032,10 +13032,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>【NAC2025】2025 拼题A XCPC 系统测试赛</title>
-        <link>https://invalidnamee.github.io/p/nac2025/</link>
+        <link>https://blog.starlab.top/p/nac2025/</link>
         <pubDate>Tue, 05 Aug 2025 19:50:23 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/nac2025/</guid>
+        <guid>https://blog.starlab.top/p/nac2025/</guid>
         <description>&lt;p&gt;这场相当于 vp 了一下 NAC2025，最大的感受就是看英文体面太折磨了，看不懂不致命，理解错了自以为看懂了最致命。&lt;/p&gt;
 &lt;p&gt;结束之后 OMS 客户端直接自己退了代码看不到了，之前做过的题的代码也是根据记忆重写的，下面的题是按照难度顺序排列的。&lt;/p&gt;
 &lt;h2 id=&#34;k-sla-tomography&#34;&gt;K. SLA Tomography
@@ -13551,10 +13551,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025夏季个人训练赛第二十七场</title>
-        <link>https://invalidnamee.github.io/p/2025sp27/</link>
+        <link>https://blog.starlab.top/p/2025sp27/</link>
         <pubDate>Mon, 04 Aug 2025 16:45:30 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp27/</guid>
+        <guid>https://blog.starlab.top/p/2025sp27/</guid>
         <description>&lt;p&gt;今天没有牛客可以 vp 了，🐸说打一场个人训练吧，于是就有了这篇博客。&lt;/p&gt;
 &lt;h2 id=&#34;a-折半枚举四数之和为零-补&#34;&gt;A. 折半枚举：四数之和为零 &lt;sup style=&#34;color: red&#34;&gt;补&lt;/sup&gt;
 &lt;/h2&gt;&lt;p&gt;当时被卡常卡空间，各种卡，卡绝望了……赛时 TLE 和 MLE 共计 12 发，补题的时候还有两发。&lt;/p&gt;
@@ -14465,10 +14465,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>【更新中】CSES Geometry</title>
-        <link>https://invalidnamee.github.io/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</link>
+        <link>https://blog.starlab.top/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</link>
         <pubDate>Sun, 03 Aug 2025 11:46:30 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</guid>
+        <guid>https://blog.starlab.top/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</guid>
         <description>&lt;p&gt;&lt;span style=&#34;color: blue&#34;&gt;这个系列还没有完结，最近会不定时更新&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;主要是为了补全队的短板，我开始学之前看都不看的计算几何了，毕竟谁不想做香香软软的数据结构呢。另外如果有人看的话，前排提醒一下，这&lt;strong&gt;不是详细的题解&lt;/strong&gt;，只是记录一下自己做的过程。&lt;/p&gt;
 &lt;p&gt;做这个板子题的题集之前我先看了 Acwing 的课，所以码风会和y总的比较相似。&lt;/p&gt;
@@ -15254,10 +15254,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营3</title>
-        <link>https://invalidnamee.github.io/p/25ncmu3/</link>
+        <link>https://blog.starlab.top/p/25ncmu3/</link>
         <pubDate>Sat, 02 Aug 2025 18:32:54 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu3/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu3/</guid>
         <description>&lt;p&gt;这场是 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -16164,10 +16164,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营6</title>
-        <link>https://invalidnamee.github.io/p/25ncmu6/</link>
+        <link>https://blog.starlab.top/p/25ncmu6/</link>
         <pubDate>Sat, 02 Aug 2025 18:31:27 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu6/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu6/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -16961,10 +16961,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营5</title>
-        <link>https://invalidnamee.github.io/p/25ncmu5/</link>
+        <link>https://blog.starlab.top/p/25ncmu5/</link>
         <pubDate>Wed, 30 Jul 2025 18:53:19 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu5/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu5/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -17768,10 +17768,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>警惕 map 陷阱</title>
-        <link>https://invalidnamee.github.io/p/be-aware-of-map/</link>
+        <link>https://blog.starlab.top/p/be-aware-of-map/</link>
         <pubDate>Mon, 28 Jul 2025 20:37:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/be-aware-of-map/</guid>
+        <guid>https://blog.starlab.top/p/be-aware-of-map/</guid>
         <description>&lt;p&gt;事情是这样的，今天我被卡常卡傻了，而且很多都是因为 map。&lt;/p&gt;
 &lt;p&gt;比如离散化，可以这样写&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -17827,10 +17827,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;第一种做法虽然看着简洁，但是实际上&lt;strong style=&#34;color: red&#34;&gt;非常的慢！！！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;以今天早上刚被卡的上海月赛为例，换到 map 之后 990 → 180，提升巨大。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/be-aware-of-map/iai_map.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/be-aware-of-map/iai_map.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;2138&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/be-aware-of-map/iai_map_hu_3c91072a8ce419ad.png 480w, https://invalidnamee.github.io/p/be-aware-of-map/iai_map_hu_71436534a26d4d0a.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/be-aware-of-map/iai_map_hu_3c91072a8ce419ad.png 480w, https://blog.starlab.top/p/be-aware-of-map/iai_map_hu_71436534a26d4d0a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;第一种做法&#34;
@@ -17840,10 +17840,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
 		data-flex-grow=&#34;159&#34;
 		data-flex-basis=&#34;383px&#34;
 	
-&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/be-aware-of-map/iai_vec.png&#34;
+&gt;&lt;img src=&#34;https://blog.starlab.top/p/be-aware-of-map/iai_vec.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;2138&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/be-aware-of-map/iai_vec_hu_68948b4c854339ff.png 480w, https://invalidnamee.github.io/p/be-aware-of-map/iai_vec_hu_c81d7fc7b2be4cfb.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/be-aware-of-map/iai_vec_hu_68948b4c854339ff.png 480w, https://blog.starlab.top/p/be-aware-of-map/iai_vec_hu_c81d7fc7b2be4cfb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;第二种做法&#34;
@@ -17855,10 +17855,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;再看牛客多校第一场的 L 题，一个 log 的权值线段树因为用 map 差 47ms 喜提 TLE，比没用 map 多一个 log 的树状数组还慢了 300ms.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/be-aware-of-map/nowcoder.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/be-aware-of-map/nowcoder.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;2138&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/be-aware-of-map/nowcoder_hu_5a3bd711ac4a14ef.png 480w, https://invalidnamee.github.io/p/be-aware-of-map/nowcoder_hu_5a16e7e1d9117655.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/be-aware-of-map/nowcoder_hu_5a3bd711ac4a14ef.png 480w, https://blog.starlab.top/p/be-aware-of-map/nowcoder_hu_5a16e7e1d9117655.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;牛客多校1 - L&#34;
@@ -17874,10 +17874,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营1</title>
-        <link>https://invalidnamee.github.io/p/25ncmu1/</link>
+        <link>https://blog.starlab.top/p/25ncmu1/</link>
         <pubDate>Mon, 28 Jul 2025 19:11:12 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu1/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu1/</guid>
         <description>&lt;p&gt;同样也是 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -18711,10 +18711,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营2</title>
-        <link>https://invalidnamee.github.io/p/25ncmu2/</link>
+        <link>https://blog.starlab.top/p/25ncmu2/</link>
         <pubDate>Sat, 26 Jul 2025 17:11:04 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu2/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu2/</guid>
         <description>&lt;p&gt;当时我们都在家，所以是回学校之后 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -19635,10 +19635,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营4</title>
-        <link>https://invalidnamee.github.io/p/25ncmu4/</link>
+        <link>https://blog.starlab.top/p/25ncmu4/</link>
         <pubDate>Sat, 26 Jul 2025 17:11:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu4/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu4/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -20743,10 +20743,10 @@ $$&lt;p&gt;二进制位是 0 的时候需要 * 2 的情况就解决了；然后�
         </item>
         <item>
         <title>2025夏季个人训练赛第十五场</title>
-        <link>https://invalidnamee.github.io/p/2025sp15/</link>
+        <link>https://blog.starlab.top/p/2025sp15/</link>
         <pubDate>Tue, 22 Jul 2025 12:52:27 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp15/</guid>
+        <guid>https://blog.starlab.top/p/2025sp15/</guid>
         <description>&lt;h2 id=&#34;a-npsc-again&#34;&gt;A: NPSC, Again
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -21005,10 +21005,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十四场</title>
-        <link>https://invalidnamee.github.io/p/2025sp14/</link>
+        <link>https://blog.starlab.top/p/2025sp14/</link>
         <pubDate>Tue, 15 Jul 2025 18:24:37 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp14/</guid>
+        <guid>https://blog.starlab.top/p/2025sp14/</guid>
         <description>&lt;h2 id=&#34;a-公交线路&#34;&gt;A. 公交线路
 &lt;/h2&gt;&lt;p&gt;按要求模拟即可。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -21471,10 +21471,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十三场</title>
-        <link>https://invalidnamee.github.io/p/2025sp13/</link>
+        <link>https://blog.starlab.top/p/2025sp13/</link>
         <pubDate>Tue, 15 Jul 2025 18:24:34 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp13/</guid>
+        <guid>https://blog.starlab.top/p/2025sp13/</guid>
         <description>&lt;h2 id=&#34;a-hat-circle&#34;&gt;A. Hat Circle
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -21795,10 +21795,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十二场</title>
-        <link>https://invalidnamee.github.io/p/2025sp12/</link>
+        <link>https://blog.starlab.top/p/2025sp12/</link>
         <pubDate>Tue, 15 Jul 2025 18:24:31 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp12/</guid>
+        <guid>https://blog.starlab.top/p/2025sp12/</guid>
         <description>&lt;h2 id=&#34;a-小凯逛超市&#34;&gt;A. 小凯逛超市
 &lt;/h2&gt;&lt;p&gt;开一个二维背包，统计方案数即可。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -22260,10 +22260,10 @@ $$&lt;p&gt;所以应该统计到根距离为奇数和偶数的点数，各三次
         </item>
         <item>
         <title>2025年夏季个人训练赛第十一场</title>
-        <link>https://invalidnamee.github.io/p/2025sp11/</link>
+        <link>https://blog.starlab.top/p/2025sp11/</link>
         <pubDate>Fri, 11 Jul 2025 17:25:23 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp11/</guid>
+        <guid>https://blog.starlab.top/p/2025sp11/</guid>
         <description>&lt;p&gt;越做越麻……&lt;/p&gt;
 &lt;h2 id=&#34;a-战斗爽&#34;&gt;A. 战斗爽
 &lt;/h2&gt;&lt;p&gt;重要的性质，对同一个敌人的攻击一定是连续的，如果一个敌人已经是剩余血量最低，攻击最低，编号最小，那么他被攻击后血量更低，所以他还是最低的。&lt;/p&gt;
@@ -22637,10 +22637,10 @@ $$&lt;p&gt;第一维可以直接压掉，防止爆空间。&lt;/p&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十场</title>
-        <link>https://invalidnamee.github.io/p/2025sp10/</link>
+        <link>https://blog.starlab.top/p/2025sp10/</link>
         <pubDate>Fri, 11 Jul 2025 17:25:20 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp10/</guid>
+        <guid>https://blog.starlab.top/p/2025sp10/</guid>
         <description>&lt;h2 id=&#34;a-分割数组&#34;&gt;A. 分割数组
 &lt;/h2&gt;&lt;p&gt;又是我最喜欢的 dp，$f_{i, j}$ 表示前 i 个数分成 j 段的方案数&lt;/p&gt;
 $$
@@ -22762,10 +22762,10 @@ $$&lt;p&gt;把 $f_{i, j}$ 和按照对 j + 1 的模数分类前缀和可以优�
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;c-为美好的世界献上爆炎&#34;&gt;C. 为美好的世界献上爆炎
 &lt;/h2&gt;&lt;p&gt;先从小到大一点一点试&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025sp10/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025sp10/image.png&#34;
 	width=&#34;1898&#34;
 	height=&#34;499&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025sp10/image_hu_d1b9b3f719caed9a.png 480w, https://invalidnamee.github.io/p/2025sp10/image_hu_93d6ef0b30b467b3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025sp10/image_hu_d1b9b3f719caed9a.png 480w, https://blog.starlab.top/p/2025sp10/image_hu_93d6ef0b30b467b3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -23401,10 +23401,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>2025年夏季个人训练赛第九场</title>
-        <link>https://invalidnamee.github.io/p/2025sp9/</link>
+        <link>https://blog.starlab.top/p/2025sp9/</link>
         <pubDate>Wed, 09 Jul 2025 16:10:51 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp9/</guid>
+        <guid>https://blog.starlab.top/p/2025sp9/</guid>
         <description>&lt;h2 id=&#34;c-水王的奇妙集合&#34;&gt;C. 水王的奇妙集合
 &lt;/h2&gt;&lt;p&gt;权值线段树。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -23746,10 +23746,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>2025年夏季个人训练赛第八场</title>
-        <link>https://invalidnamee.github.io/p/2025sp8/</link>
+        <link>https://blog.starlab.top/p/2025sp8/</link>
         <pubDate>Wed, 09 Jul 2025 16:10:46 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp8/</guid>
+        <guid>https://blog.starlab.top/p/2025sp8/</guid>
         <description>&lt;p&gt;前面五道都是签到题水平的。&lt;/p&gt;
 &lt;h2 id=&#34;a-conveyor-belt-sushi&#34;&gt;A. Conveyor Belt Sushi
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -24214,10 +24214,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>聊天记录可视化</title>
-        <link>https://invalidnamee.github.io/p/chatlog-vis/</link>
+        <link>https://blog.starlab.top/p/chatlog-vis/</link>
         <pubDate>Mon, 07 Jul 2025 18:14:35 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/chatlog-vis/</guid>
+        <guid>https://blog.starlab.top/p/chatlog-vis/</guid>
         <description>&lt;p&gt;有了之前两篇的数据，接下来就可以生成一些好玩的报告了😋&lt;/p&gt;
 &lt;p&gt;可以用之前学过的 ipywidgets 做交互式的界面，大部分交给 ai，细节部分部分自己调就好了。&lt;/p&gt;
 &lt;h2 id=&#34;废话--叠甲--提醒&#34;&gt;废话 &amp;amp; 叠甲 &amp;amp; 提醒
@@ -24385,10 +24385,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;interact&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot_daily_counts_by_month&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;month&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;widgets&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Dropdown&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;sorted&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;month&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;unique&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())))&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/monthly_bar.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/monthly_bar.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1212&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/monthly_bar_hu_e6a8ba2d6b795c43.png 480w, https://invalidnamee.github.io/p/chatlog-vis/monthly_bar_hu_f13019029078c6ba.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/monthly_bar_hu_e6a8ba2d6b795c43.png 480w, https://blog.starlab.top/p/chatlog-vis/monthly_bar_hu_f13019029078c6ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -24450,10 +24450,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_chat_stacked.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/daily_chat_stacked.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_chat_stacked_hu_30de1ba7004655e3.png 480w, https://invalidnamee.github.io/p/chatlog-vis/daily_chat_stacked_hu_70b23f0621183121.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/daily_chat_stacked_hu_30de1ba7004655e3.png 480w, https://blog.starlab.top/p/chatlog-vis/daily_chat_stacked_hu_70b23f0621183121.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -24494,10 +24494,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/heat_map.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/heat_map.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/heat_map_hu_4b843bc5bcbad9ec.png 480w, https://invalidnamee.github.io/p/chatlog-vis/heat_map_hu_c1b342ee9df6105e.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/heat_map_hu_4b843bc5bcbad9ec.png 480w, https://blog.starlab.top/p/chatlog-vis/heat_map_hu_c1b342ee9df6105e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -24610,10 +24610,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/percentage.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/percentage.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/percentage_hu_72b0d263a294eb16.png 480w, https://invalidnamee.github.io/p/chatlog-vis/percentage_hu_c1e01637ad42380c.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/percentage_hu_72b0d263a294eb16.png 480w, https://blog.starlab.top/p/chatlog-vis/percentage_hu_c1e01637ad42380c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -24751,10 +24751,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/wc.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/wc.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;1280&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/wc_hu_dc0dc879075c996c.png 480w, https://invalidnamee.github.io/p/chatlog-vis/wc_hu_4f7019d944df1bab.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/wc_hu_dc0dc879075c996c.png 480w, https://blog.starlab.top/p/chatlog-vis/wc_hu_4f7019d944df1bab.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -24853,10 +24853,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/hist.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/hist.png&#34;
 	width=&#34;2000&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/hist_hu_8adb5e7d22c2b010.png 480w, https://invalidnamee.github.io/p/chatlog-vis/hist_hu_b8d30d882d21f270.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/hist_hu_8adb5e7d22c2b010.png 480w, https://blog.starlab.top/p/chatlog-vis/hist_hu_b8d30d882d21f270.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -24927,10 +24927,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/capacity_bar.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/capacity_bar.png&#34;
 	width=&#34;2800&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/capacity_bar_hu_9ea4a107c80211d2.png 480w, https://invalidnamee.github.io/p/chatlog-vis/capacity_bar_hu_28a0d82d090e5202.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/capacity_bar_hu_9ea4a107c80211d2.png 480w, https://blog.starlab.top/p/chatlog-vis/capacity_bar_hu_28a0d82d090e5202.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25028,10 +25028,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/box_plot.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/box_plot.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;960&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/box_plot_hu_72691aaf84b83f67.png 480w, https://invalidnamee.github.io/p/chatlog-vis/box_plot_hu_404644fa994b427b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/box_plot_hu_72691aaf84b83f67.png 480w, https://blog.starlab.top/p/chatlog-vis/box_plot_hu_404644fa994b427b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25078,10 +25078,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_emotion_line.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/daily_emotion_line.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_emotion_line_hu_226e5ada0ffc06bf.png 480w, https://invalidnamee.github.io/p/chatlog-vis/daily_emotion_line_hu_bc741397f3fe0d96.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/daily_emotion_line_hu_226e5ada0ffc06bf.png 480w, https://blog.starlab.top/p/chatlog-vis/daily_emotion_line_hu_bc741397f3fe0d96.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25098,16 +25098,16 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>微信聊天记录导出方案</title>
-        <link>https://invalidnamee.github.io/p/wx-history-export/</link>
+        <link>https://blog.starlab.top/p/wx-history-export/</link>
         <pubDate>Mon, 07 Jul 2025 16:36:17 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/wx-history-export/</guid>
+        <guid>https://blog.starlab.top/p/wx-history-export/</guid>
         <description>&lt;h2 id=&#34;花絮&#34;&gt;花絮
 &lt;/h2&gt;&lt;p&gt;猜你没见过：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wx-history-export/error.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wx-history-export/error.png&#34;
 	width=&#34;1890&#34;
 	height=&#34;1417&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wx-history-export/error_hu_cbb88c3032afc732.png 480w, https://invalidnamee.github.io/p/wx-history-export/error_hu_205ae82473919b7b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wx-history-export/error_hu_cbb88c3032afc732.png 480w, https://blog.starlab.top/p/wx-history-export/error_hu_205ae82473919b7b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25127,10 +25127,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
     &gt;https://github.com/BlueMatthew/WechatExporter&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;备份-iphone-或-ipad&#34;&gt;备份 iPhone 或 iPad
 &lt;/h3&gt;&lt;p&gt;mac 用 finder，windows 用 iTunes 备份一下 iPad&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wx-history-export/backup.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wx-history-export/backup.png&#34;
 	width=&#34;983&#34;
 	height=&#34;688&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wx-history-export/backup_hu_a7393a0d1098f697.png 480w, https://invalidnamee.github.io/p/wx-history-export/backup_hu_656ef3ec315dbf1d.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wx-history-export/backup_hu_a7393a0d1098f697.png 480w, https://blog.starlab.top/p/wx-history-export/backup_hu_656ef3ec315dbf1d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25141,10 +25141,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;用-wechatexporter-导出&#34;&gt;用 WeChatExporter 导出
 &lt;/h3&gt;&lt;p&gt;项目的 release 里的 mac 版只有会闪退的 x64 版本，无奈之下我用 crossover 开了 windows 版的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wx-history-export/exporter.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wx-history-export/exporter.png&#34;
 	width=&#34;1912&#34;
 	height=&#34;982&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wx-history-export/exporter_hu_cb248f9376f02e84.png 480w, https://invalidnamee.github.io/p/wx-history-export/exporter_hu_840df19c20dcff58.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wx-history-export/exporter_hu_cb248f9376f02e84.png 480w, https://blog.starlab.top/p/wx-history-export/exporter_hu_840df19c20dcff58.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25240,10 +25240,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>2025年夏季个人训练赛第七场</title>
-        <link>https://invalidnamee.github.io/p/2025sp7/</link>
+        <link>https://blog.starlab.top/p/2025sp7/</link>
         <pubDate>Mon, 07 Jul 2025 11:57:38 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp7/</guid>
+        <guid>https://blog.starlab.top/p/2025sp7/</guid>
         <description>&lt;h2 id=&#34;a-气球balloon&#34;&gt;A. 气球（balloon）
 &lt;/h2&gt;&lt;p&gt;好在 k 只有 100，直接 dp 就可以解决，$f_{i, j, k}$ 表示第 i 个气球颜色为 j 颜色和上一个 (不 if k == 0) 一样的方案数。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -25776,10 +25776,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第六场</title>
-        <link>https://invalidnamee.github.io/p/2025sp6/</link>
+        <link>https://blog.starlab.top/p/2025sp6/</link>
         <pubDate>Mon, 07 Jul 2025 11:57:30 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp6/</guid>
+        <guid>https://blog.starlab.top/p/2025sp6/</guid>
         <description>&lt;h2 id=&#34;a-入围判断&#34;&gt;A. 入围判断
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -26083,10 +26083,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>QQ 聊天记录数据库解密与分析</title>
-        <link>https://invalidnamee.github.io/p/qq-data-analysis/</link>
+        <link>https://blog.starlab.top/p/qq-data-analysis/</link>
         <pubDate>Sat, 05 Jul 2025 22:42:37 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/qq-data-analysis/</guid>
+        <guid>https://blog.starlab.top/p/qq-data-analysis/</guid>
         <description>&lt;p&gt;最近几天折腾了很久关于 QQ 和微信聊天记录数据分析的东西，小有成果。&lt;del&gt;这是连鸽了四天训练赛题解的理由吗[?]&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;微信的聊天记录已经有相对比较成熟的办法了，但是原理不太好找。QQ 这边是有比较成熟的文档，但是现成的项目不太好找。相比之下 QQ 是折腾最久的一个，折腾完之后挺有成就感的，写一篇博客记录一下。&lt;/p&gt;
 &lt;h2 id=&#34;数据库解密&#34;&gt;数据库解密
@@ -26113,10 +26113,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;用 hopper 打开，找到调用密码的函数的位置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/qq-data-analysis/hopper1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/qq-data-analysis/hopper1.png&#34;
 	width=&#34;2708&#34;
 	height=&#34;1932&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/qq-data-analysis/hopper1_hu_f1f0d24559e2e12e.png 480w, https://invalidnamee.github.io/p/qq-data-analysis/hopper1_hu_20b07374541409e6.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/qq-data-analysis/hopper1_hu_f1f0d24559e2e12e.png 480w, https://blog.starlab.top/p/qq-data-analysis/hopper1_hu_20b07374541409e6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26125,10 +26125,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 		data-flex-basis=&#34;336px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/qq-data-analysis/hopper2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/qq-data-analysis/hopper2.png&#34;
 	width=&#34;2708&#34;
 	height=&#34;1932&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/qq-data-analysis/hopper2_hu_605b7d73cff6a140.png 480w, https://invalidnamee.github.io/p/qq-data-analysis/hopper2_hu_38c20cfeff7f181.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/qq-data-analysis/hopper2_hu_605b7d73cff6a140.png 480w, https://blog.starlab.top/p/qq-data-analysis/hopper2_hu_38c20cfeff7f181.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26137,10 +26137,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 		data-flex-basis=&#34;336px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/qq-data-analysis/hopper3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/qq-data-analysis/hopper3.png&#34;
 	width=&#34;2708&#34;
 	height=&#34;1932&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/qq-data-analysis/hopper3_hu_340c0350a2816f64.png 480w, https://invalidnamee.github.io/p/qq-data-analysis/hopper3_hu_604d0aa42b7d544a.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/qq-data-analysis/hopper3_hu_340c0350a2816f64.png 480w, https://blog.starlab.top/p/qq-data-analysis/hopper3_hu_604d0aa42b7d544a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26304,10 +26304,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;用 DB Browser for SQLite 按照这个配置就可以打开了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/qq-data-analysis/db_browser.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/qq-data-analysis/db_browser.png&#34;
 	width=&#34;1648&#34;
 	height=&#34;982&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/qq-data-analysis/db_browser_hu_fe4f2e724c16aab1.png 480w, https://invalidnamee.github.io/p/qq-data-analysis/db_browser_hu_3c0e7ef81c4aede7.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/qq-data-analysis/db_browser_hu_fe4f2e724c16aab1.png 480w, https://blog.starlab.top/p/qq-data-analysis/db_browser_hu_3c0e7ef81c4aede7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26319,10 +26319,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;h2 id=&#34;数据导出&#34;&gt;数据导出
 &lt;/h2&gt;&lt;p&gt;这里以私聊的数据为例，参考&lt;a class=&#34;link&#34; href=&#34;https://qq.sbcnm.top/view/db_file_analysis/nt_msg.db.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这个文档&lt;/a&gt;，把 c2c_msg_table 导出为 csv.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/qq-data-analysis/save_csv.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/qq-data-analysis/save_csv.png&#34;
 	width=&#34;1350&#34;
 	height=&#34;1054&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/qq-data-analysis/save_csv_hu_770b1a830d9c26de.png 480w, https://invalidnamee.github.io/p/qq-data-analysis/save_csv_hu_3eeda0da4597615f.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/qq-data-analysis/save_csv_hu_770b1a830d9c26de.png 480w, https://blog.starlab.top/p/qq-data-analysis/save_csv_hu_3eeda0da4597615f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26645,10 +26645,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第五场</title>
-        <link>https://invalidnamee.github.io/p/2025sp5/</link>
+        <link>https://blog.starlab.top/p/2025sp5/</link>
         <pubDate>Sat, 05 Jul 2025 11:15:19 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp5/</guid>
+        <guid>https://blog.starlab.top/p/2025sp5/</guid>
         <description>&lt;h2 id=&#34;a-折纸&#34;&gt;A. 折纸
 &lt;/h2&gt;&lt;p&gt;签到题。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -27027,10 +27027,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第四场</title>
-        <link>https://invalidnamee.github.io/p/2025sp4/</link>
+        <link>https://blog.starlab.top/p/2025sp4/</link>
         <pubDate>Sat, 05 Jul 2025 11:15:16 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp4/</guid>
+        <guid>https://blog.starlab.top/p/2025sp4/</guid>
         <description>&lt;h2 id=&#34;a-牛人&#34;&gt;A. 牛人
 &lt;/h2&gt;&lt;p&gt;随便按照一项标准排序，如果一个人排完序后他后面的人的另一项标准都不比他大他就是牛人。&lt;/p&gt;
 &lt;p&gt;需要注意的是如果排序的主键相等的人的副键是不需要比较的，会导致后缀最大值出一点问题，按主键正序副键逆序就可以解决这个问题，或者也可以用滑动窗口。&lt;/p&gt;
@@ -27451,10 +27451,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第三场</title>
-        <link>https://invalidnamee.github.io/p/2025sp3/</link>
+        <link>https://blog.starlab.top/p/2025sp3/</link>
         <pubDate>Sat, 05 Jul 2025 11:15:11 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp3/</guid>
+        <guid>https://blog.starlab.top/p/2025sp3/</guid>
         <description>&lt;h2 id=&#34;a-扫雷i&#34;&gt;A. 扫雷I
 &lt;/h2&gt;&lt;p&gt;按要求模拟就行，需要注意点不是 0 的格子视为无效操作。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -27913,10 +27913,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第二场</title>
-        <link>https://invalidnamee.github.io/p/2025sp2/</link>
+        <link>https://blog.starlab.top/p/2025sp2/</link>
         <pubDate>Sat, 05 Jul 2025 11:14:29 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp2/</guid>
+        <guid>https://blog.starlab.top/p/2025sp2/</guid>
         <description>&lt;p&gt;BCD 之前都做过，写了个 A 之后什么都不会了……&lt;/p&gt;
 &lt;h2 id=&#34;a-迷宫大门&#34;&gt;A. 迷宫大门
 &lt;/h2&gt;&lt;p&gt;我不知道什么原理，但是贪心就行了，能匹配就尽量匹配算出来的数正好是对的。&lt;/p&gt;
@@ -28227,10 +28227,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第一场</title>
-        <link>https://invalidnamee.github.io/p/2025sp1/</link>
+        <link>https://blog.starlab.top/p/2025sp1/</link>
         <pubDate>Fri, 04 Jul 2025 21:39:17 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp1/</guid>
+        <guid>https://blog.starlab.top/p/2025sp1/</guid>
         <description>&lt;p&gt;第一天前面的英文题还是比较简单的，但是后面的中文题一个不会😭&lt;/p&gt;
 &lt;h2 id=&#34;a-roller-coaster-ride&#34;&gt;A. Roller Coaster Ride
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
@@ -28645,10 +28645,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>大物公式结论汇总</title>
-        <link>https://invalidnamee.github.io/p/dawu-summary/</link>
+        <link>https://blog.starlab.top/p/dawu-summary/</link>
         <pubDate>Sat, 21 Jun 2025 16:49:25 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dawu-summary/</guid>
+        <guid>https://blog.starlab.top/p/dawu-summary/</guid>
         <description>&lt;h2 id=&#34;观前提醒&#34;&gt;观前提醒
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;不全！不全！不全！不全！&lt;/strong&gt;&lt;/li&gt;
@@ -28919,10 +28919,10 @@ $$</description>
         </item>
         <item>
         <title>脚本化: html 转 pdf</title>
-        <link>https://invalidnamee.github.io/p/html-to-pdf/</link>
+        <link>https://blog.starlab.top/p/html-to-pdf/</link>
         <pubDate>Fri, 20 Jun 2025 17:45:47 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/html-to-pdf/</guid>
+        <guid>https://blog.starlab.top/p/html-to-pdf/</guid>
         <description>&lt;h2 id=&#34;起因&#34;&gt;起因
 &lt;/h2&gt;&lt;p&gt;众所周知，我前几天写了两份大物的知识点总结，当时为了排版好看一点，在 markdown 里面写 html。那两份总结今天要统一上交了，BUT，我的 markdown + html 混合语言&lt;del&gt;太过强大&lt;/del&gt;，没法在任何一个本地的编辑器上渲染出来，也就是说没有很好的办法作为一个文件交上去😡😡😡。&lt;/p&gt;
 &lt;p&gt;于是，我尝试了几个方法把我的总结转成 pdf，如&lt;/p&gt;
@@ -29025,10 +29025,10 @@ $$</description>
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;就成功渲染出一个 pdf，保留了文本和超链接。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/html-to-pdf/product.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/html-to-pdf/product.png&#34;
 	width=&#34;3060&#34;
 	height=&#34;2160&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/html-to-pdf/product_hu_eb152de7bf09a72.png 480w, https://invalidnamee.github.io/p/html-to-pdf/product_hu_ed6f7bde577e8a45.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/html-to-pdf/product_hu_eb152de7bf09a72.png 480w, https://blog.starlab.top/p/html-to-pdf/product_hu_ed6f7bde577e8a45.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;成果图&#34;
@@ -29053,10 +29053,10 @@ $$</description>
         </item>
         <item>
         <title>用 Python 爬取 C&#43;&#43; 评测网站的题干和代码</title>
-        <link>https://invalidnamee.github.io/p/cr-cpp/</link>
+        <link>https://blog.starlab.top/p/cr-cpp/</link>
         <pubDate>Thu, 19 Jun 2025 10:37:33 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/cr-cpp/</guid>
+        <guid>https://blog.starlab.top/p/cr-cpp/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;最近不是特别忙的，看到闲置的 C/C++ 课本想起来我程序设计(C/C++)的代码没存档，于是想找个办法存一下。&lt;/p&gt;
 &lt;h2 id=&#34;实操&#34;&gt;实操
@@ -29228,10 +29228,10 @@ $$</description>
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;随后只需要手动改 name 和 url 就可以爬下来每章的代码啦😋&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/cr-cpp/product.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/cr-cpp/product.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;2138&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/cr-cpp/product_hu_ba4810ed7dd7a4b0.png 480w, https://invalidnamee.github.io/p/cr-cpp/product_hu_51736b119168b016.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/cr-cpp/product_hu_ba4810ed7dd7a4b0.png 480w, https://blog.starlab.top/p/cr-cpp/product_hu_51736b119168b016.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -29244,17 +29244,17 @@ $$</description>
         </item>
         <item>
         <title>大物第四讲</title>
-        <link>https://invalidnamee.github.io/p/dawu4/</link>
+        <link>https://blog.starlab.top/p/dawu4/</link>
         <pubDate>Fri, 13 Jun 2025 19:40:22 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dawu4/</guid>
+        <guid>https://blog.starlab.top/p/dawu4/</guid>
         <description>&lt;p&gt;板书内容和课堂彩蛋：&lt;a class=&#34;link&#34; href=&#34;#%e6%9d%bf%e4%b9%a6&#34; &gt;点我跳转&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;电磁波谱&#34;&gt;电磁波谱
 &lt;/h2&gt;&lt;p&gt;把电磁波按照波长或频率的顺序排列起来，就是电磁波谱。可分为无线电波、微波、红外线、可见光、紫外线、伦琴射线、伽玛射线。
-&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img1.png&#34;
+&lt;img src=&#34;https://blog.starlab.top/p/dawu4/img1.png&#34;
 	width=&#34;2326&#34;
 	height=&#34;820&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img1_hu_dc03523d4e7c364e.png 480w, https://invalidnamee.github.io/p/dawu4/img1_hu_6a8cd23825650cd5.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dawu4/img1_hu_dc03523d4e7c364e.png 480w, https://blog.starlab.top/p/dawu4/img1_hu_6a8cd23825650cd5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -29362,10 +29362,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h4 id=&#34;部分偏振光&#34;&gt;部分偏振光
 &lt;/h4&gt;&lt;p&gt;某一方向的光振动比与之相垂直方向的光振动占优势的光。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
-&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img4.png&#34;
+&lt;img src=&#34;https://blog.starlab.top/p/dawu4/img4.png&#34;
 	width=&#34;1254&#34;
 	height=&#34;132&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img4_hu_606152f5e99cd0b9.png 480w, https://invalidnamee.github.io/p/dawu4/img4_hu_5da4d23e7a5ac4d1.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dawu4/img4_hu_606152f5e99cd0b9.png 480w, https://blog.starlab.top/p/dawu4/img4_hu_5da4d23e7a5ac4d1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -29377,10 +29377,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h4 id=&#34;偏振光&#34;&gt;偏振光
 &lt;/h4&gt;&lt;p&gt;只含有单一方向光振动的光叫做偏振光。也称为&lt;strong&gt;线偏振光、平面偏振光、完全偏振光&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
-&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img5.png&#34;
+&lt;img src=&#34;https://blog.starlab.top/p/dawu4/img5.png&#34;
 	width=&#34;1262&#34;
 	height=&#34;150&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img5_hu_f8c0bc799db69670.png 480w, https://invalidnamee.github.io/p/dawu4/img5_hu_e65a5e3cb8fab3d0.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dawu4/img5_hu_f8c0bc799db69670.png 480w, https://blog.starlab.top/p/dawu4/img5_hu_e65a5e3cb8fab3d0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -29431,10 +29431,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>大物第三讲</title>
-        <link>https://invalidnamee.github.io/p/dawu3/</link>
+        <link>https://blog.starlab.top/p/dawu3/</link>
         <pubDate>Thu, 12 Jun 2025 20:34:28 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dawu3/</guid>
+        <guid>https://blog.starlab.top/p/dawu3/</guid>
         <description>&lt;p&gt;板书内容：&lt;a class=&#34;link&#34; href=&#34;#%e6%9d%bf%e4%b9%a6&#34; &gt;点我跳转&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;概念&#34;&gt;概念
 &lt;/h2&gt;&lt;ul&gt;
@@ -29745,10 +29745,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>心理笔记</title>
-        <link>https://invalidnamee.github.io/p/xinli-note/</link>
+        <link>https://blog.starlab.top/p/xinli-note/</link>
         <pubDate>Mon, 09 Jun 2025 21:18:01 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/xinli-note/</guid>
+        <guid>https://blog.starlab.top/p/xinli-note/</guid>
         <description>&lt;p&gt;错别字有点多，敬请谅解qwq&lt;/p&gt;
 &lt;h2 id=&#34;心理咨询预约&#34;&gt;心理咨询预约
 &lt;/h2&gt;&lt;h3 id=&#34;预约方式&#34;&gt;预约方式:
@@ -29867,10 +29867,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h3 id=&#34;q2-问世间情为何物&#34;&gt;q2-问世间情为何物
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;斯滕伯格爱情三角理论&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如图所示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image.png&#34;
 	width=&#34;872&#34;
 	height=&#34;792&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image_hu_a557d5dcfd38788b.png 480w, https://invalidnamee.github.io/p/xinli-note/image_hu_e420273586378a4e.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image_hu_a557d5dcfd38788b.png 480w, https://blog.starlab.top/p/xinli-note/image_hu_e420273586378a4e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -30101,10 +30101,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;li&gt;害怕失败&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;后果:&lt;/strong&gt; 自责、懊悔、难受、痛苦，影响任务完成的实际效果。夜不能寐，食之无味。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image1.png&#34;
 	width=&#34;1206&#34;
 	height=&#34;971&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image1_hu_94cbf7d32df2d7fb.png 480w, https://invalidnamee.github.io/p/xinli-note/image1_hu_773239a3edfdc792.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image1_hu_94cbf7d32df2d7fb.png 480w, https://blog.starlab.top/p/xinli-note/image1_hu_773239a3edfdc792.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -30137,10 +30137,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;压力适当理论&lt;/strong&gt;，Anderson，1987&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image2.png&#34;
 	width=&#34;1269&#34;
 	height=&#34;785&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image2_hu_fd1b10e52ff07aa1.png 480w, https://invalidnamee.github.io/p/xinli-note/image2_hu_e47c5eb1902ed484.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image2_hu_fd1b10e52ff07aa1.png 480w, https://blog.starlab.top/p/xinli-note/image2_hu_e47c5eb1902ed484.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -30155,10 +30155,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;压力应对模型&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image3.png&#34;
 	width=&#34;1596&#34;
 	height=&#34;801&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image3_hu_9a2fc505e160416f.png 480w, https://invalidnamee.github.io/p/xinli-note/image3_hu_aca535c5cb1e2bd2.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image3_hu_9a2fc505e160416f.png 480w, https://blog.starlab.top/p/xinli-note/image3_hu_aca535c5cb1e2bd2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -30315,10 +30315,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;练习题&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image4.png&#34;
 	width=&#34;3214&#34;
 	height=&#34;1703&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image4_hu_67e52fbb30948fb5.png 480w, https://invalidnamee.github.io/p/xinli-note/image4_hu_e31380cf30f97ece.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image4_hu_67e52fbb30948fb5.png 480w, https://blog.starlab.top/p/xinli-note/image4_hu_e31380cf30f97ece.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -30496,10 +30496,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十八场</title>
-        <link>https://invalidnamee.github.io/p/2025st28/</link>
+        <link>https://blog.starlab.top/p/2025st28/</link>
         <pubDate>Sun, 08 Jun 2025 09:04:41 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st28/</guid>
+        <guid>https://blog.starlab.top/p/2025st28/</guid>
         <description>&lt;h2 id=&#34;a-评估&#34;&gt;A. 评估
 &lt;/h2&gt;&lt;p&gt;关键在于 \(|a_i| \le 1000\)，所以可以&lt;strong&gt;开一个长度为 2000 的数组统计一下每个值的个数&lt;/strong&gt;，然后 \(\Theta(n^2)\) 处理这个 2000 的数组。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -31094,10 +31094,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十七场</title>
-        <link>https://invalidnamee.github.io/p/2025st27/</link>
+        <link>https://blog.starlab.top/p/2025st27/</link>
         <pubDate>Sat, 07 Jun 2025 12:58:30 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st27/</guid>
+        <guid>https://blog.starlab.top/p/2025st27/</guid>
         <description>&lt;h2 id=&#34;a-序列&#34;&gt;A. 序列
 &lt;/h2&gt;&lt;p&gt;逻辑非常简单，先输出 k 个 0 之后 01 交替输出直到把 0 用完，最后输出剩下的 1.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -31878,10 +31878,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十六场</title>
-        <link>https://invalidnamee.github.io/p/2025st26/</link>
+        <link>https://blog.starlab.top/p/2025st26/</link>
         <pubDate>Thu, 05 Jun 2025 13:59:39 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st26/</guid>
+        <guid>https://blog.starlab.top/p/2025st26/</guid>
         <description>&lt;p&gt;题面可以看&lt;a class=&#34;link&#34; href=&#34;https://acm.hdu.edu.cn/search.php?field=problem&amp;amp;key=2025%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B4%BA%BC%BE%C1%AA%C8%FC%A3%A83%A3%A9&amp;amp;source=1&amp;amp;searchmode=source&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这里&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;a-数列计数&#34;&gt;&lt;strong&gt;A. 数列计数&lt;/strong&gt;
@@ -32549,10 +32549,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十三场</title>
-        <link>https://invalidnamee.github.io/p/2025st23/</link>
+        <link>https://blog.starlab.top/p/2025st23/</link>
         <pubDate>Sun, 25 May 2025 10:10:59 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st23/</guid>
+        <guid>https://blog.starlab.top/p/2025st23/</guid>
         <description>&lt;p&gt;昨天栽在二分了，今天写了四个二分一个也没挂，爽😋&lt;/p&gt;
 &lt;h2 id=&#34;a-互质划分&#34;&gt;A. 互质划分
 &lt;/h2&gt;&lt;p&gt;事实上，只需要 n / 2 即可，如果所有 2 的倍数都能分开了，那其他的更能分开。&lt;/p&gt;
@@ -32944,10 +32944,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十二场</title>
-        <link>https://invalidnamee.github.io/p/2025st22/</link>
+        <link>https://blog.starlab.top/p/2025st22/</link>
         <pubDate>Sat, 24 May 2025 10:01:29 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st22/</guid>
+        <guid>https://blog.starlab.top/p/2025st22/</guid>
         <description>&lt;h2 id=&#34;a-染色&#34;&gt;A. 染色
 &lt;/h2&gt;&lt;p&gt;数据非常小，直接暴力就可以，非常保险。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -33530,10 +33530,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十一场</title>
-        <link>https://invalidnamee.github.io/p/2025st21/</link>
+        <link>https://blog.starlab.top/p/2025st21/</link>
         <pubDate>Thu, 22 May 2025 10:04:01 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st21/</guid>
+        <guid>https://blog.starlab.top/p/2025st21/</guid>
         <description>&lt;h2 id=&#34;a-傻鹿尖塔&#34;&gt;A. &lt;strong&gt;傻鹿尖塔&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;每次临死前贪心选择前面能选的最大的即可，但是需要注意&lt;strong&gt;不要直接中途 break，会影响之后的读入&lt;/strong&gt; 😭😭😭&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -33705,10 +33705,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二十场</title>
-        <link>https://invalidnamee.github.io/p/2025st20/</link>
+        <link>https://blog.starlab.top/p/2025st20/</link>
         <pubDate>Thu, 22 May 2025 09:50:28 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st20/</guid>
+        <guid>https://blog.starlab.top/p/2025st20/</guid>
         <description>&lt;p&gt;第一场打完觉的非常水，于是第二场立刻就被真实了，已老实求放过😇😇😇。&lt;/p&gt;
 &lt;h2 id=&#34;a-舞蹈机器人&#34;&gt;&lt;strong&gt;A. 舞蹈机器人&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;熟悉的情况，熟悉的打表（&lt;/p&gt;
@@ -34302,10 +34302,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十九场</title>
-        <link>https://invalidnamee.github.io/p/2025st19/</link>
+        <link>https://blog.starlab.top/p/2025st19/</link>
         <pubDate>Sun, 18 May 2025 14:28:05 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st19/</guid>
+        <guid>https://blog.starlab.top/p/2025st19/</guid>
         <description>&lt;h2 id=&#34;a-熊孩子打卡&#34;&gt;A. 熊孩子打卡
 &lt;/h2&gt;&lt;p&gt;一道比较水的签到题，因为数据不算太大，直接开 map 统计就可以。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -34863,10 +34863,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十八场</title>
-        <link>https://invalidnamee.github.io/p/2025st18/</link>
+        <link>https://blog.starlab.top/p/2025st18/</link>
         <pubDate>Mon, 14 Apr 2025 08:07:18 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st18/</guid>
+        <guid>https://blog.starlab.top/p/2025st18/</guid>
         <description>&lt;p&gt;废掉了，拼尽全力无法战胜，做的时候感觉自己差点爆零，以 3 / 8 的优异成绩拿下榜一。这套题前面的题都是主打一个直觉上的欺骗，后面难的不会做。&lt;/p&gt;
 &lt;h2 id=&#34;a-序列重排&#34;&gt;&lt;strong&gt;A. 序列重排&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;首先，结论是答案只可能是 0, 1, 2。&lt;/p&gt;
@@ -35092,10 +35092,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十七场</title>
-        <link>https://invalidnamee.github.io/p/2025st17/</link>
+        <link>https://blog.starlab.top/p/2025st17/</link>
         <pubDate>Mon, 14 Apr 2025 07:40:29 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st17/</guid>
+        <guid>https://blog.starlab.top/p/2025st17/</guid>
         <description>&lt;h2 id=&#34;a-最大公约数&#34;&gt;A. 最大公约数
 &lt;/h2&gt;&lt;p&gt;直接枚举 1 ~ n 对于每一个数从他不等于自己的约数里面找个最大的，然后全部取个 max。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -35418,10 +35418,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十六场</title>
-        <link>https://invalidnamee.github.io/p/2025st16/</link>
+        <link>https://blog.starlab.top/p/2025st16/</link>
         <pubDate>Tue, 08 Apr 2025 05:25:12 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st16/</guid>
+        <guid>https://blog.starlab.top/p/2025st16/</guid>
         <description>&lt;p&gt;差点就 ak 了，有点可惜，感谢学姐手下留情😭。&lt;/p&gt;
 &lt;h2 id=&#34;a-number-maximization&#34;&gt;&lt;strong&gt;A. Number Maximization&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;签到题 * 1&lt;/p&gt;
@@ -36215,10 +36215,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十五场</title>
-        <link>https://invalidnamee.github.io/p/2025st15/</link>
+        <link>https://blog.starlab.top/p/2025st15/</link>
         <pubDate>Sun, 06 Apr 2025 14:53:26 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st15/</guid>
+        <guid>https://blog.starlab.top/p/2025st15/</guid>
         <description>&lt;h2 id=&#34;a-lucky-7&#34;&gt;A. Lucky 7
 &lt;/h2&gt;&lt;p&gt;一道签到题。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -36403,10 +36403,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;其余情况，先把 x, y 取一下绝对值，对称变换不会影响答案&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&#34;
 	width=&#34;486&#34;
 	height=&#34;372&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_4fb7e5ba168384d4.png 480w, https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_88d13600c1be68bf.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_4fb7e5ba168384d4.png 480w, https://blog.starlab.top/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_88d13600c1be68bf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -37132,10 +37132,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十四场</title>
-        <link>https://invalidnamee.github.io/p/2025st14/</link>
+        <link>https://blog.starlab.top/p/2025st14/</link>
         <pubDate>Fri, 04 Apr 2025 11:21:25 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st14/</guid>
+        <guid>https://blog.starlab.top/p/2025st14/</guid>
         <description>&lt;p&gt;时隔好久，战斗爽终于复刻了😋，拿个榜一真不容易。&lt;/p&gt;
 &lt;h2 id=&#34;a-christmas-tree-adapter&#34;&gt;A. Christmas Tree Adapter
 &lt;/h2&gt;&lt;p&gt;终于有签到题了。&lt;/p&gt;
@@ -37637,10 +37637,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十三场</title>
-        <link>https://invalidnamee.github.io/p/2025st13/</link>
+        <link>https://blog.starlab.top/p/2025st13/</link>
         <pubDate>Fri, 04 Apr 2025 11:19:59 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st13/</guid>
+        <guid>https://blog.starlab.top/p/2025st13/</guid>
         <description>&lt;h2 id=&#34;a-团结&#34;&gt;A. 团结
 &lt;/h2&gt;&lt;p&gt;其实非常简单，但是我中招了😭&lt;/p&gt;
 &lt;p&gt;他这个操作等价于先把 \(\gcd_{i = 1}^{n} A_i\)算出来，然后在 1 ～ n 里面选一些数和前面的结果取 gcd，直到结果为 1.&lt;/p&gt;
@@ -37923,10 +37923,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十二场</title>
-        <link>https://invalidnamee.github.io/p/2025st12/</link>
+        <link>https://blog.starlab.top/p/2025st12/</link>
         <pubDate>Wed, 02 Apr 2025 11:30:01 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st12/</guid>
+        <guid>https://blog.starlab.top/p/2025st12/</guid>
         <description>&lt;h2 id=&#34;a-拼写检查&#34;&gt;&lt;strong&gt;A. 拼写检查&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;按要求模拟就行，只需要注意 &lt;strong&gt;如果要检查的单词在词表中出现，则原样输出该单词。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -38408,10 +38408,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第十一场</title>
-        <link>https://invalidnamee.github.io/p/2025st11/</link>
+        <link>https://blog.starlab.top/p/2025st11/</link>
         <pubDate>Sat, 29 Mar 2025 05:15:28 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st11/</guid>
+        <guid>https://blog.starlab.top/p/2025st11/</guid>
         <description>&lt;p&gt;刚开始一看发现啥都不会，细看发现以为简单的很复杂，以为很复杂的很简单。&lt;/p&gt;
 &lt;h2 id=&#34;a-游戏&#34;&gt;A. 游戏
 &lt;/h2&gt;&lt;p&gt;约数尽可能多，所以应该让约数尽可能小，那就让他都是 2，找一个最大的 i，使得 l ≤ (1 « i) ≤ r 即可。&lt;/p&gt;
@@ -38783,10 +38783,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025 春训第十场</title>
-        <link>https://invalidnamee.github.io/p/2025st10/</link>
+        <link>https://blog.starlab.top/p/2025st10/</link>
         <pubDate>Mon, 24 Mar 2025 09:41:59 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st10/</guid>
+        <guid>https://blog.starlab.top/p/2025st10/</guid>
         <description>&lt;h2 id=&#34;a-鲁的学生&#34;&gt;&lt;strong&gt;A. 鲁的学生&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;大水题，但是我没看到要取模连 WA 两次。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -39095,10 +39095,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第九场</title>
-        <link>https://invalidnamee.github.io/p/2025st9/</link>
+        <link>https://blog.starlab.top/p/2025st9/</link>
         <pubDate>Mon, 24 Mar 2025 09:41:34 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st9/</guid>
+        <guid>https://blog.starlab.top/p/2025st9/</guid>
         <description>&lt;h2 id=&#34;a-鲁的智力&#34;&gt;&lt;strong&gt;A. 鲁的智力&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;我刚开始看到这道题之后默默的放弃了，选择了后面的 dp 题。&lt;/p&gt;
 &lt;ul&gt;
@@ -39342,10 +39342,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;d-游览计划&#34;&gt;&lt;strong&gt;D. 游览计划&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;提供一个暴力的解法，具体有多暴力见下图，差点拼尽全力无法战胜了……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025st9/5902439e-7856-415e-aca9-352307ee119c.png&#34;
 	width=&#34;2940&#34;
 	height=&#34;1912&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_c43722cb4265e440.png 480w, https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_d736bd42075aa6a3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_c43722cb4265e440.png 480w, https://blog.starlab.top/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_d736bd42075aa6a3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -39526,10 +39526,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>高精全家桶（升级版）</title>
-        <link>https://invalidnamee.github.io/p/high-precision/</link>
+        <link>https://blog.starlab.top/p/high-precision/</link>
         <pubDate>Sat, 22 Mar 2025 03:15:46 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/high-precision/</guid>
+        <guid>https://blog.starlab.top/p/high-precision/</guid>
         <description>&lt;p&gt;旧版的和 hyoi 一起崩了，所以再发一遍升级版&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -39929,10 +39929,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第八场</title>
-        <link>https://invalidnamee.github.io/p/2025st8/</link>
+        <link>https://blog.starlab.top/p/2025st8/</link>
         <pubDate>Sat, 22 Mar 2025 03:07:17 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st8/</guid>
+        <guid>https://blog.starlab.top/p/2025st8/</guid>
         <description>&lt;p&gt;这次训练赛主打一个特殊情况 RE，不细心一点有一万个坑能让程序炸掉……&lt;/p&gt;
 &lt;h2 id=&#34;a-能量传输&#34;&gt;&lt;strong&gt;A. 能量传输&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;不难&lt;s&gt;（不容易）&lt;/s&gt;发现，k 越小聚集到的位置越多，操作次数越小，所以做法是&lt;/p&gt;
@@ -40264,10 +40264,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;如下图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&#34;
 	width=&#34;466&#34;
 	height=&#34;494&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_1e950ca5d66f056.png 480w, https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_342a21b61f422723.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_1e950ca5d66f056.png 480w, https://blog.starlab.top/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_342a21b61f422723.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -40450,17 +40450,17 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>离散数学：最短路的代码实现</title>
-        <link>https://invalidnamee.github.io/p/dm01/</link>
+        <link>https://blog.starlab.top/p/dm01/</link>
         <pubDate>Tue, 18 Mar 2025 14:43:12 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dm01/</guid>
+        <guid>https://blog.starlab.top/p/dm01/</guid>
         <description>&lt;p&gt;众所周知离散课本 204 页 17 题让用 Dijkstra 和 Floyd 求一个 9 个结点的图的最短路径。2025 年 3 月 18 日上午，我抄了一节史纲课的 Dijkstra 过程和 Floyd 的邻接矩阵，心中愤懑不平。于是中午回宿舍猛敲代码零点几秒就把全部都过程都输出出来了，遂把代码打包跟离散作业一起交上去了。&lt;/p&gt;
 &lt;p&gt;但是这样还不够，写的代码还能再水一篇博客（虽然不会有人看😭）&lt;/p&gt;
 &lt;h2 id=&#34;图的存储&#34;&gt;图的存储
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&#34;
 	width=&#34;838&#34;
 	height=&#34;620&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_e6e5d7c7033b2ff4.png 480w, https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_52dadf1ff8243c4b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_e6e5d7c7033b2ff4.png 480w, https://blog.starlab.top/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_52dadf1ff8243c4b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -41133,10 +41133,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>第四届成都信息工程大学天梯赛</title>
-        <link>https://invalidnamee.github.io/p/tianti2025cd/</link>
+        <link>https://blog.starlab.top/p/tianti2025cd/</link>
         <pubDate>Tue, 18 Mar 2025 13:34:31 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/tianti2025cd/</guid>
+        <guid>https://blog.starlab.top/p/tianti2025cd/</guid>
         <description>&lt;p&gt;写了一半，群里发出来官方题解了……&lt;s&gt;但是我码风比他的好，可读性强一点&lt;/s&gt;，但是为了&lt;s&gt;强迫症和&lt;/s&gt;留作记录，我必须写完😇。所以这篇博客的性质已经从题解 transform 成赛后的感想了。&lt;/p&gt;
 &lt;p&gt;个人感觉有点像是水赛的感觉，L1 非常顺利，L2 和 L3 的最后两道开始调不出来，最终结果是 190 分(我的 L3-1 的 30 分还被队友吃了😭），L1 拿满，L2 的 3，4 WA，L3 的 2 TLE，3 没看。&lt;/p&gt;
 &lt;p&gt;我的 windows 还没回来，所以用的机房的编译一下就死机的电脑（但这不是我没存代码的理由），只能事后重敲一遍代码了，顺便回忆一下当时的心情。&lt;/p&gt;
@@ -42122,10 +42122,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第七场</title>
-        <link>https://invalidnamee.github.io/p/2025st7/</link>
+        <link>https://blog.starlab.top/p/2025st7/</link>
         <pubDate>Sat, 15 Mar 2025 13:52:11 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st7/</guid>
+        <guid>https://blog.starlab.top/p/2025st7/</guid>
         <description>&lt;p&gt;这训练赛怎么越来越水了，C 考场上没做出来，D 调了很久，但是实际上都不怎么算难，剩下的四道就是纯粹的大水题了。&lt;/p&gt;
 &lt;h2 id=&#34;a-抽牌&#34;&gt;A. 抽牌
 &lt;/h2&gt;&lt;p&gt;我代码写的比较麻烦，实际上没必要。&lt;/p&gt;
@@ -42701,10 +42701,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第六场</title>
-        <link>https://invalidnamee.github.io/p/2025st6/</link>
+        <link>https://blog.starlab.top/p/2025st6/</link>
         <pubDate>Sat, 15 Mar 2025 13:51:32 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st6/</guid>
+        <guid>https://blog.starlab.top/p/2025st6/</guid>
         <description>&lt;p&gt;感觉这次做的还行，主要还是简单题多了一点。数学题赛后被 GPT 秒了，而我追着 GPT 问了半天……&lt;/p&gt;
 &lt;h2 id=&#34;a-魔法石&#34;&gt;&lt;strong&gt;A. 魔法石&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;签到题，但是有点绕（我就被坑了）。有解的条件是三个数都相等或者两个数相等，另一个比这两个小；前者直接输出三个相等的，后者输出一个较大的和两个较小的即可。&lt;/p&gt;
@@ -43015,10 +43015,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第五场</title>
-        <link>https://invalidnamee.github.io/p/2025st5/</link>
+        <link>https://blog.starlab.top/p/2025st5/</link>
         <pubDate>Tue, 11 Mar 2025 12:48:31 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st5/</guid>
+        <guid>https://blog.starlab.top/p/2025st5/</guid>
         <description>&lt;p&gt;又是熟悉的博弈问题，又是熟悉的做不出来，不过剩下三道能做出来的都挺有意思的，相对比较满足。&lt;/p&gt;
 &lt;h2 id=&#34;a-游戏&#34;&gt;A. 游戏
 &lt;/h2&gt;&lt;p&gt;答案= min(max(从小到大交替选，从大到小交替选)，max(A从最大的连续选，A从最小的连续选)).&lt;/p&gt;
@@ -43561,10 +43561,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第四场</title>
-        <link>https://invalidnamee.github.io/p/2025st4/</link>
+        <link>https://blog.starlab.top/p/2025st4/</link>
         <pubDate>Tue, 11 Mar 2025 12:47:01 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st4/</guid>
+        <guid>https://blog.starlab.top/p/2025st4/</guid>
         <description>&lt;p&gt;因为后面有一场校赛，这场训练赛没什么印象了。&lt;/p&gt;
 &lt;h2 id=&#34;a-美丽数&#34;&gt;A. 美丽数
 &lt;/h2&gt;&lt;ul&gt;
@@ -44366,10 +44366,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>Upcpc2025</title>
-        <link>https://invalidnamee.github.io/p/upcpc2025/</link>
+        <link>https://blog.starlab.top/p/upcpc2025/</link>
         <pubDate>Mon, 10 Mar 2025 11:22:06 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/upcpc2025/</guid>
+        <guid>https://blog.starlab.top/p/upcpc2025/</guid>
         <description>&lt;h2 id=&#34;更新记录&#34;&gt;更新记录
 &lt;/h2&gt;&lt;p&gt;本人实力有限，有一些题至今还没做出来，之后会时不时填坑，故把填坑记录加到最上面了，目前还差 I, K, L。&lt;/p&gt;
 &lt;ul&gt;
@@ -44524,10 +44524,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;有图有真相（第一次跑的时候忘了约分了，但是无伤大雅，运行时间大致是准的）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a.png&#34;
 	width=&#34;2154&#34;
 	height=&#34;616&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_3f3864465d188a5f.png 480w, https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_bb5e9813a44ae5ee.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_3f3864465d188a5f.png 480w, https://blog.starlab.top/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_bb5e9813a44ae5ee.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -45081,10 +45081,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第三场</title>
-        <link>https://invalidnamee.github.io/p/2025st3/</link>
+        <link>https://blog.starlab.top/p/2025st3/</link>
         <pubDate>Tue, 04 Mar 2025 11:53:14 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st3/</guid>
+        <guid>https://blog.starlab.top/p/2025st3/</guid>
         <description>&lt;p&gt;考场上只做出来了 A、C、D、F。我真的敲高精了，而且甚至加法取模都敲了，刚开始 B 有一个样例是错的，带沟里之后回不来了，考完之后被 @&lt;a class=&#34;link&#34; href=&#34;@liuxx&#34; &gt;xx liu (qwertyuiop)&lt;/a&gt; 大佬一句话敲醒了😇。数学题确实有点不好想，当时也是尽力了。&lt;/p&gt;
 &lt;h2 id=&#34;a-字符串比对&#34;&gt;A. 字符串比对
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
@@ -45724,10 +45724,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第二场</title>
-        <link>https://invalidnamee.github.io/p/2025st2/</link>
+        <link>https://blog.starlab.top/p/2025st2/</link>
         <pubDate>Mon, 03 Mar 2025 14:32:33 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st2/</guid>
+        <guid>https://blog.starlab.top/p/2025st2/</guid>
         <description>&lt;p&gt;考场上只做出来了 A、B、C，拼尽全力无法战胜数学题😭😭😭。&lt;/p&gt;
 &lt;p&gt;D 一开始想错了方向，各种分解质因数把自己搞头疼了都，事后暴力莽出来了；E 事后打表打了 20min 以惊人的毅力拿下（别急，还有反转）。&lt;/p&gt;
 &lt;h2 id=&#34;a-矩形&#34;&gt;A. 矩形
@@ -46141,10 +46141,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>2025春训第一场</title>
-        <link>https://invalidnamee.github.io/p/2025st1/</link>
+        <link>https://blog.starlab.top/p/2025st1/</link>
         <pubDate>Mon, 03 Mar 2025 04:49:54 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st1/</guid>
+        <guid>https://blog.starlab.top/p/2025st1/</guid>
         <description>&lt;p&gt;考场上只做出来了 A、B、C、D，而且 C 和 D 做的很煎熬，E 是因为知识的缺失，F 那一条关键的性质不太好想。&lt;/p&gt;
 &lt;h2 id=&#34;a-好的序列&#34;&gt;A. 好的序列
 &lt;/h2&gt;&lt;p&gt;签到题，最长上升子序列变体，但是前置状态是固定的，直接开一个标记数组即可。&lt;/p&gt;
@@ -46732,10 +46732,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>失踪人口回归</title>
-        <link>https://invalidnamee.github.io/p/5asx6liq5lq65yj5zue5b2s/</link>
+        <link>https://blog.starlab.top/p/5asx6liq5lq65yj5zue5b2s/</link>
         <pubDate>Sun, 02 Mar 2025 15:09:48 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/5asx6liq5lq65yj5zue5b2s/</guid>
+        <guid>https://blog.starlab.top/p/5asx6liq5lq65yj5zue5b2s/</guid>
         <description>&lt;p&gt;应 🐸 的建议，不能光埋头刷题，还应该 &lt;strong&gt;&lt;del&gt;水水博客&lt;/del&gt;&lt;/strong&gt; 写写题解，所以后续会时不时更新&lt;strong&gt;训练赛&lt;/strong&gt;和 CSES Problem Set 部分&lt;s&gt;&lt;strong&gt;我会的&lt;/strong&gt;&lt;/s&gt;题的题解。&lt;/p&gt;
 &lt;p&gt;我个人网络预选赛打的还是挺顺利的，&lt;s&gt;虽然榜一差点被抢了&lt;/s&gt;。 大部分题都是非常基础的签到题难度的题，主要可能是有的题比较阴间，这种难度应该也不怎么用看代码吧，&lt;s&gt;绝对不是打的时候着急赶时间就没存代码&lt;/s&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;a-acm-常识问答&#34;&gt;A. ACM 常识问答
@@ -46827,10 +46827,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>UVA1086 The Ministers&#39; Major Mess</title>
-        <link>https://invalidnamee.github.io/p/uva1086-the-ministers-major-mess/</link>
+        <link>https://blog.starlab.top/p/uva1086-the-ministers-major-mess/</link>
         <pubDate>Mon, 19 Sep 2022 12:05:49 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/uva1086-the-ministers-major-mess/</guid>
+        <guid>https://blog.starlab.top/p/uva1086-the-ministers-major-mess/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://uva.onlinejudge.org/external/10/p1086.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;链接&lt;/a&gt;&lt;/p&gt;
@@ -47148,18 +47148,18 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>百度网盘不限速</title>
-        <link>https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/</link>
+        <link>https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/</link>
         <pubDate>Tue, 30 Aug 2022 09:14:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/</guid>
+        <guid>https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;前排感谢脚本开发者&lt;strong&gt;软件小妹&lt;/strong&gt;，给了我们白嫖的机会&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;tempermonkey&#34;&gt;Tempermonkey
 &lt;/h4&gt;&lt;p&gt;先弄油猴脚本，去浏览器的扩展程序商店安装 Tempermonkey (我已经装了，所以是删除)，注意 chrome 的商店需要科学上网&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1488&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC_hu_8c3dedf1d38bf22a.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC_hu_7c112003d94038d9.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC_hu_8c3dedf1d38bf22a.png 480w, https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/k0RBLzNxC_hu_7c112003d94038d9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47175,10 +47175,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/h4&gt;&lt;p&gt;建议支持正版。&lt;/p&gt;
 &lt;h4 id=&#34;配置&#34;&gt;配置
 &lt;/h4&gt;&lt;p&gt;打开 IDM，打开选项&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;990&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2_hu_ae224d8042372c3a.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2_hu_82086561a63c8413.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2_hu_ae224d8042372c3a.png 480w, https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/A7N9WtZl2_hu_82086561a63c8413.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47191,10 +47191,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;p&gt;把 UA 改成 &lt;code&gt;netdisk;3.0.0.112&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;使用&#34;&gt;使用
 &lt;/h4&gt;&lt;p&gt;先把东西存到自己的网盘里，然后选择要下载的文件，点简易下载助手，这里以vmware为例&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1488&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi_hu_edf78791121e3cca.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi_hu_b64ccd592236429e.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi_hu_edf78791121e3cca.png 480w, https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/RcxyXCaxVi_hu_b64ccd592236429e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47204,10 +47204,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击获取直链地址，有时候需要验证码，关注一下公众号即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1488&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid_hu_e1fd5b8d5c24523.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid_hu_d79bf98363599b60.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid_hu_e1fd5b8d5c24523.png 480w, https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/HVfNk4Hid_hu_d79bf98363599b60.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47217,10 +47217,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;IDM选择新建任务，把链接粘贴进去即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;990&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y_hu_860f9b6fc28f1173.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y_hu_e43ac97e2b890c25.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y_hu_860f9b6fc28f1173.png 480w, https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/igY41Di2y_hu_e43ac97e2b890c25.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47229,10 +47229,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 		data-flex-basis=&#34;387px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;990&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6_hu_e9ce948d9bcce016.png 480w, https://invalidnamee.github.io/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6_hu_b5d7324654d424e7.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6_hu_e9ce948d9bcce016.png 480w, https://blog.starlab.top/p/55m5bqm572r55uy5lin6zmq6ycf/r0xAcB_-f6_hu_b5d7324654d424e7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47248,10 +47248,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>搜狗输入法 for Linux</title>
-        <link>https://invalidnamee.github.io/p/for-linux/</link>
+        <link>https://blog.starlab.top/p/for-linux/</link>
         <pubDate>Tue, 30 Aug 2022 08:53:49 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/for-linux/</guid>
+        <guid>https://blog.starlab.top/p/for-linux/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;这个比默认的 ibus 好用很多，两个输入法可能有排斥，如果安装过程中报错，可以试试把 ibus 卸了&lt;/p&gt;
@@ -47267,10 +47267,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/ul&gt;
 &lt;p&gt;官网 : &lt;a class=&#34;link&#34; href=&#34;https://shurufa.sogou.com/linux&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://shurufa.sogou.com/linux&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/I9QugD5g7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/for-linux/I9QugD5g7.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1498&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/for-linux/I9QugD5g7_hu_68b9581059d270d2.png 480w, https://invalidnamee.github.io/p/for-linux/I9QugD5g7_hu_fc3911f2c145e4d3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/for-linux/I9QugD5g7_hu_68b9581059d270d2.png 480w, https://blog.starlab.top/p/for-linux/I9QugD5g7_hu_fc3911f2c145e4d3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47438,10 +47438,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;li&gt;
 &lt;p&gt;配置一下 &lt;code&gt;fcitx&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;找到 language support (语言支持)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/lcKlLXKpY.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/for-linux/lcKlLXKpY.png&#34;
 	width=&#34;354&#34;
 	height=&#34;277&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/for-linux/lcKlLXKpY_hu_85d852e394230cbc.png 480w, https://invalidnamee.github.io/p/for-linux/lcKlLXKpY_hu_6a5c9def6e060e65.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/for-linux/lcKlLXKpY_hu_85d852e394230cbc.png 480w, https://blog.starlab.top/p/for-linux/lcKlLXKpY_hu_6a5c9def6e060e65.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47451,10 +47451,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;把输入法改成 &lt;code&gt;fcitx&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/z4mek6oaQ.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/for-linux/z4mek6oaQ.png&#34;
 	width=&#34;530&#34;
 	height=&#34;520&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/for-linux/z4mek6oaQ_hu_58ac081ba33464ce.png 480w, https://invalidnamee.github.io/p/for-linux/z4mek6oaQ_hu_21855771ba474b4c.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/for-linux/z4mek6oaQ_hu_58ac081ba33464ce.png 480w, https://blog.starlab.top/p/for-linux/z4mek6oaQ_hu_21855771ba474b4c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47500,10 +47500,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;li&gt;
 &lt;p&gt;启用&lt;/p&gt;
 &lt;p&gt;打开 fcitx 的设置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/bzyB2h7Mo.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/for-linux/bzyB2h7Mo.png&#34;
 	width=&#34;399&#34;
 	height=&#34;216&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/for-linux/bzyB2h7Mo_hu_a6a86c929db3f3b5.png 480w, https://invalidnamee.github.io/p/for-linux/bzyB2h7Mo_hu_95a9ffd47e604f13.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/for-linux/bzyB2h7Mo_hu_a6a86c929db3f3b5.png 480w, https://blog.starlab.top/p/for-linux/bzyB2h7Mo_hu_95a9ffd47e604f13.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47512,10 +47512,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 		data-flex-basis=&#34;443px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/for-linux/-zUr2UlCP.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/for-linux/-zUr2UlCP.png&#34;
 	width=&#34;846&#34;
 	height=&#34;465&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/for-linux/-zUr2UlCP_hu_baae44483b040078.png 480w, https://invalidnamee.github.io/p/for-linux/-zUr2UlCP_hu_ec42034dc9070233.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/for-linux/-zUr2UlCP_hu_baae44483b040078.png 480w, https://blog.starlab.top/p/for-linux/-zUr2UlCP_hu_ec42034dc9070233.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47536,10 +47536,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>安装WSL并在VScode调用</title>
-        <link>https://invalidnamee.github.io/p/wslvscode/</link>
+        <link>https://blog.starlab.top/p/wslvscode/</link>
         <pubDate>Tue, 30 Aug 2022 08:53:39 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/wslvscode/</guid>
+        <guid>https://blog.starlab.top/p/wslvscode/</guid>
         <description>&lt;h3 id=&#34;0前置说明&#34;&gt;0.前置说明
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;WSL是什么&lt;/strong&gt;，以下定义来自&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/wsl/20359185&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;百度百科&lt;/a&gt;&lt;/p&gt;
@@ -47555,10 +47555,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;打开 Microsoft Store ，搜索Ubuntu，并安装 (经常卡顿，请耐心等待)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/CnyrM_-VL.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wslvscode/CnyrM_-VL.png&#34;
 	width=&#34;2476&#34;
 	height=&#34;1066&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/CnyrM_-VL_hu_966aa47201dafe9b.png 480w, https://invalidnamee.github.io/p/wslvscode/CnyrM_-VL_hu_183d2d5ceeacab27.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wslvscode/CnyrM_-VL_hu_966aa47201dafe9b.png 480w, https://blog.starlab.top/p/wslvscode/CnyrM_-VL_hu_183d2d5ceeacab27.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47590,10 +47590,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;li&gt;再次打开Ubuntu 22.04 然后发现可以了&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;等待一段时间后输入你之后要给linux系统用的用户名和密码，就可以进去了，会看到一个这样的界面，表明成功了（&lt;del&gt;怎么给我报了条错，咳咳&amp;hellip;不用管，ubuntu经常这样&lt;/del&gt;）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/_GLnRZpPG.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wslvscode/_GLnRZpPG.png&#34;
 	width=&#34;2466&#34;
 	height=&#34;1312&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/_GLnRZpPG_hu_25606ebef521e197.png 480w, https://invalidnamee.github.io/p/wslvscode/_GLnRZpPG_hu_8464119eaea0e3e2.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wslvscode/_GLnRZpPG_hu_25606ebef521e197.png 480w, https://blog.starlab.top/p/wslvscode/_GLnRZpPG_hu_8464119eaea0e3e2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47703,10 +47703,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;p&gt;说明已经连上了子系统&lt;/p&gt;
 &lt;h4 id=&#34;34-配置linux子系统的vscode拓展程序&#34;&gt;3.4 配置linux子系统的VScode拓展程序
 &lt;/h4&gt;&lt;p&gt;需要装两个拓展程序&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/zaI-PjWJn.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wslvscode/zaI-PjWJn.png&#34;
 	width=&#34;594&#34;
 	height=&#34;253&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/zaI-PjWJn_hu_be6c4bfe33b3175c.png 480w, https://invalidnamee.github.io/p/wslvscode/zaI-PjWJn_hu_9c4faf3693e93a2f.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wslvscode/zaI-PjWJn_hu_be6c4bfe33b3175c.png 480w, https://blog.starlab.top/p/wslvscode/zaI-PjWJn_hu_9c4faf3693e93a2f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47716,10 +47716,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如果已经装过了就选&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/uEaBod6vk.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wslvscode/uEaBod6vk.png&#34;
 	width=&#34;329&#34;
 	height=&#34;50&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/uEaBod6vk_hu_48fa2d7f0f479ce0.png 480w, https://invalidnamee.github.io/p/wslvscode/uEaBod6vk_hu_8a81f02aecc4294d.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wslvscode/uEaBod6vk_hu_48fa2d7f0f479ce0.png 480w, https://blog.starlab.top/p/wslvscode/uEaBod6vk_hu_8a81f02aecc4294d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47742,10 +47742,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;切换到 ubuntu 22.04 的标签下，搜 &lt;code&gt;code runner&lt;/code&gt;，然后按图示操作，点击 &lt;code&gt;Execulor Map&lt;/code&gt; 下的 &lt;code&gt;Edit in settings.json&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/VSdZOan6i.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wslvscode/VSdZOan6i.png&#34;
 	width=&#34;1672&#34;
 	height=&#34;1704&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/VSdZOan6i_hu_83f5717be185b262.png 480w, https://invalidnamee.github.io/p/wslvscode/VSdZOan6i_hu_7af7bc3ca984abaf.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wslvscode/VSdZOan6i_hu_83f5717be185b262.png 480w, https://blog.starlab.top/p/wslvscode/VSdZOan6i_hu_7af7bc3ca984abaf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47816,10 +47816,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;strong&gt;好像把文件拷到linux里面运行更快，linux的文件在这里&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/wslvscode/9Ysh8P4yn.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/wslvscode/9Ysh8P4yn.png&#34;
 	width=&#34;1796&#34;
 	height=&#34;1330&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/wslvscode/9Ysh8P4yn_hu_2c76bdcd6e23bef3.png 480w, https://invalidnamee.github.io/p/wslvscode/9Ysh8P4yn_hu_26c386af8fbc4404.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/wslvscode/9Ysh8P4yn_hu_2c76bdcd6e23bef3.png 480w, https://blog.starlab.top/p/wslvscode/9Ysh8P4yn_hu_26c386af8fbc4404.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47838,10 +47838,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>[noip 2017 普及组] 棋盘</title>
-        <link>https://invalidnamee.github.io/p/noip-2017/</link>
+        <link>https://blog.starlab.top/p/noip-2017/</link>
         <pubDate>Tue, 30 Aug 2022 08:37:16 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noip-2017/</guid>
+        <guid>https://blog.starlab.top/p/noip-2017/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3956&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3956 [NOIP2017 普及组] 棋盘&lt;/a&gt;&lt;/p&gt;
@@ -47870,10 +47870,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;点如何编号&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如图，把每一行都接上，顺着编号。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip-2017/PrGwzXJ-i.png&#34;
 	width=&#34;681&#34;
 	height=&#34;596&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i_hu_806b7dba53bb049b.png 480w, https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i_hu_b91e2c2a697109dd.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip-2017/PrGwzXJ-i_hu_806b7dba53bb049b.png 480w, https://blog.starlab.top/p/noip-2017/PrGwzXJ-i_hu_b91e2c2a697109dd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -48158,10 +48158,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>[noip2015 提高组] 运输计划</title>
-        <link>https://invalidnamee.github.io/p/noip2015/</link>
+        <link>https://blog.starlab.top/p/noip2015/</link>
         <pubDate>Tue, 30 Aug 2022 08:37:12 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noip2015/</guid>
+        <guid>https://blog.starlab.top/p/noip2015/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面&lt;/strong&gt;:&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2680&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2680 [NOIP2015 提高组] 运输计划
@@ -48664,19 +48664,19 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>[noip2014 提高组] 联合权值</title>
-        <link>https://invalidnamee.github.io/p/noip2014/</link>
+        <link>https://blog.starlab.top/p/noip2014/</link>
         <pubDate>Tue, 30 Aug 2022 08:37:07 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noip2014/</guid>
+        <guid>https://blog.starlab.top/p/noip2014/</guid>
         <description>&lt;p&gt;险些把&lt;a class=&#34;link&#34; href=&#34;https://laffey.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@Laffey&lt;/a&gt;的题抢了&lt;/p&gt;
 &lt;p&gt;注意审题！！因为审题出了很多问题。&lt;/p&gt;
 &lt;p&gt;这题一眼看下去很无从下手，简单来说就是&lt;strong&gt;距离为2的两个点的权值之积为联合权值&lt;/strong&gt;，让求&lt;strong&gt;最大联合权值&lt;/strong&gt;和&lt;strong&gt;所有联合权值的总和&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;仔细思考一下，一棵树中存在两个距离为2的点只有两种情况，&lt;strong&gt;一条线&lt;/strong&gt;和&lt;strong&gt;一个角&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/BaleCkbb8.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/BaleCkbb8.png&#34;
 	width=&#34;449&#34;
 	height=&#34;204&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/BaleCkbb8_hu_c6d5d04d0156d12.png 480w, https://invalidnamee.github.io/p/noip2014/BaleCkbb8_hu_c91fb85ff95ba346.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/BaleCkbb8_hu_c6d5d04d0156d12.png 480w, https://blog.starlab.top/p/noip2014/BaleCkbb8_hu_c91fb85ff95ba346.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -48725,10 +48725,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/h3&gt;&lt;p&gt;这种情况难度就稍微大了一些，需&lt;strong&gt;统计同一层所有子节点&lt;/strong&gt;，对其进行排列组合，每种配对的情况都是两组联合权值。 (可以对比之前做过的一道深搜 &lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1036&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;选数&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;举个栗子：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/240C9eOqQ.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/240C9eOqQ.png&#34;
 	width=&#34;206&#34;
 	height=&#34;141&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/240C9eOqQ_hu_b964bffe3fccdc.png 480w, https://invalidnamee.github.io/p/noip2014/240C9eOqQ_hu_dee4c8371f91e9d7.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/240C9eOqQ_hu_b964bffe3fccdc.png 480w, https://blog.starlab.top/p/noip2014/240C9eOqQ_hu_dee4c8371f91e9d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -48893,10 +48893,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/h2&gt;&lt;h3 id=&#34;i一个角&#34;&gt;I.一个角
 &lt;/h3&gt;&lt;p&gt;一条线的时间复杂度已经不大了，所以我们先来考虑一个角的情况&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;再举个相同的栗子:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/vtaDxC7Bu.png&#34;
 	width=&#34;206&#34;
 	height=&#34;141&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu_hu_b964bffe3fccdc.png 480w, https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu_hu_dee4c8371f91e9d7.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/vtaDxC7Bu_hu_b964bffe3fccdc.png 480w, https://blog.starlab.top/p/noip2014/vtaDxC7Bu_hu_dee4c8371f91e9d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -48936,10 +48936,10 @@ $$&lt;p&gt;所以处理这种情况只需维护一个&lt;strong&gt;前缀和&lt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;del&gt;把之前的循环换掉就可以a掉了&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ii一条线&#34;&gt;II.一条线
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/o39DhJoS4.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/o39DhJoS4.png&#34;
 	width=&#34;188&#34;
 	height=&#34;186&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/o39DhJoS4_hu_c23c3813ade07a65.png 480w, https://invalidnamee.github.io/p/noip2014/o39DhJoS4_hu_6ad8a89637d13741.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/o39DhJoS4_hu_c23c3813ade07a65.png 480w, https://blog.starlab.top/p/noip2014/o39DhJoS4_hu_6ad8a89637d13741.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -49113,10 +49113,10 @@ $$&lt;p&gt;你发现了什么？&lt;/p&gt;
         </item>
         <item>
         <title>[noi2015] 软件包管理器</title>
-        <link>https://invalidnamee.github.io/p/noi2015/</link>
+        <link>https://blog.starlab.top/p/noi2015/</link>
         <pubDate>Tue, 30 Aug 2022 08:36:53 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noi2015/</guid>
+        <guid>https://blog.starlab.top/p/noi2015/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2146?&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;[NOI2015] 软件包管理器&lt;/a&gt;&lt;/p&gt;
@@ -49513,10 +49513,10 @@ $$&lt;p&gt;你发现了什么？&lt;/p&gt;
         </item>
         <item>
         <title>[noi1999] 棋盘分割</title>
-        <link>https://invalidnamee.github.io/p/noi1999/</link>
+        <link>https://blog.starlab.top/p/noi1999/</link>
         <pubDate>Mon, 29 Aug 2022 12:58:51 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noi1999/</guid>
+        <guid>https://blog.starlab.top/p/noi1999/</guid>
         <description>&lt;p&gt;因为人在学校时间比较要紧就写简单一些&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5752&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5752 [NOI1999] 棋盘分割&lt;/a&gt;&lt;/p&gt;
@@ -49738,10 +49738,10 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
         </item>
         <item>
         <title>[hnoi2005] 狡猾的商人</title>
-        <link>https://invalidnamee.github.io/p/hnoi2005/</link>
+        <link>https://blog.starlab.top/p/hnoi2005/</link>
         <pubDate>Mon, 29 Aug 2022 12:58:44 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/hnoi2005/</guid>
+        <guid>https://blog.starlab.top/p/hnoi2005/</guid>
         <description>&lt;h2 id=&#34;0-题目描述&#34;&gt;0. 题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面&lt;/strong&gt;:&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2294&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2294 [HNOI2005]狡猾的商人&lt;/a&gt;&lt;/p&gt;
@@ -49776,10 +49776,10 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如果按照读入的数据建图，画成图就是这样子的:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/hnoi2005/71qzac3a.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/hnoi2005/71qzac3a.png&#34;
 	width=&#34;275&#34;
 	height=&#34;210&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/hnoi2005/71qzac3a_hu_14b01078311c0be7.png 480w, https://invalidnamee.github.io/p/hnoi2005/71qzac3a_hu_fd20c4bdd911b1f3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/hnoi2005/71qzac3a_hu_14b01078311c0be7.png 480w, https://blog.starlab.top/p/hnoi2005/71qzac3a_hu_fd20c4bdd911b1f3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -49789,10 +49789,10 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;显然这个是错的， \( 2 \) 和 \( 3 \) 是相连的。但是如果把区间 \( [l, r] \) 改成一开一闭，即 \( (l-1,r] \) ，图就会变成这样:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/hnoi2005/8x67x3cb.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/hnoi2005/8x67x3cb.png&#34;
 	width=&#34;289&#34;
 	height=&#34;194&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/hnoi2005/8x67x3cb_hu_f1f3ccba59a9e0cc.png 480w, https://invalidnamee.github.io/p/hnoi2005/8x67x3cb_hu_a83bad91935bbcce.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/hnoi2005/8x67x3cb_hu_f1f3ccba59a9e0cc.png 480w, https://blog.starlab.top/p/hnoi2005/8x67x3cb_hu_a83bad91935bbcce.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hugo on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/tags/hugo/</link>
+        <link>https://blog.starlab.top/tags/hugo/</link>
         <description>Recent content in Hugo on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Tue, 12 Aug 2025 22:50:57 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Aug 2025 22:50:57 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】代码高亮主题自定义</title>
-        <link>https://invalidnamee.github.io/p/hugo-code-highlighting/</link>
+        <link>https://blog.starlab.top/p/hugo-code-highlighting/</link>
         <pubDate>Mon, 11 Aug 2025 20:10:21 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/hugo-code-highlighting/</guid>
+        <guid>https://blog.starlab.top/p/hugo-code-highlighting/</guid>
         <description>&lt;p&gt;今天魔改 hugo-stack 的时候，感觉原来那个蓝蓝的配色实在是有点丑，既然这次已经大型魔改了，就一起改了吧，过程中遇到了点小困难。&lt;/p&gt;
 &lt;p&gt;根据网上查到方法大都是直接在 &lt;code&gt;hugo.yaml&lt;/code&gt; 里面改 &lt;code&gt;markup.highlight.style&lt;/code&gt;，但是我不知道是不是因为我配置的问题改了没用，所以又查了很久的资料，终于是解决了，特此记录。&lt;/p&gt;
 &lt;p&gt;用 chromastyles 生成 scss 文件到 &lt;code&gt;assets/scss/partials/highlight&lt;/code&gt;，我选了 xcode 主题，其他可选的主题见 &lt;a class=&#34;link&#34; href=&#34;https://xyproto.github.io/splash/docs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

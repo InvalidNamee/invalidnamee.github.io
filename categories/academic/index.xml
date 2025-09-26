@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>学术课程 on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/categories/academic/</link>
+        <link>https://blog.starlab.top/categories/academic/</link>
         <description>Recent content in 学术课程 on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>InvalidNamee</copyright><atom:link href="https://invalidnamee.github.io/categories/academic/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>InvalidNamee</copyright><atom:link href="https://blog.starlab.top/categories/academic/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【数据结构】C语言测试题</title>
-        <link>https://invalidnamee.github.io/p/ds-contest0/</link>
+        <link>https://blog.starlab.top/p/ds-contest0/</link>
         <pubDate>Wed, 24 Sep 2025 18:00:47 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/ds-contest0/</guid>
+        <guid>https://blog.starlab.top/p/ds-contest0/</guid>
         <description>&lt;h2 id=&#34;-annoucnement&#34;&gt;📢 Annoucnement
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;这场不计分，&lt;strong&gt;如果计分会在结束后发博客&lt;/strong&gt;，如果题目太多会开个仓库发。&lt;/li&gt;
@@ -486,10 +486,10 @@
         </item>
         <item>
         <title>【数据结构】线性表</title>
-        <link>https://invalidnamee.github.io/p/ds-list/</link>
+        <link>https://blog.starlab.top/p/ds-list/</link>
         <pubDate>Wed, 17 Sep 2025 12:59:56 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/ds-list/</guid>
+        <guid>https://blog.starlab.top/p/ds-list/</guid>
         <description>&lt;h2 id=&#34;-announcement&#34;&gt;📢 Announcement
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;本系列在讲完之前会&lt;strong&gt;持续更新&lt;/strong&gt;。&lt;/li&gt;
@@ -1469,10 +1469,10 @@
         </item>
         <item>
         <title>大物公式结论汇总</title>
-        <link>https://invalidnamee.github.io/p/dawu-summary/</link>
+        <link>https://blog.starlab.top/p/dawu-summary/</link>
         <pubDate>Sat, 21 Jun 2025 16:49:25 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dawu-summary/</guid>
+        <guid>https://blog.starlab.top/p/dawu-summary/</guid>
         <description>&lt;h2 id=&#34;观前提醒&#34;&gt;观前提醒
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;不全！不全！不全！不全！&lt;/strong&gt;&lt;/li&gt;
@@ -1743,17 +1743,17 @@ $$</description>
         </item>
         <item>
         <title>大物第四讲</title>
-        <link>https://invalidnamee.github.io/p/dawu4/</link>
+        <link>https://blog.starlab.top/p/dawu4/</link>
         <pubDate>Fri, 13 Jun 2025 19:40:22 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dawu4/</guid>
+        <guid>https://blog.starlab.top/p/dawu4/</guid>
         <description>&lt;p&gt;板书内容和课堂彩蛋：&lt;a class=&#34;link&#34; href=&#34;#%e6%9d%bf%e4%b9%a6&#34; &gt;点我跳转&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;电磁波谱&#34;&gt;电磁波谱
 &lt;/h2&gt;&lt;p&gt;把电磁波按照波长或频率的顺序排列起来，就是电磁波谱。可分为无线电波、微波、红外线、可见光、紫外线、伦琴射线、伽玛射线。
-&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img1.png&#34;
+&lt;img src=&#34;https://blog.starlab.top/p/dawu4/img1.png&#34;
 	width=&#34;2326&#34;
 	height=&#34;820&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img1_hu_dc03523d4e7c364e.png 480w, https://invalidnamee.github.io/p/dawu4/img1_hu_6a8cd23825650cd5.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dawu4/img1_hu_dc03523d4e7c364e.png 480w, https://blog.starlab.top/p/dawu4/img1_hu_6a8cd23825650cd5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1861,10 +1861,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h4 id=&#34;部分偏振光&#34;&gt;部分偏振光
 &lt;/h4&gt;&lt;p&gt;某一方向的光振动比与之相垂直方向的光振动占优势的光。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
-&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img4.png&#34;
+&lt;img src=&#34;https://blog.starlab.top/p/dawu4/img4.png&#34;
 	width=&#34;1254&#34;
 	height=&#34;132&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img4_hu_606152f5e99cd0b9.png 480w, https://invalidnamee.github.io/p/dawu4/img4_hu_5da4d23e7a5ac4d1.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dawu4/img4_hu_606152f5e99cd0b9.png 480w, https://blog.starlab.top/p/dawu4/img4_hu_5da4d23e7a5ac4d1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1876,10 +1876,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h4 id=&#34;偏振光&#34;&gt;偏振光
 &lt;/h4&gt;&lt;p&gt;只含有单一方向光振动的光叫做偏振光。也称为&lt;strong&gt;线偏振光、平面偏振光、完全偏振光&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;表示:&lt;/strong&gt;
-&lt;img src=&#34;https://invalidnamee.github.io/p/dawu4/img5.png&#34;
+&lt;img src=&#34;https://blog.starlab.top/p/dawu4/img5.png&#34;
 	width=&#34;1262&#34;
 	height=&#34;150&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dawu4/img5_hu_f8c0bc799db69670.png 480w, https://invalidnamee.github.io/p/dawu4/img5_hu_e65a5e3cb8fab3d0.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dawu4/img5_hu_f8c0bc799db69670.png 480w, https://blog.starlab.top/p/dawu4/img5_hu_e65a5e3cb8fab3d0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1930,10 +1930,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>大物第三讲</title>
-        <link>https://invalidnamee.github.io/p/dawu3/</link>
+        <link>https://blog.starlab.top/p/dawu3/</link>
         <pubDate>Thu, 12 Jun 2025 20:34:28 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dawu3/</guid>
+        <guid>https://blog.starlab.top/p/dawu3/</guid>
         <description>&lt;p&gt;板书内容：&lt;a class=&#34;link&#34; href=&#34;#%e6%9d%bf%e4%b9%a6&#34; &gt;点我跳转&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;概念&#34;&gt;概念
 &lt;/h2&gt;&lt;ul&gt;
@@ -2244,10 +2244,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>心理笔记</title>
-        <link>https://invalidnamee.github.io/p/xinli-note/</link>
+        <link>https://blog.starlab.top/p/xinli-note/</link>
         <pubDate>Mon, 09 Jun 2025 21:18:01 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/xinli-note/</guid>
+        <guid>https://blog.starlab.top/p/xinli-note/</guid>
         <description>&lt;p&gt;错别字有点多，敬请谅解qwq&lt;/p&gt;
 &lt;h2 id=&#34;心理咨询预约&#34;&gt;心理咨询预约
 &lt;/h2&gt;&lt;h3 id=&#34;预约方式&#34;&gt;预约方式:
@@ -2366,10 +2366,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;h3 id=&#34;q2-问世间情为何物&#34;&gt;q2-问世间情为何物
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;斯滕伯格爱情三角理论&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如图所示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image.png&#34;
 	width=&#34;872&#34;
 	height=&#34;792&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image_hu_a557d5dcfd38788b.png 480w, https://invalidnamee.github.io/p/xinli-note/image_hu_e420273586378a4e.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image_hu_a557d5dcfd38788b.png 480w, https://blog.starlab.top/p/xinli-note/image_hu_e420273586378a4e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2600,10 +2600,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;li&gt;害怕失败&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;后果:&lt;/strong&gt; 自责、懊悔、难受、痛苦，影响任务完成的实际效果。夜不能寐，食之无味。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image1.png&#34;
 	width=&#34;1206&#34;
 	height=&#34;971&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image1_hu_94cbf7d32df2d7fb.png 480w, https://invalidnamee.github.io/p/xinli-note/image1_hu_773239a3edfdc792.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image1_hu_94cbf7d32df2d7fb.png 480w, https://blog.starlab.top/p/xinli-note/image1_hu_773239a3edfdc792.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2636,10 +2636,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;压力适当理论&lt;/strong&gt;，Anderson，1987&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image2.png&#34;
 	width=&#34;1269&#34;
 	height=&#34;785&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image2_hu_fd1b10e52ff07aa1.png 480w, https://invalidnamee.github.io/p/xinli-note/image2_hu_e47c5eb1902ed484.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image2_hu_fd1b10e52ff07aa1.png 480w, https://blog.starlab.top/p/xinli-note/image2_hu_e47c5eb1902ed484.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2654,10 +2654,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;压力应对模型&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image3.png&#34;
 	width=&#34;1596&#34;
 	height=&#34;801&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image3_hu_9a2fc505e160416f.png 480w, https://invalidnamee.github.io/p/xinli-note/image3_hu_aca535c5cb1e2bd2.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image3_hu_9a2fc505e160416f.png 480w, https://blog.starlab.top/p/xinli-note/image3_hu_aca535c5cb1e2bd2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2814,10 +2814,10 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;练习题&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/xinli-note/image4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/xinli-note/image4.png&#34;
 	width=&#34;3214&#34;
 	height=&#34;1703&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/xinli-note/image4_hu_67e52fbb30948fb5.png 480w, https://invalidnamee.github.io/p/xinli-note/image4_hu_e31380cf30f97ece.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/xinli-note/image4_hu_67e52fbb30948fb5.png 480w, https://blog.starlab.top/p/xinli-note/image4_hu_e31380cf30f97ece.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2995,17 +2995,17 @@ $$&lt;h2 id=&#34;光的偏振-马吕斯定律&#34;&gt;光的偏振 马吕斯定�
         </item>
         <item>
         <title>离散数学：最短路的代码实现</title>
-        <link>https://invalidnamee.github.io/p/dm01/</link>
+        <link>https://blog.starlab.top/p/dm01/</link>
         <pubDate>Tue, 18 Mar 2025 14:43:12 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/dm01/</guid>
+        <guid>https://blog.starlab.top/p/dm01/</guid>
         <description>&lt;p&gt;众所周知离散课本 204 页 17 题让用 Dijkstra 和 Floyd 求一个 9 个结点的图的最短路径。2025 年 3 月 18 日上午，我抄了一节史纲课的 Dijkstra 过程和 Floyd 的邻接矩阵，心中愤懑不平。于是中午回宿舍猛敲代码零点几秒就把全部都过程都输出出来了，遂把代码打包跟离散作业一起交上去了。&lt;/p&gt;
 &lt;p&gt;但是这样还不够，写的代码还能再水一篇博客（虽然不会有人看😭）&lt;/p&gt;
 &lt;h2 id=&#34;图的存储&#34;&gt;图的存储
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2.png&#34;
 	width=&#34;838&#34;
 	height=&#34;620&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_e6e5d7c7033b2ff4.png 480w, https://invalidnamee.github.io/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_52dadf1ff8243c4b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_e6e5d7c7033b2ff4.png 480w, https://blog.starlab.top/p/dm01/e22e1bb0-c1b2-402a-bf09-7d36fda218c2_hu_52dadf1ff8243c4b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

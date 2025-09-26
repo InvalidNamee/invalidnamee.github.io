@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>赛事 on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/categories/contests/</link>
+        <link>https://blog.starlab.top/categories/contests/</link>
         <description>Recent content in 赛事 on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>InvalidNamee</copyright><atom:link href="https://invalidnamee.github.io/categories/contests/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>InvalidNamee</copyright><atom:link href="https://blog.starlab.top/categories/contests/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ICPC Asia EC Online 2025(I)</title>
-        <link>https://invalidnamee.github.io/p/icpc-asia-ec-online-2025i/</link>
+        <link>https://blog.starlab.top/p/icpc-asia-ec-online-2025i/</link>
         <pubDate>Tue, 16 Sep 2025 19:41:50 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/icpc-asia-ec-online-2025i/</guid>
+        <guid>https://blog.starlab.top/p/icpc-asia-ec-online-2025i/</guid>
         <description>&lt;p&gt;其实很早之前就补的差不多了，可以看到 16 号就打算写了，后来一直拖，拖到了现在。&lt;/p&gt;
 &lt;p&gt;这场我们打的挺好的，我只写了一道大模拟，然后队友已经切完了，最后做交互题没调出来。&lt;/p&gt;
 &lt;h2 id=&#34;a-who-can-win&#34;&gt;A. Who Can Win
@@ -636,10 +636,10 @@
         </item>
         <item>
         <title>2025牛客暑期多校训练营10</title>
-        <link>https://invalidnamee.github.io/p/25ncmu10/</link>
+        <link>https://blog.starlab.top/p/25ncmu10/</link>
         <pubDate>Thu, 14 Aug 2025 19:48:49 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu10/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu10/</guid>
         <description>&lt;p&gt;最后一场了，后面打三天训练赛我就该小学期了，训练赛题解系列暂时停更，但是有可能更新小学期项目的日志之类的。&lt;/p&gt;
 &lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
@@ -1307,10 +1307,10 @@
         </item>
         <item>
         <title>2025牛客暑期多校训练营9</title>
-        <link>https://invalidnamee.github.io/p/25ncmu9/</link>
+        <link>https://blog.starlab.top/p/25ncmu9/</link>
         <pubDate>Tue, 12 Aug 2025 19:24:51 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu9/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu9/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -2107,10 +2107,10 @@
         </item>
         <item>
         <title>2025牛客暑期多校训练营7</title>
-        <link>https://invalidnamee.github.io/p/25ncmu7/</link>
+        <link>https://blog.starlab.top/p/25ncmu7/</link>
         <pubDate>Sun, 10 Aug 2025 16:30:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu7/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu7/</guid>
         <description>&lt;p&gt;时间和 xcpc 系统测试赛撞了，所以是周五 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -2937,10 +2937,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营8</title>
-        <link>https://invalidnamee.github.io/p/25ncmu8/</link>
+        <link>https://blog.starlab.top/p/25ncmu8/</link>
         <pubDate>Thu, 07 Aug 2025 19:25:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu8/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu8/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -3770,10 +3770,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>【NAC2025】2025 拼题A XCPC 系统测试赛</title>
-        <link>https://invalidnamee.github.io/p/nac2025/</link>
+        <link>https://blog.starlab.top/p/nac2025/</link>
         <pubDate>Tue, 05 Aug 2025 19:50:23 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/nac2025/</guid>
+        <guid>https://blog.starlab.top/p/nac2025/</guid>
         <description>&lt;p&gt;这场相当于 vp 了一下 NAC2025，最大的感受就是看英文体面太折磨了，看不懂不致命，理解错了自以为看懂了最致命。&lt;/p&gt;
 &lt;p&gt;结束之后 OMS 客户端直接自己退了代码看不到了，之前做过的题的代码也是根据记忆重写的，下面的题是按照难度顺序排列的。&lt;/p&gt;
 &lt;h2 id=&#34;k-sla-tomography&#34;&gt;K. SLA Tomography
@@ -4289,10 +4289,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营3</title>
-        <link>https://invalidnamee.github.io/p/25ncmu3/</link>
+        <link>https://blog.starlab.top/p/25ncmu3/</link>
         <pubDate>Sat, 02 Aug 2025 18:32:54 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu3/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu3/</guid>
         <description>&lt;p&gt;这场是 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -5199,10 +5199,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营6</title>
-        <link>https://invalidnamee.github.io/p/25ncmu6/</link>
+        <link>https://blog.starlab.top/p/25ncmu6/</link>
         <pubDate>Sat, 02 Aug 2025 18:31:27 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu6/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu6/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -5996,10 +5996,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营5</title>
-        <link>https://invalidnamee.github.io/p/25ncmu5/</link>
+        <link>https://blog.starlab.top/p/25ncmu5/</link>
         <pubDate>Wed, 30 Jul 2025 18:53:19 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu5/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu5/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -6803,10 +6803,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营1</title>
-        <link>https://invalidnamee.github.io/p/25ncmu1/</link>
+        <link>https://blog.starlab.top/p/25ncmu1/</link>
         <pubDate>Mon, 28 Jul 2025 19:11:12 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu1/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu1/</guid>
         <description>&lt;p&gt;同样也是 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -7640,10 +7640,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营2</title>
-        <link>https://invalidnamee.github.io/p/25ncmu2/</link>
+        <link>https://blog.starlab.top/p/25ncmu2/</link>
         <pubDate>Sat, 26 Jul 2025 17:11:04 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu2/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu2/</guid>
         <description>&lt;p&gt;当时我们都在家，所以是回学校之后 vp 的，大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -8564,10 +8564,10 @@ f_0 &amp;amp; g_0 &lt;br&gt;
         </item>
         <item>
         <title>2025牛客暑期多校训练营4</title>
-        <link>https://invalidnamee.github.io/p/25ncmu4/</link>
+        <link>https://blog.starlab.top/p/25ncmu4/</link>
         <pubDate>Sat, 26 Jul 2025 17:11:00 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/25ncmu4/</guid>
+        <guid>https://blog.starlab.top/p/25ncmu4/</guid>
         <description>&lt;p&gt;大概情况是这样的&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -9672,10 +9672,10 @@ $$&lt;p&gt;二进制位是 0 的时候需要 * 2 的情况就解决了；然后�
         </item>
         <item>
         <title>第四届成都信息工程大学天梯赛</title>
-        <link>https://invalidnamee.github.io/p/tianti2025cd/</link>
+        <link>https://blog.starlab.top/p/tianti2025cd/</link>
         <pubDate>Tue, 18 Mar 2025 13:34:31 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/tianti2025cd/</guid>
+        <guid>https://blog.starlab.top/p/tianti2025cd/</guid>
         <description>&lt;p&gt;写了一半，群里发出来官方题解了……&lt;s&gt;但是我码风比他的好，可读性强一点&lt;/s&gt;，但是为了&lt;s&gt;强迫症和&lt;/s&gt;留作记录，我必须写完😇。所以这篇博客的性质已经从题解 transform 成赛后的感想了。&lt;/p&gt;
 &lt;p&gt;个人感觉有点像是水赛的感觉，L1 非常顺利，L2 和 L3 的最后两道开始调不出来，最终结果是 190 分(我的 L3-1 的 30 分还被队友吃了😭），L1 拿满，L2 的 3，4 WA，L3 的 2 TLE，3 没看。&lt;/p&gt;
 &lt;p&gt;我的 windows 还没回来，所以用的机房的编译一下就死机的电脑（但这不是我没存代码的理由），只能事后重敲一遍代码了，顺便回忆一下当时的心情。&lt;/p&gt;
@@ -10661,10 +10661,10 @@ $$&lt;p&gt;二进制位是 0 的时候需要 * 2 的情况就解决了；然后�
         </item>
         <item>
         <title>Upcpc2025</title>
-        <link>https://invalidnamee.github.io/p/upcpc2025/</link>
+        <link>https://blog.starlab.top/p/upcpc2025/</link>
         <pubDate>Mon, 10 Mar 2025 11:22:06 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/upcpc2025/</guid>
+        <guid>https://blog.starlab.top/p/upcpc2025/</guid>
         <description>&lt;h2 id=&#34;更新记录&#34;&gt;更新记录
 &lt;/h2&gt;&lt;p&gt;本人实力有限，有一些题至今还没做出来，之后会时不时填坑，故把填坑记录加到最上面了，目前还差 I, K, L。&lt;/p&gt;
 &lt;ul&gt;
@@ -10819,10 +10819,10 @@ $$&lt;p&gt;二进制位是 0 的时候需要 * 2 的情况就解决了；然后�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;有图有真相（第一次跑的时候忘了约分了，但是无伤大雅，运行时间大致是准的）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a.png&#34;
 	width=&#34;2154&#34;
 	height=&#34;616&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_3f3864465d188a5f.png 480w, https://invalidnamee.github.io/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_bb5e9813a44ae5ee.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_3f3864465d188a5f.png 480w, https://blog.starlab.top/p/upcpc2025/80ce2f3f-287c-44ac-a955-fac19678492a_hu_bb5e9813a44ae5ee.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

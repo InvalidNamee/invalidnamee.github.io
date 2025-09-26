@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Solutions on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/tags/solutions/</link>
+        <link>https://blog.starlab.top/tags/solutions/</link>
         <description>Recent content in Solutions on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Thu, 14 Aug 2025 18:33:49 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/solutions/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 18:33:49 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/solutions/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2025夏季个人训练赛第三十六场</title>
-        <link>https://invalidnamee.github.io/p/2025sp36/</link>
+        <link>https://blog.starlab.top/p/2025sp36/</link>
         <pubDate>Wed, 13 Aug 2025 18:54:12 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp36/</guid>
+        <guid>https://blog.starlab.top/p/2025sp36/</guid>
         <description>&lt;p&gt;中午没睡醒，一睁眼发现三点多了，于是在宿舍先把剩下一道题写了，又写了写题解，拷到 U 盘里面了，然后回机房之后发现 U 盘落宿舍了……&lt;/p&gt;
 &lt;h2 id=&#34;a-婚礼上的小杉&#34;&gt;A. 婚礼上的小杉
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -753,10 +753,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第三十四场</title>
-        <link>https://invalidnamee.github.io/p/2025sp34/</link>
+        <link>https://blog.starlab.top/p/2025sp34/</link>
         <pubDate>Mon, 11 Aug 2025 16:29:36 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp34/</guid>
+        <guid>https://blog.starlab.top/p/2025sp34/</guid>
         <description>&lt;p&gt;没有牛客的第二天～～&lt;/p&gt;
 &lt;h2 id=&#34;a-小biu的骰子&#34;&gt;A. 小Biu的骰子
 &lt;/h2&gt;&lt;p&gt;我刚开始的时候惯性思维的想遍历终点枚举起点，没有考虑到不同起点过来的概率还都得单独算，WA 了好几发之后才发现……&lt;/p&gt;
@@ -1371,10 +1371,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第三十三场</title>
-        <link>https://invalidnamee.github.io/p/2025sp33/</link>
+        <link>https://blog.starlab.top/p/2025sp33/</link>
         <pubDate>Sun, 10 Aug 2025 16:34:24 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp33/</guid>
+        <guid>https://blog.starlab.top/p/2025sp33/</guid>
         <description>&lt;p&gt;又是没有牛客打的一天～～&lt;/p&gt;
 &lt;h2 id=&#34;a-矩阵转换&#34;&gt;A. 矩阵转换
 &lt;/h2&gt;&lt;p&gt;一个大的矩形的变换一定可以由多个 2 * 2 的矩形拼出来，2 * 2 的矩形是最小的可以操作的单位，直接遍历一遍矩阵，贪心的变换 2 * 2 的矩阵，如果能成 B 就是 Yes，不能就是 No。&lt;/p&gt;
@@ -1556,10 +1556,10 @@ $$
     &gt;(疑似)母题&lt;/a&gt;能过。&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;数据就是出问题了，而且已经被我修正了，虽然对拍的时候验证过我应该没问题，但是重判的时候就我一个过了……&lt;/p&gt;
 &lt;p&gt;目测大家都被&lt;strong&gt;卡精度&lt;/strong&gt;了，看这张图，我依次输出了所有的 $a_{i, j}$, $k_i$, $\lfloor a_{i, j} k_i \rfloor + 1$, $j \cdot p1_i - \left(s - j\right) \cdot p2_i$ 上面是我的输出，下面是原来 std 的输出，根据 python 的验证，确实是浮点数精度出了问题，而且我是对的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025sp33/2025-08-10_19-05-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025sp33/2025-08-10_19-05-00.png&#34;
 	width=&#34;2624&#34;
 	height=&#34;868&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025sp33/2025-08-10_19-05-00_hu_d2ec95bd320434e4.png 480w, https://invalidnamee.github.io/p/2025sp33/2025-08-10_19-05-00_hu_c863f409fa8947fa.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025sp33/2025-08-10_19-05-00_hu_d2ec95bd320434e4.png 480w, https://blog.starlab.top/p/2025sp33/2025-08-10_19-05-00_hu_c863f409fa8947fa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2372,10 +2372,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第二十九场</title>
-        <link>https://invalidnamee.github.io/p/2025sp29/</link>
+        <link>https://blog.starlab.top/p/2025sp29/</link>
         <pubDate>Wed, 06 Aug 2025 19:26:53 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp29/</guid>
+        <guid>https://blog.starlab.top/p/2025sp29/</guid>
         <description>&lt;p&gt;早上不知道要不要打，交了一道题，后来说可以不打了，但是来都来了，所以又打了一上午……&lt;/p&gt;
 &lt;h2 id=&#34;b-甜点&#34;&gt;B. 甜点
 &lt;/h2&gt;&lt;p&gt;其实就是个多重背包问题，二进制拆分一下暴力做两次就可以了。&lt;/p&gt;
@@ -2988,10 +2988,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第二十八场</title>
-        <link>https://invalidnamee.github.io/p/2025sp28/</link>
+        <link>https://blog.starlab.top/p/2025sp28/</link>
         <pubDate>Wed, 06 Aug 2025 18:53:25 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp28/</guid>
+        <guid>https://blog.starlab.top/p/2025sp28/</guid>
         <description>&lt;p&gt;没题补了于是再来一场。&lt;/p&gt;
 &lt;h2 id=&#34;a-染色&#34;&gt;A. 染色
 &lt;/h2&gt;&lt;p&gt;一道水题，差分前缀和数标记。&lt;/p&gt;
@@ -3139,10 +3139,10 @@ $$
 &lt;/h2&gt;&lt;p&gt;因为调这个差点中午没睡了觉，就是他害我下午差点迟到的，不是我睡过头了😭&lt;/p&gt;
 &lt;p&gt;逻辑还比较简单，核心思想是正着跑一遍最大子段和，倒着再跑一遍最大子段和，加上中间的一段得到答案。中间这一段可以在着最大子段和的过程中 dp 维护，比如我是先倒着预处理的，记 f&lt;sub&gt;i, j&lt;/sub&gt; 是维护到第 i 个位置，最后一段取了第 j 行的最大和，做到第 i - 1 位时，用第 i 位的最大子段和和第 i 位的 f 数组更新状态。&lt;/p&gt;
 &lt;p&gt;然后从左到右做一遍最大子段和和 f 拼接一下取 max 就是答案。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025sp28/Sketch.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025sp28/Sketch.png&#34;
 	width=&#34;400&#34;
 	height=&#34;365&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025sp28/Sketch_hu_2590b0cf681408e8.png 480w, https://invalidnamee.github.io/p/2025sp28/Sketch_hu_447c11623a2c525.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025sp28/Sketch_hu_2590b0cf681408e8.png 480w, https://blog.starlab.top/p/2025sp28/Sketch_hu_447c11623a2c525.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Sketch.png&#34;
@@ -3597,10 +3597,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第二十七场</title>
-        <link>https://invalidnamee.github.io/p/2025sp27/</link>
+        <link>https://blog.starlab.top/p/2025sp27/</link>
         <pubDate>Mon, 04 Aug 2025 16:45:30 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp27/</guid>
+        <guid>https://blog.starlab.top/p/2025sp27/</guid>
         <description>&lt;p&gt;今天没有牛客可以 vp 了，🐸说打一场个人训练吧，于是就有了这篇博客。&lt;/p&gt;
 &lt;h2 id=&#34;a-折半枚举四数之和为零-补&#34;&gt;A. 折半枚举：四数之和为零 &lt;sup style=&#34;color: red&#34;&gt;补&lt;/sup&gt;
 &lt;/h2&gt;&lt;p&gt;当时被卡常卡空间，各种卡，卡绝望了……赛时 TLE 和 MLE 共计 12 发，补题的时候还有两发。&lt;/p&gt;
@@ -4511,10 +4511,10 @@ $$
         </item>
         <item>
         <title>2025夏季个人训练赛第十五场</title>
-        <link>https://invalidnamee.github.io/p/2025sp15/</link>
+        <link>https://blog.starlab.top/p/2025sp15/</link>
         <pubDate>Tue, 22 Jul 2025 12:52:27 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp15/</guid>
+        <guid>https://blog.starlab.top/p/2025sp15/</guid>
         <description>&lt;h2 id=&#34;a-npsc-again&#34;&gt;A: NPSC, Again
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4773,10 +4773,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十四场</title>
-        <link>https://invalidnamee.github.io/p/2025sp14/</link>
+        <link>https://blog.starlab.top/p/2025sp14/</link>
         <pubDate>Tue, 15 Jul 2025 18:24:37 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp14/</guid>
+        <guid>https://blog.starlab.top/p/2025sp14/</guid>
         <description>&lt;h2 id=&#34;a-公交线路&#34;&gt;A. 公交线路
 &lt;/h2&gt;&lt;p&gt;按要求模拟即可。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -5239,10 +5239,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十三场</title>
-        <link>https://invalidnamee.github.io/p/2025sp13/</link>
+        <link>https://blog.starlab.top/p/2025sp13/</link>
         <pubDate>Tue, 15 Jul 2025 18:24:34 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp13/</guid>
+        <guid>https://blog.starlab.top/p/2025sp13/</guid>
         <description>&lt;h2 id=&#34;a-hat-circle&#34;&gt;A. Hat Circle
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -5563,10 +5563,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十二场</title>
-        <link>https://invalidnamee.github.io/p/2025sp12/</link>
+        <link>https://blog.starlab.top/p/2025sp12/</link>
         <pubDate>Tue, 15 Jul 2025 18:24:31 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp12/</guid>
+        <guid>https://blog.starlab.top/p/2025sp12/</guid>
         <description>&lt;h2 id=&#34;a-小凯逛超市&#34;&gt;A. 小凯逛超市
 &lt;/h2&gt;&lt;p&gt;开一个二维背包，统计方案数即可。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -6028,10 +6028,10 @@ $$&lt;p&gt;所以应该统计到根距离为奇数和偶数的点数，各三次
         </item>
         <item>
         <title>2025年夏季个人训练赛第十一场</title>
-        <link>https://invalidnamee.github.io/p/2025sp11/</link>
+        <link>https://blog.starlab.top/p/2025sp11/</link>
         <pubDate>Fri, 11 Jul 2025 17:25:23 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp11/</guid>
+        <guid>https://blog.starlab.top/p/2025sp11/</guid>
         <description>&lt;p&gt;越做越麻……&lt;/p&gt;
 &lt;h2 id=&#34;a-战斗爽&#34;&gt;A. 战斗爽
 &lt;/h2&gt;&lt;p&gt;重要的性质，对同一个敌人的攻击一定是连续的，如果一个敌人已经是剩余血量最低，攻击最低，编号最小，那么他被攻击后血量更低，所以他还是最低的。&lt;/p&gt;
@@ -6405,10 +6405,10 @@ $$&lt;p&gt;第一维可以直接压掉，防止爆空间。&lt;/p&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第十场</title>
-        <link>https://invalidnamee.github.io/p/2025sp10/</link>
+        <link>https://blog.starlab.top/p/2025sp10/</link>
         <pubDate>Fri, 11 Jul 2025 17:25:20 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp10/</guid>
+        <guid>https://blog.starlab.top/p/2025sp10/</guid>
         <description>&lt;h2 id=&#34;a-分割数组&#34;&gt;A. 分割数组
 &lt;/h2&gt;&lt;p&gt;又是我最喜欢的 dp，$f_{i, j}$ 表示前 i 个数分成 j 段的方案数&lt;/p&gt;
 $$
@@ -6530,10 +6530,10 @@ $$&lt;p&gt;把 $f_{i, j}$ 和按照对 j + 1 的模数分类前缀和可以优�
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;c-为美好的世界献上爆炎&#34;&gt;C. 为美好的世界献上爆炎
 &lt;/h2&gt;&lt;p&gt;先从小到大一点一点试&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025sp10/image.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025sp10/image.png&#34;
 	width=&#34;1898&#34;
 	height=&#34;499&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025sp10/image_hu_d1b9b3f719caed9a.png 480w, https://invalidnamee.github.io/p/2025sp10/image_hu_93d6ef0b30b467b3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025sp10/image_hu_d1b9b3f719caed9a.png 480w, https://blog.starlab.top/p/2025sp10/image_hu_93d6ef0b30b467b3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7169,10 +7169,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>2025年夏季个人训练赛第九场</title>
-        <link>https://invalidnamee.github.io/p/2025sp9/</link>
+        <link>https://blog.starlab.top/p/2025sp9/</link>
         <pubDate>Wed, 09 Jul 2025 16:10:51 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp9/</guid>
+        <guid>https://blog.starlab.top/p/2025sp9/</guid>
         <description>&lt;h2 id=&#34;c-水王的奇妙集合&#34;&gt;C. 水王的奇妙集合
 &lt;/h2&gt;&lt;p&gt;权值线段树。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -7514,10 +7514,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>2025年夏季个人训练赛第八场</title>
-        <link>https://invalidnamee.github.io/p/2025sp8/</link>
+        <link>https://blog.starlab.top/p/2025sp8/</link>
         <pubDate>Wed, 09 Jul 2025 16:10:46 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp8/</guid>
+        <guid>https://blog.starlab.top/p/2025sp8/</guid>
         <description>&lt;p&gt;前面五道都是签到题水平的。&lt;/p&gt;
 &lt;h2 id=&#34;a-conveyor-belt-sushi&#34;&gt;A. Conveyor Belt Sushi
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -7982,10 +7982,10 @@ $$&lt;p&gt;其中 p_i 表示排序后第 i 个点的坐标，way(a, b) 表示坐
         </item>
         <item>
         <title>2025年夏季个人训练赛第七场</title>
-        <link>https://invalidnamee.github.io/p/2025sp7/</link>
+        <link>https://blog.starlab.top/p/2025sp7/</link>
         <pubDate>Mon, 07 Jul 2025 11:57:38 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp7/</guid>
+        <guid>https://blog.starlab.top/p/2025sp7/</guid>
         <description>&lt;h2 id=&#34;a-气球balloon&#34;&gt;A. 气球（balloon）
 &lt;/h2&gt;&lt;p&gt;好在 k 只有 100，直接 dp 就可以解决，$f_{i, j, k}$ 表示第 i 个气球颜色为 j 颜色和上一个 (不 if k == 0) 一样的方案数。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -8518,10 +8518,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第六场</title>
-        <link>https://invalidnamee.github.io/p/2025sp6/</link>
+        <link>https://blog.starlab.top/p/2025sp6/</link>
         <pubDate>Mon, 07 Jul 2025 11:57:30 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp6/</guid>
+        <guid>https://blog.starlab.top/p/2025sp6/</guid>
         <description>&lt;h2 id=&#34;a-入围判断&#34;&gt;A. 入围判断
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -8825,10 +8825,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第五场</title>
-        <link>https://invalidnamee.github.io/p/2025sp5/</link>
+        <link>https://blog.starlab.top/p/2025sp5/</link>
         <pubDate>Sat, 05 Jul 2025 11:15:19 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp5/</guid>
+        <guid>https://blog.starlab.top/p/2025sp5/</guid>
         <description>&lt;h2 id=&#34;a-折纸&#34;&gt;A. 折纸
 &lt;/h2&gt;&lt;p&gt;签到题。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -9207,10 +9207,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第四场</title>
-        <link>https://invalidnamee.github.io/p/2025sp4/</link>
+        <link>https://blog.starlab.top/p/2025sp4/</link>
         <pubDate>Sat, 05 Jul 2025 11:15:16 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp4/</guid>
+        <guid>https://blog.starlab.top/p/2025sp4/</guid>
         <description>&lt;h2 id=&#34;a-牛人&#34;&gt;A. 牛人
 &lt;/h2&gt;&lt;p&gt;随便按照一项标准排序，如果一个人排完序后他后面的人的另一项标准都不比他大他就是牛人。&lt;/p&gt;
 &lt;p&gt;需要注意的是如果排序的主键相等的人的副键是不需要比较的，会导致后缀最大值出一点问题，按主键正序副键逆序就可以解决这个问题，或者也可以用滑动窗口。&lt;/p&gt;
@@ -9631,10 +9631,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第三场</title>
-        <link>https://invalidnamee.github.io/p/2025sp3/</link>
+        <link>https://blog.starlab.top/p/2025sp3/</link>
         <pubDate>Sat, 05 Jul 2025 11:15:11 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp3/</guid>
+        <guid>https://blog.starlab.top/p/2025sp3/</guid>
         <description>&lt;h2 id=&#34;a-扫雷i&#34;&gt;A. 扫雷I
 &lt;/h2&gt;&lt;p&gt;按要求模拟就行，需要注意点不是 0 的格子视为无效操作。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -10093,10 +10093,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第二场</title>
-        <link>https://invalidnamee.github.io/p/2025sp2/</link>
+        <link>https://blog.starlab.top/p/2025sp2/</link>
         <pubDate>Sat, 05 Jul 2025 11:14:29 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp2/</guid>
+        <guid>https://blog.starlab.top/p/2025sp2/</guid>
         <description>&lt;p&gt;BCD 之前都做过，写了个 A 之后什么都不会了……&lt;/p&gt;
 &lt;h2 id=&#34;a-迷宫大门&#34;&gt;A. 迷宫大门
 &lt;/h2&gt;&lt;p&gt;我不知道什么原理，但是贪心就行了，能匹配就尽量匹配算出来的数正好是对的。&lt;/p&gt;
@@ -10407,10 +10407,10 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>2025年夏季个人训练赛第一场</title>
-        <link>https://invalidnamee.github.io/p/2025sp1/</link>
+        <link>https://blog.starlab.top/p/2025sp1/</link>
         <pubDate>Fri, 04 Jul 2025 21:39:17 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025sp1/</guid>
+        <guid>https://blog.starlab.top/p/2025sp1/</guid>
         <description>&lt;p&gt;第一天前面的英文题还是比较简单的，但是后面的中文题一个不会😭&lt;/p&gt;
 &lt;h2 id=&#34;a-roller-coaster-ride&#34;&gt;A. Roller Coaster Ride
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
@@ -10825,10 +10825,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十八场</title>
-        <link>https://invalidnamee.github.io/p/2025st28/</link>
+        <link>https://blog.starlab.top/p/2025st28/</link>
         <pubDate>Sun, 08 Jun 2025 09:04:41 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st28/</guid>
+        <guid>https://blog.starlab.top/p/2025st28/</guid>
         <description>&lt;h2 id=&#34;a-评估&#34;&gt;A. 评估
 &lt;/h2&gt;&lt;p&gt;关键在于 \(|a_i| \le 1000\)，所以可以&lt;strong&gt;开一个长度为 2000 的数组统计一下每个值的个数&lt;/strong&gt;，然后 \(\Theta(n^2)\) 处理这个 2000 的数组。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -11423,10 +11423,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十七场</title>
-        <link>https://invalidnamee.github.io/p/2025st27/</link>
+        <link>https://blog.starlab.top/p/2025st27/</link>
         <pubDate>Sat, 07 Jun 2025 12:58:30 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st27/</guid>
+        <guid>https://blog.starlab.top/p/2025st27/</guid>
         <description>&lt;h2 id=&#34;a-序列&#34;&gt;A. 序列
 &lt;/h2&gt;&lt;p&gt;逻辑非常简单，先输出 k 个 0 之后 01 交替输出直到把 0 用完，最后输出剩下的 1.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -12207,10 +12207,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十六场</title>
-        <link>https://invalidnamee.github.io/p/2025st26/</link>
+        <link>https://blog.starlab.top/p/2025st26/</link>
         <pubDate>Thu, 05 Jun 2025 13:59:39 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st26/</guid>
+        <guid>https://blog.starlab.top/p/2025st26/</guid>
         <description>&lt;p&gt;题面可以看&lt;a class=&#34;link&#34; href=&#34;https://acm.hdu.edu.cn/search.php?field=problem&amp;amp;key=2025%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B4%BA%BC%BE%C1%AA%C8%FC%A3%A83%A3%A9&amp;amp;source=1&amp;amp;searchmode=source&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这里&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;a-数列计数&#34;&gt;&lt;strong&gt;A. 数列计数&lt;/strong&gt;
@@ -12878,10 +12878,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十三场</title>
-        <link>https://invalidnamee.github.io/p/2025st23/</link>
+        <link>https://blog.starlab.top/p/2025st23/</link>
         <pubDate>Sun, 25 May 2025 10:10:59 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st23/</guid>
+        <guid>https://blog.starlab.top/p/2025st23/</guid>
         <description>&lt;p&gt;昨天栽在二分了，今天写了四个二分一个也没挂，爽😋&lt;/p&gt;
 &lt;h2 id=&#34;a-互质划分&#34;&gt;A. 互质划分
 &lt;/h2&gt;&lt;p&gt;事实上，只需要 n / 2 即可，如果所有 2 的倍数都能分开了，那其他的更能分开。&lt;/p&gt;
@@ -13273,10 +13273,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十二场</title>
-        <link>https://invalidnamee.github.io/p/2025st22/</link>
+        <link>https://blog.starlab.top/p/2025st22/</link>
         <pubDate>Sat, 24 May 2025 10:01:29 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st22/</guid>
+        <guid>https://blog.starlab.top/p/2025st22/</guid>
         <description>&lt;h2 id=&#34;a-染色&#34;&gt;A. 染色
 &lt;/h2&gt;&lt;p&gt;数据非常小，直接暴力就可以，非常保险。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -13859,10 +13859,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十一场</title>
-        <link>https://invalidnamee.github.io/p/2025st21/</link>
+        <link>https://blog.starlab.top/p/2025st21/</link>
         <pubDate>Thu, 22 May 2025 10:04:01 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st21/</guid>
+        <guid>https://blog.starlab.top/p/2025st21/</guid>
         <description>&lt;h2 id=&#34;a-傻鹿尖塔&#34;&gt;A. &lt;strong&gt;傻鹿尖塔&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;每次临死前贪心选择前面能选的最大的即可，但是需要注意&lt;strong&gt;不要直接中途 break，会影响之后的读入&lt;/strong&gt; 😭😭😭&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -14034,10 +14034,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二十场</title>
-        <link>https://invalidnamee.github.io/p/2025st20/</link>
+        <link>https://blog.starlab.top/p/2025st20/</link>
         <pubDate>Thu, 22 May 2025 09:50:28 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st20/</guid>
+        <guid>https://blog.starlab.top/p/2025st20/</guid>
         <description>&lt;p&gt;第一场打完觉的非常水，于是第二场立刻就被真实了，已老实求放过😇😇😇。&lt;/p&gt;
 &lt;h2 id=&#34;a-舞蹈机器人&#34;&gt;&lt;strong&gt;A. 舞蹈机器人&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;熟悉的情况，熟悉的打表（&lt;/p&gt;
@@ -14631,10 +14631,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十九场</title>
-        <link>https://invalidnamee.github.io/p/2025st19/</link>
+        <link>https://blog.starlab.top/p/2025st19/</link>
         <pubDate>Sun, 18 May 2025 14:28:05 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st19/</guid>
+        <guid>https://blog.starlab.top/p/2025st19/</guid>
         <description>&lt;h2 id=&#34;a-熊孩子打卡&#34;&gt;A. 熊孩子打卡
 &lt;/h2&gt;&lt;p&gt;一道比较水的签到题，因为数据不算太大，直接开 map 统计就可以。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -15192,10 +15192,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十八场</title>
-        <link>https://invalidnamee.github.io/p/2025st18/</link>
+        <link>https://blog.starlab.top/p/2025st18/</link>
         <pubDate>Mon, 14 Apr 2025 08:07:18 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st18/</guid>
+        <guid>https://blog.starlab.top/p/2025st18/</guid>
         <description>&lt;p&gt;废掉了，拼尽全力无法战胜，做的时候感觉自己差点爆零，以 3 / 8 的优异成绩拿下榜一。这套题前面的题都是主打一个直觉上的欺骗，后面难的不会做。&lt;/p&gt;
 &lt;h2 id=&#34;a-序列重排&#34;&gt;&lt;strong&gt;A. 序列重排&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;首先，结论是答案只可能是 0, 1, 2。&lt;/p&gt;
@@ -15421,10 +15421,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十七场</title>
-        <link>https://invalidnamee.github.io/p/2025st17/</link>
+        <link>https://blog.starlab.top/p/2025st17/</link>
         <pubDate>Mon, 14 Apr 2025 07:40:29 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st17/</guid>
+        <guid>https://blog.starlab.top/p/2025st17/</guid>
         <description>&lt;h2 id=&#34;a-最大公约数&#34;&gt;A. 最大公约数
 &lt;/h2&gt;&lt;p&gt;直接枚举 1 ~ n 对于每一个数从他不等于自己的约数里面找个最大的，然后全部取个 max。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -15747,10 +15747,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十六场</title>
-        <link>https://invalidnamee.github.io/p/2025st16/</link>
+        <link>https://blog.starlab.top/p/2025st16/</link>
         <pubDate>Tue, 08 Apr 2025 05:25:12 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st16/</guid>
+        <guid>https://blog.starlab.top/p/2025st16/</guid>
         <description>&lt;p&gt;差点就 ak 了，有点可惜，感谢学姐手下留情😭。&lt;/p&gt;
 &lt;h2 id=&#34;a-number-maximization&#34;&gt;&lt;strong&gt;A. Number Maximization&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;签到题 * 1&lt;/p&gt;
@@ -16544,10 +16544,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十五场</title>
-        <link>https://invalidnamee.github.io/p/2025st15/</link>
+        <link>https://blog.starlab.top/p/2025st15/</link>
         <pubDate>Sun, 06 Apr 2025 14:53:26 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st15/</guid>
+        <guid>https://blog.starlab.top/p/2025st15/</guid>
         <description>&lt;h2 id=&#34;a-lucky-7&#34;&gt;A. Lucky 7
 &lt;/h2&gt;&lt;p&gt;一道签到题。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -16732,10 +16732,10 @@ $$&lt;p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;其余情况，先把 x, y 取一下绝对值，对称变换不会影响答案&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7.png&#34;
 	width=&#34;486&#34;
 	height=&#34;372&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_4fb7e5ba168384d4.png 480w, https://invalidnamee.github.io/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_88d13600c1be68bf.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_4fb7e5ba168384d4.png 480w, https://blog.starlab.top/p/2025st15/a81c91fa-9207-4ece-8204-32cdd9000fb7_hu_88d13600c1be68bf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -17461,10 +17461,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十四场</title>
-        <link>https://invalidnamee.github.io/p/2025st14/</link>
+        <link>https://blog.starlab.top/p/2025st14/</link>
         <pubDate>Fri, 04 Apr 2025 11:21:25 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st14/</guid>
+        <guid>https://blog.starlab.top/p/2025st14/</guid>
         <description>&lt;p&gt;时隔好久，战斗爽终于复刻了😋，拿个榜一真不容易。&lt;/p&gt;
 &lt;h2 id=&#34;a-christmas-tree-adapter&#34;&gt;A. Christmas Tree Adapter
 &lt;/h2&gt;&lt;p&gt;终于有签到题了。&lt;/p&gt;
@@ -17966,10 +17966,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十三场</title>
-        <link>https://invalidnamee.github.io/p/2025st13/</link>
+        <link>https://blog.starlab.top/p/2025st13/</link>
         <pubDate>Fri, 04 Apr 2025 11:19:59 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st13/</guid>
+        <guid>https://blog.starlab.top/p/2025st13/</guid>
         <description>&lt;h2 id=&#34;a-团结&#34;&gt;A. 团结
 &lt;/h2&gt;&lt;p&gt;其实非常简单，但是我中招了😭&lt;/p&gt;
 &lt;p&gt;他这个操作等价于先把 \(\gcd_{i = 1}^{n} A_i\)算出来，然后在 1 ～ n 里面选一些数和前面的结果取 gcd，直到结果为 1.&lt;/p&gt;
@@ -18252,10 +18252,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十二场</title>
-        <link>https://invalidnamee.github.io/p/2025st12/</link>
+        <link>https://blog.starlab.top/p/2025st12/</link>
         <pubDate>Wed, 02 Apr 2025 11:30:01 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st12/</guid>
+        <guid>https://blog.starlab.top/p/2025st12/</guid>
         <description>&lt;h2 id=&#34;a-拼写检查&#34;&gt;&lt;strong&gt;A. 拼写检查&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;按要求模拟就行，只需要注意 &lt;strong&gt;如果要检查的单词在词表中出现，则原样输出该单词。&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -18737,10 +18737,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第十一场</title>
-        <link>https://invalidnamee.github.io/p/2025st11/</link>
+        <link>https://blog.starlab.top/p/2025st11/</link>
         <pubDate>Sat, 29 Mar 2025 05:15:28 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st11/</guid>
+        <guid>https://blog.starlab.top/p/2025st11/</guid>
         <description>&lt;p&gt;刚开始一看发现啥都不会，细看发现以为简单的很复杂，以为很复杂的很简单。&lt;/p&gt;
 &lt;h2 id=&#34;a-游戏&#34;&gt;A. 游戏
 &lt;/h2&gt;&lt;p&gt;约数尽可能多，所以应该让约数尽可能小，那就让他都是 2，找一个最大的 i，使得 l ≤ (1 « i) ≤ r 即可。&lt;/p&gt;
@@ -19112,10 +19112,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025 春训第十场</title>
-        <link>https://invalidnamee.github.io/p/2025st10/</link>
+        <link>https://blog.starlab.top/p/2025st10/</link>
         <pubDate>Mon, 24 Mar 2025 09:41:59 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st10/</guid>
+        <guid>https://blog.starlab.top/p/2025st10/</guid>
         <description>&lt;h2 id=&#34;a-鲁的学生&#34;&gt;&lt;strong&gt;A. 鲁的学生&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;大水题，但是我没看到要取模连 WA 两次。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -19424,10 +19424,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第九场</title>
-        <link>https://invalidnamee.github.io/p/2025st9/</link>
+        <link>https://blog.starlab.top/p/2025st9/</link>
         <pubDate>Mon, 24 Mar 2025 09:41:34 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st9/</guid>
+        <guid>https://blog.starlab.top/p/2025st9/</guid>
         <description>&lt;h2 id=&#34;a-鲁的智力&#34;&gt;&lt;strong&gt;A. 鲁的智力&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;我刚开始看到这道题之后默默的放弃了，选择了后面的 dp 题。&lt;/p&gt;
 &lt;ul&gt;
@@ -19671,10 +19671,10 @@ $$&lt;p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;d-游览计划&#34;&gt;&lt;strong&gt;D. 游览计划&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;提供一个暴力的解法，具体有多暴力见下图，差点拼尽全力无法战胜了……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025st9/5902439e-7856-415e-aca9-352307ee119c.png&#34;
 	width=&#34;2940&#34;
 	height=&#34;1912&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_c43722cb4265e440.png 480w, https://invalidnamee.github.io/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_d736bd42075aa6a3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_c43722cb4265e440.png 480w, https://blog.starlab.top/p/2025st9/5902439e-7856-415e-aca9-352307ee119c_hu_d736bd42075aa6a3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -19855,10 +19855,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第八场</title>
-        <link>https://invalidnamee.github.io/p/2025st8/</link>
+        <link>https://blog.starlab.top/p/2025st8/</link>
         <pubDate>Sat, 22 Mar 2025 03:07:17 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st8/</guid>
+        <guid>https://blog.starlab.top/p/2025st8/</guid>
         <description>&lt;p&gt;这次训练赛主打一个特殊情况 RE，不细心一点有一万个坑能让程序炸掉……&lt;/p&gt;
 &lt;h2 id=&#34;a-能量传输&#34;&gt;&lt;strong&gt;A. 能量传输&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;不难&lt;s&gt;（不容易）&lt;/s&gt;发现，k 越小聚集到的位置越多，操作次数越小，所以做法是&lt;/p&gt;
@@ -20190,10 +20190,10 @@ $$&lt;p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;如下图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c.png&#34;
 	width=&#34;466&#34;
 	height=&#34;494&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_1e950ca5d66f056.png 480w, https://invalidnamee.github.io/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_342a21b61f422723.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_1e950ca5d66f056.png 480w, https://blog.starlab.top/p/2025st8/ace54b6e-0cd0-4f4f-a04a-fc1b11fbf24c_hu_342a21b61f422723.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -20376,10 +20376,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>第四届成都信息工程大学天梯赛</title>
-        <link>https://invalidnamee.github.io/p/tianti2025cd/</link>
+        <link>https://blog.starlab.top/p/tianti2025cd/</link>
         <pubDate>Tue, 18 Mar 2025 13:34:31 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/tianti2025cd/</guid>
+        <guid>https://blog.starlab.top/p/tianti2025cd/</guid>
         <description>&lt;p&gt;写了一半，群里发出来官方题解了……&lt;s&gt;但是我码风比他的好，可读性强一点&lt;/s&gt;，但是为了&lt;s&gt;强迫症和&lt;/s&gt;留作记录，我必须写完😇。所以这篇博客的性质已经从题解 transform 成赛后的感想了。&lt;/p&gt;
 &lt;p&gt;个人感觉有点像是水赛的感觉，L1 非常顺利，L2 和 L3 的最后两道开始调不出来，最终结果是 190 分(我的 L3-1 的 30 分还被队友吃了😭），L1 拿满，L2 的 3，4 WA，L3 的 2 TLE，3 没看。&lt;/p&gt;
 &lt;p&gt;我的 windows 还没回来，所以用的机房的编译一下就死机的电脑（但这不是我没存代码的理由），只能事后重敲一遍代码了，顺便回忆一下当时的心情。&lt;/p&gt;
@@ -21365,10 +21365,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第七场</title>
-        <link>https://invalidnamee.github.io/p/2025st7/</link>
+        <link>https://blog.starlab.top/p/2025st7/</link>
         <pubDate>Sat, 15 Mar 2025 13:52:11 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st7/</guid>
+        <guid>https://blog.starlab.top/p/2025st7/</guid>
         <description>&lt;p&gt;这训练赛怎么越来越水了，C 考场上没做出来，D 调了很久，但是实际上都不怎么算难，剩下的四道就是纯粹的大水题了。&lt;/p&gt;
 &lt;h2 id=&#34;a-抽牌&#34;&gt;A. 抽牌
 &lt;/h2&gt;&lt;p&gt;我代码写的比较麻烦，实际上没必要。&lt;/p&gt;
@@ -21944,10 +21944,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第六场</title>
-        <link>https://invalidnamee.github.io/p/2025st6/</link>
+        <link>https://blog.starlab.top/p/2025st6/</link>
         <pubDate>Sat, 15 Mar 2025 13:51:32 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st6/</guid>
+        <guid>https://blog.starlab.top/p/2025st6/</guid>
         <description>&lt;p&gt;感觉这次做的还行，主要还是简单题多了一点。数学题赛后被 GPT 秒了，而我追着 GPT 问了半天……&lt;/p&gt;
 &lt;h2 id=&#34;a-魔法石&#34;&gt;&lt;strong&gt;A. 魔法石&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;签到题，但是有点绕（我就被坑了）。有解的条件是三个数都相等或者两个数相等，另一个比这两个小；前者直接输出三个相等的，后者输出一个较大的和两个较小的即可。&lt;/p&gt;
@@ -22258,10 +22258,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第五场</title>
-        <link>https://invalidnamee.github.io/p/2025st5/</link>
+        <link>https://blog.starlab.top/p/2025st5/</link>
         <pubDate>Tue, 11 Mar 2025 12:48:31 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st5/</guid>
+        <guid>https://blog.starlab.top/p/2025st5/</guid>
         <description>&lt;p&gt;又是熟悉的博弈问题，又是熟悉的做不出来，不过剩下三道能做出来的都挺有意思的，相对比较满足。&lt;/p&gt;
 &lt;h2 id=&#34;a-游戏&#34;&gt;A. 游戏
 &lt;/h2&gt;&lt;p&gt;答案= min(max(从小到大交替选，从大到小交替选)，max(A从最大的连续选，A从最小的连续选)).&lt;/p&gt;
@@ -22804,10 +22804,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第四场</title>
-        <link>https://invalidnamee.github.io/p/2025st4/</link>
+        <link>https://blog.starlab.top/p/2025st4/</link>
         <pubDate>Tue, 11 Mar 2025 12:47:01 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st4/</guid>
+        <guid>https://blog.starlab.top/p/2025st4/</guid>
         <description>&lt;p&gt;因为后面有一场校赛，这场训练赛没什么印象了。&lt;/p&gt;
 &lt;h2 id=&#34;a-美丽数&#34;&gt;A. 美丽数
 &lt;/h2&gt;&lt;ul&gt;
@@ -23609,10 +23609,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第三场</title>
-        <link>https://invalidnamee.github.io/p/2025st3/</link>
+        <link>https://blog.starlab.top/p/2025st3/</link>
         <pubDate>Tue, 04 Mar 2025 11:53:14 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st3/</guid>
+        <guid>https://blog.starlab.top/p/2025st3/</guid>
         <description>&lt;p&gt;考场上只做出来了 A、C、D、F。我真的敲高精了，而且甚至加法取模都敲了，刚开始 B 有一个样例是错的，带沟里之后回不来了，考完之后被 @&lt;a class=&#34;link&#34; href=&#34;@liuxx&#34; &gt;xx liu (qwertyuiop)&lt;/a&gt; 大佬一句话敲醒了😇。数学题确实有点不好想，当时也是尽力了。&lt;/p&gt;
 &lt;h2 id=&#34;a-字符串比对&#34;&gt;A. 字符串比对
 &lt;/h2&gt;&lt;p&gt;签到题&lt;/p&gt;
@@ -24252,10 +24252,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第二场</title>
-        <link>https://invalidnamee.github.io/p/2025st2/</link>
+        <link>https://blog.starlab.top/p/2025st2/</link>
         <pubDate>Mon, 03 Mar 2025 14:32:33 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st2/</guid>
+        <guid>https://blog.starlab.top/p/2025st2/</guid>
         <description>&lt;p&gt;考场上只做出来了 A、B、C，拼尽全力无法战胜数学题😭😭😭。&lt;/p&gt;
 &lt;p&gt;D 一开始想错了方向，各种分解质因数把自己搞头疼了都，事后暴力莽出来了；E 事后打表打了 20min 以惊人的毅力拿下（别急，还有反转）。&lt;/p&gt;
 &lt;h2 id=&#34;a-矩形&#34;&gt;A. 矩形
@@ -24669,10 +24669,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>2025春训第一场</title>
-        <link>https://invalidnamee.github.io/p/2025st1/</link>
+        <link>https://blog.starlab.top/p/2025st1/</link>
         <pubDate>Mon, 03 Mar 2025 04:49:54 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/2025st1/</guid>
+        <guid>https://blog.starlab.top/p/2025st1/</guid>
         <description>&lt;p&gt;考场上只做出来了 A、B、C、D，而且 C 和 D 做的很煎熬，E 是因为知识的缺失，F 那一条关键的性质不太好想。&lt;/p&gt;
 &lt;h2 id=&#34;a-好的序列&#34;&gt;A. 好的序列
 &lt;/h2&gt;&lt;p&gt;签到题，最长上升子序列变体，但是前置状态是固定的，直接开一个标记数组即可。&lt;/p&gt;
@@ -25260,10 +25260,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>失踪人口回归</title>
-        <link>https://invalidnamee.github.io/p/5asx6liq5lq65yj5zue5b2s/</link>
+        <link>https://blog.starlab.top/p/5asx6liq5lq65yj5zue5b2s/</link>
         <pubDate>Sun, 02 Mar 2025 15:09:48 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/5asx6liq5lq65yj5zue5b2s/</guid>
+        <guid>https://blog.starlab.top/p/5asx6liq5lq65yj5zue5b2s/</guid>
         <description>&lt;p&gt;应 🐸 的建议，不能光埋头刷题，还应该 &lt;strong&gt;&lt;del&gt;水水博客&lt;/del&gt;&lt;/strong&gt; 写写题解，所以后续会时不时更新&lt;strong&gt;训练赛&lt;/strong&gt;和 CSES Problem Set 部分&lt;s&gt;&lt;strong&gt;我会的&lt;/strong&gt;&lt;/s&gt;题的题解。&lt;/p&gt;
 &lt;p&gt;我个人网络预选赛打的还是挺顺利的，&lt;s&gt;虽然榜一差点被抢了&lt;/s&gt;。 大部分题都是非常基础的签到题难度的题，主要可能是有的题比较阴间，这种难度应该也不怎么用看代码吧，&lt;s&gt;绝对不是打的时候着急赶时间就没存代码&lt;/s&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;a-acm-常识问答&#34;&gt;A. ACM 常识问答
@@ -25355,10 +25355,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>UVA1086 The Ministers&#39; Major Mess</title>
-        <link>https://invalidnamee.github.io/p/uva1086-the-ministers-major-mess/</link>
+        <link>https://blog.starlab.top/p/uva1086-the-ministers-major-mess/</link>
         <pubDate>Mon, 19 Sep 2022 12:05:49 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/uva1086-the-ministers-major-mess/</guid>
+        <guid>https://blog.starlab.top/p/uva1086-the-ministers-major-mess/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://uva.onlinejudge.org/external/10/p1086.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;链接&lt;/a&gt;&lt;/p&gt;
@@ -25676,10 +25676,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>[noip 2017 普及组] 棋盘</title>
-        <link>https://invalidnamee.github.io/p/noip-2017/</link>
+        <link>https://blog.starlab.top/p/noip-2017/</link>
         <pubDate>Tue, 30 Aug 2022 08:37:16 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noip-2017/</guid>
+        <guid>https://blog.starlab.top/p/noip-2017/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P3956&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P3956 [NOIP2017 普及组] 棋盘&lt;/a&gt;&lt;/p&gt;
@@ -25708,10 +25708,10 @@ $$&lt;p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;点如何编号&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如图，把每一行都接上，顺着编号。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip-2017/PrGwzXJ-i.png&#34;
 	width=&#34;681&#34;
 	height=&#34;596&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i_hu_806b7dba53bb049b.png 480w, https://invalidnamee.github.io/p/noip-2017/PrGwzXJ-i_hu_b91e2c2a697109dd.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip-2017/PrGwzXJ-i_hu_806b7dba53bb049b.png 480w, https://blog.starlab.top/p/noip-2017/PrGwzXJ-i_hu_b91e2c2a697109dd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -25996,10 +25996,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>[noip2015 提高组] 运输计划</title>
-        <link>https://invalidnamee.github.io/p/noip2015/</link>
+        <link>https://blog.starlab.top/p/noip2015/</link>
         <pubDate>Tue, 30 Aug 2022 08:37:12 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noip2015/</guid>
+        <guid>https://blog.starlab.top/p/noip2015/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面&lt;/strong&gt;:&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2680&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2680 [NOIP2015 提高组] 运输计划
@@ -26502,19 +26502,19 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>[noip2014 提高组] 联合权值</title>
-        <link>https://invalidnamee.github.io/p/noip2014/</link>
+        <link>https://blog.starlab.top/p/noip2014/</link>
         <pubDate>Tue, 30 Aug 2022 08:37:07 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noip2014/</guid>
+        <guid>https://blog.starlab.top/p/noip2014/</guid>
         <description>&lt;p&gt;险些把&lt;a class=&#34;link&#34; href=&#34;https://laffey.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;@Laffey&lt;/a&gt;的题抢了&lt;/p&gt;
 &lt;p&gt;注意审题！！因为审题出了很多问题。&lt;/p&gt;
 &lt;p&gt;这题一眼看下去很无从下手，简单来说就是&lt;strong&gt;距离为2的两个点的权值之积为联合权值&lt;/strong&gt;，让求&lt;strong&gt;最大联合权值&lt;/strong&gt;和&lt;strong&gt;所有联合权值的总和&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;仔细思考一下，一棵树中存在两个距离为2的点只有两种情况，&lt;strong&gt;一条线&lt;/strong&gt;和&lt;strong&gt;一个角&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/BaleCkbb8.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/BaleCkbb8.png&#34;
 	width=&#34;449&#34;
 	height=&#34;204&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/BaleCkbb8_hu_c6d5d04d0156d12.png 480w, https://invalidnamee.github.io/p/noip2014/BaleCkbb8_hu_c91fb85ff95ba346.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/BaleCkbb8_hu_c6d5d04d0156d12.png 480w, https://blog.starlab.top/p/noip2014/BaleCkbb8_hu_c91fb85ff95ba346.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26563,10 +26563,10 @@ $$&lt;p&gt;
 &lt;/h3&gt;&lt;p&gt;这种情况难度就稍微大了一些，需&lt;strong&gt;统计同一层所有子节点&lt;/strong&gt;，对其进行排列组合，每种配对的情况都是两组联合权值。 (可以对比之前做过的一道深搜 &lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P1036&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;选数&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;举个栗子：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/240C9eOqQ.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/240C9eOqQ.png&#34;
 	width=&#34;206&#34;
 	height=&#34;141&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/240C9eOqQ_hu_b964bffe3fccdc.png 480w, https://invalidnamee.github.io/p/noip2014/240C9eOqQ_hu_dee4c8371f91e9d7.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/240C9eOqQ_hu_b964bffe3fccdc.png 480w, https://blog.starlab.top/p/noip2014/240C9eOqQ_hu_dee4c8371f91e9d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26731,10 +26731,10 @@ $$&lt;p&gt;
 &lt;/h2&gt;&lt;h3 id=&#34;i一个角&#34;&gt;I.一个角
 &lt;/h3&gt;&lt;p&gt;一条线的时间复杂度已经不大了，所以我们先来考虑一个角的情况&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;再举个相同的栗子:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/vtaDxC7Bu.png&#34;
 	width=&#34;206&#34;
 	height=&#34;141&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu_hu_b964bffe3fccdc.png 480w, https://invalidnamee.github.io/p/noip2014/vtaDxC7Bu_hu_dee4c8371f91e9d7.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/vtaDxC7Bu_hu_b964bffe3fccdc.png 480w, https://blog.starlab.top/p/noip2014/vtaDxC7Bu_hu_dee4c8371f91e9d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26774,10 +26774,10 @@ $$&lt;p&gt;所以处理这种情况只需维护一个&lt;strong&gt;前缀和&lt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;del&gt;把之前的循环换掉就可以a掉了&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ii一条线&#34;&gt;II.一条线
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/noip2014/o39DhJoS4.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/noip2014/o39DhJoS4.png&#34;
 	width=&#34;188&#34;
 	height=&#34;186&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/noip2014/o39DhJoS4_hu_c23c3813ade07a65.png 480w, https://invalidnamee.github.io/p/noip2014/o39DhJoS4_hu_6ad8a89637d13741.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/noip2014/o39DhJoS4_hu_c23c3813ade07a65.png 480w, https://blog.starlab.top/p/noip2014/o39DhJoS4_hu_6ad8a89637d13741.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -26951,10 +26951,10 @@ $$&lt;p&gt;你发现了什么？&lt;/p&gt;
         </item>
         <item>
         <title>[noi2015] 软件包管理器</title>
-        <link>https://invalidnamee.github.io/p/noi2015/</link>
+        <link>https://blog.starlab.top/p/noi2015/</link>
         <pubDate>Tue, 30 Aug 2022 08:36:53 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noi2015/</guid>
+        <guid>https://blog.starlab.top/p/noi2015/</guid>
         <description>&lt;h2 id=&#34;0题目描述&#34;&gt;0.题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2146?&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;[NOI2015] 软件包管理器&lt;/a&gt;&lt;/p&gt;
@@ -27351,10 +27351,10 @@ $$&lt;p&gt;你发现了什么？&lt;/p&gt;
         </item>
         <item>
         <title>[noi1999] 棋盘分割</title>
-        <link>https://invalidnamee.github.io/p/noi1999/</link>
+        <link>https://blog.starlab.top/p/noi1999/</link>
         <pubDate>Mon, 29 Aug 2022 12:58:51 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/noi1999/</guid>
+        <guid>https://blog.starlab.top/p/noi1999/</guid>
         <description>&lt;p&gt;因为人在学校时间比较要紧就写简单一些&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;题面:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P5752&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P5752 [NOI1999] 棋盘分割&lt;/a&gt;&lt;/p&gt;
@@ -27576,10 +27576,10 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
         </item>
         <item>
         <title>[hnoi2005] 狡猾的商人</title>
-        <link>https://invalidnamee.github.io/p/hnoi2005/</link>
+        <link>https://blog.starlab.top/p/hnoi2005/</link>
         <pubDate>Mon, 29 Aug 2022 12:58:44 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/hnoi2005/</guid>
+        <guid>https://blog.starlab.top/p/hnoi2005/</guid>
         <description>&lt;h2 id=&#34;0-题目描述&#34;&gt;0. 题目描述
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;题面&lt;/strong&gt;:&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P2294&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;P2294 [HNOI2005]狡猾的商人&lt;/a&gt;&lt;/p&gt;
@@ -27614,10 +27614,10 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如果按照读入的数据建图，画成图就是这样子的:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/hnoi2005/71qzac3a.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/hnoi2005/71qzac3a.png&#34;
 	width=&#34;275&#34;
 	height=&#34;210&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/hnoi2005/71qzac3a_hu_14b01078311c0be7.png 480w, https://invalidnamee.github.io/p/hnoi2005/71qzac3a_hu_fd20c4bdd911b1f3.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/hnoi2005/71qzac3a_hu_14b01078311c0be7.png 480w, https://blog.starlab.top/p/hnoi2005/71qzac3a_hu_fd20c4bdd911b1f3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -27627,10 +27627,10 @@ $$&lt;p&gt;这样只需求出   \( \sum_{i =  1}^{n}{x_i^2} \)再套公式即可
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;显然这个是错的， \( 2 \) 和 \( 3 \) 是相连的。但是如果把区间 \( [l, r] \) 改成一开一闭，即 \( (l-1,r] \) ，图就会变成这样:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/hnoi2005/8x67x3cb.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/hnoi2005/8x67x3cb.png&#34;
 	width=&#34;289&#34;
 	height=&#34;194&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/hnoi2005/8x67x3cb_hu_f1f3ccba59a9e0cc.png 480w, https://invalidnamee.github.io/p/hnoi2005/8x67x3cb_hu_a83bad91935bbcce.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/hnoi2005/8x67x3cb_hu_f1f3ccba59a9e0cc.png 480w, https://blog.starlab.top/p/hnoi2005/8x67x3cb_hu_a83bad91935bbcce.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

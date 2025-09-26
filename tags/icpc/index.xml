@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ICPC on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/tags/icpc/</link>
+        <link>https://blog.starlab.top/tags/icpc/</link>
         <description>Recent content in ICPC on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Tue, 23 Sep 2025 23:09:34 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/icpc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 23 Sep 2025 23:09:34 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/icpc/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ICPC Asia EC Online 2025(I)</title>
-        <link>https://invalidnamee.github.io/p/icpc-asia-ec-online-2025i/</link>
+        <link>https://blog.starlab.top/p/icpc-asia-ec-online-2025i/</link>
         <pubDate>Tue, 16 Sep 2025 19:41:50 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/icpc-asia-ec-online-2025i/</guid>
+        <guid>https://blog.starlab.top/p/icpc-asia-ec-online-2025i/</guid>
         <description>&lt;p&gt;其实很早之前就补的差不多了，可以看到 16 号就打算写了，后来一直拖，拖到了现在。&lt;/p&gt;
 &lt;p&gt;这场我们打的挺好的，我只写了一道大模拟，然后队友已经切完了，最后做交互题没调出来。&lt;/p&gt;
 &lt;h2 id=&#34;a-who-can-win&#34;&gt;A. Who Can Win

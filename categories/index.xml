@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/categories/</link>
+        <link>https://blog.starlab.top/categories/</link>
         <description>Recent content in Categories on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Thu, 14 Aug 2025 18:33:49 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 18:33:49 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>知码开门训练赛</title>
-        <link>https://invalidnamee.github.io/categories/training/</link>
+        <link>https://blog.starlab.top/categories/training/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/categories/training/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/training/background6.png" alt="Featured image of post 知码开门训练赛" /&gt;</description>
+        <guid>https://blog.starlab.top/categories/training/</guid>
+        <description>&lt;img src="https://blog.starlab.top/categories/training/background6.png" alt="Featured image of post 知码开门训练赛" /&gt;</description>
         </item>
         <item>
         <title>赛事</title>
-        <link>https://invalidnamee.github.io/categories/contests/</link>
+        <link>https://blog.starlab.top/categories/contests/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/categories/contests/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/contests/background5.png" alt="Featured image of post 赛事" /&gt;</description>
+        <guid>https://blog.starlab.top/categories/contests/</guid>
+        <description>&lt;img src="https://blog.starlab.top/categories/contests/background5.png" alt="Featured image of post 赛事" /&gt;</description>
         </item>
         <item>
         <title>算法研习记录</title>
-        <link>https://invalidnamee.github.io/categories/algorithm-notes/</link>
+        <link>https://blog.starlab.top/categories/algorithm-notes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/categories/algorithm-notes/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/algorithm-notes/background2.png" alt="Featured image of post 算法研习记录" /&gt;</description>
+        <guid>https://blog.starlab.top/categories/algorithm-notes/</guid>
+        <description>&lt;img src="https://blog.starlab.top/categories/algorithm-notes/background2.png" alt="Featured image of post 算法研习记录" /&gt;</description>
         </item>
         <item>
         <title>学术课程</title>
-        <link>https://invalidnamee.github.io/categories/academic/</link>
+        <link>https://blog.starlab.top/categories/academic/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/categories/academic/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/academic/background1.png" alt="Featured image of post 学术课程" /&gt;</description>
+        <guid>https://blog.starlab.top/categories/academic/</guid>
+        <description>&lt;img src="https://blog.starlab.top/categories/academic/background1.png" alt="Featured image of post 学术课程" /&gt;</description>
         </item>
         <item>
         <title>学以致用系列</title>
-        <link>https://invalidnamee.github.io/categories/learn2apply/</link>
+        <link>https://blog.starlab.top/categories/learn2apply/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/categories/learn2apply/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/learn2apply/background3.png" alt="Featured image of post 学以致用系列" /&gt;</description>
+        <guid>https://blog.starlab.top/categories/learn2apply/</guid>
+        <description>&lt;img src="https://blog.starlab.top/categories/learn2apply/background3.png" alt="Featured image of post 学以致用系列" /&gt;</description>
         </item>
         <item>
         <title>折腾记录</title>
-        <link>https://invalidnamee.github.io/categories/hacking-log/</link>
+        <link>https://blog.starlab.top/categories/hacking-log/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/categories/hacking-log/</guid>
-        <description>&lt;img src="https://invalidnamee.github.io/categories/hacking-log/background4.png" alt="Featured image of post 折腾记录" /&gt;</description>
+        <guid>https://blog.starlab.top/categories/hacking-log/</guid>
+        <description>&lt;img src="https://blog.starlab.top/categories/hacking-log/background4.png" alt="Featured image of post 折腾记录" /&gt;</description>
         </item>
         
     </channel>

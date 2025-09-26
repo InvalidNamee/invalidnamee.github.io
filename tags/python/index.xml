@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Python on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/tags/python/</link>
+        <link>https://blog.starlab.top/tags/python/</link>
         <description>Recent content in Python on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Tue, 08 Jul 2025 16:44:26 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 08 Jul 2025 16:44:26 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>聊天记录可视化</title>
-        <link>https://invalidnamee.github.io/p/chatlog-vis/</link>
+        <link>https://blog.starlab.top/p/chatlog-vis/</link>
         <pubDate>Mon, 07 Jul 2025 18:14:35 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/chatlog-vis/</guid>
+        <guid>https://blog.starlab.top/p/chatlog-vis/</guid>
         <description>&lt;p&gt;有了之前两篇的数据，接下来就可以生成一些好玩的报告了😋&lt;/p&gt;
 &lt;p&gt;可以用之前学过的 ipywidgets 做交互式的界面，大部分交给 ai，细节部分部分自己调就好了。&lt;/p&gt;
 &lt;h2 id=&#34;废话--叠甲--提醒&#34;&gt;废话 &amp;amp; 叠甲 &amp;amp; 提醒
@@ -180,10 +180,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;interact&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot_daily_counts_by_month&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;month&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;widgets&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Dropdown&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;sorted&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;df&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;month&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;unique&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())))&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/monthly_bar.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/monthly_bar.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1212&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/monthly_bar_hu_e6a8ba2d6b795c43.png 480w, https://invalidnamee.github.io/p/chatlog-vis/monthly_bar_hu_f13019029078c6ba.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/monthly_bar_hu_e6a8ba2d6b795c43.png 480w, https://blog.starlab.top/p/chatlog-vis/monthly_bar_hu_f13019029078c6ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -245,10 +245,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_chat_stacked.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/daily_chat_stacked.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_chat_stacked_hu_30de1ba7004655e3.png 480w, https://invalidnamee.github.io/p/chatlog-vis/daily_chat_stacked_hu_70b23f0621183121.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/daily_chat_stacked_hu_30de1ba7004655e3.png 480w, https://blog.starlab.top/p/chatlog-vis/daily_chat_stacked_hu_70b23f0621183121.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -289,10 +289,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/heat_map.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/heat_map.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/heat_map_hu_4b843bc5bcbad9ec.png 480w, https://invalidnamee.github.io/p/chatlog-vis/heat_map_hu_c1b342ee9df6105e.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/heat_map_hu_4b843bc5bcbad9ec.png 480w, https://blog.starlab.top/p/chatlog-vis/heat_map_hu_c1b342ee9df6105e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -405,10 +405,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/percentage.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/percentage.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/percentage_hu_72b0d263a294eb16.png 480w, https://invalidnamee.github.io/p/chatlog-vis/percentage_hu_c1e01637ad42380c.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/percentage_hu_72b0d263a294eb16.png 480w, https://blog.starlab.top/p/chatlog-vis/percentage_hu_c1e01637ad42380c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -546,10 +546,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/wc.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/wc.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;1280&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/wc_hu_dc0dc879075c996c.png 480w, https://invalidnamee.github.io/p/chatlog-vis/wc_hu_4f7019d944df1bab.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/wc_hu_dc0dc879075c996c.png 480w, https://blog.starlab.top/p/chatlog-vis/wc_hu_4f7019d944df1bab.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -648,10 +648,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/hist.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/hist.png&#34;
 	width=&#34;2000&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/hist_hu_8adb5e7d22c2b010.png 480w, https://invalidnamee.github.io/p/chatlog-vis/hist_hu_b8d30d882d21f270.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/hist_hu_8adb5e7d22c2b010.png 480w, https://blog.starlab.top/p/chatlog-vis/hist_hu_b8d30d882d21f270.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -722,10 +722,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/capacity_bar.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/capacity_bar.png&#34;
 	width=&#34;2800&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/capacity_bar_hu_9ea4a107c80211d2.png 480w, https://invalidnamee.github.io/p/chatlog-vis/capacity_bar_hu_28a0d82d090e5202.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/capacity_bar_hu_9ea4a107c80211d2.png 480w, https://blog.starlab.top/p/chatlog-vis/capacity_bar_hu_28a0d82d090e5202.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -823,10 +823,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/box_plot.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/box_plot.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;960&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/box_plot_hu_72691aaf84b83f67.png 480w, https://invalidnamee.github.io/p/chatlog-vis/box_plot_hu_404644fa994b427b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/box_plot_hu_72691aaf84b83f67.png 480w, https://blog.starlab.top/p/chatlog-vis/box_plot_hu_404644fa994b427b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -873,10 +873,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_emotion_line.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/chatlog-vis/daily_emotion_line.png&#34;
 	width=&#34;2400&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/chatlog-vis/daily_emotion_line_hu_226e5ada0ffc06bf.png 480w, https://invalidnamee.github.io/p/chatlog-vis/daily_emotion_line_hu_bc741397f3fe0d96.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/chatlog-vis/daily_emotion_line_hu_226e5ada0ffc06bf.png 480w, https://blog.starlab.top/p/chatlog-vis/daily_emotion_line_hu_bc741397f3fe0d96.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -893,10 +893,10 @@
         </item>
         <item>
         <title>用 Python 爬取 C&#43;&#43; 评测网站的题干和代码</title>
-        <link>https://invalidnamee.github.io/p/cr-cpp/</link>
+        <link>https://blog.starlab.top/p/cr-cpp/</link>
         <pubDate>Thu, 19 Jun 2025 10:37:33 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/cr-cpp/</guid>
+        <guid>https://blog.starlab.top/p/cr-cpp/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;最近不是特别忙的，看到闲置的 C/C++ 课本想起来我程序设计(C/C++)的代码没存档，于是想找个办法存一下。&lt;/p&gt;
 &lt;h2 id=&#34;实操&#34;&gt;实操
@@ -1068,10 +1068,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;随后只需要手动改 name 和 url 就可以爬下来每章的代码啦😋&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/cr-cpp/product.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/cr-cpp/product.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;2138&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/cr-cpp/product_hu_ba4810ed7dd7a4b0.png 480w, https://invalidnamee.github.io/p/cr-cpp/product_hu_51736b119168b016.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/cr-cpp/product_hu_ba4810ed7dd7a4b0.png 480w, https://blog.starlab.top/p/cr-cpp/product_hu_51736b119168b016.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

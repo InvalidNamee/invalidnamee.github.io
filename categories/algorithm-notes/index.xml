@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>算法研习记录 on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/categories/algorithm-notes/</link>
+        <link>https://blog.starlab.top/categories/algorithm-notes/</link>
         <description>Recent content in 算法研习记录 on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>InvalidNamee</copyright><atom:link href="https://invalidnamee.github.io/categories/algorithm-notes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>InvalidNamee</copyright><atom:link href="https://blog.starlab.top/categories/algorithm-notes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【模板】快速傅立叶变换 (FFT)</title>
-        <link>https://invalidnamee.github.io/p/math-acwing/</link>
+        <link>https://blog.starlab.top/p/math-acwing/</link>
         <pubDate>Fri, 15 Aug 2025 17:06:02 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/math-acwing/</guid>
+        <guid>https://blog.starlab.top/p/math-acwing/</guid>
         <description>&lt;p&gt;日后可能发展成 acwing 的数学专题打卡记录，和计算几何一样，所以 slug 先给了 math-acwing，但是目前还没多余的时间学数学，最可能用到什么学什么。&lt;/p&gt;
 &lt;h2 id=&#34;fft&#34;&gt;FFT
 &lt;/h2&gt;&lt;h3 id=&#34;acwing-3122-多项式乘法&#34;&gt;AcWing 3122. 多项式乘法
@@ -279,10 +279,10 @@
         </item>
         <item>
         <title>【更新中】AcWing 计算几何打卡记录</title>
-        <link>https://invalidnamee.github.io/p/geometry-acwing/</link>
+        <link>https://blog.starlab.top/p/geometry-acwing/</link>
         <pubDate>Thu, 07 Aug 2025 09:43:43 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/geometry-acwing/</guid>
+        <guid>https://blog.starlab.top/p/geometry-acwing/</guid>
         <description>&lt;p&gt;&lt;span style=&#34;color: blue&#34;&gt;这个系列还没有完结，最近会不定时更新&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;基础知识&#34;&gt;基础知识
 &lt;/h2&gt;&lt;h3 id=&#34;acwing-2983-玩具&#34;&gt;AcWing 2983. 玩具
@@ -890,10 +890,10 @@
 &lt;/div&gt;&lt;h2 id=&#34;半平面交&#34;&gt;半平面交
 &lt;/h2&gt;&lt;h3 id=&#34;acwing-2803-凸多边形&#34;&gt;AcWing 2803. 凸多边形
 &lt;/h3&gt;&lt;p&gt;没想到能出这么多事，被 hack 的两组边界数据如下图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/geometry-acwing/hack1.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack1_hu_2e12c0eb35d41273.png 480w, https://invalidnamee.github.io/p/geometry-acwing/hack1_hu_24e84c954331c62b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/geometry-acwing/hack1_hu_2e12c0eb35d41273.png 480w, https://blog.starlab.top/p/geometry-acwing/hack1_hu_24e84c954331c62b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;hack1.png&#34;
@@ -903,10 +903,10 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack2.png&#34;
+&gt;&lt;img src=&#34;https://blog.starlab.top/p/geometry-acwing/hack2.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/geometry-acwing/hack2_hu_e657ee431285ea93.png 480w, https://invalidnamee.github.io/p/geometry-acwing/hack2_hu_e2d4952f272ce53b.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/geometry-acwing/hack2_hu_e657ee431285ea93.png 480w, https://blog.starlab.top/p/geometry-acwing/hack2_hu_e2d4952f272ce53b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;hack2.png&#34;
@@ -1790,10 +1790,10 @@
         </item>
         <item>
         <title>【更新中】CSES Geometry</title>
-        <link>https://invalidnamee.github.io/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</link>
+        <link>https://blog.starlab.top/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</link>
         <pubDate>Sun, 03 Aug 2025 11:46:30 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</guid>
+        <guid>https://blog.starlab.top/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</guid>
         <description>&lt;p&gt;&lt;span style=&#34;color: blue&#34;&gt;这个系列还没有完结，最近会不定时更新&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;主要是为了补全队的短板，我开始学之前看都不看的计算几何了，毕竟谁不想做香香软软的数据结构呢。另外如果有人看的话，前排提醒一下，这&lt;strong&gt;不是详细的题解&lt;/strong&gt;，只是记录一下自己做的过程。&lt;/p&gt;
 &lt;p&gt;做这个板子题的题集之前我先看了 Acwing 的课，所以码风会和y总的比较相似。&lt;/p&gt;
@@ -2579,10 +2579,10 @@
         </item>
         <item>
         <title>高精全家桶（升级版）</title>
-        <link>https://invalidnamee.github.io/p/high-precision/</link>
+        <link>https://blog.starlab.top/p/high-precision/</link>
         <pubDate>Sat, 22 Mar 2025 03:15:46 +0000</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/high-precision/</guid>
+        <guid>https://blog.starlab.top/p/high-precision/</guid>
         <description>&lt;p&gt;旧版的和 hyoi 一起崩了，所以再发一遍升级版&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

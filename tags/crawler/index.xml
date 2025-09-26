@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Crawler on Star&#39;s Blog</title>
-        <link>https://invalidnamee.github.io/tags/crawler/</link>
+        <link>https://blog.starlab.top/tags/crawler/</link>
         <description>Recent content in Crawler on Star&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Sun, 22 Jun 2025 17:54:46 +0800</lastBuildDate><atom:link href="https://invalidnamee.github.io/tags/crawler/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Jun 2025 17:54:46 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/crawler/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>用 Python 爬取 C&#43;&#43; 评测网站的题干和代码</title>
-        <link>https://invalidnamee.github.io/p/cr-cpp/</link>
+        <link>https://blog.starlab.top/p/cr-cpp/</link>
         <pubDate>Thu, 19 Jun 2025 10:37:33 +0800</pubDate>
         
-        <guid>https://invalidnamee.github.io/p/cr-cpp/</guid>
+        <guid>https://blog.starlab.top/p/cr-cpp/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;最近不是特别忙的，看到闲置的 C/C++ 课本想起来我程序设计(C/C++)的代码没存档，于是想找个办法存一下。&lt;/p&gt;
 &lt;h2 id=&#34;实操&#34;&gt;实操
@@ -184,10 +184,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;随后只需要手动改 name 和 url 就可以爬下来每章的代码啦😋&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://invalidnamee.github.io/p/cr-cpp/product.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.starlab.top/p/cr-cpp/product.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;2138&#34;
-	srcset=&#34;https://invalidnamee.github.io/p/cr-cpp/product_hu_ba4810ed7dd7a4b0.png 480w, https://invalidnamee.github.io/p/cr-cpp/product_hu_51736b119168b016.png 1024w&#34;
+	srcset=&#34;https://blog.starlab.top/p/cr-cpp/product_hu_ba4810ed7dd7a4b0.png 480w, https://blog.starlab.top/p/cr-cpp/product_hu_51736b119168b016.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
