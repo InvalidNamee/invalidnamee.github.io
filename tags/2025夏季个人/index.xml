@@ -1914,7 +1914,8 @@ $$
 &lt;p&gt;手: backspace M X control+option+N&lt;/p&gt;
 &lt;p&gt;手: command+C 提交button.click() command+V 提交button.click()&lt;/p&gt;
 &lt;p&gt;OJ: Accepted&lt;/p&gt;
-&lt;p&gt;我: ……&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;我: ……&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;温馨提示：复制粘贴的时候记得仔细检查变量名！！&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -10691,7 +10692,8 @@ $$&lt;p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;f-情景剧&#34;&gt;F. 情景剧
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;感谢 liuxx 佬的支持&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;感谢 liuxx 佬的支持&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;可以枚举当每个位置作为最小值时有趣长度的最大值，固定了最小值之后，区间长度变长一定是正提升。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;最长区间长度: 可以用&lt;strong&gt;单调栈&lt;/strong&gt;维护，开一个单调递增的单调栈，入栈后他压住的是左侧比他小的第一个位置，顶出去他的是右侧比他小的第一个位置。&lt;/li&gt;
