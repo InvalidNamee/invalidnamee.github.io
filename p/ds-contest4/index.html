@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="三道题相对都比较水，T1 和 T2 一遍过，T3 wa 了一发，错的特别蠢。\nT1 (20 分) 删除在 (minD, maxD) 范围内的数。可以双指针做，用 i 遍历数组，j 表示当前该覆盖的位置，因为只可能往前挪动，在一个数组中操作不会冲突。\n">
-<title>【数据结构】在线测试1</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="三道题相对都比较水，都是一遍过。\nT1 创建一个栈，压栈（如果空间不够重新申请两倍的），弹栈。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 Stack CreateStack(int MaxSize) { Stack st = (Stack)malloc(sizeof(struct SNode)); st-&gt;MaxSize = MaxSize; st-&gt;Top = -1; st-&gt;Data = (ElementType *)malloc(sizeof(ElementType) * MaxSize); return st; } void Push(Stack S, ElementType x) { if (IsFull(S)) { ElementType *a = S-&gt;Data; S-&gt;Data = (ElementType *)malloc(sizeof(ElementType) * S-&gt;MaxSize * 2); for (int i = 0; i &lt; S-&gt;MaxSize; ++i) S-&gt;Data[i] = a[i]; S-&gt;MaxSize *= 2; } S-&gt;Data[++S-&gt;Top] = x; } ElementType Pop(Stack S) { return S-&gt;Data[S-&gt;Top--]; } T2 链表存队列的，入队出队，需要特判一下空队列。\n">
+<title>【数据结构】在线测试2</title>
 
-<link rel='canonical' href='https://blog.starlab.top/p/ds-contest3/'>
+<link rel='canonical' href='https://blog.starlab.top/p/ds-contest4/'>
 
-<link rel="stylesheet" href="/scss/style.min.baf985ac36908eeb1405105a7bf959de2d24b2a4189ed18e3844d3eb8b723da3.css"><meta property='og:title' content="【数据结构】在线测试1">
-<meta property='og:description' content="三道题相对都比较水，T1 和 T2 一遍过，T3 wa 了一发，错的特别蠢。\nT1 (20 分) 删除在 (minD, maxD) 范围内的数。可以双指针做，用 i 遍历数组，j 表示当前该覆盖的位置，因为只可能往前挪动，在一个数组中操作不会冲突。\n">
-<meta property='og:url' content='https://blog.starlab.top/p/ds-contest3/'>
+<link rel="stylesheet" href="/scss/style.min.baf985ac36908eeb1405105a7bf959de2d24b2a4189ed18e3844d3eb8b723da3.css"><meta property='og:title' content="【数据结构】在线测试2">
+<meta property='og:description' content="三道题相对都比较水，都是一遍过。\nT1 创建一个栈，压栈（如果空间不够重新申请两倍的），弹栈。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 Stack CreateStack(int MaxSize) { Stack st = (Stack)malloc(sizeof(struct SNode)); st-&gt;MaxSize = MaxSize; st-&gt;Top = -1; st-&gt;Data = (ElementType *)malloc(sizeof(ElementType) * MaxSize); return st; } void Push(Stack S, ElementType x) { if (IsFull(S)) { ElementType *a = S-&gt;Data; S-&gt;Data = (ElementType *)malloc(sizeof(ElementType) * S-&gt;MaxSize * 2); for (int i = 0; i &lt; S-&gt;MaxSize; ++i) S-&gt;Data[i] = a[i]; S-&gt;MaxSize *= 2; } S-&gt;Data[++S-&gt;Top] = x; } ElementType Pop(Stack S) { return S-&gt;Data[S-&gt;Top--]; } T2 链表存队列的，入队出队，需要特判一下空队列。\n">
+<meta property='og:url' content='https://blog.starlab.top/p/ds-contest4/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='notes' /><meta property='article:published_time' content='2025-10-17T09:52:05&#43;08:00'/><meta property='article:modified_time' content='2025-10-17T11:54:30&#43;08:00'/>
-<meta name="twitter:title" content="【数据结构】在线测试1">
-<meta name="twitter:description" content="三道题相对都比较水，T1 和 T2 一遍过，T3 wa 了一发，错的特别蠢。\nT1 (20 分) 删除在 (minD, maxD) 范围内的数。可以双指针做，用 i 遍历数组，j 表示当前该覆盖的位置，因为只可能往前挪动，在一个数组中操作不会冲突。\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='notes' /><meta property='article:published_time' content='2025-10-24T15:47:40&#43;08:00'/><meta property='article:modified_time' content='2025-10-24T16:30:50&#43;08:00'/>
+<meta name="twitter:title" content="【数据结构】在线测试2">
+<meta name="twitter:description" content="三道题相对都比较水，都是一遍过。\nT1 创建一个栈，压栈（如果空间不够重新申请两倍的），弹栈。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 Stack CreateStack(int MaxSize) { Stack st = (Stack)malloc(sizeof(struct SNode)); st-&gt;MaxSize = MaxSize; st-&gt;Top = -1; st-&gt;Data = (ElementType *)malloc(sizeof(ElementType) * MaxSize); return st; } void Push(Stack S, ElementType x) { if (IsFull(S)) { ElementType *a = S-&gt;Data; S-&gt;Data = (ElementType *)malloc(sizeof(ElementType) * S-&gt;MaxSize * 2); for (int i = 0; i &lt; S-&gt;MaxSize; ++i) S-&gt;Data[i] = a[i]; S-&gt;MaxSize *= 2; } S-&gt;Data[++S-&gt;Top] = x; } ElementType Pop(Stack S) { return S-&gt;Data[S-&gt;Top--]; } T2 链表存队列的，入队出队，需要特判一下空队列。\n">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -278,9 +278,9 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#t1-20-分">T1 (20 分)</a></li>
-    <li><a href="#t2-30-分">T2 (30 分)</a></li>
-    <li><a href="#t3-20-分">T3 (20 分)</a></li>
+    <li><a href="#t1">T1</a></li>
+    <li><a href="#t2">T2</a></li>
+    <li><a href="#t3">T3</a></li>
   </ol>
 </nav>
         </div>
@@ -298,7 +298,7 @@
     <div class="article-details">
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/ds-contest3/">【数据结构】在线测试1</a>
+            <a href="/p/ds-contest4/">【数据结构】在线测试2</a>
         </h2>
     
         
@@ -320,7 +320,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-10-17</time>
+                <time class="article-time--published">2025-10-24</time>
             </div>
         <div class="article-lastmod">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -332,7 +332,7 @@
 
 
                 <time>
-                    2025-10-17 11:54
+                    2025-10-24 16:30
                 </time>
             </div>
             <div>
@@ -345,7 +345,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -387,92 +387,9 @@
     <section class="article-content">
     
     
-    <p>三道题相对都比较水，T1 和 T2 一遍过，T3 wa 了一发，错的特别蠢。</p>
-<h2 id="t1-20-分">T1 (20 分)
-</h2><p>删除在 (minD, maxD) 范围内的数。可以<strong>双指针</strong>做，用 i 遍历数组，j 表示当前该覆盖的位置，因为只可能往前挪动，在一个数组中操作不会冲突。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">List</span> <span class="nf">Delete</span><span class="p">(</span><span class="n">List</span> <span class="n">L</span><span class="p">,</span> <span class="n">ElementType</span> <span class="n">minD</span><span class="p">,</span> <span class="n">ElementType</span> <span class="n">maxD</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Last</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">L</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">maxD</span> <span class="o">||</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">minD</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">L</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="n">j</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="n">L</span><span class="o">-&gt;</span><span class="n">Last</span> <span class="o">=</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">L</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="t2-30-分">T2 (30 分)
-</h2><p>需要实现</p>
-<ul>
-<li>链表查找第一个大于 val 的数，并在前面插入 val；</li>
-<li>链表翻转。</li>
-</ul>
-<p>很简单的模拟，注意边界别挂就好。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">Insert</span><span class="p">(</span><span class="n">List</span> <span class="n">L</span><span class="p">,</span> <span class="n">ElementType</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">List</span> <span class="n">pre</span> <span class="o">=</span> <span class="n">L</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">L</span> <span class="o">=</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">L</span> <span class="o">&amp;&amp;</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Data</span> <span class="o">&lt;</span> <span class="n">val</span><span class="p">)</span> <span class="n">pre</span> <span class="o">=</span> <span class="n">L</span><span class="p">,</span> <span class="n">L</span> <span class="o">=</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">List</span> <span class="n">cur</span> <span class="o">=</span> <span class="p">(</span><span class="n">List</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">LNode</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">    <span class="n">cur</span><span class="o">-&gt;</span><span class="n">Data</span> <span class="o">=</span> <span class="n">val</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">cur</span><span class="o">-&gt;</span><span class="n">Next</span> <span class="o">=</span> <span class="n">pre</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">pre</span><span class="o">-&gt;</span><span class="n">Next</span> <span class="o">=</span> <span class="n">cur</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">Reverse</span><span class="p">(</span><span class="n">List</span> <span class="n">L</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">List</span> <span class="n">p</span> <span class="o">=</span> <span class="n">L</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">,</span> <span class="n">pre</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">,</span> <span class="n">tmp</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="n">tmp</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">p</span><span class="o">-&gt;</span><span class="n">Next</span> <span class="o">=</span> <span class="n">pre</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">pre</span> <span class="o">=</span> <span class="n">p</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">p</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="n">L</span><span class="o">-&gt;</span><span class="n">Next</span> <span class="o">=</span> <span class="n">pre</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="t3-20-分">T3 (20 分)
-</h2><p>计算 n 以内的所有 Fibonacci 数，并统计递归暴力计算一个 Fibonacci 数过程中，每个下标经过的次数。</p>
-<p>实话说，这拓展题比前面的简单，因为 Fibonacci 数增长是指数级的，在限制 c 语言并且不取模的情况下数据量大概在三四十，直接<strong>暴力统计</strong>就能做。</p>
-<p><del>没把数据拉到 1e6 再加个模 998244353 不是很认可</del></p>
+    <p>三道题相对都比较水，都是一遍过。</p>
+<h2 id="t1">T1
+</h2><p>创建一个栈，压栈（如果空间不够重新申请两倍的），弹栈。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -496,38 +413,115 @@
 </span><span class="lnt">19
 </span><span class="lnt">20
 </span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#define N 100
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">f</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">work</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">f</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="nf">work</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">),</span> <span class="nf">work</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">Stack</span> <span class="nf">CreateStack</span><span class="p">(</span><span class="kt">int</span> <span class="n">MaxSize</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Stack</span> <span class="n">st</span> <span class="o">=</span> <span class="p">(</span><span class="n">Stack</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">SNode</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="n">st</span><span class="o">-&gt;</span><span class="n">MaxSize</span> <span class="o">=</span> <span class="n">MaxSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">st</span><span class="o">-&gt;</span><span class="n">Top</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">st</span><span class="o">-&gt;</span><span class="n">Data</span> <span class="o">=</span> <span class="p">(</span><span class="n">ElementType</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">ElementType</span><span class="p">)</span> <span class="o">*</span> <span class="n">MaxSize</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">st</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">work</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">c</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">a</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">b</span> <span class="o">=</span> <span class="n">c</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Fib(%d)=%d,spn=%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="n">b</span><span class="p">,</span> <span class="n">f</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">Push</span><span class="p">(</span><span class="n">Stack</span> <span class="n">S</span><span class="p">,</span> <span class="n">ElementType</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">IsFull</span><span class="p">(</span><span class="n">S</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ElementType</span> <span class="o">*</span><span class="n">a</span> <span class="o">=</span> <span class="n">S</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">S</span><span class="o">-&gt;</span><span class="n">Data</span> <span class="o">=</span> <span class="p">(</span><span class="n">ElementType</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">ElementType</span><span class="p">)</span> <span class="o">*</span> <span class="n">S</span><span class="o">-&gt;</span><span class="n">MaxSize</span> <span class="o">*</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">S</span><span class="o">-&gt;</span><span class="n">MaxSize</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">S</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">S</span><span class="o">-&gt;</span><span class="n">MaxSize</span> <span class="o">*=</span> <span class="mi">2</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">S</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="o">++</span><span class="n">S</span><span class="o">-&gt;</span><span class="n">Top</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ElementType</span> <span class="nf">Pop</span><span class="p">(</span><span class="n">Stack</span> <span class="n">S</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">S</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">[</span><span class="n">S</span><span class="o">-&gt;</span><span class="n">Top</span><span class="o">--</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="t2">T2
+</h2><p>链表存队列的，入队出队，需要特判一下空队列。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">AddQ</span><span class="p">(</span><span class="n">Queue</span> <span class="n">Q</span><span class="p">,</span> <span class="n">QueueElementType</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PtrToNode</span> <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="n">PtrToNode</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Node</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t</span><span class="o">-&gt;</span><span class="n">Qdata</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t</span><span class="o">-&gt;</span><span class="n">Next</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">IsEmpty</span><span class="p">(</span><span class="n">Q</span><span class="p">))</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Front</span> <span class="o">=</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Rear</span> <span class="o">=</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Rear</span><span class="o">-&gt;</span><span class="n">Next</span> <span class="o">=</span> <span class="n">t</span><span class="p">,</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Rear</span> <span class="o">=</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">QueueElementType</span> <span class="nf">DeleteQ</span><span class="p">(</span><span class="n">Queue</span> <span class="n">Q</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PtrToNode</span> <span class="n">t</span> <span class="o">=</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Front</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">QueueElementType</span> <span class="n">res</span> <span class="o">=</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">Qdata</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Front</span> <span class="o">=</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Front</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">Q</span><span class="o">-&gt;</span><span class="n">Front</span><span class="p">)</span> <span class="n">Q</span><span class="o">-&gt;</span><span class="n">Rear</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="t3">T3
+</h2><p>KMP 的 next 数组，就是求最长公共前后缀，但是我忘了，本来准备现推。</p>
+<p><strong>但是</strong>他 <code>int Next[100]</code>，那我可要暴力了，最好不要学我。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="kt">int</span> <span class="nf">cmp</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">s</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">t</span><span class="p">,</span> <span class="kt">int</span> <span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">l</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">NextValue</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">s</span><span class="p">,</span> <span class="kt">int</span> <span class="o">*</span><span class="n">ne</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="n">strlen</span><span class="p">(</span><span class="n">s</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ne</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span> <span class="o">--</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">cmp</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">s</span> <span class="o">+</span> <span class="n">i</span> <span class="o">-</span> <span class="n">j</span><span class="p">,</span> <span class="n">j</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">ne</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -558,7 +552,7 @@
 
 
         <span>
-            最后更新于 2025-10-17 11:54
+            最后更新于 2025-10-24 16:30
         </span>
     </section></footer>
 
@@ -603,12 +597,12 @@
             
                 
 <article class="">
-    <a href="/p/ds-contest4/">
+    <a href="/p/ds-contest3/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">【数据结构】在线测试2</h2>
+            <h2 class="article-title">【数据结构】在线测试1</h2>
         </div>
     </a>
 </article>
