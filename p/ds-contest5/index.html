@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="振动和波动">
-<title>大物第三讲</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Pintia 习题">
+<title>【数据结构】树和二叉树</title>
 
-<link rel='canonical' href='https://blog.starlab.top/p/dawu3/'>
+<link rel='canonical' href='https://blog.starlab.top/p/ds-contest5/'>
 
-<link rel="stylesheet" href="/scss/style.min.baf985ac36908eeb1405105a7bf959de2d24b2a4189ed18e3844d3eb8b723da3.css"><meta property='og:title' content="大物第三讲">
-<meta property='og:description' content="振动和波动">
-<meta property='og:url' content='https://blog.starlab.top/p/dawu3/'>
+<link rel="stylesheet" href="/scss/style.min.baf985ac36908eeb1405105a7bf959de2d24b2a4189ed18e3844d3eb8b723da3.css"><meta property='og:title' content="【数据结构】树和二叉树">
+<meta property='og:description' content="Pintia 习题">
+<meta property='og:url' content='https://blog.starlab.top/p/ds-contest5/'>
 <meta property='og:site_name' content='Star&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='notes' /><meta property='article:published_time' content='2025-06-12T20:34:28&#43;08:00'/><meta property='article:modified_time' content='2025-06-13T21:55:19&#43;08:00'/>
-<meta name="twitter:title" content="大物第三讲">
-<meta name="twitter:description" content="振动和波动">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='notes' /><meta property='article:published_time' content='2025-11-01T17:34:00&#43;08:00'/><meta property='article:modified_time' content='2025-11-01T18:25:33&#43;08:00'/>
+<meta name="twitter:title" content="【数据结构】树和二叉树">
+<meta name="twitter:description" content="Pintia 习题">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -278,73 +278,21 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#概念">概念</a></li>
-    <li><a href="#简谐振动">简谐振动</a>
+    <li><a href="#函数题">函数题</a>
       <ol>
-        <li><a href="#简谐运动的特征">简谐运动的特征</a>
-          <ol>
-            <li><a href="#受力特征">受力特征</a></li>
-            <li><a href="#微分方程">微分方程</a></li>
-            <li><a href="#简谐振动的动力学定义">简谐振动的动力学定义</a></li>
-          </ol>
-        </li>
-        <li><a href="#简谐振动的运动学方程">简谐振动的运动学方程</a>
-          <ol>
-            <li><a href="#运动学方程-振动表达式">运动学方程 (振动表达式)</a></li>
-            <li><a href="#描述简谐振动的物理量">描述简谐振动的物理量</a></li>
-          </ol>
-        </li>
-        <li><a href="#简谐振动的表示方法">简谐振动的表示方法</a>
-          <ol>
-            <li><a href="#解析法">解析法</a></li>
-            <li><a href="#旋转矢量法">旋转矢量法</a></li>
-          </ol>
-        </li>
-        <li><a href="#简谐振动旋转矢量法说明">简谐振动旋转矢量法说明</a></li>
-        <li><a href="#简谐振动的能量">简谐振动的能量</a></li>
+        <li><a href="#二叉搜索树中的最近公共祖先">二叉搜索树中的最近公共祖先</a></li>
+        <li><a href="#先序输出叶结点">先序输出叶结点</a></li>
+        <li><a href="#求二叉树高度">求二叉树高度</a></li>
+        <li><a href="#二叉树的遍历">二叉树的遍历</a></li>
       </ol>
     </li>
-    <li><a href="#简谐运动的合成">简谐运动的合成</a>
+    <li><a href="#编程题">编程题</a>
       <ol>
-        <li><a href="#同方向振动的合成">同方向振动的合成</a></li>
-      </ol>
-    </li>
-    <li><a href="#机械波的产生与传播">机械波的产生与传播</a>
-      <ol>
-        <li><a href="#机械波的产生">机械波的产生</a>
-          <ol>
-            <li><a href="#机械波">机械波</a></li>
-            <li><a href="#机械波产生条件">机械波产生条件</a></li>
-            <li><a href="#机械波的类型">机械波的类型</a></li>
-            <li><a href="#波的几何描述波线">波的几何描述——波线</a></li>
-          </ol>
-        </li>
-        <li><a href="#描述波动的物理量">描述波动的物理量</a></li>
-        <li><a href="#知识的对比与联系">知识的对比与联系</a></li>
-        <li><a href="#平面简谐波的波函数">平面简谐波的波函数</a></li>
-        <li><a href="#波动表达式与相位落后法">波动表达式与相位落后法</a>
-          <ol>
-            <li><a href="#利用相位落后法建立平面简谐波波动表达式">利用相位落后法建立平面简谐波波动表达式</a></li>
-          </ol>
-        </li>
-        <li><a href="#波函数的物理意义">波函数的物理意义</a></li>
-        <li><a href="#波的能量">波的能量</a></li>
-      </ol>
-    </li>
-    <li><a href="#波的干涉">波的干涉</a>
-      <ol>
-        <li><a href="#产生干涉的条件">产生干涉的条件</a></li>
-        <li><a href="#干涉加强和减弱的条件">干涉加强和减弱的条件</a></li>
-      </ol>
-    </li>
-    <li><a href="#半波损失">半波损失</a></li>
-    <li><a href="#板书">板书</a>
-      <ol>
-        <li><a href="#简谐运动的判据">简谐运动的判据</a></li>
-        <li><a href="#单摆和复摆">单摆和复摆</a></li>
-        <li><a href="#横波纵波的根本原因">横波纵波的根本原因</a></li>
-        <li><a href="#两个方法">两个方法</a></li>
-        <li><a href="#电磁波">电磁波</a></li>
+        <li><a href="#哈夫曼编码">哈夫曼编码</a></li>
+        <li><a href="#是否完全二叉搜索树">是否完全二叉搜索树</a></li>
+        <li><a href="#完全二叉树的层序遍历">完全二叉树的层序遍历</a></li>
+        <li><a href="#银行排队问题之单队列多窗口服务">银行排队问题之单队列多窗口服务</a></li>
+        <li><a href="#银行业务队列简单模拟">银行业务队列简单模拟</a></li>
       </ol>
     </li>
   </ol>
@@ -364,12 +312,12 @@
     <div class="article-details">
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/dawu3/">大物第三讲</a>
+            <a href="/p/ds-contest5/">【数据结构】树和二叉树</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            振动和波动
+            Pintia 习题
         </h3>
         
     </div>
@@ -390,7 +338,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-06-12</time>
+                <time class="article-time--published">2025-11-01</time>
             </div>
         <div class="article-lastmod">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -402,7 +350,7 @@
 
 
                 <time>
-                    2025-06-13 21:55
+                    2025-11-01 18:25
                 </time>
             </div>
             <div>
@@ -415,7 +363,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 7 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -457,312 +405,33 @@
     <section class="article-content">
     
     
-    <p>板书内容：<a class="link" href="#%e6%9d%bf%e4%b9%a6" >点我跳转</a></p>
-<h2 id="概念">概念
-</h2><ul>
-  <li><strong>振动:</strong> 描述物体状态的物理量在某一数值附近往复变化。</li>
-  <li><strong>波动:</strong> 振动在空间或媒质中的传播过程，称为波动。</li>
-  <li>机械振动在弹性媒质中的传播称为<strong>机械波</strong>。变化电场和变化磁场在空间的传播称为电磁波。</li>
-</ul>
-<h2 id="简谐振动">简谐振动
-</h2><h3 id="简谐运动的特征">简谐运动的特征
-</h3><h4 id="受力特征">受力特征
-</h4><p>$$F = -kx$$</p>
-<p>物体在与偏离平衡位置的位移成正比、方向相反的<strong>回复力</strong>作用下围绕平衡位置的运动叫<strong>简谐振动</strong>。</p>
-<h4 id="微分方程">微分方程
-</h4><ul>
-  <li><strong>弹簧振子:</strong> $$\frac{d^2x}{dt^2} + \omega^2 x = 0$$ 加速度与离开平衡位置的位移大小成正比，方向相反。</li>
-  <li><strong>单摆在小角度摆动时的运动情况:</strong> $$\frac{d^2\theta}{dt^2} + \omega^2\theta = 0\quad (\text{其中},\ \omega = \sqrt{\frac{g}{l}})$$</li>
-</ul>
-<h4 id="简谐振动的动力学定义">简谐振动的动力学定义
-</h4><p>若物理量 $x$ 满足 $\frac{d^2x}{dt^2} + \omega^2 x = 0$，且 $\omega$ 由系统性质决定，则称 $x$ 作简谐振动。</p>
-<h3 id="简谐振动的运动学方程">简谐振动的运动学方程
-</h3><h4 id="运动学方程-振动表达式">运动学方程 (振动表达式)
-</h4><p>$$x = A\cos(\omega t + \varphi)$$</p>
-<h4 id="描述简谐振动的物理量">描述简谐振动的物理量
-</h4><ul>
-  <li><strong>振幅 $A$:</strong> 离开平衡位置的最大距离。</li>
-  <li><strong>角频率 $\omega$:</strong>
-    <p>
-      $$x = A\cos(\omega t + \varphi) = A\cos(\omega (t + T) + \varphi) = A\cos(\omega t + \omega T + \varphi)$$
-      $$\omega T = 2 \pi\quad \omega = \frac{2\pi}{T} = 2\pi\nu$$
-      $$T = 2 \pi \sqrt{\frac{m}{k}}\quad T = 2 \pi \sqrt{\frac{l}{g}}$$
-    </p>
-  </li>
-  <li><strong>相位 $\omega t + \varphi$:</strong> 描述运动状态的量。
-    <ul>
-      <li>$\omega t + \varphi$ 在 $0 \sim 2\pi$ 内与 $(x,\ \nu)$ 存在一一对应的关系。</li>
-      <li>当相位变化了 $2\pi$ 时，质点恢复到原来的运动状态。</li>
-      <li><strong>初相 $\varphi(t = 0)$:</strong> 描述质点初始时刻的运动状态。</li>
-    </ul>
-  </li>
-  <li><strong>相位差:</strong> 两个同频率简谐运动。
-    <p>
-      $$x_1 = A_1\cos(\omega_1 t + \varphi_1)$$
-      $$x_2 = A_2\cos(\omega_2 t + \varphi_2)$$
-      $$\Delta \varphi = (\varphi_2 - \varphi_1)$$
-    </p>
-    <p><strong>同相和反相:</strong></p>
-    <ul>
-      <li><strong>同相:</strong> $\Delta \varphi = \pm 2k\pi\ (k=0,1,2\dots)$ 振动步调相同。</li>
-      <li><strong>反相:</strong> $\Delta\varphi = \pm(2k + 1)\pi\ (k=0,1,2\dots)$ 振动步调相反。</li>
-    </ul>
-    <img src="img1.png" style="zoom:50%;" />
-    <img src="img2.png" style="zoom:50%;" />
-  </li>
-</ul>
-<h3 id="简谐振动的表示方法">简谐振动的表示方法
-</h3><h4 id="解析法">解析法
-</h4><p>$$x = A\cos(\omega t + \varphi_0)$$</p>
-<h4 id="旋转矢量法">旋转矢量法
-</h4><h3 id="简谐振动旋转矢量法说明">简谐振动旋转矢量法说明
-</h3><div style="display: flex; width: 100%; align-items: flex-start;">
-  <div style="flex: 2; padding-right: 1em;">
-    <p>作坐标轴 $Ox$，自 $O$ 点作一矢量 $\vec{OM}$，用 $\vec{A}$ 表示。</p>
-    <ul>
-      <li><strong>振幅 $A$:</strong> $|\vec A| = A$。</li>
-      <li><strong>初相 $\varphi_0$:</strong> $\vec A$ 在 $t = 0$ 时与 $x$ 轴的夹角。</li>
-      <li><strong>角频率 $\omega$:</strong> $\vec A$ 以恒定角速度 $\omega$ 绕 $O$ 点作逆时针转动。</li>
-      <li><strong>相位 $\omega t + \varphi_0$:</strong> $t$ 时刻 $\vec A$ 与 $x$ 轴的夹角。</li>
-    </ul>
-    <p>旋转矢量 $\vec{OM}$ 在 $x$ 轴上的投影 $P$ 点的坐标作简谐振动。</p>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-    <img src="img3.png" style="zoom: 35%;" />
-  </div>
-</div>
-<h3 id="简谐振动的能量">简谐振动的能量
-</h3><div style="display: flex; width: 100%; align-items: flex-start;">
-  <div style="flex: 2; padding-right: 1em;">
-    <ul>
-      <li><strong>简谐运动的动能:</strong> $E_k = \frac{1}{2} m v^2 = \frac{1}{2} k A^2 \sin^2(\omega t + \varphi)$。</li>
-      <li><strong>简谐振动的势能:</strong> $E_p = \frac{1}{2} k x^2 = \frac{1}{2} k A^2 \cos^2(\omega t + \varphi)$。</li>
-      <li><strong>简谐振动的总能量:</strong> $E = E_k + E_p = \frac{1}{2} k A^2$。</li>
-    </ul>
-    <p><strong>说明:</strong></p>
-    <ul>
-      <li>$E_p$ 与 $E_k$ 振幅相同，变化规律相同，周期相同，相位相反，系统总能量守恒。</li>
-      <li>$E \propto A^2$，这是一切振动形式的共同性质。</li>
-    </ul>
-  </div>
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="img4.png" style="width: 100%; max-width: 100%; zoom: 50%;" />
-  </div>
-</div>
-<h2 id="简谐运动的合成">简谐运动的合成
-</h2><h3 id="同方向振动的合成">同方向振动的合成
-</h3><div style="display: flex; width: 100%; align-items: flex-start;">
-  <div style="flex: 2; padding-right: 1em;">
-    <p>
-      $$x_1 = A_1\cos(\omega_1 t + \varphi_1)$$
-      $$x_2 = A_2\cos(\omega_2 t + \varphi_2)$$
-    </p>
-    <p>合振动的运动方程:
-      $$x = x_1 + x_2 = A\cos(\omega t + \varphi)$$
-      $$A = \sqrt{A_1^2 + A_2^2 + 2A_1A_2\cos(\varphi_2 - \varphi_1)}$$
-      $$\varphi = \arctan \frac{A_1\sin\varphi_1 + A_2\sin\varphi_2}{A_1\cos\varphi_1 + A_2\cos\phi_2}$$
-    </p>
-    <p>
-      合振动仍为简谐运动，与分振动在同一方向，且有相同频率。
-    </p>
-  </div>
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="img5.png" style="width: 100%; max-width: 100%; zoom: 50%;" />
-  </div>
-</div>
-<ul>
-  <li>$\varphi_2 - \varphi_1 = 2k\pi,\ k = 0,\pm1,\pm2,\dots\quad A = A_1 + A_2$, 同相，合振幅最大。</li>
-  <li>$\varphi_2 - \varphi_1 = (2k + 1)\pi,\ k = 0,\pm1,\pm2,\dots\quad A = |A_1 - A_2|$, 反相，合振幅最小。</li>
-  <li>一般情况 (相位差任意) $\varphi_2 - \varphi_1 \neq k\pi\quad |A_1 - A_2| < A < A_1 + A_2$。</li>
-</ul>
-<p><strong>相位差</strong>在同频率简谐振动合成中起决定性作用。</p>
-<h2 id="机械波的产生与传播">机械波的产生与传播
-</h2><h3 id="机械波的产生">机械波的产生
-</h3><h4 id="机械波">机械波
-</h4><p>机械震动在弹性介质中传播的过程。</p>
-<h4 id="机械波产生条件">机械波产生条件
-</h4><ul>
-  <li>波源。</li>
-  <li>弹性介质 (由无数多的质元通过相互之间的弹性力组合在一起的连续介质)。</li>
-</ul>
-<h4 id="机械波的类型">机械波的类型
-</h4><ul>
-  <li>
-    <strong>横波 (S 波，Secondary, Shear):</strong>
-    介质中质点振动方向与波的传播方向<strong>垂直</strong>，具有交替出现的<strong>波峰</strong>和<strong>波谷</strong>。
-    <ul>
-      <li>横波只能在固体中传播，例：绳波。</li>
-    </ul>
-  </li>
-  <li>
-    <strong>纵波 (P 波，Primary, Pressure):</strong>
-    介质中质点振动方向与波的传播方向<strong>平行</strong>，具有交替出现的<strong>疏部</strong>和<strong>密部</strong>。
-    <ul>
-      <li>纵波在固、液和气体均可传播，例：声波。</li>
-    </ul>
-  </li>
-</ul>
-<h4 id="波的几何描述波线">波的几何描述——波线
-</h4><div style="display: flex; width: 100%; align-items: flex-start;">
-  <div style="flex: 1; padding-right: 1em;">
-    <ul>
-      <li><strong>波线:</strong> 表示波的传播途径和方向的有向线段。</li>
-      <li><strong>波面:</strong> 某时刻介质中<strong>振动相位</strong>相同的点所构成的空间面。</li>
-    </ul>
-    <p>根据波面的形状把波分为<strong>球面波、平面波</strong>等。</p>
-  </div>
-  <div style="flex: 1; justify-content: center; align-items: center;">
-    <img src="img6.png" style="width: 100%; max-width: 100%; zoom: 50%;" />
-  </div>
-</div>
-<h3 id="描述波动的物理量">描述波动的物理量
-</h3><ul>
-  <li><strong>波长:</strong> 同一波线上，相邻的相位差为 $2\pi$ 的两点间的距离，即一个完整波形的长度。($\lambda$)
-    <ul>
-      <li>波长反映波动空间的周期性。</li>
-    </ul>
-  </li>
-  <li><strong>周期:</strong> 波传过一个波长所用的时间。
-    <ul>
-      <li>周期反映波动时间的周期性。</li>
-    </ul>
-  </li>
-  <li><strong>频率:</strong> 波单位时间传播的距离中包含完整波的个数。</li>
-  <li><strong>波速:</strong> 波动过程中，某一振动状态在单位时间内传播的距离，也称<strong>相速</strong>($u$)。
-    <p>
-      波速 $u$ 与介质的性质有关，$\rho$ 为媒质的密度。
-      $$u = \frac{\lambda}{T} = \lambda \nu$$
-    <ul>
-      <li>周期或频率只决定于波源的振动。</li>
-      <li>波速只决定于媒质的性质。</li>
-      <li>波长由波源和媒质共同决定。</li>
-    </ul>
-    </p>
-  </li>
-</ul>
-<h3 id="知识的对比与联系">知识的对比与联系
-</h3><ul>
-  <li>电磁波是横波。$\vec E, \vec B, \vec \nu$ 三矢量互相垂直，构成右手螺旋关系。</li>
-  <li>电磁波的传播速度为:
-    $$c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}$$
-    $$\nu = \frac{1}{\sqrt{\varepsilon \mu}} = \frac{1}{\sqrt{\varepsilon_0 \varepsilon_r \mu_0 \mu_r}} =
-    \frac{c}{\sqrt{\varepsilon_r \mu_r}} = \frac{c}{n}$$
-  </li>
-</ul>
-<h3 id="平面简谐波的波函数">平面简谐波的波函数
-</h3><p>波的传播是振动的传播，是相位的传播，沿波的传播方向上各点相位依次落后。</p>
-<ul type="none">
-  <li>$\Delta \varphi = \frac{2\pi}{\lambda}\Delta x$ <strong>推进单位长度的相位落后</strong>乘以波向前推进的距离。</li>
-  <li>$= 2\pi\frac{\Delta x}{\lambda}$ <strong>推进一个周期 (波长) 的相位落后</strong>乘以波向前推进的完整波的个数。</li>
-  <li>$\omega \frac{\Delta x}{u} = \frac{2\pi}{T} \frac{\Delta x}{u}$ <strong>推进单位时间的相位落后</strong>乘以波向前推进的时间。</li>
-</ul>
-<h3 id="波动表达式与相位落后法">波动表达式与相位落后法
-</h3><p><strong>相位落后法的要点:</strong> 波的传播过程即振动状态的传播，是相位的传播，沿着波的传播方向上相位是依次落后的。</p>
-<h4 id="利用相位落后法建立平面简谐波波动表达式">利用相位落后法建立平面简谐波波动表达式
-</h4><p>若已知 $O$ 点振动表达式: $y_O = A\cos(\omega t + \varphi)$。</p>
-<div style="display: flex; width: 100%; align-items: flex-start;">
-  <div style="flex: 2; padding-right: 1em;">
-    <ul>
-      <li>波沿 $x$ 轴正方向传播，$t$ 时刻，$P$ 点的振动方程写为$$y(x, t) = A\cos\left[\omega \left(t - \frac{x}{u}\right) + \varphi_0\right]$$</li>
-      <li>波沿 $x$ 轴负方向传播，$t$ 时刻，$P$ 点的振动方程写为$$y(x, t) = A\cos\left[\omega \left(t + \frac{x}{u}\right) + \varphi_0\right]$$</li>
-    </ul>
-  </div>
-  <div style="flex: 1; justify-content: center; align-items: center;">
-    <img src="img7.png" style="width: 100%; max-width: 100%; zoom: 50%;" />
-    <img src="img8.png" style="width: 100%; max-width: 100%; zoom: 50%;" />
-  </div>
-</div>
-<h3 id="波函数的物理意义">波函数的物理意义
-</h3><ul>
-  <li>$x$ 确定时 ($x = x_0$) 为该处质元的振动方程, 对应曲线为该处质点<strong>振动曲线</strong>。</li>
-  <li>$t$ 确定时 ($t = t_0$) 为该时刻各质元位移分布，对应曲线为该时刻<strong>波形图</strong>。</li>
-  <li>$t$、$x$ 都变化时, 表示不同时刻，不同平衡位置处各质元的位移情况——行波。</li>
-</ul>
-<h3 id="波的能量">波的能量
-</h3><p>以横波为例，波函数为：$y = A\cos\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right]$ ，在细绳上任取一线元 $\Delta x$，其质量 $\Delta m = \rho\Delta x$。</p>
-<ul>
-  <li><strong>质元的动能</strong> $$v = \frac{\partial y}{\partial t} = -A\omega\sin\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right]$$ $$\Delta E_k = \frac{1}{2}\Delta m v^2 = \frac{1}{2}\rho\Delta x A^2 \omega^2 \sin^2\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right]$$</li>
-  <li><strong>质元的势能</strong>$$\Delta E_p = \frac{1}{2}\rho\Delta x A^2 \omega^2 \sin^2\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right]$$</li>
-  <li><strong>总机械能</strong>$$\Delta E = \Delta E_k + \Delta E_p = \rho\Delta x A^2 \omega^2 \sin^2\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right] = \rho A^2 \omega^2 \sin^2\left[\omega\left(t - \frac{x}{u}\right) + \varphi_0\right]\Delta x$$</li>
-  <li>波在传播过程中，任意质元动能、势能的相位和量值均相同。
-    <div style="display: flex;">
-      <ul type="none" style="flex: 2;">
-        <li>在平衡位置 ($y = 0$): 动能 $E_k$、势能 $E_p$ 最大。</li>
-        <li>在振幅处 ($y = A$): 动能 $E_k$、势能 $E_p$ 为零。</li>
-      </ul>
-      <img src="img9.png" style="flex: 1; width: 100%; max-width: 100%; zoom: 33%;">
-    </div>
-    <div style="display: flex;">
-      <ul type="none" style="flex: 2;">
-        <li>在平衡位置 ($y = 0$): 动能 $E_k$ 最大、势能 $E_p$ 为零。</li>
-        <li>在振幅处 ($y = A$): 动能 $E_k$ 为零、势能 $E_p$ 最大。</li>
-      </ul>
-      <img src="img10.png" style="flex: 1; width: 100%; max-width: 100%; zoom: 33%;">
-    </div>
-  </li>
-  <li>介质中任意质元的总机械能不守恒，随时间 $t$ 作周期性的变化。</li>
-  <li>能量以波速 $u$ 在介质中传播。</li>
-</ul>
-<h2 id="波的干涉">波的干涉
-</h2><p>在一定条件下，两波相遇时，使某些点的振动始终加强，而另一些点的振动始终减弱或完全抵消的现象，称为<strong>波的干涉现象</strong>。</p>
-<h3 id="产生干涉的条件">产生干涉的条件
-</h3><ul>
-  <li>频率相同。</li>
-  <li>振动方向相同。</li>
-  <li>相位相同或相位差恒定。</li>
-</ul>
-<h3 id="干涉加强和减弱的条件">干涉加强和减弱的条件
-</h3><ul>
-  <li><strong>干涉加强的条件:</strong> $\Delta \varphi = \pm 2k\pi\ k = 0,1,2,3,\dots$, $A = A_{\max} = A_1 + A_2$。</li>
-  <li><strong>干涉减弱的条件:</strong> $\Delta \varphi = \pm (2k + 1)\pi\ k = 0,1,2,3,\dots$, $A = A_{\min} = |A_1 - A_2|$。</li>
-</ul>
-<h2 id="半波损失">半波损失
-</h2><p>反射波在反射点有 $\pi$ 的相位突变,等效于波多走或少走半个波长的波程,这种现象称为<strong>半波损失</strong>。</p>
-<p>弹性波: $\rho u$较大的媒质称为<strong>波密媒质</strong>；较小的为<strong>波疏媒质</strong>。</p>
-<ul>
-  <li>波密介质 $\stackrel{无半波损失}{\longrightarrow}$ 波疏媒质。</li>
-  <li>波疏媒质 $\stackrel{半波损失}{\longrightarrow}$ 波密介质。</li>
-</ul>
-<h2 id="板书">板书
-</h2><p>这里是 PPT 中没有或者不全的板书。</p>
-<h3 id="简谐运动的判据">简谐运动的判据
-</h3><ol>
-<li>受线性回复力(矩)。</li>
-<li>$x&rsquo;&rsquo; + \omega^2 x = 0$。</li>
-</ol>
-<p>$\omega$:</p>
-<ul>
-<li>单位时间相位改变。</li>
-<li>$2\pi$ 秒内完成全振动次数。</li>
-</ul>
-<h3 id="单摆和复摆">单摆和复摆
-</h3><ul>
-<li>刚体: 复摆。</li>
-<li>质点: 单摆。</li>
-</ul>
-<h3 id="横波纵波的根本原因">横波纵波的根本原因
-</h3><ul>
-<li>横波的根本原因是剪切形变的弹性力。</li>
-<li>纵波具有容变弹性的媒质都可以传播 (媒质 == 介质)。</li>
-</ul>
-<h3 id="两个方法">两个方法
-</h3><ul>
-<li>振动——旋转矢量法。</li>
-<li>波动——相位落后法。</li>
-</ul>
-<h3 id="电磁波">电磁波
-</h3><ul>
-<li>$c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}$, $\nu = \frac{1}{\sqrt{\varepsilon \mu}} = \frac{c}{n}$。</li>
-<li>$\varepsilon_0$ 真空电容率，真空中某点容纳电场的能力 (老叫法: 真空电介质常数)。</li>
-<li>$\mu_0$ 真空磁导率，容纳磁场的能力。</li>
-<li>$\varepsilon = \varepsilon_0 \varepsilon_r$ 介质电容率。</li>
-<li>$\mu = \mu_0 \mu_r$ 介质磁导率。</li>
-<li>真空 $E = \frac{Q}{4\pi\epsilon_0 r^2}$, 介质 $E = \frac{Q}{4\pi\epsilon_0 \epsilon_r r^2}$。</li>
-<li>$\varepsilon_r$ 相对电容率，$\mu_r$ 相对磁导率。</li>
-<li>光在介质传播速度取决于介质的电磁属性，机械波传播速度取决于介质的力学属性(力学弹性)。</li>
-<li><strong>LED</strong>(light-emitting diode) 发光二极管 <del>不是 light electic deng</del>。</li>
-<li>发光原理 $\Delta E = E_3 - E_1 = h\nu$ (假设是从 3 能级跃迁到 1 能级)。</li>
-</ul>
+    <p>防止复制粘贴，代码还是结束之后补上。</p>
+<p>这次稍微变难了点，但是主要问题还是函数题你想调试就只能直接提交，然后盲调；或者补出来他隐藏的函数本地调，<strong>运行测试这个功能跟没有一样</strong>。</p>
+<h2 id="函数题">函数题
+</h2><h3 id="二叉搜索树中的最近公共祖先">二叉搜索树中的最近公共祖先
+</h3><p>我勒个 LCA 不记录父亲，给我整不会了😇，那我只能暴搜了，如果两个点都在一个子树里，就递归往那个子树搜，直到第一次不在同一边，这次的点就是 LCA。</p>
+<p>本来 LCA 可以树上倍增，预处理 $O(n \log n)$，单次查询 $O(\log n)$，然后这题强制单次查询最劣可能达到 $O(n^2)$，不理解。</p>
+<h3 id="先序输出叶结点">先序输出叶结点
+</h3><p>直接 dfs 即可。</p>
+<h3 id="求二叉树高度">求二叉树高度
+</h3><p>dfs 回溯的时候统计高度，当前结点的高度 = max{左子树高度，右子树高度} + 1。这种回溯时更新状态的做法有个更专业的名字，叫树形dp，是动态规划的一个分支。</p>
+<h3 id="二叉树的遍历">二叉树的遍历
+</h3><p>按要求模拟即可。</p>
+<h2 id="编程题">编程题
+</h2><p>这几个题都不是很容易，感觉加点数据量可以去 xcpc 当签到题了。</p>
+<h3 id="哈夫曼编码">哈夫曼编码
+</h3><p>做一遍哈夫曼算法，求出来最优树的权值。然后只需要检查是不是前缀码以及权值是否和这个最优的相等。</p>
+<h3 id="是否完全二叉搜索树">是否完全二叉搜索树
+</h3><p>先把树构建出来，然后我的判断逻辑是这样的，bfs 入队的时候允许非空的结点的空的儿子入队，出队的时候如果出现 空 结点 …… 空，这种情况相当于前面缺结点了，就判定为不是。</p>
+<h3 id="完全二叉树的层序遍历">完全二叉树的层序遍历
+</h3><p>这道题关键应该在于一个小性质，对于一个完全二叉树，子树一定都是完全二叉树；一个结点的两个子树中一定至少有一棵满的（假设左子树一共有 n 层，考虑两棵子树排在最后一层，如果不够 2<sup>n</sup>，那右子树是满的，如果超过了，那么左子树是满的），左子树一定不比右子树小，而且两棵子树的大小一定相差不超过 2<sup>n</sup>。因此对于一个序列，<strong>先取最右边的为根，然后枚举哪棵子树是满的，满的那棵子树的大小，有且仅有一个组合是满足所有限制的。</strong>然后按照算出的子树大小分割剩余的序列，<strong>递归生成左右子树</strong>。最后再 bfs 一遍输出。</p>
+<h3 id="银行排队问题之单队列多窗口服务">银行排队问题之单队列多窗口服务
+</h3><blockquote>
+<p>我不能理解，题上说 <code>这里假设每位顾客事务被处理的最长时间为60分钟</code>，然后样例给出了 61，如果不管就 wa，如果强制让 p 和 60 取 min 就过了。我只能说诡异。</p>
+</blockquote>
+<p>模拟就行，按照时间遍历顾客，假设现在遍历到第 i 个，开一个数组 ls 维护每个窗口处理完前 i - 1 个顾客需要的时间。考虑当前顾客选择窗口，所有时间小于t<sub>i</sub> 都是等价的，为了方便处理直接改成 t<sub>i</sub>，对后来的顾客也没有影响，现在只需要求 $idx = \argmin_k ls_k$。然后 ls<sub>idx</sub> += t<sub>i</sub>，更新一下这个窗口的任务，之后继续下一个人。</p>
+<h3 id="银行业务队列简单模拟">银行业务队列简单模拟
+</h3><p>奇数偶数先单独存一下，然后两个奇数一个偶数一直输出，如果没有了就跳过，直到全输出完。</p>
 
 </section>
 
@@ -790,7 +459,7 @@
 
 
         <span>
-            最后更新于 2025-06-13 21:55
+            最后更新于 2025-11-01 18:25
         </span>
     </section></footer>
 
@@ -848,19 +517,6 @@
             
                 
 <article class="">
-    <a href="/p/ds-contest5/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">【数据结构】树和二叉树</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
     <a href="/p/ds-contest4/">
         
         
@@ -893,6 +549,19 @@
 
         <div class="article-details">
             <h2 class="article-title">【数据结构】特殊线性表</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/ds-contest1/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">【数据结构】一般线性表</h2>
         </div>
     </a>
 </article>
