@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Sat, 01 Nov 2025 18:25:33 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/2025%E5%A4%8F%E5%AD%A3%E4%B8%AA%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Dec 2025 21:05:58 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/2025%E5%A4%8F%E5%AD%A3%E4%B8%AA%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2025夏季个人训练赛第三十六场</title>
         <link>https://blog.starlab.top/p/2025sp36/</link>
         <pubDate>Wed, 13 Aug 2025 18:54:12 +0800</pubDate>
@@ -2984,7 +2984,7 @@ $$
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;i-狼和羊的故事-补&#34;&gt;I. 狼和羊的故事 &lt;sup style=&#34;color: red&#34;&gt;补&lt;/sup&gt;
-&lt;/h2&gt;&lt;p&gt;开一个源点一个汇点 🐑 (-&amp;gt;空地) -&amp;gt;🐺 求最小&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;开一个源点一个汇点 🐑 (-&amp;gt;空地) -&amp;gt;🐺 求最小割&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
