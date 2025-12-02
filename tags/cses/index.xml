@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright>
-        <lastBuildDate>Mon, 15 Sep 2025 18:28:00 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/cses/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>【更新中】CSES Geometry</title>
-        <link>https://blog.starlab.top/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</link>
+        <lastBuildDate>Tue, 02 Dec 2025 19:21:45 +0800</lastBuildDate><atom:link href="https://blog.starlab.top/tags/cses/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CSES Geometry</title>
+        <link>https://blog.starlab.top/p/cses-geometry/</link>
         <pubDate>Sun, 03 Aug 2025 11:46:30 +0800</pubDate>
         
-        <guid>https://blog.starlab.top/p/%E6%9B%B4%E6%96%B0%E4%B8%ADcses-geometry/</guid>
+        <guid>https://blog.starlab.top/p/cses-geometry/</guid>
         <description>&lt;p&gt;&lt;span style=&#34;color: blue&#34;&gt;这个系列还没有完结，最近会不定时更新&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;主要是为了补全队的短板，我开始学之前看都不看的计算几何了，毕竟谁不想做香香软软的数据结构呢。另外如果有人看的话，前排提醒一下，这&lt;strong&gt;不是详细的题解&lt;/strong&gt;，只是记录一下自己做的过程。&lt;/p&gt;
 &lt;p&gt;做这个板子题的题集之前我先看了 Acwing 的课，所以码风会和y总的比较相似。&lt;/p&gt;

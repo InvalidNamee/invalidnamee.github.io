@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>InvalidNamee</copyright><atom:link href="https://blog.starlab.top/categories/contests/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2025赛年总结</title>
+        <title>2025赛季总结</title>
         <link>https://blog.starlab.top/p/2025acm-summary/</link>
         <pubDate>Mon, 01 Dec 2025 18:17:24 +0800</pubDate>
         
@@ -51,7 +51,7 @@
 &lt;h4 id=&#34;大一下半学年&#34;&gt;大一下半学年
 &lt;/h4&gt;&lt;p&gt;这个时期进步相对比较明显，一方面是校赛的时候受了点刺激，另一方面是后来提前组了队之后我会有意识的去补别人的短板。另外也开始发博客写题解了。先说&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/p/upcpc2025&#34; &gt;校赛&lt;/a&gt;，校赛的时候我打的比较差，最耻辱的是拼音题交了 20+ 发最终还是 WA，心态直接爆炸了；然后赛场上一个矩阵快速幂没有开出来，原因是一个 3 * 3 特殊情况没特判，两个题来来回回想了一两个小时，愣是一个也没出来……后面春训的时候就和 23 级一起训练了，难度比之前稍微高了一点，压力比较大，春训从 1 到 27 全都有记录，在&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/tags/2025%E6%98%A5%E8%AE%AD/&#34; &gt;2025春训&lt;/a&gt;标签下。天梯赛备赛刷题也比较积极。学期后期，我开始自己学计算几何。&lt;/p&gt;
 &lt;h4 id=&#34;暑期集训&#34;&gt;暑期集训
-&lt;/h4&gt;&lt;p&gt;暑期集训受到了小学期冲突的影响，我只参加了前半段的个人训练，中间还有牛客多校，所以整体过的比较混乱，但是提升很大，主要是 &lt;strong&gt;1)&lt;/strong&gt; 见了很多没见过的思路，印象最深的是线段树维护广义矩阵乘法做可以动态调整的 DP，利用线筛的过程做 DP，高斯消元、自由元等的想不到的用法；&lt;strong&gt;2)&lt;/strong&gt; 磨合了一下团队的配合；&lt;strong&gt;3)&lt;/strong&gt; 计算几何学的差不多够用了。牛客多校从 1 到 10 都有记录，在&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/&#34; &gt;牛客多校&lt;/a&gt;标签下；参加过的夏季个人训练赛也有记录，在&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/tags/2025%E5%A4%8F%E5%AD%A3%E4%B8%AA%E4%BA%BA/&#34; &gt;2025夏季个人&lt;/a&gt;标签下，最近补了一个之前欠的网络流；计算几何有两篇记录&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/p/geometry-acwing/&#34; &gt;AcWing&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/p/cses-geometry/&#34; &gt;CSES&lt;/a&gt;。牛客多校一般比较难，一周两三场补题压力比较大，但是每天几乎都只有这一件事做，都认真补完了，后期迫于小学期的压力个人训练补的确实没之前好。&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;暑期集训受到了小学期冲突的影响，我只参加了前半段的个人训练，中间还有牛客多校，所以整体过的比较混乱，但是提升很大，主要是 &lt;strong&gt;1)&lt;/strong&gt; 见了很多没见过的思路，印象最深的是线段树维护广义矩阵乘法做可以动态调整的 DP，利用线筛的过程做 DP，高斯消元、自由元等的想不到的用法，从学姐那里学到的各种数据结构的奇妙用法；&lt;strong&gt;2)&lt;/strong&gt; 磨合了一下团队的配合；&lt;strong&gt;3)&lt;/strong&gt; 计算几何学的差不多够用了。牛客多校从 1 到 10 都有记录，在&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/&#34; &gt;牛客多校&lt;/a&gt;标签下；参加过的夏季个人训练赛也有记录，在&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/tags/2025%E5%A4%8F%E5%AD%A3%E4%B8%AA%E4%BA%BA/&#34; &gt;2025夏季个人&lt;/a&gt;标签下，最近补了一个之前欠的网络流；计算几何有两篇记录&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/p/geometry-acwing/&#34; &gt;AcWing&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/p/cses-geometry/&#34; &gt;CSES&lt;/a&gt;。牛客多校一般比较难，一周两三场补题压力比较大，但是每天几乎都只有这一件事做，都认真补完了。后期迫于小学期的压力个人训练补的确实没之前好。小学期前 AtCoder 和上海月赛也打了，AtCoder 打到了 &lt;a style=&#34;color: #56bdbf&#34; href=&#34;https://atcoder.jp/users/Star___&#34;&gt;1365&lt;/a&gt;。&lt;/p&gt;
 &lt;h4 id=&#34;大二上备战-icpc&#34;&gt;大二上（备战 ICPC）
 &lt;/h4&gt;&lt;p&gt;上半学期课太多了，前八九周基本上天天满课，外加奖学金，暑期社会实践结项，社团换届的一大堆事，留给训练的时间很有限。集中训练是在国庆的时候，全部都认真做了，涉及到我自己的题都补了（但是没补队友的），组队训练在&lt;a class=&#34;link&#34; href=&#34;https://blog.starlab.top/tags/2025%E7%BB%84%E9%98%9F%E8%AE%AD%E7%BB%83/&#34; &gt;2025组队训练&lt;/a&gt;，截止到 2025-12-01，根据博客的文件，因为没补队友的，还有五篇没发，现在暂时闲下来了，如果短时间内没有其他的事冒出来应该会很快补上。区域赛之前我们根据不同赛站的出题风格自己 vp 了几场。成都站前，我们自己 vp 了 2024 四川省赛，2025 江苏省赛；上海站前 vp 了 2024 重庆省赛，2024 杭州区域赛，2024 南京区域赛。&lt;/p&gt;
 &lt;h3 id=&#34;蓝桥杯&#34;&gt;蓝桥杯
@@ -62,16 +62,36 @@
 &lt;/h3&gt;&lt;p&gt;这个没参加也很可惜，我没看到有发报名的通知，错过了一个水国一的机会，但愿明年也这么水。&lt;/p&gt;
 &lt;h3 id=&#34;icpc&#34;&gt;ICPC
 &lt;/h3&gt;&lt;h4 id=&#34;网络赛&#34;&gt;网络赛
-&lt;/h4&gt;&lt;p&gt;网络赛我们队打的比较漂亮，但是我个人几乎零作用。第一场我一共就刚上来做了一个大模拟，参与了一个签到题，最后还有一个 J 没开出来，后来补了；第二场开题失败，零作用，已经很接近了，但是最后需要一个矩阵快速幂，时间上已经来不及了。&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;网络赛我们队打的比较漂亮，但是我个人几乎零作用。第一场我一共就刚上来做了一个大模拟，参与了一个签到题，最后还有一个 J 没开出来，后来补了；第二场开题失败，零作用，已经能处理一半的情况了，但是另一半最后需要一个矩阵快速幂，时间上已经来不及了。&lt;/p&gt;
 &lt;h4 id=&#34;成都站&#34;&gt;成都站
 &lt;/h4&gt;&lt;p&gt;成都站我个人的表现还行，应该是正提升，先看出来了 G 题（签到题之一），但是优先级出了点问题吃了一发罚时；最后封榜之后开出来 C 题，但是因为多份代码太混乱忘删之前调试的交换数组和爆 int（我开 long long 了，可能没开够）分别吃了一发罚时。这一场我们明显的问题是一个 A 题卡了两个人两个小时，红温完 A 题之后我们才开始发力，可能做的有点慢了，但是银牌比较稳。成都的题比较接近 OI 的风格，我们做的比较顺手，整体没暴露出什么明显的问题。&lt;/p&gt;
 &lt;h4 id=&#34;上海站&#34;&gt;上海站
 &lt;/h4&gt;&lt;p&gt;上海我感觉也尽力了，H 题结论猜对一发过（赛后才反应过来能证明），G 题出了思路的大框架，后来学姐补了一个线性基过了（这里有个战犯行为，我在最外面的特判写挂了，导致吃了一发罚时）。明显我们队做这样的题都很困难，出题不快。我们算四题的中上。A 题过了之后，当时的处境已经没时间在开新题了，只能罚坐 20 分钟，最后正正好被挤出银线，稍微有点可惜，但是就比赛时候的情况来说已经没办法了（我们快个 150 罚时或者爆零的队厉害一点就银了）。我发现 THU 这种思维题和魔改数据结构的题很克我，这场的遗憾就是 J 题（类似一个魔改的 Trie 和图论的综合）没开出来，中间也努力过，最后没时间了。&lt;/p&gt;
+&lt;h3 id=&#34;反思&#34;&gt;反思
+&lt;/h3&gt;&lt;p&gt;前期主要问题是信息闭塞和目标不明确，现在完整过了一年已经基本解决了。蓝桥杯、睿抗更多的是保研加分，ICPC 更多的是满足一下高中没完成的梦想和丰富简历。打完这几场，尤其是 ICPC 后，我能感觉到现在我差的基础知识还是有点多，看样子不只限于计算几何和数学题。有时候我能看出题的一个关键性质，但是不知道怎么利用这个性质，把这个性质说给学姐，她就能立刻反应出来一个我不知道的名词，比如 SOS-DP，马拉车，回文自动机。之前用的比较多的比如 Dinic，FFT 已经学过了，其他的更进阶的基础知识我有必要系统性的过一遍。补完基础之后，然后就是灵感的问题，我不知道能不能治好，目前打算先做欧拉计划和尝试一下 Codeforces 的题。&lt;/p&gt;
 &lt;h2 id=&#34;短期计划&#34;&gt;短期计划
-&lt;/h2&gt;&lt;p&gt;并行处理&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;先解决 AcWing 和 CSES 剩余的计算几何，然后做 CSES 新加的题&lt;/li&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;欠的博客都补了（强迫症中间少几篇实在是忍不了了）
+&lt;img src=&#34;https://blog.starlab.top/p/2025acm-summary/image.png&#34;
+	width=&#34;548&#34;
+	height=&#34;236&#34;
+	srcset=&#34;https://blog.starlab.top/p/2025acm-summary/image_hu_71c5e07a4e1e050f.png 480w, https://blog.starlab.top/p/2025acm-summary/image_hu_c1b8900dfa07e880.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;232&#34;
+		data-flex-basis=&#34;557px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;解决 AcWing 和 CSES 剩余的计算几何，然后做 CSES 新加的题&lt;/li&gt;
+&lt;li&gt;AcWing 进阶课的视频刷一遍，如果时间充裕在顺便做了配套的题&lt;/li&gt;
 &lt;li&gt;试试 Codeforces&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;并行处理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 → 2 → 3&lt;/li&gt;
+&lt;li&gt;4&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
